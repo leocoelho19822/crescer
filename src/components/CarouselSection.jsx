@@ -20,15 +20,15 @@ export default function CarouselSection() {
   };
 
   return (
-    <section className="mt-20 px-10 relative z-10">
+    <section className="mt-20 px-30 relative z-10">
     <Slider {...settings} className="rounded-3xl overflow-hidden">
-        <div className="h-[50vh]"> {/* ✅ Ajustando para ocupar toda a altura da tela */}
+        <div className="h-[75vh]">
         <img src={car1} className="w-full h-full object-cover rounded-3xl" alt="Slide 1" />
         </div>
-        <div className="h-[50vh]">
+        <div className="h-[75vh]">
         <img src={car2} className="w-full h-full object-cover rounded-3xl" alt="Slide 2" />
         </div>
-        <div className="h-[50vh]">
+        <div className="h-[75vh]">
         <img src={car3} className="w-full h-full object-cover rounded-3xl" alt="Slide 3" />
         </div>
     </Slider>

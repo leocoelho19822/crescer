@@ -1,2 +1,7 @@
 @import "tailwindcss";
 
+
+/* Fonte global */
+body {
+  font-family: 'Jost', sans-serif;
+}
