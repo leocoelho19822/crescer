@@ -1,0 +1,62 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Local environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+.next/
+out/
+*.tgz
+
+# Coverage reports
+coverage/
+
+# Storybook files
+storybook-static/
+
+# Mac system metadata
+*.DS_Store
+
+# Test snapshots
+__snapshots__/
+
+# ESLint / Prettier
+.eslintcache
+
+# Firebase / Netlify / Vercel config (opcional)
+.firebase/
+.netlify/
+.vercel/
+
+# Optional - remove se quiser salvar dependências bloqueadas
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
