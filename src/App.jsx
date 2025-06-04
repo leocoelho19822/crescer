@@ -8,6 +8,8 @@ import ResetPassword from "./components/ResetPassword";
 import VerifyEmail from "./components/VerifyEmail";
 import WaveDivider from "./components/WaveDivider";
 import SobreSection from "./components/SobreSection";
+import Footer from "./components/Footer";
+import TrimestresSection from "./components/TrimestresSection";
 
 
 function App() {
@@ -19,6 +21,9 @@ function App() {
         <WaveDivider />
         <SobreSection />
         <WaveDivider color="gray"/>
+        <TrimestresSection />
+        <WaveDivider />
+        <Footer />
       </main>
         <Routes>
           <Route path="/reset-password/:token" element={<ResetPassword />} />
