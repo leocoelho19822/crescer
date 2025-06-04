@@ -1,15 +1,21 @@
 // src/components/WaveDivider.jsx
 import React from "react";
-import wave from "../assets/wave67.svg";
+import waveWhite from "../assets/wave67.svg";
+import waveGray from "../assets/wavegray.svg";
 
-export default function WaveDivider({ className = "" }) {
+
+export default function WaveDivider({ color = "white", className = "" }) {
+  const waveMap = {
+    white: waveWhite,
+    gray: waveGray,
+    
+  };
+
+  const waveSrc = waveMap[color] || waveWhite;
+
   return (
     <div className={`w-full overflow-hidden ${className}`}>
-      <img
-        src={wave}
-        alt="Divisor ondulado"
-        className="w-full object-cover"
-      />
+      <img src={waveSrc} alt={`Divisor ${color}`} className="w-full object-cover " />
     </div>
   );
 }

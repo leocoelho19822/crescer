@@ -4,9 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import car1 from "../assets/car4.webp";
-import car2 from "../assets/car5.webp";
-import car3 from "../assets/car6.webp";
+import car1 from "../assets/parentalidade_blog.jpg";
+import car2 from "../assets/fundoapp.svg";
+import car3 from "../assets/aguedarua.svg";
 
 export default function CarouselSection() {
   const settings = {
@@ -16,23 +16,39 @@ export default function CarouselSection() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 8000,
   };
 
   return (
-    <section className="mt-20 px-30 relative z-10">
-    <Slider {...settings} className="rounded-3xl overflow-hidden">
-        <div className="h-[75vh]">
+   <section className="mt-1 max-w-screen-2xl mx-auto px-4 relative z-10">
+      <Slider {...settings} className="rounded-3xl overflow-hidden">
+      <div className="relative aspect-[3/2] sm:h-[75vh]">
         <img src={car1} className="w-full h-full object-cover rounded-3xl" alt="Slide 1" />
+
+        {/* Texto sobreposto alinhado ao fundo */}
+        <div className="absolute bottom-0 left-0 w-full px-4 sm:px-16 pb-6 text-center">
+          <p className="text-white text-base sm:text-2xl font-semibold bg-black/50 p-4 rounded-xl shadow-lg max-w-4xl mx-auto">
+            A base de um desenvolvimento saudável começa com afeto e presença.
+          </p>
         </div>
-        <div className="h-[75vh]">
-        <img src={car2} className="w-full h-full object-cover rounded-3xl" alt="Slide 2" />
+      </div>
+
+  
+
+        <div className=" relative aspect-[3/2] sm:h-[75vh]">
+          <img src={car3} className="w-full h-full object-cover rounded-3xl" alt="Slide 3" />
+
+          {/* Texto sobreposto alinhado ao fundo */}
+          <div className="absolute bottom-0 left-0 w-full px-4 sm:px-16 pb-6 text-center">
+            <p className="text-white text-base sm:text-2xl font-semibold bg-black/50 p-4 rounded-xl shadow-lg max-w-4xl mx-auto">
+              Parentalidade com propósito: eventos que aproximam, informam e inspiram.
+            </p>
+          </div>
         </div>
-        <div className="h-[75vh]">
-        <img src={car3} className="w-full h-full object-cover rounded-3xl" alt="Slide 3" />
-        </div>
-    </Slider>
+      </Slider>
     </section>
+
+
 
   );
 }
