@@ -11,9 +11,9 @@ export default function SobreSection() {
       
 
       {/* Primeira Linha */}
-      <div className="max-w-screen-2xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-8 items-center">
+      <div className="max-w-screen-xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-8 items-center">
         <div>
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 text-gray-800">
+          <h2 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
             Conhece o Projeto Cres(Ser)
           </h2>
           <p className="text-gray-700 leading-relaxed mb-4">
@@ -41,7 +41,7 @@ export default function SobreSection() {
       </div>
 
       {/* Segunda Linha */}
-      <div className="max-w-screen-2xl mx-auto px-4 pb-20 grid md:grid-cols-2 gap-8 items-center">
+      <div className="max-w-screen-xl mx-auto px-4 pb-20 grid md:grid-cols-2 gap-8 items-center">
         <div>
           <img src={image2} alt="Cérebro montado com quebra-cabeça" className="w-full rounded-lg shadow-md" />
         </div>

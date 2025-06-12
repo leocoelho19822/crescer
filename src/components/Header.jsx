@@ -75,7 +75,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-[#FCFCFC]  z-50">
-      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 pt-3 lg:px-8">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 pt-3 lg:px-8">
         <div className="flex flex-col w-full">
 
           
@@ -83,6 +83,8 @@ export default function Header() {
           <div className="flex items-center justify-between w-full lg:hidden">
             <button
               className="text-gray-700 text-3xl"
+              aria-label="Menu"
+              aria-expanded={isMenuOpen}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? <HiOutlineX /> : <HiOutlineMenu />}
@@ -120,6 +122,9 @@ export default function Header() {
 
           {/* Barra de pesquisa em baixo apenas em mobile */}
           <div className="relative w-full mt-6 lg:hidden">
+            <label htmlFor="search" className="sr-only">
+              Campo de busca
+            </label>
             <input
               type="text"
               placeholder="Buscar..."
@@ -139,6 +144,9 @@ export default function Header() {
             </div>
 
             <div className="relative col-span-6 px-4">
+              <label htmlFor="search" className="sr-only">
+                Campo de busca
+              </label>
               <input
                 type="text"
                 placeholder="Buscar..."

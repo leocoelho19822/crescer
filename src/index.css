@@ -6,3 +6,11 @@ body {
   font-family: 'Jost', sans-serif;
   background-color: #FCFCFC;
 }
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}

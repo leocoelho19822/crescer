@@ -27,7 +27,7 @@ export default function CarouselSection() {
 
         {/* Texto sobreposto alinhado ao fundo */}
         <div className="absolute bottom-0 left-0 w-full px-4 sm:px-16 pb-6 text-center">
-          <p className="text-white text-xl sm:text-2xl font-semibold bg-black/50 p-4 rounded-xl shadow-lg max-w-4xl mx-auto">
+          <p className="text-white text-xl sm:text-3xl font-semibold bg-black/50 p-4 rounded-xl shadow-lg max-w-4xl mx-auto">
             A base de um desenvolvimento saudável começa com afeto e presença.
           </p>
         </div>
@@ -40,7 +40,7 @@ export default function CarouselSection() {
 
           {/* Texto sobreposto alinhado ao fundo */}
           <div className="absolute bottom-0 left-0 w-full px-4 sm:px-16 pb-6 text-center">
-            <p className="text-white text-xl sm:text-2xl font-semibold bg-black/50 p-4 rounded-xl shadow-lg max-w-4xl mx-auto">
+            <p className="text-white text-xl sm:text-3xl font-semibold bg-black/50 p-4 rounded-xl shadow-lg max-w-4xl mx-auto">
               Parentalidade com propósito: eventos que aproximam, informam e inspiram.
             </p>
           </div>

@@ -10,6 +10,8 @@ import WaveDivider from "./components/WaveDivider";
 import SobreSection from "./components/SobreSection";
 import Footer from "./components/Footer";
 import TrimestresSection from "./components/TrimestresSection";
+import MesamesSection from "./components/MesamesSection";
+import ParaVida from "./components/ParaVidaSection";
 
 
 function App() {
@@ -22,6 +24,10 @@ function App() {
         <SobreSection />
         <WaveDivider color="gray"/>
         <TrimestresSection />
+        <WaveDivider />
+        <MesamesSection />
+        <WaveDivider />
+        <ParaVida />
         <WaveDivider />
         <Footer />
       </main>
