@@ -2,6 +2,10 @@
 import React, { useState } from "react";
 import { useRegisterMutation } from "../store/api";
 import { ClipLoader } from "react-spinners";
+import logo from "../assets/verde1.svg";
+import { FiEye, FiEyeOff } from "react-icons/fi";
+import Button from "./Button";
+
 
 // eslint-disable-next-line
 function RegisterModal({ setIsOpen, setModalType }) {
@@ -12,124 +16,135 @@ function RegisterModal({ setIsOpen, setModalType }) {
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
   const [registerUser, { isLoading }] = useRegisterMutation();
+  const [passwordVisible, setPasswordVisible] = useState(false);
   const [passwordValid, setPasswordValid] = useState(false);
-  
-  const validatePassword = (password) => {
-    const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-    return passwordRegex.test(password);
-  };
 
-  const handlePasswordChange = (e) => {
-    const newPassword = e.target.value;
-    setPassword(newPassword);
-    setPasswordValid(validatePassword(newPassword));
-  };
 
   const handleRegister = async (e) => {
     e.preventDefault();
     setError(null);
     setSuccess(null);
 
-    if (!passwordValid) {
-      setError("A senha deve ter pelo menos 8 caracteres, incluindo uma letra maiúscula, um número e um caractere especial.");
+    const isPasswordOk = validatePassword(password);
+    setPasswordValid(isPasswordOk);
+
+    if (!isPasswordOk) {
+      setError("A senha deve ter 8+ caracteres, incluindo uma maiúscula, um número e um símbolo.");
       return;
     }
 
     try {
-        await registerUser({ name, email, password, phone }).unwrap();
-        setSuccess("Conta criada com sucesso! Verifique seu e-mail para ativar a conta.");
+      await registerUser({ name, email, password, phone }).unwrap();
+      setSuccess("Conta criada com sucesso! Verifique seu e-mail.");
     } catch (err) {
-        console.log("Erro capturado:", err);
-    
-        if (err?.data?.message === "E-mail já existe em nossa base de dados") {
-            setError("Este e-mail já está em uso. Tente outro ou faça login.");
-        } else {
-            setError("Erro ao criar conta. Tente novamente mais tarde.");
-        }
-    }    
+      if (err?.data?.message === "E-mail já existe em nossa base de dados") {
+        setError("Este e-mail já está em uso. Tente outro ou faça login.");
+      } else {
+        setError("Erro ao criar conta. Tente novamente.");
+      }
+    }
   };
 
+
+    const validatePassword = (password) => {
+    const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    return passwordRegex.test(password);
+  };
+
+
   return (
-    <div 
-      className="fixed inset-0 bg-gray-900/90 flex justify-center items-center"
+    <div
+      className="fixed inset-0 bg-black/50 flex items-center justify-center z-50"
       onClick={() => setIsOpen(false)}
     >
-      <div 
-        className="bg-white p-6 rounded-lg shadow-lg w-96 relative"
+      <div
+        className="bg-white rounded-2xl p-8 w-[360px] shadow-md relative"
         onClick={(e) => e.stopPropagation()}
       >
-        <button 
-          className="absolute top-2 right-2 text-gray-600 hover:text-black cursor-pointer"
-          onClick={() => setIsOpen(false)}
-        >
-          &times;
-        </button>
+        <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-10" />
+        <h2 className="text-center text-xl font-semibold text-gray-800 mb-6 ">
+          Registe-se
+        </h2>
 
-        <h2 className="text-2xl font-bold mb-4 text-center">Criar Conta</h2>
+        {error && <p className="text-center text-red-500 mb-4">{error}</p>}
+        {success && <p className="text-center text-green-500 mb-4">{success}</p>}
 
-        {error && <p className="text-red-500 text-center bg-red-100 p-2 rounded">{error}</p>}
-        {success && <p className="text-green-500 text-center bg-green-100 p-2 rounded">{success}</p>}
-
-        <form onSubmit={handleRegister}>
-          <label className="block text-sm font-semibold text-gray-700">Nome *</label>
-          <input 
+        <form onSubmit={handleRegister} className="space-y-4">
+          <input
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="w-full p-2 mb-4 border rounded"
-            placeholder="Seu nome"
+            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
+            placeholder="Digite seu nome"
             required
           />
-
-          <label className="block text-sm font-semibold text-gray-700">E-mail *</label>
-          <input 
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-2 mb-4 border rounded"
-            placeholder="Digite seu e-mail"
-            required
-          />
-
-          <label className="block text-sm font-semibold text-gray-700">Senha *</label>
-          <input 
-            type="password"
-            value={password}
-            onChange={handlePasswordChange}
-            className="w-full p-2 mb-2 border rounded"
-            placeholder="Digite sua senha"
-            required
-          />
-          <p className={passwordValid ? "text-green-600 text-sm" : "text-red-600 text-sm"}>
-            {passwordValid ? "Senha válida ✅" : "A senha deve ter 8+ caracteres, incluindo uma maiúscula, um número e um símbolo."}
-          </p>
-
-          <label className="block text-sm font-semibold text-gray-700">Telefone *</label>
-          <input 
+          <input
             type="tel"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
-            className="w-full p-2 mb-4 border rounded"
+            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Digite seu telefone"
             required
           />
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
+            placeholder="Digite seu e-mail"
+            required
+          />
+          
+          <div className="relative">
+            <input
+              type={passwordVisible ? "text" : "password"}
+              value={password}
+              onChange={(e) => {
+                const newPassword = e.target.value;
+                setPassword(newPassword);
+                setPasswordValid(validatePassword(newPassword));
+              }}
+              className="w-full border-b-2 border-black text-sm py-2 px-1 mb-1 focus:outline-none rounded-xl"
+              placeholder="Password"
+              required
+            />
+            <span
+              onClick={() => setPasswordVisible(!passwordVisible)}
+              className="absolute right-4 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-500"
+            >
+              {passwordVisible ? <FiEyeOff size={15} /> : <FiEye size={15} />}
+            </span>
+          </div>
 
-          <button 
+          {password.length > 0 && (
+            <p className={`${passwordValid ? "text-green-600" : "text-red-600"} text-sm mb-4`}>
+              {passwordValid
+                ? "Senha válida ✅"
+                : "A senha deve ter 8+ caracteres, incluindo uma maiúscula, um número e um símbolo."}
+            </p>
+          )}
+
+
+
+
+          <Button
             type="submit"
-            className="w-full bg-green-600 text-white p-2 rounded-3xl cursor-pointer hover:bg-green-700 mt-4"
-            disabled={isLoading || !passwordValid}
+            className="w-full "
+            disabled={isLoading}
           >
-            {isLoading ? <ClipLoader size={20} color="#FFF" /> : "Criar Conta"}
-          </button>
+            {isLoading ? <ClipLoader size={20} color="#000" /> : "Continuar"}
+          </Button>
         </form>
 
-        <div className="text-center mt-4">
-          <span className="text-gray-600">Já tem uma conta? </span>
-          <button 
-            className="text-blue-600 underline text-sm cursor-pointer"
+        <hr className="my-6 border-gray-300" />
+
+        <div className="text-center text-sm text-gray-600">
+          Já é membro?{" "}
+          <button
+            className="underline"
             onClick={() => setModalType("login")}
           >
-            Fazer login
+            Entrar!
           </button>
         </div>
       </div>

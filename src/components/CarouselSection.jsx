@@ -20,7 +20,7 @@ export default function CarouselSection() {
   };
 
   return (
-   <section className="mt-1 max-w-screen-2xl mx-auto px-4 relative z-10">
+   <section className="mt-1 max-w-screen-xl mx-auto px-4 relative z-10">
       <Slider {...settings} className="rounded-3xl overflow-hidden">
       <div className="relative aspect-[6/5] sm:h-[75vh]">
         <img src={car1} className="w-full h-full object-cover rounded-3xl" alt="Slide 1" />

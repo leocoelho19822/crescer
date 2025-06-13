@@ -28,7 +28,7 @@ const cards = [
 export default function ParaVida() {
   return (
     <section className=" py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-screen-xl mx-auto text-left mb-12">
+      <div className="max-w-screen-xl mx-auto px-4 text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-gray-600 mb-4">
           Cres(Ser) contigo... para a vida
         </h2>
@@ -38,7 +38,7 @@ O Cres(Ser) acompanha-te ano a ano, oferecendo apoio prático, atividades e cont
         </p>
       </div>
 
-      <div className="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cards.map((card, index) => (
           <div
             key={index}
@@ -57,9 +57,9 @@ O Cres(Ser) acompanha-te ano a ano, oferecendo apoio prático, atividades e cont
         ))}
         
       </div>
-      <div className="max-w-screen-xl mx-auto text-left mt-12">
+      <div className="max-w-screen-xl mx-auto px-4 text-left mt-12">
         <h2 className="text-3xl  font-bold my-10 text-gray-600">
-          Recursos que você vai adorar
+          Recursos pensados para si
         </h2>
         </div>
     </section>

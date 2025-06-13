@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useSendResetPasswordMutation } from "../store/api";
 import { ClipLoader } from "react-spinners";
+import Button from "./Button";
 
 // eslint-disable-next-line
 function ForgotPasswordModal({ setIsOpen }) {
@@ -58,17 +59,18 @@ function ForgotPasswordModal({ setIsOpen }) {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full p-2 mb-4 border rounded"
+            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Digite seu e-mail"
+            required
           />
 
-          <button 
+          <Button 
             type="submit"
-            className="w-full bg-blue-600 text-white p-2 rounded-3xl hover:bg-blue-700 mt-4 cursor-pointer"
+            className="w-full"
             disabled={isLoading}
           >
             {isLoading ? <ClipLoader size={20} color="#FFF" /> : "Enviar"}
-          </button>
+          </Button>
         </form>
       </div>
     </div>

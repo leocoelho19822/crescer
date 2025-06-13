@@ -75,7 +75,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-[#FCFCFC]  z-50">
-      <div className="max-w-screen-xl mx-auto px-4 sm:px-6 pt-3 lg:px-8">
+      <div className="max-w-screen-xl mx-auto px-4 sm:px-4 pt-3 lg:px-4">
         <div className="flex flex-col w-full">
 
           
@@ -127,7 +127,7 @@ export default function Header() {
             </label>
             <input
               type="text"
-              placeholder="Buscar..."
+              placeholder="Pesquisar..."
               className="w-full border border-gray-300 rounded-full px-4 py-1 pr-10 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition"
             />
             <BsSearch className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-500" />
@@ -149,7 +149,7 @@ export default function Header() {
               </label>
               <input
                 type="text"
-                placeholder="Buscar..."
+                placeholder="Pesquisar..."
                 className="w-full border border-gray-300 rounded-full px-4 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-emerald-500 transition"
               />
               <BsSearch className="absolute right-8 top-1/2 transform -translate-y-1/2 text-gray-500" />
@@ -187,10 +187,10 @@ export default function Header() {
 
               <div className="relative" ref={projectRef}>
                 <button
-                  className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 px-4 border-emerald-500"
+                  className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 pl-1 pr-4 border-[#8FD3B8]"
                   onClick={() => setIsProjectOpen(!isProjectOpen)}
                 >
-                  O Projeto <MdKeyboardArrowDown size={20} />
+                  Projeto <MdKeyboardArrowDown size={20} />
                 </button>
 
                 {isProjectOpen && (
@@ -198,9 +198,9 @@ export default function Header() {
                     <ul className="flex flex-col text-md text-gray-700">
                       <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Sobre'}</li>
                       <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Equipa'}</li>
-                      <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Fontes'}</li>
+                      {/*<li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Fontes'}</li>*/}
                       <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Contatos'}</li>
-                      <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Conheça a App'}</li>
+                      {/*<li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">{'> Conheça a App'}</li>*/}
                     </ul>
                   </div>
                 )}
@@ -209,7 +209,7 @@ export default function Header() {
 
               <div className="relative" ref={barrigaRef}>
                 <button
-                  className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 px-4 border-emerald-500"
+                  className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 pl-1 pr-4 border-[#8FD3B8]"
                   onClick={() => setIsBarrigaOpen(!isBarrigaOpen)}
                 >
                   Cres(Ser) contigo na Barriga <MdKeyboardArrowDown size={20} />
@@ -229,7 +229,7 @@ export default function Header() {
 
               <div className="relative" ref={vidaRef}>
                 <button
-                  className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 px-4 border-emerald-500"
+                  className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 pl-1 pr-4 border-[#8FD3B8]"
                   onClick={() => setIsVidaOpen(!isVidaOpen)}
                 >
                   Cres(Ser) contigo na Vida <MdKeyboardArrowDown size={20} />
@@ -248,7 +248,7 @@ export default function Header() {
 
               <div className="relative" ref={comunidadeRef}>
               <button
-                className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 px-4 border-emerald-500"
+                className="flex items-center gap-1 hover:text-gray-500 font-semibold cursor-pointer border-b-3 pb-2 pl-1 pr-4 border-[#8FD3B8]"
                 onClick={() => setIsComunidadeOpen(!isComunidadeOpen)}
               >
                 Cres(Ser) em Comunidade <MdKeyboardArrowDown size={20} />
@@ -271,7 +271,7 @@ export default function Header() {
             {isMenuOpen && (
             <nav className="w-full mb-3">
               <div className="flex flex-col gap-4 text-gray-700 text-sm -mt-4 lg:hidden">
-                <button className="flex text-left px-4 hover:text-gray-500 font-semibold">O Projeto <MdKeyboardArrowDown size={20} /></button>
+                <button className="flex text-left px-4 hover:text-gray-500 font-semibold">Projeto <MdKeyboardArrowDown size={20} /></button>
                 <button className="flex text-left px-4 hover:text-gray-500 font-semibold">Cres(Ser) contigo na Barriga <MdKeyboardArrowDown size={20} /></button>
                 <button className="flex text-left px-4 hover:text-gray-500 font-semibold">Cres(Ser) contigo na Vida <MdKeyboardArrowDown size={20} /></button>
                 <button className="flex text-left px-4 hover:text-gray-500 font-semibold">Cres(Ser) em Comunidade <MdKeyboardArrowDown size={20} /></button>

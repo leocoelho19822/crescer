@@ -122,7 +122,7 @@ O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e inform
           </div>
         </div>
         <h2 className="text-3xl  font-bold my-10 text-gray-600">
-          Recursos que você vai adorar
+          Recursos pensados para si
         </h2>
       </div>
     </section>
