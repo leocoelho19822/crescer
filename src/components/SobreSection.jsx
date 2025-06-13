@@ -6,7 +6,7 @@ import Button from "./Button";
 
 export default function SobreSection() {
   return (
-    <section className="bg-gray-200 sm:-mt-12 -mt-6">
+    <section className="bg-gray-200 sm:-mt-12 -mt-6 sm:px-6 lg:px-8 px-4">
       {/* Divisor em onda */}
       
 

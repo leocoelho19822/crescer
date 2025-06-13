@@ -90,7 +90,7 @@ const meses = [
 
 export default function MesamesSection() {
   return (
-    <section className=" py-16 px-4 sm:px-6 lg:px-8">
+    <section className=" px-4 sm:px-6 lg:px-8">
       <div className="max-w-screen-xl mx-auto px-4 py-20">
         <h2 className="text-3xl  font-bold mb-8 text-gray-600">
           Cres(Ser) contigo... no colo
