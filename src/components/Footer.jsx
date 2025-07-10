@@ -93,7 +93,7 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <img src={logo} alt="Logo Cres(SER)" className="h-10" />
             <img src={logoua} alt="Logo UA" className="h-12" />
-            <img src={aguedalogo} alt="Logo Águeda" className="h-12" />
+            {/*<img src={aguedalogo} alt="Logo Águeda" className="h-12" />*/}
           </div>
 
           {/* Redes sociais */}

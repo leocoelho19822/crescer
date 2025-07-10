@@ -7,10 +7,7 @@ import Button from "./Button";
 export default function SobreSection() {
   return (
     <section className="bg-gray-200 sm:-mt-12 -mt-6 sm:px-4 lg:px-4 px-4">
-      {/* Divisor em onda */}
-      
-
-      {/* Primeira Linha */}
+    
       <div className="max-w-screen-xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h2 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
