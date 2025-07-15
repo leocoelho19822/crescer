@@ -56,11 +56,7 @@ export default function TrimestresSection() {
         ))}
         
       </div>
-      <div className="max-w-screen-xl mx-auto px-4 text-left mt-12">
-        <h2 className="text-3xl  font-bold my-10 text-gray-600">
-          Recursos pensados para si
-        </h2>
-        </div>
+      
     </section>
   );
 }

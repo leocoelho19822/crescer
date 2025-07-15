@@ -25,12 +25,13 @@ function App() {
         <SobreSection />
         <WaveDivider color="gray"/>
         <TrimestresSection />
-        
+        <RecursosPensadosParaSi cor="gravidez" />
         <WaveDivider />
         <MesamesSection />
-        <RecursosPensadosParaSi />
+        <RecursosPensadosParaSi cor="mes" />
         <WaveDivider />
         <ParaVida />
+        <RecursosPensadosParaSi cor="idade" />
         <WaveDivider />
         <Footer />
       </main>

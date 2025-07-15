@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React from 'react';
+import React, {useRef} from 'react';
 
 import foto0 from '../assets/0rn.svg';
 import foto1 from '../assets/1mes.svg';
@@ -13,6 +13,8 @@ import foto8 from '../assets/8meses.svg';
 import foto9 from '../assets/9meses.svg';
 import foto10 from '../assets/10meses.svg';
 import foto11 from '../assets/11meses.svg';
+
+import { FaArrowRightLong, FaArrowLeftLong  } from "react-icons/fa6";
 
 const meses = [
   {
@@ -90,23 +92,52 @@ const meses = [
 ];
 
 export default function MesamesSection() {
+  const scrollRef = useRef(null);
+
+  const scrollLeft = () => {
+    scrollRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+  };
+
+  const scrollRight = () => {
+    scrollRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+  };
+
   return (
-    <section className=" px-4 sm:px-6 lg:px-8">
-      <div className="max-w-screen-xl mx-auto px-4 py-20">
-        <h2 className="text-3xl  font-bold mb-8 text-gray-600">
+    <section className="relative px-4 sm:px-6 lg:px-8">
+      <div className="max-w-screen-xl mx-auto px-4 py-20 relative">
+        <h2 className="text-3xl font-bold mb-8 text-gray-600">
           Cres(Ser) contigo... no colo
         </h2>
-        <p className="text-gray-700 leading-relaxed mb-8 ">
+        <p className="text-gray-700 leading-relaxed mb-8">
           Os primeiros meses de vida são repletos de descobertas, emoções e aprendizagens tanto para os pais como para o bebé. <br />
-O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e informações baseadas em evidências para fortalecer o vínculo, estimular o desenvolvimento e tornar este início ainda mais especial.
+          O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e informações baseadas em evidências para fortalecer o vínculo, estimular o desenvolvimento e tornar este início ainda mais especial.
         </p>
 
-        <div className="overflow-x-auto hide-scroll-bar pb-4">
+        {/* Botões de scroll */}
+        <button
+  onClick={scrollLeft}
+  className="flex items-center justify-center absolute left-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
+>
+  <FaArrowLeftLong />
+</button>
+<button
+  onClick={scrollRight}
+  className="flex items-center justify-center absolute right-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
+>
+  <FaArrowRightLong />
+</button>
+
+
+        {/* Scroll horizontal */}
+        <div
+          ref={scrollRef}
+          className="overflow-x-auto hide-scroll-bar pb-4 scroll-smooth"
+        >
           <div className="flex space-x-6 px-2 md:px-8 min-w-max">
             {meses.map((card, index) => (
               <div
                 key={index}
-                className="bg-[#FFE2A9] rounded-xl shadow-lg p-4 flex flex-col items-center text-center w-82 flex-shrink-0"
+                className="bg-[#FFE2A9] rounded-xl shadow-lg p-4 flex flex-col items-center text-center w-72 flex-shrink-0"
               >
                 <img
                   src={card.imagem}
@@ -114,15 +145,15 @@ O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e inform
                   className="w-full h-64 object-cover rounded-md mb-4"
                 />
                 <div className="bg-[#FFC757] text-gray-800 font-semibold text-xl px-4 py-1 rounded-lg w-52 h-8 flex items-center justify-center -mt-8 mb-3 text-sm">
-                {card.titulo}
+                  {card.titulo}
                 </div>
-
-                <p className="text-gray-700 leading-snug text-sm px-2">{card.descricao}</p>
+                <p className="text-gray-700 leading-snug text-sm px-2">
+                  {card.descricao}
+                </p>
               </div>
             ))}
           </div>
         </div>
-        
       </div>
     </section>
   );
