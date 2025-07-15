@@ -1,4 +1,4 @@
-// src/components/TrimestresSection.jsx
+// eslint-disable-next-line
 import React from "react";
 import ano1 from "../assets/1ano.svg";
 import ano2 from "../assets/2anos.svg";

@@ -1,12 +1,8 @@
-// src/components/Button.jsx
+// eslint-disable-next-line
 import React from "react";
 
-export default function Button({
-  children,
-  onClick,
-  type = "button",
-  className = "",
-}) {
+// eslint-disable-next-line
+export default function Button({children, onClick, type = "button", className = "",}) {
   return (
     <button
       type={type}

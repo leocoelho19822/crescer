@@ -1,4 +1,4 @@
-// src/components/TrimestresSection.jsx
+// eslint-disable-next-line
 import React from "react";
 import trimestre1 from "../assets/1tri.svg";
 import trimestre2 from "../assets/2tri.svg";

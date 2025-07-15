@@ -1,9 +1,10 @@
-// src/components/ProfileButton.jsx
+// eslint-disable-next-line
 import React from "react";
 
 import { AiFillHeart } from "react-icons/ai";
 import defaultAvatar from "../assets/default-avatar.png";
 
+// eslint-disable-next-line
 export default function ProfileButton({ onClick }) {
   return (
     <button

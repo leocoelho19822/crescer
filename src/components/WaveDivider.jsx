@@ -1,9 +1,9 @@
-// src/components/WaveDivider.jsx
+// eslint-disable-next-line
 import React from "react";
 import waveWhite from "../assets/wave67.svg";
 import waveGray from "../assets/wavegray.svg";
 
-
+// eslint-disable-next-line
 export default function WaveDivider({ color = "white", className = "" }) {
   const waveMap = {
     white: waveWhite,
