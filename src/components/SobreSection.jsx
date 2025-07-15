@@ -1,4 +1,4 @@
-// src/components/SobreSection.jsx
+// eslint-disable-next-line
 import React from "react";
 import image1 from "../assets/familia.svg";
 import image2 from "../assets/cerebro.svg";

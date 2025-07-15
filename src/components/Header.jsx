@@ -1,4 +1,4 @@
-// Header.jsx (componente completo responsivo)
+// eslint-disable-next-line
 import React, { useEffect, useState, useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useGetProfileQuery, useLogoutMutation } from "../store/api";

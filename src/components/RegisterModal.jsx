@@ -12,7 +12,6 @@ function RegisterModal({ setIsOpen, setModalType }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [phone, setPhone] = useState("");
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
   const [registerUser, { isLoading }] = useRegisterMutation();
@@ -34,7 +33,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
     }
 
     try {
-      await registerUser({ name, email, password, phone }).unwrap();
+      await registerUser({ name, email, password }).unwrap();
       setSuccess("Conta criada com sucesso! Verifique seu e-mail.");
     } catch (err) {
       if (err?.data?.message === "E-mail já existe em nossa base de dados") {
@@ -78,14 +77,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
             placeholder="Digite seu nome"
             required
           />
-          <input
-            type="tel"
-            value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
-            placeholder="Digite seu telefone"
-            required
-          />
+          
           <input
             type="email"
             value={email}

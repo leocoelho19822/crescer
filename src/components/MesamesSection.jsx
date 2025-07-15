@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from 'react';
 
 import foto0 from '../assets/0rn.svg';

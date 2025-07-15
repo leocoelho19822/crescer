@@ -1,8 +1,9 @@
+// eslint-disable-next-line
 import React from 'react';
 import { FaFacebook, FaInstagram, FaGithub, FaYoutube } from 'react-icons/fa';
 import logo from '../assets/Logo_Branco.svg';
 import logoua from '../assets/ua-logo-branco.svg';
-import aguedalogo from '../assets/agueda-logo-branco.svg';
+//import aguedalogo from '../assets/agueda-logo-branco.svg';
 //import simbolo from '../assets/simbolo_cres_ser.svg';
 
 export default function Footer() {
