@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import car1 from "../assets/parentalidade_blog.jpg";
 import car2 from "../assets/fundoapp.svg";
-import car3 from "../assets/aguedarua.svg";
+import car3 from "../assets/chat_15072025.png";
 
 export default function CarouselSection() {
   const settings = {
