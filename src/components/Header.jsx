@@ -32,6 +32,26 @@ export default function Header() {
   const barrigaRef = useRef(null);
   const vidaRef = useRef(null); 
   const comunidadeRef = useRef(null);
+  const [showNav, setShowNav] = useState(true);
+  const lastScrollY = useRef(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      const isScrollingDown = currentScrollY > lastScrollY.current;
+
+      if (window.innerWidth >= 1024) {
+        setShowNav(!isScrollingDown || currentScrollY < 50);
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+
 
 
   useEffect(() => {
@@ -181,7 +201,12 @@ export default function Header() {
           </div>
 
           {/* Menu Navegação */}
-          <nav className="w-full mt-4 sm:mt-10 mb-3">
+          <nav
+  className={`w-full hidden mt-4 mb-3 lg:block transition-transform duration-300 ease-in-out ${
+    showNav ? 'translate-y-0' : '-translate-y-[420%] mt-4 mb-3'
+  }`}
+>
+
             {/* Desktop */}
             <div className="hidden lg:flex  gap-4 text-gray-700 text-sm sm:text-base ">
 

@@ -1,45 +1,31 @@
-// eslint-disable-next-line
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./components/Header";
-import CarouselSection from "./components/CarouselSection"; 
 
+// Layout
+import HeaderHero from "./components/Header2";
+import Footer from "./components/Footer";
+
+// Páginas
+import HomePage from "./pages/HomePage";
 import ResetPassword from "./components/ResetPassword";
 import VerifyEmail from "./components/VerifyEmail";
-import WaveDivider from "./components/WaveDivider";
-import SobreSection from "./components/SobreSection";
-import Footer from "./components/Footer";
-import TrimestresSection from "./components/TrimestresSection";
-import MesamesSection from "./components/MesamesSection";
-import ParaVida from "./components/ParaVidaSection";
-import RecursosPensadosParaSi from "./components/RecursosPensadosParaSi";
-
+import MontaArtigo from "./components/MontaArtigo";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <Router>
-      <Header />
-      <main className="mt-36 md:mt-50 relative z-[1]">
-        <CarouselSection />
-        <WaveDivider />
-        <SobreSection />
-        <WaveDivider color="gray"/>
-        <TrimestresSection />
-        <RecursosPensadosParaSi cor="gravidez" />
-        <WaveDivider />
-        <MesamesSection />
-        <RecursosPensadosParaSi cor="mes" />
-        <WaveDivider />
-        <ParaVida />
-        <RecursosPensadosParaSi cor="idade" />
-        <WaveDivider />
-        <Footer />
-      </main>
-        <Routes>
-          <Route path="/reset-password/:token" element={<ResetPassword />} />
-          <Route path="/verify-email/:token" element={<VerifyEmail />} />
-        </Routes>
-      
+      <HeaderHero />
+
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/reset-password/:token" element={<ResetPassword />} />
+        <Route path="/verify-email/:token" element={<VerifyEmail />} />
+        <Route path="/artigos/:id" element={<MontaArtigo />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+
+      <Footer />
     </Router>
   );
 }

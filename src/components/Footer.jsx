@@ -8,7 +8,7 @@ import logoua from '../assets/ua-logo-branco.svg';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#4A6D5F] text-white sm:-mt-12 -mt-6">
+    <footer className="bg-[#78B19A] text-white sm:-mt-12 -mt-6">
       <div className="max-w-screen-xl mx-auto px-4 py-16 pt-20">
         {/* Grid com 4 colunas */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">

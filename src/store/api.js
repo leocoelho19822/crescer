@@ -61,6 +61,14 @@ export const api = createApi({
         body,
       }),
     }),
+
+    getArticleById: builder.query({
+      query: (id) => ({
+        url: `/articles/${id}`,
+        method: "GET",
+      }),
+    }),
+
   }),
 });
 
@@ -72,4 +80,5 @@ export const {
   useSendResetPasswordMutation,
   useResetPasswordMutation,
   useVerifyEmailMutation,
+  useGetArticleByIdQuery,
 } = api;
