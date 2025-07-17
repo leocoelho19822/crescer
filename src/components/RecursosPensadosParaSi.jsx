@@ -1,6 +1,7 @@
 // eslint-disable-next-line
 import React from 'react';
 import amamentacao from '../assets/car4.webp';
+import Button from './Button';
 
 const corMap = {
   mes: '#FFE2A9',
@@ -75,9 +76,7 @@ export default function RecursosPensadosParaSi({ cor = 'mes' }) {
       </div>
 
       <div className="flex justify-center mt-8">
-        <button className="bg-green-200 hover:bg-green-300 text-green-900 font-medium px-6 py-2 rounded-full shadow-sm">
-          Ver mais
-        </button>
+          <Button>Ver mais</Button>
       </div>
     </div>
   );

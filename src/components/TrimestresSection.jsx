@@ -3,23 +3,28 @@ import React from "react";
 import trimestre1 from "../assets/1tri.svg";
 import trimestre2 from "../assets/2tri.svg";
 import trimestre3 from "../assets/3tri.svg";
+import { Link } from "react-router-dom";
+
 
 const cards = [
   {
     titulo: "1º Trimestre",
     imagem: trimestre1,
+    link: "/1tri",
     texto:
       "Foco nos cuidados maternos, adaptação emocional, nutrição adequada e desenvolvimento inicial do bebé.",
   },
   {
     titulo: "2º Trimestre",
     imagem: trimestre2,
+    link: "/2tri",
     texto:
       "Apoio ao bem-estar materno, vínculo com o bebê, preparação para o parto e acompanhamento do crescimento fetal.",
   },
   {
     titulo: "3º Trimestre",
     imagem: trimestre3,
+    link: "/3tri",
     texto:
       "Preparação para o parto, cuidados com o corpo, fortalecimento do vínculo e planeamento para a chegada do bebé.",
   },
@@ -39,20 +44,16 @@ export default function TrimestresSection() {
 
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cards.map((card, index) => (
-          <div
-            key={index}
-            className="bg-[#DAE9E3] rounded-xl shadow-xl p-6 flex flex-col items-center text-center"
-          >
-            <img
-              src={card.imagem}
-              alt={card.titulo}
-              className="w-full h-auto rounded-md mb-4"
-            />
-            <div className="bg-[#618F7D] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
-              {card.titulo}
+          <Link to={card.link} key={index}>
+            <div className="bg-[#DAE9E3] rounded-xl shadow-xl p-6 flex flex-col items-center text-center">
+              <img src={card.imagem} alt={card.titulo} className="w-full h-auto rounded-md mb-4" />
+              <div className="bg-[#618F7D] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
+                {card.titulo}
+              </div>
+              <p className="text-gray-700 leading-relaxed text-sm">{card.texto}</p>
             </div>
-            <p className="text-gray-700 leading-relaxed text-sm">{card.texto}</p>
-          </div>
+          </Link>
+
         ))}
         
       </div>

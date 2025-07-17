@@ -135,21 +135,21 @@ const isHomePage = location.pathname === "/";
         {/* Menu mobile */}
         {menuOpen && (
           
-  <div className="lg:hidden px-6 pb-4 space-y-4 bg-[#4A6D5F]/90">
+  <div className="lg:hidden px-6 pb-4 space-y-4 bg-[#78B19A]/90">
     <input
       type="text"
       placeholder="Pesquisar..."
       className="w-full border border-gray-300 rounded-full px-4 py-2 pr-10 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
     />
 
-    <ul className="space-y-2 text-sm font-semibold  text-white">
+    <ul className="space-y-2 text-lg font-semibold  text-white">
       {/* Projeto */}
       <li>
         <button onClick={() => setIsProjectOpen(!isProjectOpen)} className="w-full text-left hover:text-emerald-200 flex">
-          Projeto<MdKeyboardArrowDown size={18} />
+          Projeto<MdKeyboardArrowDown size={30} />
         </button>
         {isProjectOpen && (
-          <ul className="ml-4 mt-1 space-y-1 text-white/90 text-xs normal-case">
+          <ul className="ml-4 mt-1 space-y-1 text-white/90 text-sm normal-case">
             <li><a href="#sobre" className="block hover:text-emerald-200">{'> Sobre'}</a></li>
             <li><a href="#equipa" className="block hover:text-emerald-200">{'> Equipa'}</a></li>
             <li><a href="#contatos" className="block hover:text-emerald-200">{'> Contatos'}</a></li>
@@ -160,13 +160,13 @@ const isHomePage = location.pathname === "/";
       {/* Na Barriga */}
       <li>
         <button onClick={() => setIsBarrigaOpen(!isBarrigaOpen)} className="w-full text-left hover:text-emerald-200 flex">
-          Na Barriga<MdKeyboardArrowDown size={18} />
+          Na Barriga<MdKeyboardArrowDown size={30} />
         </button>
         {isBarrigaOpen && (
-          <ul className="ml-4 mt-1 space-y-1 text-white/90 text-xs normal-case">
-            <li><a href="#trimestre1" className="block hover:text-emerald-200">{'> 1º Trimestre'}</a></li>
-            <li><a href="#trimestre2" className="block hover:text-emerald-200">{'> 2º Trimestre'}</a></li>
-            <li><a href="#trimestre3" className="block hover:text-emerald-200">{'> 3º Trimestre'}</a></li>
+          <ul className="ml-4 mt-1 space-y-1 text-white/90 text-sm normal-case">
+            <li><a href="/1tri" className="block hover:text-emerald-200">{'> 1º Trimestre'}</a></li>
+            <li><a href="/2tri" className="block hover:text-emerald-200">{'> 2º Trimestre'}</a></li>
+            <li><a href="/3tri" className="block hover:text-emerald-200">{'> 3º Trimestre'}</a></li>
           </ul>
         )}
       </li>
@@ -174,10 +174,10 @@ const isHomePage = location.pathname === "/";
       {/* Na Vida */}
       <li>
         <button onClick={() => setIsVidaOpen(!isVidaOpen)} className="w-full text-left hover:text-emerald-200 flex">
-          Na Vida<MdKeyboardArrowDown size={18} />
+          Na Vida<MdKeyboardArrowDown size={30} />
         </button>
         {isVidaOpen && (
-          <ul className="ml-4 mt-1 space-y-1 text-white/90 text-xs normal-case">
+          <ul className="ml-4 mt-1 space-y-1 text-white/90 text-sm normal-case">
             <li><a href="#mesames" className="block hover:text-emerald-200">{'> Mês a Mês'}</a></li>
             <li><a href="#ano1" className="block hover:text-emerald-200">{'> 1º Ano'}</a></li>
             <li><a href="#ano2" className="block hover:text-emerald-200">{'> 2º Ano'}</a></li>
@@ -187,7 +187,7 @@ const isHomePage = location.pathname === "/";
       </li>
 
       {/* Comunidade e Favoritos sem submenu */}
-      <li><a href="#comunidade" className="block hover:text-emerald-200 uppercase">Comunidade</a></li>
+      <li><a href="#comunidade" className="block hover:text-emerald-200 ">Comunidade</a></li>
       
     </ul>
   </div>
@@ -199,26 +199,26 @@ const isHomePage = location.pathname === "/";
           <a href="/">
             <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
           </a>
-          <ul className="flex space-x-6 items-center text-sm font-semibold">
+          <ul className="flex space-x-6 items-center text-lg font-semibold">
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200">Projeto<MdKeyboardArrowDown size={18} /></button>
-              <ul className="absolute left-0 top-full mt-2 bg-white text-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
+              <button className="flex items-center gap-1 hover:text-emerald-200">Projeto<MdKeyboardArrowDown size={25} /></button>
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Sobre</li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Equipa</li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Contatos</li>
               </ul>
             </li>
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200">Na Barriga<MdKeyboardArrowDown size={18} /></button>
-              <ul className="absolute left-0 top-full mt-2 bg-white text-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1º Trimestre</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2º Trimestre</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3º Trimestre</li>
+              <button className="flex items-center gap-1 hover:text-emerald-200">Na Barriga<MdKeyboardArrowDown size={25} /></button>
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
+                <a href="/1tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1º Trimestre</li></a>
+                <a href="/2tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2º Trimestre</li></a>
+                <a href="/3tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3º Trimestre</li></a>
               </ul>
             </li>
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200">Na Vida<MdKeyboardArrowDown size={18} /></button>
-              <ul className="absolute left-0 top-full mt-2 bg-white text-black rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
+              <button className="flex items-center gap-1 hover:text-emerald-200">Na Vida<MdKeyboardArrowDown size={25} /></button>
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li>
