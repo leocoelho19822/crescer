@@ -4,7 +4,7 @@ import terceiroTriImg from "../assets/3tri.svg";
 
 export default function TerceiroTrimestrePage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-40 text-zinc-800">
+    <div className="max-w-5xl mx-auto px-4 py-30 text-zinc-800">
       <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Terceiro Trimestre de Gravidez: Preparação para a chegada do bebé
       </h1>

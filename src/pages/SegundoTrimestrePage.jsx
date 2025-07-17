@@ -4,7 +4,7 @@ import segundoTriImg from "../assets/2tri.svg";
 
 export default function SegundoTrimestrePage() {
   return (
-    <div className="max-w-5xl mx-auto px-4 py-40 text-zinc-800">
+    <div className="max-w-5xl mx-auto px-4 py-30 text-zinc-800">
       <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Segundo Trimestre de Gravidez: O equilíbrio entre mudanças e bem-estar
       </h1>
