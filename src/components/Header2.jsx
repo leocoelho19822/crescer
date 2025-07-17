@@ -2,7 +2,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-import parentalidadeBg1 from "../assets/parentalidade_blog.jpg";
+import parentalidadeBg1 from "../assets/campo17072025.png";
 import parentalidadeBg2 from "../assets/parque16072025.png";
 import brincar from "../assets/brincar16072025.png"
 import logoverde from "../assets/Logo_Branco.svg";

@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Desenvolvimento</h4>
             <ul className="space-y-2 ">
-              <li><a href="#">:: 1º Trimestre</a></li>
-              <li><a href="#">:: 2º Trimestre</a></li>
-              <li><a href="#">:: 3º Trimestre</a></li>
+              <li><a href="/1tri">:: 1º Trimestre</a></li>
+              <li><a href="/2tri">:: 2º Trimestre</a></li>
+              <li><a href="/3tri">:: 3º Trimestre</a></li>
               <li><a href="#">:: Mês a mês</a></li>
               <li><a href="#">:: 1 Ano</a></li>
               <li><a href="#">:: 2 Anos</a></li>
@@ -40,8 +40,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Comunidade</h4>
             <ul className="space-y-2 ">
-              <li><a href="#">:: Eventos em grupos</a></li>
-              <li><a href="#">:: Recursos pensados para si</a></li>
+              <li><a href="#">:: Eventos</a></li>
+              
             </ul>
           </div>
 
@@ -51,7 +51,7 @@ export default function Footer() {
             <ul className="space-y-2 ">
               <li><a href="#">:: Política de Privacidade</a></li>
               <li><a href="#">:: Termos e Condições</a></li>
-              <li><a href="#">:: Licença</a></li>
+              
             </ul>
           </div>
         </div>
@@ -74,12 +74,12 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Digite o seu email"
-                className="flex-1 px-4 py-2 rounded-md bg-[#4A6D5F] text-white border border-white text-sm placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white"
+                className="border border-gray-300 rounded-full px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 required
               />
               <button
                 type="submit"
-                className="bg-white text-[#4A6D5F] font-semibold px-5 py-2 rounded-md text-sm hover:bg-gray-100 transition"
+                className="bg-white text-[#4A6D5F] font-semibold px-5 py-2 rounded-3xl text-sm hover:bg-gray-100 transition"
               >
                 Subscrever
               </button>
