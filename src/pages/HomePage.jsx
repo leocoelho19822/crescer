@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from "react";
 import SobreSection from "../components/SobreSection";
 import WaveDivider from "../components/WaveDivider";

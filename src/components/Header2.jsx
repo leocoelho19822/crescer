@@ -9,6 +9,7 @@ import logoverde from "../assets/Logo_Branco.svg";
 
 import { CgProfile } from "react-icons/cg";
 import { BsSearch } from "react-icons/bs";
+// eslint-disable-next-line
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
@@ -56,7 +57,7 @@ const [isBarrigaOpen, setIsBarrigaOpen] = useState(false);
 const [isVidaOpen, setIsVidaOpen] = useState(false);
 
 const location = useLocation();
-const isArtigoPage = location.pathname.startsWith("/artigos/");
+//const isArtigoPage = location.pathname.startsWith("/artigos/");
 const isHomePage = location.pathname === "/";
 
 
