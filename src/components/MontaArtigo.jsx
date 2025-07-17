@@ -11,7 +11,7 @@ export default function MontaArtigo() {
   if (error) return <p>Erro ao carregar o artigo.</p>;
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-40">
+    <div className="max-w-6xl mx-auto px-4 py-30">
       <h1 className="text-3xl font-bold mb-4">{artigo.title}</h1>
       <p className="text-gray-600 italic mb-6">{artigo.summary}</p>
       {artigo.imageUrl && (

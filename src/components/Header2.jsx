@@ -203,9 +203,9 @@ const isHomePage = location.pathname === "/";
           </a>
 
 
-          <ul className="flex space-x-6 items-center text-sm font-medium">
+          <ul className="flex space-x-6 items-center text-sm font-medium ">
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200">Projeto<MdKeyboardArrowDown size={20} /></button>
+              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Projeto<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Sobre</li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Equipa</li>
@@ -213,7 +213,7 @@ const isHomePage = location.pathname === "/";
               </ul>
             </li>
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200">Na Barriga<MdKeyboardArrowDown size={20} /></button>
+              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Barriga<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <a href="/1tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1º Trimestre</li></a>
                 <a href="/2tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2º Trimestre</li></a>
@@ -221,7 +221,7 @@ const isHomePage = location.pathname === "/";
               </ul>
             </li>
             <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200">Na Vida<MdKeyboardArrowDown size={20} /></button>
+              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Vida<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li>
@@ -229,7 +229,7 @@ const isHomePage = location.pathname === "/";
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li>
               </ul>
             </li>
-            <li><a href="#comunidade" className="hover:text-emerald-200">Comunidade</a></li>
+            <li><a href="#comunidade" className="hover:text-emerald-200 uppercase">Comunidade</a></li>
           </ul>
           <div className="flex gap-4 items-center">
             <div className="relative">
