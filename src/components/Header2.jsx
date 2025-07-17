@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import React, { useEffect, useState, useRef } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 
 import parentalidadeBg1 from "../assets/parentalidade_blog.jpg";
 import parentalidadeBg2 from "../assets/parque16072025.png";
@@ -55,6 +55,8 @@ export default function HeaderHero() {
   const [isProjectOpen, setIsProjectOpen] = useState(false);
 const [isBarrigaOpen, setIsBarrigaOpen] = useState(false);
 const [isVidaOpen, setIsVidaOpen] = useState(false);
+
+const navigate = useNavigate();
 
 const location = useLocation();
 //const isArtigoPage = location.pathname.startsWith("/artigos/");
@@ -164,9 +166,9 @@ const isHomePage = location.pathname === "/";
         </button>
         {isBarrigaOpen && (
           <ul className="ml-4 mt-2 space-y-2 text-white/90 text-xs normal-case">
-            <li><a href="/1tri" className="block hover:text-emerald-200">{'1º Trimestre'}</a></li>
-            <li><a href="/2tri" className="block hover:text-emerald-200">{'2º Trimestre'}</a></li>
-            <li><a href="/3tri" className="block hover:text-emerald-200">{'3º Trimestre'}</a></li>
+            <li onClick={() => {navigate("/1tri"); setMenuOpen(false);}} className="block hover:text-emerald-200 cursor-pointer">{'1º Trimestre'}</li>
+            <li onClick={() => {navigate("/2tri"); setMenuOpen(false);}} className="block hover:text-emerald-200 cursor-pointer">{'2º Trimestre'}</li>
+            <li onClick={() => {navigate("/3tri"); setMenuOpen(false);}} className="block hover:text-emerald-200 cursor-pointer">{'3º Trimestre'}</li>
           </ul>
         )}
       </li>
