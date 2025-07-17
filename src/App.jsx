@@ -16,6 +16,7 @@ import NotFound from "./pages/NotFound";
 import PrimeiroTrimestrePage from "./pages/PrimeiroTrimestrePage";
 import SegundoTrimestrePage from "./pages/SegundoTrimestrePage";
 import TerceiroTrimestrePage from "./pages/TerceiroTrimestrePage";
+import WaveDivider from "./components/WaveDivider";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
 
+      <WaveDivider />
       <Footer />
     </Router>
   );

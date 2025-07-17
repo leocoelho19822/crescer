@@ -23,7 +23,7 @@ export default function HomePage() {
 
       <ParaVida />
       <RecursosPensadosParaSi cor="idade" />
-      <WaveDivider />
+      
     </main>
   );
 }
