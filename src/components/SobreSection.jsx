@@ -3,8 +3,12 @@ import React from "react";
 import image1 from "../assets/familia.svg";
 import image2 from "../assets/cerebro.svg";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 export default function SobreSection() {
+
+  const navigate = useNavigate();
+
   return (
     <section className="bg-gray-200 sm:-mt-12 -mt-6 sm:px-4 lg:px-4 px-4">
     
@@ -69,7 +73,7 @@ export default function SobreSection() {
               da parentalidade.
             </li>
           </ul>
-          <Button className="w-50">Saiba mais</Button>
+          <Button onClick={() => {navigate("/sobre")}} className="w-50">Saiba mais</Button>
         </div>
       </div>
     </section>

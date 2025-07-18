@@ -152,9 +152,9 @@ const isHomePage = location.pathname === "/";
         </button>
         {isProjectOpen && (
           <ul className="ml-4 mt-2 space-y-2 text-white/90 text-xs normal-case">
-            <li><a href="#sobre" className="block hover:text-emerald-200">{'Sobre'}</a></li>
-            <li><a href="#equipa" className="block hover:text-emerald-200">{'Equipa'}</a></li>
-            <li><a href="#contatos" className="block hover:text-emerald-200">{'Contatos'}</a></li>
+            <li onClick={() => {navigate("/sobre"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Sobre'}</li>
+            <li onClick={() => {navigate("/equipa"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Equipa'}</li>
+            <li onClick={() => {navigate("/contato"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Contatos'}</li>
           </ul>
         )}
       </li>
@@ -180,16 +180,16 @@ const isHomePage = location.pathname === "/";
         </button>
         {isVidaOpen && (
           <ul className="ml-4 mt-2 space-y-2 text-white/90 text-xs normal-case">
-            <li><a href="#mesames" className="block hover:text-emerald-200">{'Mês a Mês'}</a></li>
-            <li><a href="#ano1" className="block hover:text-emerald-200">{'1º Ano'}</a></li>
-            <li><a href="#ano2" className="block hover:text-emerald-200">{'2º Ano'}</a></li>
-            <li><a href="#ano3" className="block hover:text-emerald-200">{'3º Ano'}</a></li>
+            <li onClick={() => {navigate("/mesames"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Mês a Mês'}</li>
+            <li onClick={() => {navigate("/1ano"); setMenuOpen(false);}}  className="block hover:text-emerald-200">{'1º Ano'}</li>
+            <li onClick={() => {navigate("/2ano"); setMenuOpen(false);}}  className="block hover:text-emerald-200">{'2º Ano'}</li>
+            <li onClick={() => {navigate("/3ano"); setMenuOpen(false);}}  className="block hover:text-emerald-200">{'3º Ano'}</li>
           </ul>
         )}
       </li>
 
       {/* Comunidade e Favoritos sem submenu */}
-      <li><a href="#comunidade" className="block hover:text-emerald-200 ">Comunidade</a></li>
+      <li onClick={() => {navigate("/eventos"); setMenuOpen(false);}} className="block hover:text-emerald-200 ">Comunidade</li>
       
     </ul>
   </div>
@@ -207,9 +207,9 @@ const isHomePage = location.pathname === "/";
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Projeto<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Sobre</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Equipa</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Contatos</li>
+                <a href="/sobre"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Sobre</li></a>
+                <a href="/equipa"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Equipa</li></a>
+                <a href="/contato"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Contatos</li></a>
               </ul>
             </li>
             <li className="relative group">
@@ -223,13 +223,13 @@ const isHomePage = location.pathname === "/";
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Vida<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li>
+                <a href="/mesames"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li></a>
+                <a href="/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li></a>
+                <a href="/2ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li></a>
+                <a href="/3ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
               </ul>
             </li>
-            <li><a href="#comunidade" className="hover:text-emerald-200 uppercase">Comunidade</a></li>
+            <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Comunidade</li></a>
           </ul>
           <div className="flex gap-4 items-center">
             <div className="relative">

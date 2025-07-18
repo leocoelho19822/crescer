@@ -16,9 +16,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Projeto</h4>
             <ul className="space-y-2 ">
-              <li><a href="#">:: Sobre</a></li>
-              <li><a href="#">:: Equipa</a></li>
-              <li><a href="#">:: Contatos</a></li>
+              <li><a href="/sobre">:: Sobre</a></li>
+              <li><a href="/equipa">:: Equipa</a></li>
+              <li><a href="/contato">:: Contatos</a></li>
             </ul>
           </div>
 
@@ -29,10 +29,10 @@ export default function Footer() {
               <li><a href="/1tri">:: 1º Trimestre</a></li>
               <li><a href="/2tri">:: 2º Trimestre</a></li>
               <li><a href="/3tri">:: 3º Trimestre</a></li>
-              <li><a href="#">:: Mês a mês</a></li>
-              <li><a href="#">:: 1 Ano</a></li>
-              <li><a href="#">:: 2 Anos</a></li>
-              <li><a href="#">:: 3 Anos</a></li>
+              <li><a href="/mesames">:: Mês a mês</a></li>
+              <li><a href="/1ano">:: 1 Ano</a></li>
+              <li><a href="/2ano">:: 2 Anos</a></li>
+              <li><a href="/3ano">:: 3 Anos</a></li>
             </ul>
           </div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Comunidade</h4>
             <ul className="space-y-2 ">
-              <li><a href="#">:: Eventos</a></li>
+              <li><a href="/eventos">:: Eventos</a></li>
               
             </ul>
           </div>
@@ -49,8 +49,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 ">
-              <li><a href="#">:: Política de Privacidade</a></li>
-              <li><a href="#">:: Termos e Condições</a></li>
+              <li><a href="/politica">:: Política de Privacidade</a></li>
+              <li><a href="/termos">:: Termos e Condições</a></li>
               
             </ul>
           </div>

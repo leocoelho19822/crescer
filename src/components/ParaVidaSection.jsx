@@ -4,22 +4,27 @@ import ano1 from "../assets/1ano.svg";
 import ano2 from "../assets/2anos.svg";
 import ano3 from "../assets/3anos.svg";
 
+import { Link } from "react-router-dom";
+
 const cards = [
   {
     titulo: "1º Ano",
     imagem: ano1,
+    link: "/1ano",
     texto:
       "Incentivo à marcha independente, exploração segura do ambiente e atividades que fortalecem a linguagem, autonomia e socialização.",
   },
   {
     titulo: "2º Ano",
     imagem: ano2,
+    link: "/2ano",
     texto:
       "Apoio ao desenvolvimento da linguagem, autonomia nas rotinas e brincadeiras que estimulam criatividade e interação social.",
   },
   {
     titulo: "3º Ano",
     imagem: ano3,
+    link: "/3ano",
     texto:
       "Estímulo ao pensamento simbólico, desenvolvimento emocional e social, com atividades que promovem linguagem, curiosidade e autonomia.",
   },
@@ -38,25 +43,25 @@ O Cres(Ser) acompanha-te ano a ano, oferecendo apoio prático, atividades e cont
         </p>
       </div>
 
+
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className="bg-[#D4E4FF] rounded-xl shadow-xl p-6 flex flex-col items-center text-center"
-          >
-            <img
-              src={card.imagem}
-              alt={card.titulo}
-              className="w-full h-auto rounded-md mb-4"
-            />
-            <div className="bg-[#467AD5] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
-              {card.titulo}
+              {cards.map((card, index) => (
+                <Link to={card.link} key={index}>
+                  <div className="bg-[#D4E4FF] rounded-xl shadow-xl p-6 flex flex-col items-center text-center">
+                    <img src={card.imagem} alt={card.titulo} className="w-full h-auto rounded-md mb-4" />
+                    <div className="bg-[#467AD5] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
+                      {card.titulo}
+                    </div>
+                    <p className="text-gray-700 leading-relaxed text-sm">{card.texto}</p>
+                  </div>
+                </Link>
+      
+              ))}
+              
             </div>
-            <p className="text-gray-700 leading-relaxed text-sm">{card.texto}</p>
-          </div>
-        ))}
-        
-      </div>
+
+
+      
       
     </section>
   );
