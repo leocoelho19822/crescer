@@ -34,7 +34,7 @@ function ForgotPasswordModal({ setIsOpen }) {
 
   return (
     <div 
-      className="fixed inset-0 bg-gray-900/90 flex justify-center items-center"
+      className="fixed inset-0 bg-gray-900/90 flex justify-center items-center z-[101]"
       onClick={() => setIsOpen(false)}
     >
       <div 
