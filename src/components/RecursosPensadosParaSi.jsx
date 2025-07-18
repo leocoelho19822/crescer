@@ -33,7 +33,7 @@ export default function RecursosPensadosParaSi({ cor = 'mes' }) {
             className="p-4 rounded-lg shadow-md h-full flex flex-col"
             style={{ backgroundColor: corBg }}
           >
-            <a href='http://localhost:5173/artigos/b53f28e9-628a-11f0-942d-e6643f0e8c94'>
+            <a href='/artigos/b53f28e9-628a-11f0-942d-e6643f0e8c94'>
             <img
               src={amamentacao}
               alt="Amamentação"
