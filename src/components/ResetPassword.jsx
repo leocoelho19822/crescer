@@ -64,7 +64,7 @@ function ResetPassword() {
 
           <Button
             type="submit"
-            className="w-full bg-blue-600 text-white p-2 rounded-3xl hover:bg-blue-700 mt-4"
+            className="w-full"
             disabled={isLoading}
           >
             {isLoading ? "Alterando..." : "Redefinir Senha"}
