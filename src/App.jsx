@@ -26,6 +26,17 @@ import PrimeiroAno from "./pages/PrimeiroAnoPage";
 import SegundoAno from "./pages/SegundoAnoPage";
 import TerceiroAno from "./pages/TerceiroAnoPage";
 import PrimeiroMes from "./pages/PrimeiroMesPage";
+import SegundoMes from "./pages/SegundoMesPage";
+import TerceiroMes from "./pages/TerceiroMesPage";
+import QuartoMes from "./pages/QuartoMesPage";
+import QuintoMes from "./pages/QuintoMesPage";
+import SextoMes from "./pages/SextoMesPage";
+import SetimoMes from "./pages/SetimoMesPage";
+import OitavoMes from "./pages/OitavoMesPage";
+import NonoMes from "./pages/NonoMesPage";
+import DecimoMes from "./pages/DecimoMesPage";
+import DecimoPrimeiroMes from "./pages/DecimoPrimeiroMesPage";
+import RecemNascido from "./pages/RecemNascidoPage";
 
 function App() {
   return (
@@ -47,10 +58,21 @@ function App() {
         <Route path="/contato" element={<ContactPage />} />
         <Route path="/politica" element={<PrivacyPage />} />
         <Route path="/termos" element={<TermsPage />} />
+        <Route path="/recemnascido" element={<RecemNascido />} />
         <Route path="/1ano" element={<PrimeiroAno />} />
         <Route path="/2ano" element={<SegundoAno />} />
         <Route path="/3ano" element={<TerceiroAno />} />
         <Route path="/1mes" element={<PrimeiroMes />} />
+        <Route path="/2mes" element={<SegundoMes />} />
+        <Route path="/3mes" element={<TerceiroMes />} />
+        <Route path="/4mes" element={<QuartoMes />} />
+        <Route path="/5mes" element={<QuintoMes />} />
+        <Route path="/6mes" element={<SextoMes />} />
+        <Route path="/7mes" element={<SetimoMes />} />
+        <Route path="/8mes" element={<OitavoMes />} />
+        <Route path="/9mes" element={<NonoMes />} />
+        <Route path="/10mes" element={<DecimoMes />} />
+        <Route path="/11mes" element={<DecimoPrimeiroMes />} />
 
 
         <Route path="*" element={<NotFound />} />
