@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useResetPasswordMutation } from "../store/api";
+import Button from "./Button";
 
 function ResetPassword() {
   const { token } = useParams(); // Captura o token da URL
@@ -48,7 +49,7 @@ function ResetPassword() {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-2 mb-4 border rounded"
+            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Digite sua nova senha"
           />
 
@@ -57,17 +58,17 @@ function ResetPassword() {
             type="password"
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
-            className="w-full p-2 mb-4 border rounded"
+            className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Confirme sua nova senha"
           />
 
-          <button
+          <Button
             type="submit"
             className="w-full bg-blue-600 text-white p-2 rounded-3xl hover:bg-blue-700 mt-4"
             disabled={isLoading}
           >
             {isLoading ? "Alterando..." : "Redefinir Senha"}
-          </button>
+          </Button>
         </form>
       </div>
     </div>
