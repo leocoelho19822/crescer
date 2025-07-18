@@ -2,7 +2,7 @@
 import React from "react";
 
 //import Button from "../components/Button";
-
+import aboutproject from "../assets/crescer18072025.png";
 export default function AboutPage() {
   
 
@@ -15,7 +15,11 @@ export default function AboutPage() {
             O projeto Cres(SER) é uma iniciativa de apoio à parentalidade e promoção da saúde mental na gravidez e na primeira infância, desenvolvida no concelho de Águeda com o envolvimento de diversos parceiros comunitários.
           </p>
     
-          
+          <img
+            src={aboutproject}
+            alt="Sobre o Projeto"
+            className="rounded-lg mb-8 mx-auto w-full max-w-3xl h-120 object-cover"
+          />
     
     
           <div className="prose prose-zinc max-w-none">

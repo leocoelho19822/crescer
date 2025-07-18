@@ -119,7 +119,7 @@ export default function MesamesSection() {
   return (
     <section className="relative px-4 sm:px-6 lg:px-8">
       <div className="max-w-screen-xl mx-auto px-4 py-20 relative">
-        <h2 className="text-3xl font-bold mb-8 text-gray-600">
+        <h2 className="text-3xl font-bold mb-8 text-zinc-800">
           Cres(Ser) contigo... no colo
         </h2>
         <p className="text-gray-700 leading-relaxed mb-8">

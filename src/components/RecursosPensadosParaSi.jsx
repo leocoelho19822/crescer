@@ -22,7 +22,7 @@ export default function RecursosPensadosParaSi({ cor = 'mes' }) {
 
   return (
     <div className="max-w-screen-xl mx-auto px-4 text-left">
-      <h2 className="text-3xl font-bold  text-gray-600 mb-8">
+      <h2 className="text-3xl font-bold  text-zinc-800 mb-8">
         Recursos pensados para si
       </h2>
 

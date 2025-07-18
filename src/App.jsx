@@ -37,6 +37,8 @@ import NonoMes from "./pages/NonoMesPage";
 import DecimoMes from "./pages/DecimoMesPage";
 import DecimoPrimeiroMes from "./pages/DecimoPrimeiroMesPage";
 import RecemNascido from "./pages/RecemNascidoPage";
+import Eventos from "./pages/EventosPage";
+import MesaMes from "./pages/MesAMesPage";
 
 function App() {
   return (
@@ -58,6 +60,7 @@ function App() {
         <Route path="/contato" element={<ContactPage />} />
         <Route path="/politica" element={<PrivacyPage />} />
         <Route path="/termos" element={<TermsPage />} />
+        <Route path="/mesames" element={<MesaMes />} />
         <Route path="/recemnascido" element={<RecemNascido />} />
         <Route path="/1ano" element={<PrimeiroAno />} />
         <Route path="/2ano" element={<SegundoAno />} />
@@ -73,6 +76,7 @@ function App() {
         <Route path="/9mes" element={<NonoMes />} />
         <Route path="/10mes" element={<DecimoMes />} />
         <Route path="/11mes" element={<DecimoPrimeiroMes />} />
+        <Route path="/eventos" element={<Eventos />} />
 
 
         <Route path="*" element={<NotFound />} />
