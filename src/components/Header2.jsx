@@ -21,6 +21,7 @@ import ProfileModal from "./ProfileModal";
 import { useDispatch, useSelector } from "react-redux";
 import { useGetProfileQuery, useLogoutMutation } from "../store/api";
 import { setAuthState, clearAuthState } from "../store/authSlice";
+import { IoIosArrowBack } from "react-icons/io";
 
 const slides = [
   {
@@ -275,8 +276,23 @@ const isHomePage = location.pathname === "/";
             {subtitle}
           </p>
         </div>
+        
       </header>
       )}
+
+      {!isHomePage && (
+  <div className="max-w-5xl mx-auto px-4 mt-24 text-zinc-800">
+    <button
+      onClick={() => navigate(-1)}
+      className="flex items-center text-emerald-700 hover:text-emerald-900 transition-colors duration-200 cursor-pointer"
+    >
+      <IoIosArrowBack size={25} />
+      Voltar
+    </button>
+  </div>
+)}
+
+      
 
       {profileModalOpen && <ProfileModal setIsOpen={setProfileModalOpen} handleLogout={handleLogout} />}
       {modalType === "login" && <LoginModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
