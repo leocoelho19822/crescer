@@ -1,7 +1,7 @@
 // src/components/MonthNav.jsx
-import React from "react";
 import { Link } from "react-router-dom";
 import { FiArrowLeft, FiArrowRight } from "react-icons/fi";
+import PropTypes from "prop-types";
 
 /**
  * Navegação entre meses.
@@ -56,3 +56,20 @@ export default function MonthNav({ prev, next, accent = "#78B19A" }) {
     </div>
   );
 }
+
+const navShape = PropTypes.shape({
+  label: PropTypes.string.isRequired,
+  to: PropTypes.string.isRequired,
+});
+
+MonthNav.propTypes = {
+  prev: navShape,
+  next: navShape,
+  accent: PropTypes.string,
+};
+
+MonthNav.defaultProps = {
+  prev: null,
+  next: null,
+  accent: "#78B19A",
+};
