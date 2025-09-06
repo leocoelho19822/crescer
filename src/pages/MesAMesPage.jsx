@@ -9,7 +9,7 @@ export default function MesaMes() {
 
   return (
     
-          <div className="py-20">
+          <div className="max-w-6xl mx-auto px-8 text-zinc-800">
            
           <MesamesSection />
     <div className="max-w-5xl mx-auto px-4  text-zinc-800">

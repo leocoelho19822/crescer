@@ -28,77 +28,77 @@ const meses = [
   },
   {
     titulo: '1º Mês',
-    link: '1mes',
+    link: '/1mes',
     descricao:
       'Foco no fortalecimento do vínculo, estímulo sensorial suave e acompanhamento das primeiras interações e rotinas do bebé.',
     imagem: foto1,
   },
   {
     titulo: '2º Mês',
-    link: '2mes',
+    link: '/2mes',
     descricao:
       'Incentiva os primeiros sorrisos e resposta social, com atividades que estimulam a visão, audição e vínculo emocional.',
     imagem: foto2,
   },
   {
     titulo: '3º Mês',
-    link: '3mes',
+    link: '/3mes',
     descricao:
       'Estimula o controlo da cabeça, exploração visual e auditiva, reforçando interações afetivas e brincadeiras simples.',
     imagem: foto3,
   },
   {
     titulo: '4º Mês',
-    link: '4mes',
+    link: '/4mes',
     descricao:
       'Apoio ao desenvolvimento motor, exploração das mãos e objetos, com estímulos para fortalecer a comunicação e o vínculo afetivo.',
     imagem: foto4,
   },
   {
     titulo: '5º Mês',
-    link: '5mes',
+    link: '/5mes',
     descricao:
       'Incentiva o rolar, descoberta do próprio corpo e interação ativa, promovendo curiosidade e desenvolvimento motor.',
     imagem: foto5,
   },
   {
     titulo: '6º Mês',
-    link: '6mes',
+    link: '/6mes',
     descricao:
       'Introdução alimentar, reforço do sentar com apoio e estímulos para promover coordenação e interação social.',
     imagem: foto6,
   },
   {
     titulo: '7º Mês',
-    link: '7mes',
+    link: '/7mes',
     descricao:
       'Incentivo ao gatinhar, exploração de objetos com as mãos e estímulos para fortalecer a comunicação e a curiosidade.',
     imagem: foto7,
   },
   {
     titulo: '8º Mês',
-    link: '8mes',
+    link: '/8mes',
     descricao:
       'Apoio ao aperfeiçoamento do gatinhar, coordenação motora fina e brincadeiras que estimulam a compreensão e interação social.',
     imagem:  foto8,
   },
   {
     titulo: '9º Mês',
-    link: '9mes',
+    link: '/9mes',
     descricao:
       'Incentiva a posição de pé com apoio, exploração ativa do ambiente e jogos que reforçam a comunicação e a curiosidade.',
     imagem: foto9,
   },
   {
     titulo: '10º Mês',
-    link: '10mes',
+    link: '/10mes',
     descricao:
       'Apoio aos primeiros passos com apoio, exploração de objetos, e atividades que estimulam a linguagem e a autonomia.',
     imagem: foto10,
   },
   {
     titulo: '11º Mês',
-    link: '11mes',
+    link: '/11mes',
     descricao:
       'Estímulo aos passos independentes, brincadeiras de imitação e atividades que reforçam a compreensão e a comunicação.',
     imagem: foto11,

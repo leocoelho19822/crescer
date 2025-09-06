@@ -43,7 +43,7 @@ const slides = [
 
 export default function HeaderHero() {
   const [scrolled, setScrolled] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false); // usado como "mobileOpen"
   const [currentSlide, setCurrentSlide] = useState(0);
   const [fade, setFade] = useState(true);
   const dispatch = useDispatch();
@@ -54,16 +54,13 @@ export default function HeaderHero() {
   const [modalType, setModalType] = useState(null);
   const [profileModalOpen, setProfileModalOpen] = useState(false);
   const [isProjectOpen, setIsProjectOpen] = useState(false);
-const [isBarrigaOpen, setIsBarrigaOpen] = useState(false);
-const [isVidaOpen, setIsVidaOpen] = useState(false);
+  const [isBarrigaOpen, setIsBarrigaOpen] = useState(false);
+  const [isVidaOpen, setIsVidaOpen] = useState(false);
 
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
-const location = useLocation();
-//const isArtigoPage = location.pathname.startsWith("/artigos/");
-const isHomePage = location.pathname === "/";
-
-
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -90,6 +87,15 @@ const isHomePage = location.pathname === "/";
     }
   }, [userData, dispatch]);
 
+  // Fecha com ESC
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === "Escape") setMenuOpen(false);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, []);
+
   const handleLogout = async () => {
     try {
       await logoutUser().unwrap();
@@ -107,18 +113,26 @@ const isHomePage = location.pathname === "/";
     <>
       {/* NAVBAR FIXA */}
       <nav
-  className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-    isHomePage ? (scrolled ? "bg-[#78B19A]/90" : "bg-transparent") : "bg-[#78B19A]"
-  } text-white`}
->
-
+        className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
+          isHomePage ? (scrolled ? "bg-[#78B19A]/90" : "bg-transparent") : "bg-[#78B19A]"
+        } text-white`}
+      >
+        {/* Barra superior (mobile) */}
         <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center lg:hidden">
-          <button onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <HiOutlineX size={24} /> : <HiOutlineMenu size={24} />}</button>
+          <button
+            onClick={() => setMenuOpen(true)}
+            aria-label="Abrir menu"
+            className="p-2"
+          >
+            <HiOutlineMenu size={24} />
+          </button>
+
           <a href="/">
-  <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
-</a>
-        <div className="flex gap-4 items-center">
-          {isAuthenticated ? (
+            <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
+          </a>
+
+          <div className="flex gap-4 items-center">
+            {isAuthenticated ? (
               <>
                 {user?.favorites?.length > 0 ? (
                   <AiFillHeart className="text-white text-2xl cursor-pointer" />
@@ -132,77 +146,203 @@ const isHomePage = location.pathname === "/";
             ) : (
               <Button onClick={() => setModalType("login")}>Entrar</Button>
             )}
-        </div>
+          </div>
         </div>
 
-        {/* Menu mobile */}
-        {menuOpen && (
-          
-  <div className="lg:hidden px-6 pb-4 space-y-4 bg-[#78B19A]/90">
+        {/* -------- MENU MOBILE: overlay + painel deslizante -------- */}
+        {/* Overlay escuro */}
+        <div
+          className={`lg:hidden fixed inset-0 z-40 bg-black/60 transition-opacity duration-300 ${
+            menuOpen ? "opacity-100" : "pointer-events-none opacity-0"
+          }`}
+          onClick={() => setMenuOpen(false)}
+          aria-hidden={!menuOpen}
+        />
+
+        {/* Painel deslizante (de cima) */}
+        <aside
+          className={`lg:hidden fixed inset-y-0 left-0 right-0 z-50 bg-[#78B19A] text-white transition-transform duration-300 ${
+            menuOpen ? "translate-y-0" : "-translate-y-full"
+          } rounded-b-2xl shadow-2xl`}
+          role="dialog"
+          aria-modal="true"
+        >
+          <div className="mx-auto max-w-7xl px-6 pt-6 pb-10">
+            {/* Topo do painel */}
+            <div className="flex items-center justify-between">
+              <a href="/" className="flex items-center gap-3">
+                <img src={logoverde} alt="Cres(Ser)" className="h-10 w-auto" />
+              </a>
+              <button
+                aria-label="Fechar menu"
+                className="inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                onClick={() => setMenuOpen(false)}
+              >
+                <HiOutlineX size={24} />
+              </button>
+            </div>
+
+            {/* Pesquisa */}
+<div className="mt-6">
+  <div className="relative">
     <input
       type="text"
       placeholder="Pesquisar..."
-      className="w-full border border-gray-300 rounded-full px-4 py-2 pr-10 text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
+      className="w-full rounded-full px-4 py-3 pr-10 
+                 bg-white text-gray-800 placeholder-gray-400 
+                 shadow-sm border border-white/30 
+                 focus:outline-none focus:ring-2 focus:ring-white/70"
     />
-
-    <ul className="space-y-4 text-sm font-medium text-white">
-      {/* Projeto */}
-      <li>
-        <button onClick={() => setIsProjectOpen(!isProjectOpen)} className="w-full text-left hover:text-emerald-200 flex">
-          Projeto<MdKeyboardArrowDown size={20} />
-        </button>
-        {isProjectOpen && (
-          <ul className="ml-4 mt-2 space-y-2 text-white/90 text-xs normal-case">
-            <li onClick={() => {navigate("/sobre"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Sobre'}</li>
-            <li onClick={() => {navigate("/equipa"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Equipa'}</li>
-            <li onClick={() => {navigate("/contato"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Contatos'}</li>
-          </ul>
-        )}
-      </li>
-
-      {/* Na Barriga */}
-      <li>
-        <button onClick={() => setIsBarrigaOpen(!isBarrigaOpen)} className="w-full text-left hover:text-emerald-200 flex">
-          Na Barriga<MdKeyboardArrowDown size={20} />
-        </button>
-        {isBarrigaOpen && (
-          <ul className="ml-4 mt-2 space-y-2 text-white/90 text-xs normal-case">
-            <li onClick={() => {navigate("/1tri"); setMenuOpen(false);}} className="block hover:text-emerald-200 cursor-pointer">{'1º Trimestre'}</li>
-            <li onClick={() => {navigate("/2tri"); setMenuOpen(false);}} className="block hover:text-emerald-200 cursor-pointer">{'2º Trimestre'}</li>
-            <li onClick={() => {navigate("/3tri"); setMenuOpen(false);}} className="block hover:text-emerald-200 cursor-pointer">{'3º Trimestre'}</li>
-          </ul>
-        )}
-      </li>
-
-      {/* Na Vida */}
-      <li>
-        <button onClick={() => setIsVidaOpen(!isVidaOpen)} className="w-full text-left hover:text-emerald-200 flex">
-          Na Vida<MdKeyboardArrowDown size={20} />
-        </button>
-        {isVidaOpen && (
-          <ul className="ml-4 mt-2 space-y-2 text-white/90 text-xs normal-case">
-            <li onClick={() => {navigate("/mesames"); setMenuOpen(false);}} className="block hover:text-emerald-200">{'Mês a Mês'}</li>
-            <li onClick={() => {navigate("/1ano"); setMenuOpen(false);}}  className="block hover:text-emerald-200">{'1º Ano'}</li>
-            <li onClick={() => {navigate("/2ano"); setMenuOpen(false);}}  className="block hover:text-emerald-200">{'2º Ano'}</li>
-            <li onClick={() => {navigate("/3ano"); setMenuOpen(false);}}  className="block hover:text-emerald-200">{'3º Ano'}</li>
-          </ul>
-        )}
-      </li>
-
-      {/* Comunidade e Favoritos sem submenu */}
-      <li onClick={() => {navigate("/eventos"); setMenuOpen(false);}} className="block hover:text-emerald-200 ">Comunidade</li>
-      
-    </ul>
+    <BsSearch 
+      size={18} 
+      className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" 
+    />
   </div>
-)}
+</div>
 
-        
 
+            {/* Lista de links / submenus */}
+            <nav className="mt-8 text-base">
+              <ul className="space-y-4 font-medium text-white">
+                {/* Projeto */}
+                <li>
+                  <button
+                    onClick={() => setIsProjectOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isProjectOpen}
+                  >
+                    <span>Projeto</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isProjectOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isProjectOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/sobre"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Sobre
+                      </li>
+                      <li
+                        onClick={() => { navigate("/equipa"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Equipa
+                      </li>
+                      <li
+                        onClick={() => { navigate("/contato"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Contatos
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Na Barriga */}
+                <li>
+                  <button
+                    onClick={() => setIsBarrigaOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isBarrigaOpen}
+                  >
+                    <span>Na Barriga</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isBarrigaOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isBarrigaOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/1tri"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        1º Trimestre
+                      </li>
+                      <li
+                        onClick={() => { navigate("/2tri"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        2º Trimestre
+                      </li>
+                      <li
+                        onClick={() => { navigate("/3tri"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        3º Trimestre
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Na Vida */}
+                <li>
+                  <button
+                    onClick={() => setIsVidaOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isVidaOpen}
+                  >
+                    <span>Na Vida</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isVidaOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isVidaOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/mesames"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Mês a Mês
+                      </li>
+                      <li
+                        onClick={() => { navigate("/1ano"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        1º Ano
+                      </li>
+                      <li
+                        onClick={() => { navigate("/2ano"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        2º Ano
+                      </li>
+                      <li
+                        onClick={() => { navigate("/3ano"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        3º Ano
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Comunidade (sem submenu) */}
+                <li
+                  onClick={() => { navigate("/eventos"); setMenuOpen(false); }}
+                  className="block hover:text-emerald-200 cursor-pointer"
+                >
+                  Comunidade
+                </li>
+
+                <hr className="my-6 border-white/10" />
+
+                
+              </ul>
+            </nav>
+          </div>
+        </aside>
+        {/* -------- FIM MENU MOBILE -------- */}
+
+        {/* Barra (desktop) */}
         <div className="max-w-7xl mx-auto px-6 py-4 hidden lg:flex justify-between items-center">
           <a href="/">
             <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
           </a>
-
 
           <ul className="flex space-x-6 items-center text-sm font-medium ">
             <li className="relative group">
@@ -232,6 +372,7 @@ const isHomePage = location.pathname === "/";
             </li>
             <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Comunidade</li></a>
           </ul>
+
           <div className="flex gap-4 items-center">
             <div className="relative">
               <input
@@ -261,38 +402,35 @@ const isHomePage = location.pathname === "/";
 
       {/* HEADER */}
       {isHomePage && (
-      <header id="page-top" className="relative h-screen w-full bg-black text-white overflow-hidden">
-        <img
-          src={image}
-          alt="Slide"
-          className={`absolute inset-0 w-full h-full object-cover z-0 transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-0"}`}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30 z-10" />
-        <div className="relative z-20 h-full flex flex-col justify-center items-center px-4 text-center transition-opacity duration-700 ease-in-out">
-          <h1 className={`text-4xl md:text-6xl font-bold text-[#8FD3B8] uppercase max-w-4xl leading-tight transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
-            {title}
-          </h1>
-          <p className={`mt-4 text-lg md:text-xl max-w-xl text-white/90 transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
-            {subtitle}
-          </p>
-        </div>
-        
-      </header>
+        <header id="page-top" className="relative h-screen w-full bg-black text-white overflow-hidden">
+          <img
+            src={image}
+            alt="Slide"
+            className={`absolute inset-0 w-full h-full object-cover z-0 transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-0"}`}
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30 z-10" />
+          <div className="relative z-20 h-full flex flex-col justify-center items-center px-4 text-center transition-opacity duration-700 ease-in-out">
+            <h1 className={`text-4xl md:text-6xl font-bold text-[#8FD3B8] uppercase max-w-4xl leading-tight transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
+              {title}
+            </h1>
+            <p className={`mt-4 text-lg md:text-xl max-w-xl text-white/90 transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
+              {subtitle}
+            </p>
+          </div>
+        </header>
       )}
 
       {!isHomePage && (
-  <div className="max-w-5xl mx-auto px-4 mt-24 text-zinc-800">
-    <button
-      onClick={() => navigate(-1)}
-      className="flex items-center text-emerald-700 hover:text-emerald-900 transition-colors duration-200 cursor-pointer"
-    >
-      <IoIosArrowBack size={25} />
-      Voltar
-    </button>
-  </div>
-)}
-
-      
+        <div className="max-w-5xl mx-auto px-4 mt-24 text-zinc-800">
+          <button
+            onClick={() => navigate(-1)}
+            className="flex items-center text-emerald-700 hover:text-emerald-900 transition-colors duration-200 cursor-pointer"
+          >
+            <IoIosArrowBack size={25} />
+            Voltar
+          </button>
+        </div>
+      )}
 
       {profileModalOpen && <ProfileModal setIsOpen={setProfileModalOpen} handleLogout={handleLogout} />}
       {modalType === "login" && <LoginModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
