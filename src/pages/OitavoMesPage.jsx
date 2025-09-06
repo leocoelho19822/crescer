@@ -235,8 +235,8 @@ export default function OitavoMesPage() {
 
       {/* Navegação entre meses */}
       <MonthNav
-        prev={{ label: "7.º mês", to: "/7mes" }}
-        next={{ label: "9.º mês", to: "/9mes" }}
+        prev={{ label: "Tenho 7 meses", to: "/7mes" }}
+        next={{ label: "Tenho 9 meses", to: "/9mes" }}
       />
     </div>
   );

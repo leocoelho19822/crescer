@@ -24,11 +24,7 @@ import { setAuthState, clearAuthState } from "../store/authSlice";
 import { IoIosArrowBack } from "react-icons/io";
 
 const slides = [
-  {
-    image: parentalidadeBg1,
-    title: "Apoio para crescer em família",
-    subtitle: "Explore recursos para cada etapa da parentalidade"
-  },
+  
   {
     image: parentalidadeBg2,
     title: "Juntos desde o início",
@@ -38,6 +34,11 @@ const slides = [
     image: brincar,
     title: "Famílias que brincam juntas, crescem juntas",
     subtitle: "Porque o brincar é mais do que diversão — é conexão, aprendizagem e amor"
+  },
+  {
+    image: parentalidadeBg1,
+    title: "Apoio para crescer em família",
+    subtitle: "Explore recursos para cada etapa da parentalidade"
   }
 ];
 
@@ -118,7 +119,7 @@ export default function HeaderHero() {
         } text-white`}
       >
         {/* Barra superior (mobile) */}
-        <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center lg:hidden">
+        <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center lg:hidden">
           <button
             onClick={() => setMenuOpen(true)}
             aria-label="Abrir menu"
@@ -175,7 +176,7 @@ export default function HeaderHero() {
               </a>
               <button
                 aria-label="Fechar menu"
-                className="inline-flex items-center justify-center rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-emerald-400"
+                className="inline-flex items-center justify-center rounded-lg p-2 focus:outline-none focus:ring-2 focus:ring-emerald-400"
                 onClick={() => setMenuOpen(false)}
               >
                 <HiOutlineX size={24} />
@@ -188,7 +189,7 @@ export default function HeaderHero() {
     <input
       type="text"
       placeholder="Pesquisar..."
-      className="w-full rounded-full px-4 py-3 pr-10 
+      className="w-full rounded-lg px-4 py-3 pr-10 
                  bg-white text-gray-800 placeholder-gray-400 
                  shadow-sm border border-white/30 
                  focus:outline-none focus:ring-2 focus:ring-white/70"
@@ -339,7 +340,7 @@ export default function HeaderHero() {
         {/* -------- FIM MENU MOBILE -------- */}
 
         {/* Barra (desktop) */}
-        <div className="max-w-7xl mx-auto px-6 py-4 hidden lg:flex justify-between items-center">
+        <div className="max-w-7xl mx-auto px-4 py-4 hidden lg:flex justify-between items-center">
           <a href="/">
             <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
           </a>
@@ -378,7 +379,7 @@ export default function HeaderHero() {
               <input
                 type="text"
                 placeholder="Pesquisar..."
-                className="border border-gray-300 rounded-full px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
               <BsSearch className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-100" />
             </div>
@@ -421,7 +422,7 @@ export default function HeaderHero() {
       )}
 
       {!isHomePage && (
-        <div className="max-w-5xl mx-auto px-4 mt-24 text-zinc-800">
+        <div className="max-w-5xl mx-auto px-2 mt-24 text-zinc-800">
           <button
             onClick={() => navigate(-1)}
             className="flex items-center text-emerald-700 hover:text-emerald-900 transition-colors duration-200 cursor-pointer"

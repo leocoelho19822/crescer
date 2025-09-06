@@ -32,8 +32,8 @@ const cards = [
 
 export default function TrimestresSection() {
   return (
-    <section className=" py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-screen-xl mx-auto px-4 text-left mb-12">
+    <section className=" py-16 ">
+      <div className="max-w-7xl mx-auto px-4  text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-zinc-800 mb-4">
           Cres(Ser) contigo... na barriga
         </h2>

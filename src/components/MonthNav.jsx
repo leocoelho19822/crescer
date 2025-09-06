@@ -12,7 +12,7 @@ import PropTypes from "prop-types";
  *  - next: { label: string, to: string } | null
  *  - accent: string (opcional) cor do botão "Próximo"
  */
-export default function MonthNav({ prev, next, accent = "#78B19A" }) {
+export default function MonthNav({ prev, next, accent = "#8FD3B8" }) {
   return (
     <div className="mt-12 flex items-center justify-between gap-3">
       {prev ? (
@@ -38,7 +38,7 @@ export default function MonthNav({ prev, next, accent = "#78B19A" }) {
       {next ? (
         <Link
           to={next.to}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-white"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-lg "
           style={{ backgroundColor: accent }}
           aria-label={`Avançar para ${next.label}`}
         >
@@ -73,5 +73,5 @@ MonthNav.propTypes = {
 MonthNav.defaultProps = {
   prev: null,
   next: null,
-  accent: "#78B19A",
+  accent: "#8FD3B8",
 };

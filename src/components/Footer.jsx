@@ -3,6 +3,7 @@ import React from 'react';
 import { FaFacebook, FaInstagram, FaGithub, FaYoutube } from 'react-icons/fa';
 import logo from '../assets/Logo_Branco.svg';
 import logoua from '../assets/ua-logo-branco.svg';
+import Button from './Button';
 //import aguedalogo from '../assets/agueda-logo-branco.svg';
 //import simbolo from '../assets/simbolo_cres_ser.svg';
 
@@ -74,15 +75,11 @@ export default function Footer() {
               <input
                 type="email"
                 placeholder="Digite o seu email"
-                className="border border-gray-300 rounded-full px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
                 required
               />
-              <button
-                type="submit"
-                className="bg-white text-[#4A6D5F] font-semibold px-5 py-2 rounded-3xl text-sm hover:bg-gray-100 transition"
-              >
-                Subscrever
-              </button>
+              <Button>Subscrever</Button>
+              
             </form>
           </div>
         </div>

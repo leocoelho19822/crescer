@@ -10,9 +10,9 @@ export default function SobreSection() {
   const navigate = useNavigate();
 
   return (
-    <section className="bg-gray-200 sm:-mt-12 -mt-6 sm:px-4 lg:px-4 px-4">
+    <section className="bg-gray-200 sm:-mt-12 -mt-6">
     
-      <div className="max-w-screen-xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-8 items-center">
+      <div className="max-w-7xl px-4 mx-auto py-20 grid md:grid-cols-2 gap-8 items-center">
         <div>
           <h2 className="text-xl md:text-3xl font-bold mb-4 text-gray-800">
             Conhece o Projeto Cres(Ser)
@@ -42,7 +42,7 @@ export default function SobreSection() {
       </div>
 
       {/* Segunda Linha */}
-      <div className="max-w-screen-xl mx-auto px-4 pb-20 grid md:grid-cols-2 gap-8 items-center">
+      <div className="max-w-7xl px-4 mx-auto pb-20 grid md:grid-cols-2 gap-8 items-center">
         <div>
           <img src={image2} alt="Cérebro montado com quebra-cabeça" className="w-full rounded-lg shadow-md" />
         </div>
@@ -73,7 +73,9 @@ export default function SobreSection() {
               da parentalidade.
             </li>
           </ul>
+          <div className="text-center">
           <Button onClick={() => {navigate("/sobre")}} className="w-50">Saiba mais</Button>
+          </div>
         </div>
       </div>
     </section>

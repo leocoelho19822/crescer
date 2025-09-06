@@ -21,7 +21,7 @@ export default function RecursosPensadosParaSi({ cor = 'mes' }) {
   const corTexto = textoMap[cor] || 'text-gray-800';
 
   return (
-    <div className="max-w-screen-xl mx-auto px-4 text-left">
+    <div className="max-w-7xl mx-auto px-4 py-8 relative">
       <h2 className="text-3xl font-bold  text-zinc-800 mb-8">
         Recursos pensados para si
       </h2>

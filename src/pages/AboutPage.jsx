@@ -2,12 +2,12 @@
 import React from "react";
 
 //import Button from "../components/Button";
-import aboutproject from "../assets/crescer18072025.png";
+import aboutproject from "../assets/creche_.png";
 export default function AboutPage() {
   
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-30 text-zinc-800">
+    <div className="max-w-5xl mx-auto px-4 py-8 text-zinc-800">
           <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Sobre o Projeto Cres(Ser)
           </h1>
@@ -18,7 +18,7 @@ export default function AboutPage() {
           <img
             src={aboutproject}
             alt="Sobre o Projeto"
-            className="rounded-lg mb-8 mx-auto w-full max-w-3xl h-120 object-cover"
+            className="rounded-lg mb-8 mx-auto w-full max-w-3xl  object-cover"
           />
     
     
