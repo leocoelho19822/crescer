@@ -422,7 +422,7 @@ export default function HeaderHero() {
       )}
 
       {!isHomePage && (
-        <div className="max-w-5xl mx-auto px-2 mt-24 text-zinc-800">
+        <div className="max-w-7xl mx-auto px-2 mt-24 text-zinc-800">
           <button
             onClick={() => navigate(-1)}
             className="flex items-center text-emerald-700 hover:text-emerald-900 transition-colors duration-200 cursor-pointer"
