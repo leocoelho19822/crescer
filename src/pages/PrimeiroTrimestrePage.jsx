@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
 import primeiroTriImg from "../assets/1tri.svg";
-import { FiChevronDown } from "react-icons/fi";
+import { FiChevronDown, FiAlertTriangle, FiPhoneCall } from "react-icons/fi";
 
 const trimestreData = [
  {
@@ -261,6 +261,29 @@ export default function PrimeiroTrimestrePage() {
           </div>
         ))}
       </div>
+      {/* Alerta e contacto SNS24 - 1º Trimestre da Gravidez */}
+<div className="mt-10 p-6 bg-red-50 border border-red-200 rounded-xl shadow-sm">
+  <div className="flex items-center mb-4">
+    <FiAlertTriangle className="text-red-600 mr-2" size={24} />
+    <h2 className="text-lg font-bold text-red-700">Quando procurar ajuda</h2>
+  </div>
+  <p className="text-sm text-red-800 mb-4">
+    No primeiro trimestre, procure avaliação médica se tiver{" "}
+    <strong>sangramento vaginal</strong>, <strong>dores abdominais intensas</strong>, 
+    <strong>perda súbita de líquidos</strong>, <strong>febre persistente </strong> 
+    ou <strong>vómitos que impedem a alimentação e hidratação</strong>.  
+    Estes sinais podem indicar situações que necessitam de observação urgente.
+  </p>
+  <a
+    href="tel:808242424"
+    className="inline-flex items-center gap-2 px-5 py-3 bg-red-600 text-white rounded-lg shadow hover:bg-red-700 transition"
+    aria-label="Ligar SNS 24"
+  >
+    <FiPhoneCall size={18} />
+    Contactar SNS 24 (808 24 24 24)
+  </a>
+</div>
+
     </div>
   );
 }

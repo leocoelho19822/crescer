@@ -1,7 +1,9 @@
 // eslint-disable-next-line
 import React from "react";
 import PropTypes from "prop-types";
-import { FiCalendar, FiMapPin, FiClock, FiChevronRight, FiTag } from "react-icons/fi";
+import { FiCalendar, FiMapPin, FiClock, FiChevronRight, FiTag, FiPhoneCall } from "react-icons/fi";
+
+import Button from "../components/Button";
 
 //import Button from "../components/Button";
 
@@ -109,16 +111,22 @@ export default function Eventos() {
         ))}
       </div>
 
-      <div className="prose prose-zinc max-w-none">
+      <div className="prose prose-zinc max-w-none text-center">
         <p className="italic text-3xl my-10 text-center">
           “Se mudarmos o início da história, mudamos toda a história.”
         </p>
 
         <p className="text-center">
-          Fale com a sua médica ou enfermeira de família, ou contacte diretamente
-          a equipa do Centro de Saúde de Águeda: <br />
-          <strong>📞 234 610 210</strong> (3ªs e 5ªs, das 10h às 13h)
-        </p>
+                  Fale com a sua médica ou enfermeira de família, ou contacte
+                  diretamente a equipa do Centro de Saúde de Águeda.
+                </p>
+        
+                <a href="tel:234610210" aria-label="Ligar para Centro de Saúde de Águeda">
+                  <Button className="mt-6 inline-flex items-center gap-2 ">
+                    <FiPhoneCall size={20} />
+                    <span>234 610 210 (3ªs e 5ªs, 10h às 13h)</span>
+                  </Button>
+                </a>
       </div>
     </div>
   );

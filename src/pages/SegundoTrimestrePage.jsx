@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
 import segundoTriImg from "../assets/2tri.svg";
-import { FiChevronDown } from "react-icons/fi";
+import { FiChevronDown, FiAlertTriangle, FiPhoneCall } from "react-icons/fi";
 
 const trimestreData = [
   {
@@ -350,7 +350,7 @@ export default function SegundoTrimestrePage() {
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 text-zinc-800">
+    <div className="max-w-7xl mx-auto px-4 py-8 text-zinc-800">
       <h1 className="text-3xl md:text-4xl font-bold mb-4">
         Segundo Trimestre de Gravidez: O equilíbrio entre mudanças e bem-estar
       </h1>
@@ -397,6 +397,27 @@ export default function SegundoTrimestrePage() {
           </div>
         ))}
       </div>
+      {/* Alerta e contacto SNS24 - 2º Trimestre */}
+<div className="mt-10 p-6 bg-red-50 border border-red-200 rounded-xl shadow-sm">
+  <div className="flex items-center mb-4">
+    <FiAlertTriangle className="text-red-600 mr-2" size={24} />
+    <h2 className="text-lg font-bold text-red-700">Quando procurar ajuda</h2>
+  </div>
+  <p className="text-sm text-red-800 mb-4">
+    No segundo trimestre, procure ajuda se notar{" "}
+    <strong>sangramento vaginal</strong>, <strong>dores abdominais fortes</strong>, 
+    <strong>perda de líquido amniótico</strong>, <strong>febre </strong>, 
+    ou <strong>diminuição dos movimentos fetais</strong> após já os sentir.
+  </p>
+  <a
+    href="tel:808242424"
+    className="inline-flex items-center gap-2 px-5 py-3 bg-red-600 text-white rounded-lg shadow hover:bg-red-700 transition"
+  >
+    <FiPhoneCall size={18} />
+    Contactar SNS 24 (808 24 24 24)
+  </a>
+</div>
+
     </div>
   );
 }
