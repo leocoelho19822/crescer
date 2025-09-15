@@ -181,10 +181,10 @@ export default function PrimeiroMesPage() {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 text-zinc-800">
+    <div className="max-w-7xl mx-auto px-4 py-8 text-zinc-800 ">
       {/* Título descontraído + subtítulo + resumo */}
       <h1 className="text-3xl md:text-4xl font-bold leading-tight">Tenho 1 mês! Descobrir o mundo ao teu lado</h1>
-      <p className="text-sm uppercase tracking-wide text-zinc-500 mb-2">30–60 dias</p>
+      
       <p className="italic text-zinc-600 mb-6">
         Rotinas mais previsíveis, sorriso social, maior controlo cervical e preparação para as vacinas por volta dos 2 meses.
       </p>

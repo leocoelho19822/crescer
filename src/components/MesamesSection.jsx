@@ -16,7 +16,9 @@ import foto11 from '../assets/11meses.svg';
 
 import { FaArrowRightLong, FaArrowLeftLong  } from "react-icons/fa6";
 
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
+
 
 const meses = [
   {
@@ -107,6 +109,7 @@ const meses = [
 
 export default function MesamesSection() {
   const scrollRef = useRef(null);
+  const location = useLocation();
 
   const scrollLeft = () => {
     scrollRef.current.scrollBy({ left: -300, behavior: 'smooth' });
@@ -119,13 +122,17 @@ export default function MesamesSection() {
   return (
     <section className="relative ">
       <div className="max-w-7xl mx-auto px-4 py-8 relative">
-        <h2 className="text-3xl font-bold mb-8 text-zinc-800">
-          Cres(Ser) contigo... no colo
-        </h2>
-        <p className="text-gray-700 leading-relaxed mb-8">
-          Os primeiros meses de vida são repletos de descobertas, emoções e aprendizagens tanto para os pais como para o bebé. <br />
-          O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e informações baseadas em evidências para fortalecer o vínculo, estimular o desenvolvimento e tornar este início ainda mais especial.
-        </p>
+        {location.pathname === "/" && (
+          <>
+            <h2 className="text-3xl font-bold mb-8 text-zinc-800">
+              Cres(Ser) contigo... no colo
+            </h2>
+            <p className="text-gray-700 leading-relaxed mb-8">
+              Os primeiros meses de vida são repletos de descobertas, emoções e aprendizagens tanto para os pais como para o bebé. <br />
+              O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e informações baseadas em evidências para fortalecer o vínculo, estimular o desenvolvimento e tornar este início ainda mais especial.
+            </p>
+          </>
+        )}
 
         {/* Botões de scroll */}
         <button

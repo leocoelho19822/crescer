@@ -139,7 +139,7 @@ export default function QuartoMesPage() {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 text-zinc-800">
+    <div className="max-w-7xl mx-auto px-4 py-8 text-zinc-800">
       {/* Título descontraído + subtítulo + resumo */}
       <h1 className="text-3xl md:text-4xl font-bold leading-tight">
         Tenho 4 meses! Descobertas com mais energia

@@ -39,6 +39,8 @@ import DecimoPrimeiroMes from "./pages/DecimoPrimeiroMesPage";
 import RecemNascido from "./pages/RecemNascidoPage";
 import Eventos from "./pages/EventosPage";
 import MesaMes from "./pages/MesAMesPage";
+import ReadingWithBabyPage from "./pages/articles/ReadingWithBaby";
+import ExploringObjectsPage from "./pages/articles/ExploringObjectsPage";
 
 function App() {
   return (
@@ -77,6 +79,8 @@ function App() {
         <Route path="/10mes" element={<DecimoMes />} />
         <Route path="/11mes" element={<DecimoPrimeiroMes />} />
         <Route path="/eventos" element={<Eventos />} />
+        <Route path="/artigos/reading-with-baby" element={<ReadingWithBabyPage />} />
+        <Route path="/artigos/exploring-objects" element={<ExploringObjectsPage />} />
 
 
         <Route path="*" element={<NotFound />} />

@@ -184,11 +184,11 @@ export default function RecemNascidoPage() {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 text-zinc-800">
+    <div className="max-w-7xl mx-auto px-4 py-8 text-zinc-800">
       {/* Título descontraído + subtítulo */}
-      <h1 className="text-3xl md:text-4xl font-bold leading-tight">Recém-nascido. Olá, mundo! </h1>
-      <p className="text-sm uppercase tracking-wide text-zinc-500 mb-2">0–30 dias</p>
-      <p className="italic text-zinc-600 mb-6">
+      <h1 className="text-3xl md:text-4xl font-bold leading-tight ">Recém-nascido. Olá, mundo! </h1>
+      <p className="text-sm uppercase tracking-wide text-zinc-500 mb-2 ">0–30 dias</p>
+      <p className="italic text-zinc-600 mb-6 ">
         Primeiras semanas: cuidados essenciais, sinais de alerta, alimentação, sono seguro e construção do vínculo.
       </p>
 

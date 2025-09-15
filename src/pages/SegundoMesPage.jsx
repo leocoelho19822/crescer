@@ -182,7 +182,7 @@ export default function SegundoMesPage() {
     setOpenIndex(openIndex === index ? null : index);
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-8 text-zinc-800">
+    <div className="max-w-7xl mx-auto px-4 py-8 text-zinc-800">
       {/* Título descontraído + subtítulo + resumo */}
       <h1 className="text-3xl md:text-4xl font-bold leading-tight">Tenho 2 meses! Mais atento e sorridente</h1>
       <p className="text-sm uppercase tracking-wide text-zinc-500 mb-2">60–90 dias</p>
