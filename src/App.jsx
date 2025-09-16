@@ -60,6 +60,7 @@ function App() {
         <Route path="/3tri" element={<TerceiroTrimestrePage />} />
         
         <Route path="/page/:id" element={<MontaPage />} />
+        <Route path="/artigo/:id" element={<MontaArtigo />} />
 
         <Route path="/sobre" element={<AboutPage />} />
         <Route path="/equipa" element={<TeamPage />} />

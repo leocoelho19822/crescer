@@ -14,15 +14,21 @@ export default function HomePage() {
       <WaveDivider color="gray" />
 
       <TrimestresSection />
-      <RecursosPensadosParaSi cor="gravidez" />
+      <div className="max-w-7xl mx-auto px-4 py-8 relative">
+      <RecursosPensadosParaSi tipo="gravidez" />
+      </div>
       <WaveDivider />
 
       <MesamesSection />
-      <RecursosPensadosParaSi cor="mes" />
+      <div className="max-w-7xl mx-auto px-4 py-8 relative">
+      <RecursosPensadosParaSi tipo="no colo" />
+      </div>
       <WaveDivider />
 
       <ParaVida />
-      <RecursosPensadosParaSi cor="idade" />
+      <div className="max-w-7xl mx-auto px-4 py-8 relative">
+      <RecursosPensadosParaSi tipo="para a vida" />
+      </div>
       
     </main>
   );

@@ -1,23 +1,465 @@
 {
   "artigos": [
     {
-      "id": "1tri",
-      "titulo": "Primeiro Trimestre de Gravidez",
-      "resumo": "Mudanças no corpo da mãe e desenvolvimento inicial do bebé.",
+      "id": "gravidez-alimentacao-saudavel",
+      "titulo": "Alimentação saudável na gravidez",
+      "resumo": "Uma dieta equilibrada favorece a saúde da mãe e o desenvolvimento do bebé.",
+      "categoria": "Nutrição",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/car4.webp",
       "autor": "Equipa Cres(Ser)",
-      "data": "2025-09-16",
-      "imagem": "/imagens/1tri.svg",
+      "revisado": "Dra. Teresa Barros, Obstetra",
+      "data": "2025-01-05",
+      "icones": { "partilha": true, "favorito": true },
       "conteudo": [
-        {
-          "tipo": "acordeao",
-          "titulo": "1. Bem-estar emocional",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "O início da gravidez traz muitas emoções..."
-            }
-          ]
-        }
+        { "tipo": "subtitulo", "texto": "Porque a nutrição importa" },
+        { "tipo": "paragrafo", "texto": "Durante a gravidez, as necessidades nutricionais aumentam e impactam diretamente o crescimento do bebé." },
+        { "tipo": "lista", "titulo": "Recomendações", "itens": ["Frutas e vegetais variados", "Proteínas magras", "Evitar álcool e cafeína", "Hidratação adequada"] },
+        { "tipo": "testeConhecimento", "pergunta": "Na gravidez deve-se comer por dois?", "resposta": "Mito. Deve-se comer para dois, mas não em dobro." }
+      ]
+    },
+    {
+      "id": "gravidez-exercicios-leves",
+      "titulo": "Exercícios leves na gestação",
+      "resumo": "Atividades físicas adaptadas podem trazer bem-estar e saúde.",
+      "categoria": "Bem-estar",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/car5.webp",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Prof. Marta Lopes, Fisioterapeuta",
+      "data": "2025-01-10",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Exercícios leves ajudam na circulação, respiração e disposição da gestante." },
+        { "tipo": "lista", "titulo": "Atividades seguras", "itens": ["Caminhadas leves", "Alongamentos", "Yoga pré-natal", "Natação"] },
+        { "tipo": "alerta", "titulo": "Atenção", "texto": "Evite exercícios de impacto ou sem orientação médica." }
+      ]
+    },
+    {
+      "id": "gravidez-prenatal",
+      "titulo": "A importância do pré-natal",
+      "resumo": "Consultas regulares garantem acompanhamento adequado do bebé e da mãe.",
+      "categoria": "Saúde Materna",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/car6.webp",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Dr. João Silva, Médico de Família",
+      "data": "2025-01-15",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "O pré-natal permite identificar riscos e acompanhar a evolução da gravidez." },
+        { "tipo": "lista", "titulo": "Benefícios", "itens": ["Deteção precoce de complicações", "Orientações sobre parto", "Promoção da saúde do bebé"] }
+      ]
+    },
+    {
+      "id": "gravidez-saude-mental",
+      "titulo": "Saúde mental na gravidez",
+      "resumo": "Cuidar da mente é tão importante quanto cuidar do corpo.",
+      "categoria": "Saúde Mental",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-mental.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Psicóloga Ana Martins",
+      "data": "2025-01-20",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "subtitulo", "texto": "Alterações emocionais comuns" },
+        { "tipo": "paragrafo", "texto": "Mudanças hormonais e expectativas podem gerar ansiedade e stress." },
+        { "tipo": "alerta", "titulo": "Quando procurar ajuda", "texto": "Se sentir tristeza intensa e persistente, fale com um profissional de saúde." }
+      ]
+    },
+    {
+      "id": "gravidez-vacinacao",
+      "titulo": "Vacinação durante a gravidez",
+      "resumo": "Algumas vacinas protegem a mãe e o bebé ainda no útero.",
+      "categoria": "Prevenção",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-vacina.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Paula Rodrigues",
+      "data": "2025-01-25",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Vacinas como a da gripe e tétano são recomendadas na gravidez." },
+        { "tipo": "testeConhecimento", "pergunta": "Todas as vacinas são permitidas na gravidez?", "resposta": "Não. Algumas são contraindicadas. Consulte sempre o médico." }
+      ]
+    },
+    {
+      "id": "gravidez-sono",
+      "titulo": "Sono e descanso da grávida",
+      "resumo": "Dormir bem ajuda na saúde da mãe e no crescimento do bebé.",
+      "categoria": "Bem-estar",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-sono.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Dr. Rui Ferreira",
+      "data": "2025-01-28",
+      "icones": { "partilha": false, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Posições confortáveis e rotinas de sono são essenciais." }
+      ]
+    },
+    {
+      "id": "gravidez-hidratacao",
+      "titulo": "Importância da hidratação",
+      "resumo": "Beber água é essencial durante a gravidez.",
+      "categoria": "Nutrição",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-agua.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Nutricionista Carla Mendes",
+      "data": "2025-02-01",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Manter-se hidratada previne inchaços e ajuda no transporte de nutrientes." }
+      ]
+    },
+    {
+      "id": "gravidez-partos",
+      "titulo": "Tipos de parto",
+      "resumo": "Conhecer as opções ajuda a reduzir ansiedades.",
+      "categoria": "Parto",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/parto.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Dra. Beatriz Nogueira",
+      "data": "2025-02-05",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "lista", "titulo": "Opções comuns", "itens": ["Parto normal", "Cesária", "Parto humanizado"] }
+      ]
+    },
+    {
+      "id": "gravidez-mitos",
+      "titulo": "Mitos e verdades na gravidez",
+      "resumo": "Separar informações corretas de crenças populares.",
+      "categoria": "Informação",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-mitos.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Dr. Carlos Lopes",
+      "data": "2025-02-10",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "testeConhecimento", "pergunta": "Grávida pode pintar o cabelo?", "resposta": "Em geral, sim, mas recomenda-se evitar no 1º trimestre." }
+      ]
+    },
+    {
+      "id": "gravidez-planeamento",
+      "titulo": "Planeamento da gravidez",
+      "resumo": "Estar preparada ajuda a viver a gestação de forma tranquila.",
+      "categoria": "Preparação",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-planeamento.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Luísa Ferreira",
+      "data": "2025-02-15",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Planeamento pré-concecional ajuda a identificar riscos e otimizar saúde." }
+      ]
+    },
+
+    {
+      "id": "no-colo-massagem-bebe",
+      "titulo": "Massagem para o bebé",
+      "resumo": "Tocar e massagear fortalece o vínculo e ajuda o bebé a relaxar.",
+      "categoria": "Vínculo Afetivo",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/massagem-bebe.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Joana Freitas",
+      "data": "2025-02-12",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "subtitulo", "texto": "Benefícios da massagem" },
+        { "tipo": "lista", "titulo": "Dicas", "itens": ["Local calmo", "Óleo neutro", "Contacto visual", "Respeitar sinais"] }
+      ]
+    },
+    {
+      "id": "no-colo-leitura",
+      "titulo": "Leitura com o bebé",
+      "resumo": "Momentos de leitura estimulam linguagem e vínculo.",
+      "categoria": "Estimulação Precoce",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/leituraart.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Pedagoga Sofia Almeida",
+      "data": "2025-02-18",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Ler desde cedo estimula imaginação e linguagem." }
+      ]
+    },
+    {
+      "id": "no-colo-cancoes",
+      "titulo": "Cantar canções de embalar",
+      "resumo": "A música é poderosa para acalmar e estimular o bebé.",
+      "categoria": "Estímulo Auditivo",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/cancoes.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Musicoterapeuta Carla Sousa",
+      "data": "2025-02-20",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Cantar canções promove vínculo e segurança emocional." }
+      ]
+    },
+    {
+      "id": "no-colo-brincar",
+      "titulo": "Brincar no tapete",
+      "resumo": "O brincar livre é essencial para o desenvolvimento motor.",
+      "categoria": "Psicomotricidade",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/brincar-tapete.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Prof. Daniel Costa",
+      "data": "2025-02-22",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Dar espaço para explorar ajuda no desenvolvimento físico." }
+      ]
+    },
+    {
+      "id": "no-colo-alimentacao-introducao",
+      "titulo": "Introdução alimentar segura",
+      "resumo": "Primeiros passos na diversificação alimentar do bebé.",
+      "categoria": "Nutrição Infantil",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/introducao-alimentar.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Nutricionista Inês Duarte",
+      "data": "2025-02-25",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "A introdução alimentar deve começar aos 6 meses, com supervisão." }
+      ]
+    },
+    {
+      "id": "no-colo-dentes",
+      "titulo": "Cuidar dos primeiros dentes",
+      "resumo": "A higiene oral deve começar cedo.",
+      "categoria": "Saúde Oral",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/dentes.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Dentista Filipa Amaral",
+      "data": "2025-02-28",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Use gaze ou dedeira para limpar as gengivas e dentes." }
+      ]
+    },
+    {
+      "id": "no-colo-vinculo",
+      "titulo": "Contacto pele a pele",
+      "resumo": "Fortalece o vínculo e regula o bebé.",
+      "categoria": "Vínculo Afetivo",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/pele-pele.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Miguel Reis",
+      "data": "2025-03-02",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Contacto pele a pele ajuda na regulação da temperatura e vínculo." }
+      ]
+    },
+    {
+      "id": "no-colo-sinais",
+      "titulo": "Sinais de fome e saciedade",
+      "resumo": "Reconhecer os sinais evita choro excessivo.",
+      "categoria": "Alimentação",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/sinais-fome.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Patrícia Melo",
+      "data": "2025-03-05",
+      "icones": { "partilha": false, "favorito": true },
+      "conteudo": [
+        { "tipo": "lista", "titulo": "Sinais comuns", "itens": ["Levar mãos à boca", "Virar a cabeça à procura", "Chupar dedos"] }
+      ]
+    },
+    {
+      "id": "no-colo-banho",
+      "titulo": "O primeiro banho",
+      "resumo": "Momento de higiene e afeto.",
+      "categoria": "Cuidados Básicos",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/banho.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Raquel Santos",
+      "data": "2025-03-08",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Água morna, ambiente calmo e segurança são essenciais." }
+      ]
+    },
+    {
+      "id": "no-colo-vacinas-bebe",
+      "titulo": "Vacinação no primeiro ano",
+      "resumo": "Protege contra doenças graves.",
+      "categoria": "Imunização",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/vacinas.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Dr. Paulo Gomes",
+      "data": "2025-03-10",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Cumprir o plano vacinal protege a longo prazo." }
+      ]
+    },
+
+    {
+      "id": "para-a-vida-educacao-precoce",
+      "titulo": "A importância da educação precoce",
+      "resumo": "A aprendizagem nos primeiros anos tem impacto direto na vida adulta.",
+      "categoria": "Educação",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/educacao-precoce.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Prof. Luís Almeida",
+      "data": "2025-03-20",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Investir na educação precoce gera benefícios duradouros." }
+      ]
+    },
+    {
+      "id": "para-a-vida-direitos-crianca",
+      "titulo": "Direitos da Criança",
+      "resumo": "Conheça os principais direitos garantidos às crianças.",
+      "categoria": "Cidadania",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/direitos.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Jurista Rita Monteiro",
+      "data": "2025-03-22",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "lista", "titulo": "Direitos fundamentais", "itens": ["Educação", "Saúde", "Proteção", "Identidade"] }
+      ]
+    },
+    {
+      "id": "para-a-vida-nutricao-escolar",
+      "titulo": "Alimentação saudável na escola",
+      "resumo": "Lanches equilibrados ajudam no desempenho escolar.",
+      "categoria": "Nutrição",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/nutricao-escola.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Nutricionista Cláudia Faria",
+      "data": "2025-03-25",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Evitar processados e priorizar frutas e cereais integrais." }
+      ]
+    },
+    {
+      "id": "para-a-vida-seguranca-casa",
+      "titulo": "Segurança em casa",
+      "resumo": "Pequenas mudanças evitam acidentes infantis.",
+      "categoria": "Prevenção",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/seguranca.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Tiago Cruz",
+      "data": "2025-03-28",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "lista", "titulo": "Cuidados", "itens": ["Protetores de tomada", "Grades nas janelas", "Produtos de limpeza fora do alcance"] }
+      ]
+    },
+    {
+      "id": "para-a-vida-escola-inclusiva",
+      "titulo": "Escola inclusiva",
+      "resumo": "Educação de qualidade deve acolher todas as crianças.",
+      "categoria": "Educação",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/escola.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Profª Maria Lopes",
+      "data": "2025-03-30",
+      "icones": { "partilha": false, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "A inclusão escolar promove diversidade e respeito." }
+      ]
+    },
+    {
+      "id": "para-a-vida-desporto",
+      "titulo": "Benefícios do desporto infantil",
+      "resumo": "Atividade física fortalece corpo e mente.",
+      "categoria": "Saúde",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/desporto.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Prof. André Lima",
+      "data": "2025-04-02",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Praticar desporto ajuda na disciplina e integração social." }
+      ]
+    },
+    {
+      "id": "para-a-vida-tecnologia",
+      "titulo": "Uso saudável da tecnologia",
+      "resumo": "Equilíbrio é essencial para o desenvolvimento.",
+      "categoria": "Digital",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/tecnologia.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Psicólogo Hugo Vieira",
+      "data": "2025-04-05",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "lista", "titulo": "Boas práticas", "itens": ["Limitar tempo de ecrã", "Atividades offline", "Supervisão dos pais"] }
+      ]
+    },
+    {
+      "id": "para-a-vida-higiene",
+      "titulo": "Higiene e saúde",
+      "resumo": "Ensinar hábitos básicos previne doenças.",
+      "categoria": "Saúde Pública",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/higiene.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Enf. Vânia Ramos",
+      "data": "2025-04-08",
+      "icones": { "partilha": true, "favorito": false },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Lavar as mãos regularmente evita infeções." }
+      ]
+    },
+    {
+      "id": "para-a-vida-arte",
+      "titulo": "A arte na infância",
+      "resumo": "Criatividade é parte essencial do desenvolvimento.",
+      "categoria": "Cultura",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/arte.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Arte-educadora Joana Pires",
+      "data": "2025-04-10",
+      "icones": { "partilha": false, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Desenhar, pintar e cantar estimulam a expressão." }
+      ]
+    },
+    {
+      "id": "para-a-vida-natureza",
+      "titulo": "Crescer em contacto com a natureza",
+      "resumo": "Ambientes verdes favorecem a saúde física e emocional.",
+      "categoria": "Ambiente",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/natureza.png",
+      "autor": "Equipa Cres(Ser)",
+      "revisado": "Bióloga Clara Rocha",
+      "data": "2025-04-12",
+      "icones": { "partilha": true, "favorito": true },
+      "conteudo": [
+        { "tipo": "paragrafo", "texto": "Brincar ao ar livre promove equilíbrio e reduz stress." }
       ]
     }
   ]

@@ -5,7 +5,7 @@ import leituraBebe from "../../assets/leituraart.png";
 
 export default function ReadingWithBabyPage() {
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 text-zinc-800">
+    <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
       {/* Título + subtítulo + resumo */}
       <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-2">
         Ler com o seu bebé
@@ -18,13 +18,13 @@ export default function ReadingWithBabyPage() {
       <p className="text-xs uppercase tracking-wide text-zinc-500 mb-2">
         Atividade de estimulação precoce
       </p>
-      <hr className="py-6"/>
+      
 
       {/* Imagem */}
       <img
         src={leituraBebe}
         alt="Mãe a ler com o bebé"
-        className="rounded-lg mb-8 mx-auto w-full max-w-3xl max-h-[480px] object-cover"
+        className="rounded-lg mb-8 mx-auto w-full max-w-4xl max-h-[480px] object-cover"
       />
 
       {/* Texto integral */}

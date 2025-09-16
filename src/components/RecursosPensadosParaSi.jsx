@@ -1,131 +1,89 @@
 // eslint-disable-next-line
-import React from 'react';
-import amamentacao from '../assets/car4.webp';
-import leituraBebe from '../assets/leituraart.png';
-import explorarObjetos from '../assets/exploring.png'; // nova imagem
-import Button from './Button';
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import Button from "./Button";
 
-const corMap = {
-  mes: '#FFE2A9',
-  gravidez: '#DAE9E3',
-  idade: '#D4E4FF',
-};
+// cor padrão dos recursos
+const corBg = "#F8FAFC"; // cinza-claro
+const corTexto = "text-zinc-800";
 
-const textoMap = {
-  amarelo: 'text-yellow-800',
-  verde: 'text-green-800',
-  azul: 'text-blue-800',
-};
-
+// função utilitária para embaralhar (Fisher-Yates)
+function shuffleArray(array) {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
 // eslint-disable-next-line
-export default function RecursosPensadosParaSi({ cor = 'mes' }) {
-  const corBg = corMap[cor] || '#FFE2A9';
-  const corTexto = textoMap[cor] || 'text-gray-800';
+export default function RecursosPensadosParaSi({ tipo }) {
+  const [artigos, setArtigos] = useState([]);
+  const [visiveis, setVisiveis] = useState(3);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetch("/data/artigos.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const filtrados = data.artigos.filter((a) => a.tipo === tipo);
+        const sorteados = shuffleArray(filtrados); // embaralhar
+        setArtigos(sorteados);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [tipo]);
+
+  if (loading) return <p className="text-center text-gray-600">A carregar artigos...</p>;
+  if (!artigos.length) return <p className="text-center text-gray-600">Nenhum artigo disponível.</p>;
+
+  const visiveisArtigos = artigos.slice(0, visiveis);
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 relative">
-      <h2 className="text-3xl font-bold text-zinc-800 mb-8">
-        Recursos pensados para si
-      </h2>
+      <h2 className="text-3xl font-bold text-zinc-800 mb-8">Recursos pensados para si</h2>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Artigo principal muda consoante a fase */}
-        {cor === 'mes' ? (
+      {/* Grid de artigos em cards verticais */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {visiveisArtigos.map((artigo) => (
           <div
-            className="p-4 rounded-lg shadow-md h-full flex flex-col"
+            key={artigo.id}
+            className="rounded-2xl shadow-md border border-gray-200 bg-white flex flex-col overflow-hidden hover:shadow-lg transition"
             style={{ backgroundColor: corBg }}
           >
-            <a href="/artigos/reading-with-baby">
+            {artigo.imagem && (
               <img
-                src={leituraBebe}
-                alt="Leitura com o bebé"
-                className="w-full h-68 object-cover rounded-md"
+                src={artigo.imagem}
+                alt={artigo.titulo}
+                className="w-full h-40 object-cover"
               />
-            </a>
-            <div className="pt-4">
-              <h3 className={`font-bold text-lg mb-2 ${corTexto}`}>
-                Ler com o seu bebé: como tornar a leitura um momento especial
-              </h3>
-              <p className="text-sm text-gray-700">
-                Partilhar momentos de leitura desde cedo ajuda no desenvolvimento
-                da linguagem, fortalece a comunicação e cria laços únicos entre si e o bebé.
-              </p>
-            </div>
-          </div>
-        ) : cor === 'idade' ? (
-          <div
-            className="p-4 rounded-lg shadow-md h-full flex flex-col"
-            style={{ backgroundColor: corBg }}
-          >
-            <a href="/artigos/exploring-objects">
-              <img
-                src={explorarObjetos}
-                alt="Explorar objetos"
-                className="w-full h-68 object-cover rounded-md"
-              />
-            </a>
-            <div className="pt-4">
-              <h3 className={`font-bold text-lg mb-2 ${corTexto}`}>
-                Explorar objetos: fortalecer a coordenação e os movimentos
-              </h3>
-              <p className="text-sm text-gray-700">
-                Uma atividade simples e divertida para estimular a coordenação motora
-                fina e a força das mãos do bebé, usando brinquedos e objetos do dia a dia.
-              </p>
-            </div>
-          </div>
-        ) : (
-          <div
-            className="p-4 rounded-lg shadow-md h-full flex flex-col"
-            style={{ backgroundColor: corBg }}
-          >
-            <a href="/artigos/b53f28e9-628a-11f0-942d-e6643f0e8c94">
-              <img
-                src={amamentacao}
-                alt="Amamentação"
-                className="w-full h-68 object-cover rounded-md"
-              />
-            </a>
-            <div className="pt-4">
-              <h3 className={`font-bold text-lg mb-2 ${corTexto}`}>
-                Amamentação: 8 posições para tornar o início mais fácil
-              </h3>
-              <p className="text-sm text-gray-700">
-                Amamentar pode ser um desafio, especialmente no início. Conheça
-                posições que oferecem mais conforto e ajudam a garantir uma boa
-                pega e uma amamentação tranquila.
-              </p>
-            </div>
-          </div>
-        )}
-
-        {/* 4 artigos menores */}
-        <div className="grid grid-cols-2 gap-6">
-          {[2, 3, 4, 5].map((i) => (
-            <div
-              key={i}
-              className="p-3 rounded-lg shadow-md flex flex-col h-full"
-              style={{ backgroundColor: corBg }}
-            >
-              <img
-                src={amamentacao}
-                alt={`Artigo ${i}`}
-                className="w-full h-28 object-cover rounded-md"
-              />
-              <div className="pt-2">
-                <h4
-                  className={`font-semibold text-sm leading-snug ${corTexto}`}
+            )}
+            <div className="p-5 flex flex-col flex-grow">
+              <h4 className={`text-xl font-bold mb-3 ${corTexto}`}>{artigo.titulo}</h4>
+              <p className="text-sm text-gray-700 flex-grow line-clamp-3">{artigo.resumo}</p>
+              <div className="flex justify-end mt-4">
+                <Link
+                  to={`/artigo/${artigo.id}`}
+                  className="text-sm text-blue-600 hover:underline font-medium"
                 >
-                  Título do artigo {i} em duas linhas como fica?
-                </h4>
+                  Ler mais →
+                </Link>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
 
-      <div className="flex justify-center mt-8">
-        <Button>Ver mais</Button>
+      {/* Botões Ver mais / Ver menos */}
+      <div className="text-center mt-10 flex flex-wrap gap-4 justify-center">
+        {visiveis < artigos.length && (
+          <Button onClick={() => setVisiveis((prev) => prev + 3)}>Ver mais</Button>
+        )}
+        {visiveis > 3 && (
+          <Button onClick={() => setVisiveis(3)} variant="secondary">
+            Ver menos
+          </Button>
+        )}
       </div>
     </div>
   );
