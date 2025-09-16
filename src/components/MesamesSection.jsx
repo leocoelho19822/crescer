@@ -23,7 +23,7 @@ import { Link, useLocation } from "react-router-dom";
 const meses = [
   {
     titulo: 'Recém-Nascido',
-    link: '/page/recemnascido',
+    link: '/page/recem-nascido',
     descricao:
       'Apoio aos primeiros dias de vida, com orientações sobre vínculo afetivo, amamentação e cuidados básicos para promover um início saudável.',
     imagem: foto0,
