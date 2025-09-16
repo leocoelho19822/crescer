@@ -18,10 +18,10 @@ import LoginModal from "./LoginModal";
 import RegisterModal from "./RegisterModal";
 import ForgotPasswordModal from "./ForgotPasswordModal";
 import ProfileModal from "./ProfileModal";
-import { useDispatch, useSelector } from "react-redux";
-import { useGetProfileQuery, useLogoutMutation } from "../store/api";
-import { setAuthState, clearAuthState } from "../store/authSlice";
-import { IoIosArrowBack } from "react-icons/io";
+//import { useDispatch, useSelector } from "react-redux";
+//import { useGetProfileQuery, useLogoutMutation } from "../store/api";
+//import { setAuthState, clearAuthState } from "../store/authSlice";
+//import { IoIosArrowBack } from "react-icons/io";
 
 const slides = [
   
@@ -47,16 +47,21 @@ export default function HeaderHero() {
   const [menuOpen, setMenuOpen] = useState(false); // usado como "mobileOpen"
   const [currentSlide, setCurrentSlide] = useState(0);
   const [fade, setFade] = useState(true);
-  const dispatch = useDispatch();
-  const { data: userData, refetch } = useGetProfileQuery();
-  const [logoutUser] = useLogoutMutation();
-  const user = useSelector((state) => state.auth.user);
-  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+  //const dispatch = useDispatch();
+  //const { data: userData, refetch } = useGetProfileQuery();
+  //const [logoutUser] = useLogoutMutation();
+  //const user = useSelector((state) => state.auth.user);
+  //const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
   const [modalType, setModalType] = useState(null);
   const [profileModalOpen, setProfileModalOpen] = useState(false);
   const [isProjectOpen, setIsProjectOpen] = useState(false);
   const [isBarrigaOpen, setIsBarrigaOpen] = useState(false);
   const [isVidaOpen, setIsVidaOpen] = useState(false);
+
+  
+  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const [user, setUser] = useState(null);
+
 
   const navigate = useNavigate();
 
@@ -82,11 +87,12 @@ export default function HeaderHero() {
     return () => clearInterval(interval);
   }, []);
 
-  useEffect(() => {
+  /*useEffect(() => {
     if (userData) {
       dispatch(setAuthState({ user: userData, isAuthenticated: true }));
     }
   }, [userData, dispatch]);
+  */
 
   // Fecha com ESC
   useEffect(() => {
@@ -97,6 +103,7 @@ export default function HeaderHero() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
+  /*
   const handleLogout = async () => {
     try {
       await logoutUser().unwrap();
@@ -107,6 +114,14 @@ export default function HeaderHero() {
       console.error("Erro ao fazer logout", error);
     }
   };
+  */
+
+  const handleLogout = () => {
+  setIsAuthenticated(false);
+  setUser(null);
+  setProfileModalOpen(false);
+};
+
 
   const { image, title, subtitle } = slides[currentSlide];
 
@@ -221,19 +236,25 @@ export default function HeaderHero() {
                   {isProjectOpen && (
                     <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
                       <li
-                        onClick={() => { navigate("/sobre"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/sobre"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         Sobre
                       </li>
                       <li
-                        onClick={() => { navigate("/equipa"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/equipa"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         Equipa
                       </li>
                       <li
-                        onClick={() => { navigate("/contato"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/parceiros"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Parceiros
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/contato"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         Contatos
@@ -258,19 +279,19 @@ export default function HeaderHero() {
                   {isBarrigaOpen && (
                     <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
                       <li
-                        onClick={() => { navigate("/1tri"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/1tri"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         1º Trimestre
                       </li>
                       <li
-                        onClick={() => { navigate("/2tri"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/2tri"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         2º Trimestre
                       </li>
                       <li
-                        onClick={() => { navigate("/3tri"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/3tri"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         3º Trimestre
@@ -301,19 +322,19 @@ export default function HeaderHero() {
                         Mês a Mês
                       </li>
                       <li
-                        onClick={() => { navigate("/1ano"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/1ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         1º Ano
                       </li>
                       <li
-                        onClick={() => { navigate("/2ano"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/2ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         2º Ano
                       </li>
                       <li
-                        onClick={() => { navigate("/3ano"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/3ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
                         3º Ano
@@ -349,26 +370,27 @@ export default function HeaderHero() {
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Projeto<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <a href="/sobre"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Sobre</li></a>
-                <a href="/equipa"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Equipa</li></a>
-                <a href="/contato"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Contatos</li></a>
+                <a href="/page/sobre"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Sobre</li></a>
+                <a href="/page/equipa"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Equipa</li></a>
+                <a href="/page/parceiros"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Parceiros</li></a>
+                <a href="/page/contato"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Contatos</li></a>
               </ul>
             </li>
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Barriga<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <a href="/1tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1º Trimestre</li></a>
-                <a href="/2tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2º Trimestre</li></a>
-                <a href="/3tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3º Trimestre</li></a>
+                <a href="/page/1tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1º Trimestre</li></a>
+                <a href="/page/2tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2º Trimestre</li></a>
+                <a href="/page/3tri"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3º Trimestre</li></a>
               </ul>
             </li>
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Vida<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <a href="/mesames"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li></a>
-                <a href="/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li></a>
-                <a href="/2ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li></a>
-                <a href="/3ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
+                <a href="/page/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li></a>
+                <a href="/page/2anos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li></a>
+                <a href="/page/3anos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
               </ul>
             </li>
             <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Comunidade</li></a>
@@ -421,17 +443,7 @@ export default function HeaderHero() {
         </header>
       )}
 
-      {!isHomePage && (
-        <div className="max-w-7xl mx-auto px-2 mt-24 text-zinc-800">
-          <button
-            onClick={() => navigate(-1)}
-            className="flex items-center text-emerald-700 hover:text-emerald-900 transition-colors duration-200 cursor-pointer"
-          >
-            <IoIosArrowBack size={25} />
-            Voltar
-          </button>
-        </div>
-      )}
+      
 
       {profileModalOpen && <ProfileModal setIsOpen={setProfileModalOpen} handleLogout={handleLogout} />}
       {modalType === "login" && <LoginModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}

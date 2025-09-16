@@ -1,0 +1,1447 @@
+{
+  "pages": [
+    {
+      "id": "1tri",
+      "titulo": "Primeiro Trimestre de Gravidez: O que esperar e como se cuidar",
+      "resumo": "Descubra o que acontece no primeiro trimestre da gravidez: mudanças no corpo e nas emoções, desenvolvimento do bebê, exames essenciais, cuidados e atividades para fortalecer o bem-estar e o vínculo familiar.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/1tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Bem-estar emocional e social da mãe",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O início da gravidez é marcado por intensas transformações emocionais e sociais. As oscilações de humor, a ansiedade, o choro fácil e até momentos de euforia são comuns, resultando de alterações hormonais e da adaptação à nova realidade da maternidade."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Além da dimensão biológica, existe um impacto social relevante: o relacionamento com o parceiro, a família e os colegas de trabalho pode sofrer alterações. Muitas mães relatam necessidade acrescida de apoio, compreensão e empatia."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A investigação científica mostra que o bem-estar psicológico da grávida está diretamente ligado a melhores resultados na gravidez, incluindo menor risco de depressão pré-natal e pós-parto. Cuidar da saúde mental desde o início é essencial."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Aceite que é normal sentir-se mais sensível ou vulnerável.",
+                "Converse regularmente com o parceiro, familiares e profissionais de saúde.",
+                "Pratique atividades relaxantes como respiração profunda, caminhadas leves ou meditação.",
+                "Mantenha uma rede de apoio social e emocional ativa.",
+                "Se sentir ansiedade ou tristeza persistente, procure ajuda especializada."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. O meu corpo",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Durante o primeiro trimestre, o corpo da mãe passa por mudanças rápidas e intensas, consequência direta do aumento hormonal e da adaptação do organismo à gestação."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Náuseas e vómitos: comuns devido ao aumento da hormona beta-hCG.",
+                "Cansaço e sonolência: corpo trabalha mais para sustentar a gravidez.",
+                "Tensão e aumento mamário: preparação para a amamentação.",
+                "Alterações no paladar e olfato: sabores e cheiros mais intensos.",
+                "Aumento da frequência urinária devido ao crescimento do útero.",
+                "Possíveis tonturas e dores de cabeça devido a oscilações de pressão arterial."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Apesar de serem manifestações comuns, cada mulher vive a gravidez de forma diferente: algumas sentem todos os sintomas, outras quase nenhum. O acompanhamento médico regular ajuda a distinguir o que é esperado do que pode requerer atenção especial."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. O meu bebé",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Durante o primeiro trimestre acontecem alguns dos momentos mais importantes do desenvolvimento do bebé. Ele passa de um pequeno embrião a um feto já com forma reconhecível."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Semanas 3–4: forma-se o tubo neural (cérebro e medula espinhal).",
+                "Semanas 5–6: surgem os primeiros batimentos cardíacos; braços e pernas começam a formar-se.",
+                "Semanas 7–8: olhos, nariz e boca aparecem; cérebro cresce rapidamente.",
+                "Semanas 9–12: já é considerado feto; ossos iniciam formação, dedos visíveis e movimentos sutis."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Ao final do 1.º trimestre, o bebé mede em média 6 a 8 cm e pesa cerca de 14 g. Embora ainda pequeno, todos os principais órgãos e sistemas já estão em desenvolvimento."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Saúde materna e cuidados",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O acompanhamento médico no primeiro trimestre é fundamental para garantir a saúde da mãe e do bebé."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Consulta pré-natal até à 10ª semana de gestação.",
+                "Exames laboratoriais de sangue e urina (anemia, glicemia, infeções).",
+                "Ecografia do 1.º trimestre entre semanas 11 e 13.",
+                "Suplementação com ácido fólico, ferro, iodo e vitamina D conforme recomendação.",
+                "Estilo de vida saudável: evitar álcool, tabaco, drogas e excesso de cafeína."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Seguir estas orientações contribui para uma gravidez mais tranquila e segura. Em caso de sintomas como hemorragias, dores fortes ou febre, deve-se procurar assistência médica imediata."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Atividades e desenvolvimento cultural",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Para além dos cuidados médicos, este período pode ser propício para iniciar rotinas de bem-estar global da mãe e fortalecer o vínculo precoce com o bebé."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Caminhadas leves e alongamentos para circulação e ansiedade.",
+                "Yoga ou pilates adaptados para grávidas.",
+                "Ouvir música suave para relaxamento.",
+                "Leitura e contação de histórias para vínculo afetivo.",
+                "Participação em atividades culturais e grupos de apoio."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O mais importante é que as atividades sejam adaptadas ao ritmo de cada mulher, proporcionando prazer sem sobrecarga física."
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+            "titulo": "Quando procurar ajuda",
+            "texto": "Durante o primeiro trimestre, procure avaliação médica urgente se tiver sangramento vaginal, dores abdominais intensas, perda súbita de líquidos, febre persistente ou vómitos que impeçam a alimentação e hidratação. Estes sinais podem indicar situações que necessitam de observação médica imediata.",
+            "nota": "⚠️ Ligue 112 apenas em situações de risco de vida iminente (ex.: alteração da consciência, dor no peito, hemorragias abundantes, acidentes graves).",
+            "telefone": "808242424",
+            "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        }
+      ]
+    },
+
+
+
+    {
+      "id": "2tri",
+      "titulo": "Segundo Trimestre de Gravidez: O equilíbrio entre mudanças e bem-estar",
+      "resumo": "O segundo trimestre é conhecido como a fase de maior bem-estar na gravidez. Saiba o que acontece com o corpo da mãe, como o bebê se desenvolve e quais os cuidados essenciais para esta etapa.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/2tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Bem-estar emocional e social da mãe",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "No segundo trimestre, o equilíbrio hormonal tende a trazer maior serenidade e disposição. Muitas grávidas relatam sentir-se mais confiantes e otimistas, pois a ansiedade inicial diminui e o corpo começa a adaptar-se melhor às mudanças."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Este período também favorece a conexão emocional com o bebé, já que os primeiros movimentos fetais (as chamadas “mexidas” ou quickening) tornam a gravidez mais palpável e real."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Socialmente, é um momento em que muitas mulheres se sentem mais confortáveis em partilhar a notícia e em integrar grupos de apoio, atividades culturais e encontros de preparação para a maternidade."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Aproveite a energia e o humor mais estável para planear a chegada do bebé (escolha do enxoval, organização do espaço em casa, preparação logística).",
+                "Participe em grupos de apoio ou encontros de grávidas, trocando experiências e fortalecendo a rede social.",
+                "Continue a praticar técnicas de relaxamento, como meditação guiada, respiração ou yoga.",
+                "Fale abertamente sobre expectativas, receios e necessidades com o parceiro e profissionais de saúde.",
+                "Explore atividades prazerosas e culturais que estimulem a criatividade e tragam leveza ao dia a dia."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Investir no bem-estar emocional e social durante este trimestre contribui para uma maternidade mais confiante e fortalece o vínculo com o bebé."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. O meu corpo",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Sintomas e alterações no corpo"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre o 4.º e o 6.º mês de gestação, o corpo da mãe adapta-se ao crescimento acelerado do bebé. Muitas grávidas relatam maior disposição, mas surgem novas transformações físicas."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Barriga cresce de forma visível, tornando a gravidez facilmente reconhecível.",
+                "Diminuição das náuseas e do cansaço, permitindo maior bem-estar diário.",
+                "Aumento do apetite, exigindo escolhas alimentares equilibradas.",
+                "Dores lombares e nas articulações devido ao peso crescente e alterações na postura.",
+                "Possível aparecimento de estrias e alterações na pele (cloasma gravídico).",
+                "Sensação de falta de ar em esforços leves devido à elevação do diafragma."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Possíveis doenças e sinais de alerta"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Apesar de ser um período geralmente estável, é fundamental vigiar a saúde."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Anemia gestacional: comum nesta fase devido ao aumento do volume sanguíneo.",
+                "Diabetes gestacional: avaliada entre a 24.ª e a 28.ª semana com teste de glicose.",
+                "Pressão arterial: monitorização regular para prevenir pré-eclâmpsia."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Saúde e bem-estar da mãe"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Atividade física leve e adaptada (caminhadas, hidroginástica, yoga para grávidas).",
+                "Pausas regulares para descanso.",
+                "Uso de roupas confortáveis e sapatos adequados.",
+                "Dormir de lado, preferencialmente sobre o lado esquerdo."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Alimentação saudável"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Suplementação de ferro e cálcio se indicada pelo médico.",
+                "Alimentos ricos em fibras (frutas, legumes, cereais integrais).",
+                "Boa hidratação (1,5 a 2 litros de água por dia).",
+                "Evitar ultraprocessados e excesso de açúcares."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. O meu bebé",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Desenvolvimento cognitivo e físico"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre as semanas 13 e 27, o bebé passa por um crescimento acelerado e adquire novas capacidades sensoriais e motoras."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Audição: a partir da 18.ª semana, reage a vozes, música e ruídos.",
+                "Feições do rosto: sobrancelhas, cílios e cabelo fino já visíveis.",
+                "Papilas gustativas formadas, sente sabores através do líquido amniótico.",
+                "Movimentos ativos: primeiros pontapés e voltas sentidos pela mãe.",
+                "Órgãos vitais em desenvolvimento: pulmões, sistema digestivo e imunológico."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Crescimento"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Ao final do segundo trimestre, o bebé mede cerca de 30 cm e pesa em torno de 900 g a 1 kg."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Vínculo afetivo"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O contacto precoce pode ser fortalecido com músicas suaves, conversas frequentes e toques delicados na barriga."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Saúde materna e cuidados",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Consultas e exames essenciais"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No segundo trimestre, a vigilância pré-natal torna-se mais regular e detalhada."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Consulta mensal para avaliar bem-estar materno e fetal.",
+                "Ecografia morfológica (20.ª–22.ª semana).",
+                "Teste de tolerância à glicose (24.ª–28.ª semana).",
+                "Exames laboratoriais de rotina (anemia, infeções, etc.)."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Amamentação e preparação"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Participar em sessões de preparação para o parto e amamentação.",
+                "Informar-se sobre bancos de leite humano.",
+                "Orientação sobre cuidados com as mamas e posição correta do bebé."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Preparação para o parto"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Definir local do parto e conhecer a equipa de saúde.",
+                "Discutir preferências para o trabalho de parto (analgesia, posições, acompanhante).",
+                "Elaborar um plano de nascimento.",
+                "Identificar sinais de alerta de parto prematuro."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Atividades e desenvolvimento cultural",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Atividades físicas recomendadas"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No segundo trimestre, a maioria das grávidas sente-se com mais energia e disposição."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Caminhadas, natação e hidroginástica.",
+                "Yoga e pilates para grávidas.",
+                "Alongamentos diários."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Atividades culturais"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Leitura em voz alta.",
+                "Ouvir músicas relaxantes ou com valor cultural.",
+                "Workshops e palestras sobre parentalidade.",
+                "Visitas culturais adaptadas ao bem-estar da grávida."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Dicas para vínculo e cultura familiar"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Preparar o quarto do bebé em família.",
+                "Registar momentos da gravidez em fotos ou diário.",
+                "Conversar com o bebé, envolvendo familiares.",
+                "Criar rituais familiares (ex.: canção especial)."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Sugestões de leitura"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Livros sobre desenvolvimento fetal.",
+                "Parentalidade positiva.",
+                "Saúde emocional na gravidez.",
+                "Preparação para o parto e amamentação."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "No segundo trimestre, procure ajuda se notar sangramento vaginal, dores abdominais fortes, perda de líquido amniótico, febre ou diminuição dos movimentos fetais após já os sentir.",
+          "nota": "⚠️ Ligue 112 apenas em situações de risco de vida iminente (ex.: alteração da consciência, dor no peito, hemorragias abundantes, acidentes graves).",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        }
+      ]
+    },
+
+
+
+    {
+      "id": "3tri",
+      "titulo": "Terceiro Trimestre de Gravidez: Preparação para a chegada do bebé",
+      "resumo": "A reta final da gravidez: como o corpo se adapta, como o bebé evolui e quais os cuidados essenciais para o parto e o pós-parto.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/3tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Bem-estar emocional e social da mãe",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "No terceiro trimestre, a proximidade do parto intensifica emoções como entusiasmo, ansiedade e, por vezes, receios. Muitas mulheres descrevem o fenómeno do “nesting”, caracterizado por uma energia direcionada para preparar a casa e organizar o ambiente para a chegada do bebé."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Nesta fase, o apoio emocional e social torna-se ainda mais importante. Conversar abertamente com o parceiro e com a rede de apoio sobre o plano de parto, os cuidados iniciais ao recém-nascido e a divisão de tarefas no pós-parto ajuda a reduzir a ansiedade e fortalece a confiança da mãe."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Reforce a rede de apoio (parceiro, família, amigos) para o período do pós-parto.",
+                "Pratique técnicas de relaxamento como respiração consciente, alongamentos ou mindfulness.",
+                "Participe em cursos de preparação para o parto e amamentação.",
+                "Estabeleça rotinas de descanso, respeitando os sinais de cansaço do corpo.",
+                "Procure apoio profissional se sentir tristeza persistente, medo intenso ou irritabilidade."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Investir no bem-estar emocional no final da gravidez contribui para um parto mais confiante e para uma transição mais tranquila para a parentalidade, beneficiando tanto a mãe como o bebé."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. O meu corpo",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "No terceiro trimestre, o corpo da mãe encontra-se em plena adaptação para o parto. O crescimento acelerado do bebé aumenta a pressão sobre os órgãos internos e pode intensificar alguns desconfortos físicos."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "É importante distinguir alterações normais das que exigem atenção médica. O acompanhamento regular com a equipa de saúde garante que a mãe e o bebé se mantêm saudáveis até ao final da gestação."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Sintomas mais comuns"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Dores lombares e pélvicas causadas pelo peso do útero.",
+                "Inchaço em pés e tornozelos, sobretudo ao fim do dia.",
+                "Azia e refluxo frequentes após as refeições.",
+                "Dificuldade para dormir e idas frequentes à casa de banho.",
+                "Contrações de Braxton Hicks, geralmente irregulares e indolores.",
+                "Sensação de falta de ar devido à elevação do diafragma."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Sinais de alerta"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Pré-eclâmpsia: dor de cabeça forte, visão turva, tensão alta.",
+                "Comichão intensa em mãos e pés (colestase intra-hepática).",
+                "Contrações regulares antes das 37 semanas (risco de parto prematuro).",
+                "Redução clara dos movimentos do bebé, que deve ser valorizada."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Cuidados recomendados"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Dormir de lado, preferencialmente à esquerda, com apoio de almofadas.",
+                "Alongamentos suaves e exercícios do pavimento pélvico.",
+                "Alimentação fracionada em pequenas porções para reduzir azia.",
+                "Meias de compressão, se recomendadas pelo médico, para aliviar inchaço."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Estas adaptações fazem parte da preparação natural do corpo para o parto. Seguir hábitos saudáveis e estar atenta a sinais de alerta contribui para um final de gravidez mais seguro e confortável."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. O meu bebé",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "No terceiro trimestre, o bebé encontra-se em fase final de desenvolvimento. Os órgãos já estão formados e passam por processos de maturação essenciais para a vida fora do útero."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Desenvolvimento e capacidades"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Pulmões em amadurecimento, prontos para a respiração após o parto.",
+                "Depósito de gordura sob a pele, ajudando na regulação térmica.",
+                "Movimentos mais fortes e coordenados, incluindo voltas e pontapés evidentes.",
+                "Resposta a estímulos de voz, música e luz.",
+                "Posição cefálica (cabeça para baixo), comum nas últimas semanas."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Crescimento"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "No final da gestação, o bebé mede em média 48 a 52 cm e pesa cerca de 3 a 3,5 kg, embora haja variações individuais. A pele torna-se mais lisa e mantém o vérnix, uma camada protetora esbranquiçada."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Vínculo afetivo"
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Nesta fase, o bebé reconhece vozes familiares e pode acalmar-se com músicas ou palavras repetidas. Conversar, cantar ou acariciar a barriga fortalece o vínculo emocional e ajuda na transição para o contacto após o nascimento."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Saúde materna e cuidados",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "No terceiro trimestre, o acompanhamento pré-natal torna-se mais frequente e detalhado. Esta é uma fase crucial para garantir a saúde da mãe e do bebé."
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Consultas e exames essenciais"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Consultas quinzenais ou semanais nas últimas semanas.",
+                "Ecografia do 3.º trimestre (30.ª–34.ª semana).",
+                "Cardiotocografia (CTG), geralmente após as 37 semanas.",
+                "Exames laboratoriais de rotina (anemia, infeções, etc.)."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Preparação para o parto"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Discutir e registar um plano de parto.",
+                "Organizar a mala da maternidade para mãe e bebé.",
+                "Aprender a reconhecer sinais de trabalho de parto.",
+                "Conhecer o hospital ou maternidade escolhida."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Amamentação e cuidados iniciais"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Participar em sessões de preparação para a amamentação.",
+                "Informar-se sobre apoios pós-parto (grupos de amamentação, visitas domiciliárias).",
+                "Conhecer as primeiras vacinas e rastreios neonatais."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Atividades e desenvolvimento cultural",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "No terceiro trimestre, o ritmo das atividades pode ser ajustado às limitações físicas, mas manter práticas leves e prazerosas continua a ser essencial para o bem-estar da mãe e o vínculo com o bebé."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Caminhadas curtas em locais seguros.",
+                "Alongamentos suaves e yoga para grávidas.",
+                "Exercícios de respiração para relaxamento."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Atividades culturais e de lazer"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Ouvir música relaxante.",
+                "Ler em voz alta.",
+                "Participar em workshops sobre parentalidade.",
+                "Visitar espaços culturais, se houver disposição."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Sugestões para vínculo familiar"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Preparar o quarto do bebé em família.",
+                "Registar momentos da gravidez em fotografias.",
+                "Criar rituais familiares, como escolher uma canção para o parto."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "No terceiro trimestre, procure observação médica se tiver contrações dolorosas e regulares antes das 37 semanas, perda de sangue, saída de líquido claro, diminuição ou ausência de movimentos fetais ou dores de cabeça intensas acompanhadas de visão turva e inchaço súbito.",
+          "nota": "⚠️ Ligue 112 apenas em situações de risco de vida iminente (ex.: alteração da consciência, dor no peito, hemorragias abundantes, acidentes graves).",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        }
+      ]
+    },
+
+
+     {
+      "id": "1ano",
+      "titulo": "Já tenho 1 ano! O ano das grandes conquistas",
+      "resumo": "Entre os primeiros passos, as primeiras palavras e a curiosidade em cada descoberta, este é o ano em que começo a ganhar autonomia e a explorar o mundo com mais confiança.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/1ano.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre 1 e 2 anos, o bebé transforma-se rapidamente numa criança pequena, mais ativa e curiosa. Esta fase exige atenção redobrada à saúde e ao ambiente em que cresce, pois a exploração constante aumenta o risco de quedas, acidentes e infeções comuns. O acompanhamento médico regular continua a ser fundamental para vigiar o crescimento, o desenvolvimento e prevenir problemas futuros."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Além do controlo de peso, altura e perímetro cefálico, as consultas permitem avaliar marcos de desenvolvimento motor, cognitivo e da linguagem. O calendário vacinal mantém-se como elemento essencial de proteção contra doenças graves, enquanto hábitos de higiene, sono e alimentação saudável sustentam o bem-estar global da criança."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Cuidados essenciais",
+              "itens": [
+                "Respeitar o calendário de vacinas, incluindo reforços previstos entre os 12 e 18 meses.",
+                "Manter consultas de vigilância para acompanhar crescimento, dentição e desenvolvimento.",
+                "Garantir ambiente seguro, com proteções em escadas, tomadas e objetos pequenos fora do alcance.",
+                "Incentivar higiene oral, com escovagem suave dos dentes duas vezes ao dia.",
+                "Promover atividade física livre, permitindo que a criança explore e movimente-se em segurança."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Sinais de alerta",
+              "itens": [
+                "Perda de interesse em brincar ou interagir com outras pessoas.",
+                "Dificuldade persistente em andar com apoio após os 18 meses.",
+                "Ausência de palavras simples ou falta de resposta ao nome após os 18 meses.",
+                "Febres recorrentes, infeções frequentes ou perda de peso inexplicada."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. Parentalidade e apoio",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre 1 e 2 anos, a parentalidade ganha novos desafios. A criança começa a andar, explorar o ambiente e afirmar a sua vontade, o que exige dos cuidadores paciência, flexibilidade e presença constante. É um período intenso de descobertas, em que o apoio mútuo entre os cuidadores e a rede familiar é essencial para manter o equilíbrio emocional e a organização da rotina."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A partilha de responsabilidades e a comunicação aberta entre os cuidadores ajudam a reduzir a sobrecarga, prevenindo o cansaço extremo. Além disso, procurar apoio em serviços de saúde, grupos de pais ou programas comunitários pode trazer segurança adicional e partilha de experiências."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Estratégias de apoio",
+              "itens": [
+                "Dividir as tarefas do dia a dia, como alimentação, higiene e brincadeiras.",
+                "Manter rotinas previsíveis, que oferecem segurança e reduzem birras.",
+                "Valorizar o tempo de descanso e autocuidado dos cuidadores.",
+                "Procurar apoio em grupos de pais para trocar experiências e reduzir a sensação de isolamento.",
+                "Envolver irmãos e familiares próximos nas rotinas para reforçar os vínculos afetivos."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Quando procurar ajuda",
+              "itens": [
+                "Sinais de exaustão persistente ou falta de motivação nos cuidadores.",
+                "Dificuldade em lidar com birras ou comportamentos desafiantes da criança.",
+                "Sentimentos contínuos de tristeza, irritabilidade ou isolamento.",
+                "Conflitos familiares recorrentes relacionados com a rotina da criança."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. Desenvolvimento do bebé",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre 1 e 2 anos, o desenvolvimento do bebé é marcado por grandes conquistas motoras, cognitivas e sociais. A criança passa da dependência quase total para uma autonomia crescente: aprende a andar, começa a falar palavras simples e demonstra maior curiosidade sobre o mundo à sua volta."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Embora cada criança tenha o seu ritmo, acompanhar os marcos do desenvolvimento ajuda os cuidadores a estimular novas habilidades e a identificar precocemente eventuais atrasos que necessitem de apoio especializado."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Motor (grosseiro e fino)",
+              "itens": [
+                "12–15 meses: andar com apoio ou sozinho; empilhar 2–3 blocos.",
+                "16–18 meses: subir degraus com ajuda; usar colher com supervisão.",
+                "19–24 meses: correr, chutar bola, rabiscar com lápis; construir torres de 4–6 blocos."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Cognitivo e linguagem",
+              "itens": [
+                "Compreende ordens simples (“dá-me a bola”, “vem cá”).",
+                "Vocabulário ativo: 10–20 palavras por volta dos 18 meses; 50 ou mais até aos 2 anos.",
+                "Começa a juntar duas palavras (“quer água”, “mais pão”).",
+                "Explora brinquedos de forma funcional (empurra carrinho, alimenta boneca)."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Emocional e social",
+              "itens": [
+                "Imita ações dos adultos e começa a brincar de “faz de conta”.",
+                "Mostra preferência por pessoas conhecidas e pode ter ansiedade de separação.",
+                "Demonstra emoções como frustração, alegria e orgulho com maior clareza."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Alimentação",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre 1 e 2 anos, a alimentação da criança evolui para maior diversidade e aproxima-se cada vez mais da dieta familiar. É uma fase de descoberta de sabores e texturas, mas também de possíveis recusas alimentares, que fazem parte do processo de autonomia."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O papel dos cuidadores é oferecer variedade e consistência, mantendo uma alimentação equilibrada e respeitando o apetite da criança. Estabelecer boas práticas nesta fase contribui para hábitos saudáveis ao longo da vida."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Princípios da alimentação saudável",
+              "itens": [
+                "Oferecer refeições variadas, incluindo frutas, legumes, cereais integrais, leguminosas, peixe e carne magra.",
+                "Evitar sal, açúcar e ultraprocessados, que não são adequados para a idade.",
+                "Manter o leite materno ou fórmula como complemento, se disponível, mas já não como base exclusiva da dieta.",
+                "Estimular a autonomia, permitindo que a criança use colher, beba em copo e explore os alimentos.",
+                "Oferecer água como principal bebida, evitando sumos e refrigerantes."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Autonomia e educação alimentar",
+              "itens": [
+                "Respeitar sinais de saciedade, evitando forçar a criança a comer.",
+                "Promover refeições em família, que reforçam bons hábitos e vínculo afetivo.",
+                "Incentivar o contacto com diferentes alimentos, mesmo que inicialmente rejeitados.",
+                "Evitar distrações como televisão ou telemóvel durante as refeições."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Sono",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre 1 e 2 anos, os padrões de sono começam a consolidar-se, mas ainda podem ocorrer despertares noturnos e resistência para adormecer. Muitos bebés fazem duas sestas no início desta fase e, gradualmente, passam a apenas uma por dia."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Rotinas consistentes e um ambiente adequado são fundamentais para que a criança associe o momento de dormir a segurança e tranquilidade. Bons hábitos de sono contribuem para o desenvolvimento físico, cognitivo e emocional."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Padrões e rotinas",
+              "itens": [
+                "Total de 11 a 14 horas de sono por dia, incluindo sestas.",
+                "Rotina previsível: banho, história ou canção, luz suave e ambiente calmo.",
+                "Transição gradual de duas para uma sesta diurna entre 15 e 18 meses.",
+                "Evitar estímulos intensos (ecrãs, brincadeiras agitadas) antes de dormir."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Segurança do sono",
+              "itens": [
+                "Cama ou berço firme, sem almofadas, edredões ou brinquedos grandes.",
+                "Colocar a criança a dormir de costas até indicação médica contrária.",
+                "Evitar sobreaquecimento: roupa adequada à estação e quarto bem ventilado.",
+                "Garantir que a criança não consegue sair do berço sem supervisão."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "6. Educação e disciplina iniciais",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre 1 e 2 anos, a criança começa a afirmar a sua autonomia e vontade própria. É uma fase de birras, curiosidade intensa e exploração do ambiente, que exige dos cuidadores paciência, consistência e uma abordagem educativa positiva."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Nesta idade, a disciplina deve ser entendida como orientação e não como punição. Regras simples e consistentes ajudam a criança a sentir-se segura, enquanto o afeto e a validação das emoções favorecem o desenvolvimento de competências sociais e emocionais."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Princípios da parentalidade positiva",
+              "itens": [
+                "Dar instruções curtas e claras (“vamos guardar os brinquedos”).",
+                "Validar emoções (“sei que estás zangado”) e oferecer alternativas.",
+                "Reforçar comportamentos positivos com elogios e atenção.",
+                "Estabelecer limites consistentes, sempre com calma e previsibilidade."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Ambiente de aprendizagem",
+              "itens": [
+                "Promover brincadeiras sensoriais, livros ilustrados, música e rimas.",
+                "Incentivar brincadeira livre no chão, estimulando autonomia e criatividade.",
+                "Criar rituais familiares, como ler uma história antes de dormir.",
+                "Reduzir tempo de ecrã e priorizar interações presenciais."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Entre 1 e 2 anos, procure avaliação médica se a criança apresentar febre alta persistente, dificuldade respiratória ou convulsões.",
+          "nota": "⚠️ Ligue 112 apenas em situações de risco de vida iminente (ex.: perda de consciência, convulsões prolongadas, acidentes graves).",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        }
+      ]
+    },
+
+
+    {
+      "id": "2anos",
+      "titulo": "Já tenho 2 anos! Explorar, falar e crescer",
+      "resumo": "Aprendo a comunicar de forma mais clara, a brincar com outras crianças e a testar limites, enquanto descubro a minha própria identidade e conquisto novas formas de me expressar.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/2anos.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 2 e os 3 anos, a criança torna-se cada vez mais autónoma e ativa. O bem-estar depende de um equilíbrio entre cuidados de saúde, prevenção de acidentes e promoção de hábitos saudáveis."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "É também uma idade de maior curiosidade e desejo de explorar, aumentando o risco de quedas, intoxicações ou pequenos acidentes domésticos. Garantir um ambiente seguro e rotinas consistentes é essencial."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Cuidados essenciais",
+              "itens": [
+                "Respeitar o calendário vacinal, incluindo reforços aos 2 anos.",
+                "Realizar consultas regulares para avaliar crescimento, linguagem e desenvolvimento motor.",
+                "Garantir higiene oral diária com escovagem e consulta de saúde oral.",
+                "Estimular atividade física livre em espaços seguros.",
+                "Manter ambiente protegido: segurança em escadas, janelas e produtos perigosos fora do alcance."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Sinais de alerta",
+              "itens": [
+                "Crescimento ou ganho de peso muito abaixo do esperado.",
+                "Quedas ou acidentes frequentes pela falta de coordenação motora.",
+                "Infeções respiratórias ou otites de repetição.",
+                "Atrasos na linguagem: ausência de frases simples até aos 3 anos."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. Parentalidade e apoio",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Nesta idade, a criança afirma limites e testa regras. É um período desafiante para os cuidadores, exigindo paciência, consistência e afeto."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O apoio mútuo entre cuidadores e rede familiar é essencial para reduzir a sobrecarga. Grupos de parentalidade e acompanhamento pela equipa de saúde podem oferecer apoio adicional."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Estratégias de apoio à parentalidade",
+              "itens": [
+                "Estabelecer rotinas previsíveis, que oferecem segurança à criança.",
+                "Usar regras simples e consistentes, adaptadas à idade.",
+                "Reforçar comportamentos positivos com elogios e atenção.",
+                "Partilhar responsabilidades entre cuidadores.",
+                "Envolver irmãos ou familiares em brincadeiras e cuidados diários."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Quando procurar ajuda",
+              "itens": [
+                "Exaustão persistente ou dificuldade em lidar com birras.",
+                "Sentimentos contínuos de tristeza, irritabilidade ou isolamento.",
+                "Conflitos familiares frequentes relacionados com a educação da criança.",
+                "Dificuldade em aplicar disciplina positiva."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. Desenvolvimento do bebé",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 2 e os 3 anos, a criança evolui no desenvolvimento motor, cognitivo, linguístico e social. Torna-se mais independente e interage de forma mais complexa."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Motor (grosseiro e fino)",
+              "itens": [
+                "Corre com maior segurança e chuta ou lança bola.",
+                "Sobe e desce escadas com apoio.",
+                "Começa a pedalar triciclo com ajuda.",
+                "Constrói torres de 6–8 blocos e faz rabiscos mais intencionais."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Cognitivo e linguagem",
+              "itens": [
+                "Compreende instruções de dois passos.",
+                "Vocabulário aumenta para 200 ou mais palavras até aos 3 anos.",
+                "Formação de frases de 2 a 3 palavras.",
+                "Identifica cores, partes do corpo e objetos familiares."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Emocional e social",
+              "itens": [
+                "Mostra independência mas procura segurança nos cuidadores.",
+                "Brinca em paralelo com outras crianças e inicia interações simples.",
+                "Demonstra frustração em birras e alegria ao partilhar conquistas.",
+                "Imita atividades do quotidiano (cozinhar, alimentar bonecas)."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Alimentação",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A alimentação deve estar bem integrada na rotina familiar. A autonomia aumenta: a criança quer comer sozinha, explorar utensílios e escolher alimentos."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Princípios da alimentação saudável",
+              "itens": [
+                "Refeições equilibradas e adaptadas à idade.",
+                "Variedade de frutas, legumes e leguminosas.",
+                "Evitar sal, açúcar e ultraprocessados.",
+                "Água como principal bebida.",
+                "Estimular a criança a comer sozinha."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Autonomia e hábitos à mesa",
+              "itens": [
+                "Usar pratos e talheres infantis.",
+                "Promover refeições em família.",
+                "Respeitar sinais de saciedade.",
+                "Evitar distrações como televisão."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Sono",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O padrão de sono começa a consolidar-se, embora despertares noturnos possam ocorrer. A maioria mantém uma sesta até aos 3 anos."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Padrões e rotinas",
+              "itens": [
+                "10 a 13 horas de sono por dia (incluindo sesta).",
+                "Rotina previsível ao deitar.",
+                "Manter horários regulares.",
+                "Evitar ecrãs antes de dormir."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Segurança do sono",
+              "itens": [
+                "Transição gradual do berço para a cama.",
+                "Quarto seguro, sem objetos perigosos.",
+                "Temperatura adequada e roupa confortável.",
+                "Estimular adormecer no próprio espaço."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "6. Educação e disciplina iniciais",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "A criança afirma autonomia e personalidade. Birras e o uso do “não” são comuns. A disciplina deve ser orientação, nunca punição."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Princípios da parentalidade positiva",
+              "itens": [
+                "Dar instruções simples e claras.",
+                "Validar emoções e oferecer alternativas.",
+                "Reforçar comportamentos positivos.",
+                "Estabelecer limites consistentes."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Ambiente de aprendizagem",
+              "itens": [
+                "Brincadeiras simbólicas (faz de conta, jogos).",
+                "Estimular linguagem com livros e música.",
+                "Dar espaço para brincadeira livre.",
+                "Reduzir tempo de ecrã e priorizar interações presenciais."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Entre os 2 e os 3 anos, procure avaliação médica se a criança apresentar febre persistente, dificuldade respiratória ou convulsões.",
+          "nota": "⚠️ Ligue 112 apenas em situações de risco de vida iminente (ex.: perda de consciência, convulsões prolongadas, acidentes graves).",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        }
+      ]
+    },
+
+    {
+      "id": "3anos",
+      "titulo": "Já tenho 3 anos! Imaginar e partilhar",
+      "resumo": "Dos jogos de faz de conta às primeiras amizades, aprendo a compreender regras, a partilhar e a usar a imaginação para criar histórias que me ajudam a entender o mundo à minha volta.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/3anos.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 3 e os 4 anos, a criança ganha maior independência e energia, explorando o ambiente com mais confiança. Nesta fase, o acompanhamento da saúde continua a ser fundamental para garantir um crescimento equilibrado e prevenir problemas."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "As consultas de rotina permitem avaliar peso, altura, visão, audição e marcos de desenvolvimento. O reforço das vacinas do calendário nacional é essencial, assim como a promoção de hábitos de higiene, alimentação saudável e atividade física regular."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Cuidados essenciais",
+              "itens": [
+                "Manter consultas regulares para monitorizar crescimento e desenvolvimento.",
+                "Cumprir o calendário vacinal, incluindo reforços indicados nesta idade.",
+                "Incentivar hábitos de higiene oral, com escovagem supervisionada após as refeições.",
+                "Promover atividade física diária, como correr, saltar e brincar ao ar livre.",
+                "Assegurar um ambiente seguro, prevenindo quedas e acidentes domésticos."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Sinais de alerta",
+              "itens": [
+                "Crescimento ou ganho de peso abaixo do esperado.",
+                "Dificuldade persistente na visão ou audição.",
+                "Infecções recorrentes ou problemas respiratórios frequentes.",
+                "Atrasos evidentes na fala ou na interação social."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Promover a saúde e o bem-estar entre os 3 e os 4 anos significa investir em hábitos saudáveis que acompanham a criança na transição para a vida escolar, fortalecendo o seu desenvolvimento físico, cognitivo e emocional."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. Parentalidade e apoio",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 3 e os 4 anos, a criança começa a demonstrar maior independência, mas ainda necessita de apoio constante dos cuidadores para se sentir segura. É uma fase em que explora regras sociais, aprende a partilhar e a lidar com frustrações, o que exige paciência e consistência por parte da família."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O papel dos cuidadores é criar um ambiente de apoio, com rotinas claras e comunicação positiva. A cooperação entre os membros da família e o envolvimento em atividades em conjunto fortalecem vínculos e oferecem à criança uma base emocional estável."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Estratégias de apoio à parentalidade",
+              "itens": [
+                "Estabelecer rotinas previsíveis (refeições, sono, brincadeiras) que transmitam segurança.",
+                "Usar linguagem simples e positiva para orientar comportamentos.",
+                "Incentivar a autonomia em pequenas tarefas, como vestir-se ou arrumar brinquedos.",
+                "Partilhar momentos de qualidade em família, reforçando o vínculo afetivo.",
+                "Procurar apoio em grupos de parentalidade ou junto da equipa de saúde se surgirem dificuldades."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Quando procurar ajuda",
+              "itens": [
+                "Sinais de exaustão persistente ou sobrecarga nos cuidadores.",
+                "Conflitos familiares recorrentes relacionados com a educação da criança.",
+                "Dificuldade em lidar com birras intensas ou comportamentos agressivos.",
+                "Preocupações quanto ao desenvolvimento emocional ou social da criança."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O apoio parental entre os 3 e os 4 anos é essencial para ajudar a criança a desenvolver competências sociais e emocionais. Um ambiente familiar equilibrado favorece a sua autonomia e prepara-a para os desafios da vida escolar."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. Desenvolvimento do bebé",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 3 e os 4 anos, a criança mostra avanços significativos em todas as áreas do desenvolvimento. O corpo ganha mais coordenação, a linguagem torna-se mais clara e o pensamento simbólico abre caminho para jogos de faz de conta e maior imaginação."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "É também uma fase de consolidação das competências sociais: a criança aprende a brincar com pares, a partilhar, a negociar e a lidar com frustrações. Estes progressos variam de criança para criança, mas seguir os marcos principais ajuda a acompanhar o seu ritmo."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Motor (grosseiro e fino)",
+              "itens": [
+                "Corre, salta e sobe escadas alternando os pés.",
+                "Consegue pedalar triciclo com mais segurança.",
+                "Desenha círculos e começa a copiar cruzes ou linhas simples.",
+                "Constrói torres de 8 a 10 blocos e usa tesoura infantil com supervisão."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Cognitivo e linguagem",
+              "itens": [
+                "Usa frases completas de 4 a 5 palavras.",
+                "Compreende conceitos de tamanho, quantidade e cores básicas.",
+                "Participa em jogos de faz de conta elaborados, imitando situações do dia a dia.",
+                "Consegue seguir instruções de 2 a 3 etapas."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Emocional e social",
+              "itens": [
+                "Brinca em grupo e começa a fazer amizades.",
+                "Mostra orgulho nas conquistas e busca aprovação dos adultos.",
+                "Pode apresentar birras, mas começa a aprender a expressar emoções de forma mais adequada.",
+                "Imita papéis familiares ou sociais nos jogos de faz de conta."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O desenvolvimento entre os 3 e os 4 anos é marcado por maior autonomia, criatividade e interação social. Estimular estas competências com afeto, brincadeiras e oportunidades de aprendizagem é essencial para preparar a criança para a entrada no contexto escolar."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Alimentação",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 3 e os 4 anos, a criança já deve participar ativamente nas refeições familiares, seguindo uma alimentação variada e equilibrada. É uma fase em que pode surgir seletividade alimentar, mas a persistência e o exemplo dos cuidadores ajudam a manter hábitos saudáveis."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A relação com a comida continua a ser construída nesta idade. Incentivar autonomia, oferecer variedade e evitar pressões ou recompensas associadas à alimentação são estratégias importantes para que a criança desenvolva uma atitude positiva em relação aos alimentos."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Princípios da alimentação saudável",
+              "itens": [
+                "Oferecer refeições semelhantes às da família, adaptadas em textura e porção.",
+                "Incluir frutas, legumes, cereais integrais, leguminosas e proteínas magras diariamente.",
+                "Servir água como principal bebida; evitar sumos industrializados e refrigerantes.",
+                "Reduzir alimentos ultraprocessados, ricos em sal e açúcar.",
+                "Garantir regularidade: 5 a 6 pequenas refeições ao longo do dia."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Autonomia e hábitos à mesa",
+              "itens": [
+                "Permitir que a criança use talheres e sirva-se em pequenas quantidades.",
+                "Envolver a criança em tarefas simples, como ajudar a pôr a mesa.",
+                "Promover refeições em família como momento de convivência e aprendizagem.",
+                "Evitar distrações como televisão ou telemóveis durante as refeições."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A alimentação entre os 3 e os 4 anos é uma oportunidade para consolidar hábitos saudáveis e incentivar autonomia. Com paciência e consistência, os cuidadores ajudam a criança a construir uma relação equilibrada e positiva com a comida."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Sono",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 3 e os 4 anos, o sono continua a ser essencial para o crescimento e o desenvolvimento da criança. Nesta fase, muitas já abandonam a sesta diurna, mas ainda necessitam de longos períodos de descanso noturno para recuperar energias."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Rotinas consistentes e um ambiente calmo continuam a ser fundamentais. O estabelecimento de bons hábitos de sono nesta idade contribui para o equilíbrio emocional, a aprendizagem e o comportamento diário."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Padrões e rotinas",
+              "itens": [
+                "Necessitam em média de 10 a 12 horas de sono noturno.",
+                "A sesta pode deixar de ser necessária, mas deve ser respeitada se a criança mostrar cansaço.",
+                "Manter rotina previsível ao deitar: higiene, leitura ou canção, ambiente tranquilo.",
+                "Evitar estímulos intensos antes de dormir, como ecrãs ou brincadeiras agitadas."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Segurança e transições",
+              "itens": [
+                "Transição do berço para a cama infantil, caso ainda não tenha ocorrido.",
+                "Garantir que o quarto é seguro e livre de objetos perigosos.",
+                "Manter iluminação suave, se necessário, para reduzir medos noturnos.",
+                "Incentivar a criança a adormecer no próprio espaço, reforçando autonomia."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Consolidar bons hábitos de sono entre os 3 e os 4 anos favorece não só o descanso, mas também a regulação emocional e o desempenho nas aprendizagens do dia a dia."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "6. Educação e disciplina iniciais",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Entre os 3 e os 4 anos, a criança afirma cada vez mais a sua autonomia, curiosidade e vontade própria. É comum testar limites, fazer perguntas constantes e expressar frustrações através de birras. Esta etapa é fundamental para começar a consolidar noções de regras, respeito e cooperação."
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A disciplina deve continuar a ser construída de forma positiva, baseada na orientação e no exemplo dos cuidadores. Regras claras, rotinas consistentes e reforço de comportamentos adequados ajudam a criança a compreender o que é esperado e a sentir-se segura."
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Princípios da parentalidade positiva",
+              "itens": [
+                "Usar frases simples e objetivas para dar instruções.",
+                "Validar emoções (“sei que estás zangado”) e orientar para alternativas adequadas.",
+                "Reforçar bons comportamentos com elogios e atenção.",
+                "Aplicar limites consistentes, explicando o motivo das regras."
+              ]
+            },
+            {
+              "tipo": "lista",
+              "titulo": "Ambiente de aprendizagem",
+              "itens": [
+                "Estimular a linguagem com histórias, músicas e conversas diárias.",
+                "Promover brincadeiras de faz de conta, que desenvolvem imaginação e competências sociais.",
+                "Incentivar pequenas responsabilidades, como arrumar brinquedos ou ajudar a pôr a mesa.",
+                "Reduzir tempo de ecrã e valorizar atividades criativas e interações presenciais."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "A educação entre os 3 e os 4 anos deve equilibrar afeto e regras claras. Ao oferecer limites consistentes e um ambiente estimulante, os cuidadores ajudam a criança a desenvolver autonomia, responsabilidade e competências sociais para a próxima etapa do crescimento."
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Entre os 3 e os 4 anos, procure avaliação médica se a criança apresentar febre alta persistente, dificuldade respiratória ou convulsões.",
+          "nota": "⚠️ Ligue 112 apenas em situações de risco de vida iminente (ex.: perda de consciência, convulsões prolongadas, acidentes graves).",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        }
+      ]
+    },
+
+    
+
+    {
+      "id": "sobre",
+      "titulo": "Sobre o Projeto Cres(Ser)",
+      "resumo": "O projeto Cres(SER) é uma iniciativa de apoio à parentalidade e promoção da saúde mental na gravidez e na primeira infância, desenvolvida no concelho de Águeda com o envolvimento de diversos parceiros comunitários.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/creche_.png",
+      "conteudo": [
+        {
+          "tipo": "subtitulo",
+          "texto": "O que é o projeto Cres(SER)?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O Cres(SER) é o projeto que dá origem a esta plataforma web. Promovido pelo Centro de Saúde de Águeda e desenvolvido em articulação com parceiros locais — como a câmara municipal, creches, escolas, universidades e entidades sociais — tem como missão apoiar mães, pais e cuidadores desde a gravidez até aos 3 anos de vida da criança."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O projeto assenta numa premissa sólida: os primeiros 1000 dias de vida são decisivos para o desenvolvimento emocional, cognitivo e social da criança. Por isso, aposta numa intervenção comunitária, integrada e baseada em evidência científica, com foco na capacitação de quem cuida."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "A intervenção destina-se a três grupos principais:",
+          "itens": [
+            "Profissionais de saúde",
+            "Profissionais de educação",
+            "Pais, mães e cuidadores"
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Objetivos do Projeto",
+          "itens": [
+            "Criar espaços de partilha, escuta ativa e aprendizagem entre pais e cuidadores.",
+            "Reforçar o vínculo afetivo entre pais e filhos.",
+            "Promover o desenvolvimento emocional, cognitivo e social saudável da criança.",
+            "Apoiar emocionalmente mães e pais durante o período de gestação e pós-parto.",
+            "Sensibilizar para a importância dos primeiros 1000 dias na construção do bem-estar futuro da criança."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Atividades em destaque",
+          "itens": [
+            "Cres(SER) contigo… na barriga: Grupo para grávidas e pais a partir da 12.ª semana de gestação.",
+            "Cres(SER) contigo… no colo: Grupo para recém-papás durante a licença de maternidade/paternidade.",
+            "Cres(SER) contigo… para a vida: Grupo para mães, pais e cuidadores de crianças até aos 3 anos.",
+            "Caminhar Contigo: Caminhadas semanais com acompanhamento técnico.",
+            "Sessões práticas sobre temas como sono do bebé, massagem infantil, vinculação, nutrição, birras, entrada na creche, entre outros."
+          ]
+        },
+        {
+          "tipo": "contacto",
+          "telefone": "234610210",
+          "horario": "3ªs e 5ªs, 10h às 13h"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Se mudarmos o início da história, mudamos toda a história."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Apoio tecnológico e desenvolvimento"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A plataforma web de apoio à parentalidade Cres(SER) foi desenvolvida por Leonardo Coelho, no âmbito do Mestrado em Comunicação e Tecnologias Web da Universidade de Aveiro, integrando as competências de UI/UX Design, Frontend e Backend (Fullstack)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Esta aplicação tem como objetivo facilitar o acesso a conteúdos, artigos, eventos e recursos personalizados para mães, pais e cuidadores, garantindo uma experiência acessível, intuitiva e cientificamente fundamentada."
+        }
+      ]
+    }
+  ]
+}

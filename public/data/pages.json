@@ -1,0 +1,1700 @@
+{
+  "pages": [
+    {
+      "id": "1tri",
+      "titulo": "Primeiro Trimestre de Gravidez: o que esperar nas primeiras semanas",
+      "resumo": "Nas primeiras 13 semanas, o teu corpo e o bebé sofrem grandes mudanças internas. Aqui está um guia prático para esta fase inicial.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/1tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "Como te podes sentir",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O teu corpo está a preparar-se para uma nova vida. É comum sentires cansaço, náuseas, mudanças hormonais que alteram o apetite ou preferências alimentares, mais vontade de urinar, alterações de humor — tudo isso faz parte do normal."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Sensibilidade mamária",
+                "Alterações súbitas de humor",
+                "Náuseas ou vómitos (especialmente de manhã)",
+                "Mais vontade de urinar",
+                "Cansaço extremo",
+                "Sono mais instável ou dor nas costas/pelve"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Desenvolvimento do bebé",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O bebé está em crescimento rápido: desde a formação do cérebro, espinha, até órgãos internos como rins, fígado, ouvidos e membros. Cada parte vai tomando forma gradualmente."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Formação do cérebro e da medula espinhal",
+                "Desenvolvimento do ouvido interno",
+                "Tecido cardíaco a começar a trabalhar",
+                "Paladar, dedos das mãos e dos pés, órgãos responsáveis pela respiração em desenvolvimento",
+                "Pele, olhos e outras feições iniciais"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Cuidados importantes",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Pequenas mudanças no dia-a-dia ajudam muito: alimentação equilibrada, evitar álcool/tabaco, manter hidratação, exercício leve se aprovado, e apoio emocional."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Comer uma dieta nutritiva com variedade",
+                "Evitar substâncias nocivas",
+                "Tomar vitaminas ou suplementos apenas se forem recomendados",
+                "Mover-te com suavidade (por exemplo, caminhar)",
+                "Descansar quando preciso"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Embora muitas experiências sejam normais, alguns sinais devem ser partilhados com o profissional de saúde."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Sangramento vaginal mais acentuado do que o habitual ou persistente",
+                "Vómitos que não permitem manter líquidos ou alimentos",
+                "Febre persistente",
+                "Dor ao urinar ou ardor",
+                "Dor abdominal intensa ou cólicas fortes"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiveres dúvidas sobre como estás a sentir-te ou mudanças que não parecem normais, podes contactar o SNS 24 para orientação com profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em casos muito graves, como sangramento abundante, dor intensa ou se te sentires muito mal.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "next": {
+            "label": "Segundo Trimestre",
+            "to": "/page/2tri"
+          }
+        }
+      ]
+    },
+
+
+
+
+    {
+
+      "id": "2tri",
+      "titulo": "Segundo Trimestre de Gravidez: guia para semanas 13-28",
+      "resumo": "No segundo trimestre, muitos sintomas do início aliviam, a barriga começa a aparecer e o bebé continua a desenvolver órgãos essenciais, músculos e sentidos.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/2tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "Como podes sentir-te",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Menos náuseas e mais energia comparado ao primeiro trimestre",
+                "Alongamento da barriga à medida que o útero cresce",
+                "Possível dor lombar ou pélvica devido à mudança no centro de gravidade",
+                "Escurecimento da pele em certas áreas (linha no abdómen, areolas mais escuras)",
+                "Formação de estrias nos seios, abdómen, coxas"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Estas sensações são comuns e variam bastante. Caminhadas leves, postura correta e apoio físico (como cintas ou fisioterapia, quando indicado) ajudam a aliviar desconforto."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Como o bebé está a crescer",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Os ossos começam a endurecer",
+                "A pele começa a ficar mais espessa",
+                "Formação das unhas nos dedos dos pés",
+                "Desenvolvimento do ouvido e possibilidade de ouvir sons externos",
+                "Verniz ou características iniciais do sistema nervoso motor se fortalecem"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O crescimento varia muito entre gravidezes. Clínicas de saúde fazem ecografias e consultas para verificar se tudo progrediu bem."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Dicas de autocuidado",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Mover-te regularmente, se for seguro para ti (por exemplo caminhada, alongamentos leves)",
+                "Comer alimentos variados ricos em nutrientes (proteínas, frutas, legumes)",
+                "Beber bastante água para evitar desidratação",
+                "Dormir em posições confortáveis; usar almofadas de apoio",
+                "Consultar profissionais de saúde se algum sintoma te preocupar"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Embora muitas mudanças sejam normais, alguns sinais devem levar a uma conversa com o teu médico ou enfermeira."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Cãibras fortes ou dor abdominal persistente",
+                "Febre que não baixa com medidas simples",
+                "Sangramento vaginal ou perda de líquido inusitada",
+                "Inchaço súbito ou muito pronunciado nas mãos, rosto ou pés",
+                "Dificuldade para respirar, palpitações ou visão turva"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiveres preocupações com o teu bem-estar ou se algo parecer fora do habitual, podes sempre contactar o SNS 24 para orientação com profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como dor intensa, sangramento abundante ou se te sentires muito mal.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Primeiro Trimestre",
+            "to": "/page/1tri"
+          },
+          "next": {
+            "label": "Terceiro Trimestre",
+            "to": "/page/3tri"
+          }
+        }
+      ]
+    },
+
+
+
+
+    {
+ 
+      "id": "3tri",
+      "titulo": "Terceiro Trimestre de Gravidez: preparação para o momento final",
+      "resumo": "Das semanas 29 a 40, o teu bebé continua a crescer, ganhando peso, e podes sentir mais desconfortos físicos. Aqui tens dicas para esta reta final.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/3tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "Como te podes sentir",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Desconforto ao respirar ou sensação de peso no peito",
+                "Inchaço nos tornozelos, mãos ou face",
+                "Dificuldade para dormir bem com frequência",
+                "Azia ou refluxo",
+                "Mama sensível",
+                "Umbigo com aparência mais protuberante"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Muitas destas sensações devem-se ao crescimento do bebé e à maior pressão sobre os órgãos. Pequenas adaptações como usar almofadas de apoio, evitar deitar logo após comer, e manter a hidratação podem aliviar bastante."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Como o bebé está a crescer",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Os ossos começam a endurecer e ganhar firmeza",
+                "O bebé continua a preencher espaço, ganhando gordura para regulação térmica",
+                "Os membros ficam mais redondos; movimentos mais fortes e perceptíveis",
+                "Olhos podem sentir mudança de luz; os sentidos continuam a desenvolver-se",
+                "Pulmões, cérebro e sistema neuromuscular afinam-se para o nascimento"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Apesar da variabilidade individual, o crescimento nesta fase costuma ser bastante acelerado. Consultas e ecografias ajudam a monitorizar bem."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Cuidados práticos para o teu conforto",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Vestir-te com roupa confortável, leve e que não aperte na barriga",
+                "Usar almofadas para apoiar o corpo ao dormir ou deitar",
+                "Evitar estar em pé por longos períodos; alternar entre sentar e descansar",
+                "Caminhadas suaves ou movimento leve se aprovado pelo médico",
+                "Comer refeições menores com maior frequência para evitar azia/refluxo"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Na reta final, alguns sinais pedem atenção imediata ou uma avaliação profissional."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Sangramento intenso ou perda de líquido vaginal",
+                "Dores fortes no abdómen ou contrações regulares que se intensificam",
+                "Movimentos do bebé diminuindo visivelmente",
+                "Edema súbito e pronunciado (inchaço nas mãos, face ou tornozelos)",
+                "Visão turva, dores de cabeça persistentes ou sinais de pressão elevada"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiveres dúvidas ou preocupações sobre o teu bem-estar ou sobre os movimentos e sensações que sentes, podes sempre contactar o SNS 24 para orientação especializada.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como sangramento abundante, dor intensa no abdómen ou sensação de que algo está muito errado.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Segundo Trimestre",
+            "to": "/page/2tri"
+          }
+        }
+      ]
+    },
+
+
+     {
+ 
+      "id": "1ano",
+      "titulo": "Já tenho 1 ano! Passos, palavras e curiosidade",
+      "subtitulo": "12-18 meses",
+      "resumo": "Entre brincadeiras, explorações e muitos “mamãs”/“papás”, este é um ano de grandes marcos no desenvolvimento do teu filho. Vamos ver o que esperar e como apoiar esta fase.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/1ano.svg",
+      "conteudo": [
+                {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Verdadeiro ou falso? Apenas 15 minutos de brincadeira podem construir milhões de conexões no cérebro do teu bebé.",
+        "resposta": "Verdade! Cada abraço, canção ou jogo simples ajuda o desenvolvimento do bebé de muitas formas."
+        },
+
+        {
+          "tipo": "acordeao",
+          "titulo": "Social e emocional",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Entrega-te um livro quando queres ouvir uma história",
+                "Fica triste quando os pais saem",
+                "Tem brinquedos favoritos",
+                "Repete sons ou gestos para chamar atenção",
+                "Mostra timidez em relação a estranhos"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Jogos sociais simples como esconde-esconde ou ler juntos ajudam muito a fortalecer o vínculo emocional."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Linguagem e comunicação",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Usa gestos como acenar e diz palavras simples como “mamã” ou “papá”",
+                "Baba-fala (babble) começa a soar mais parecido com discurso real",
+                "Responde a pedidos simples",
+                "Tenta repetir palavras que ouve"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Desenvolvimento do cérebro",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Copia gestos e movimentos",
+                "Bate objetos juntos",
+                "Tenta usar copo corretamente ou outros objetos",
+                "Procura objetos escondidos",
+                "Segue indicações simples e solta objetos quando pedido"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Movimento e desenvolvimento físico",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Anda alguns passos sem apoio",
+                "Senta-se sem ajuda",
+                "Sobe-se a superfícies seguras ou usando mobília para apoio"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Alimentação e nutrição",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Come uma variedade maior de alimentos (legumes suaves, frutas, etc.)",
+                "Come sozinho ou tenta comer com colher",
+                "Morde ou mastiga bem os alimentos",
+                "Come de copo aberto"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Cada criança tem o seu ritmo, mas alguns sinais podem indicar que vale a pena ver um profissional de saúde."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Não engatinha nem tenta mover-se de forma autónoma",
+                "Não procura objetos escondidos",
+                "Não sustenta o corpo quando lhe é pedido",
+                "Não aponta para coisas",
+                "Não diz palavras simples",
+                "Perde habilidades que já tinha desenvolvido"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiveres dúvidas ou preocupações sobre como o teu bebé está a crescer ou a brincar, podes sempre contactar o SNS 24 para orientação especializada.",
+          "nota": "⚠️ Ligue 112 apenas em casos muito graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Tenho 11 meses",
+            "to": "/11mes"
+          },
+          "next": {
+            "label": "Tenho 2 anos",
+            "to": "/page/2anos"
+          }
+        }
+      ]
+    },
+
+
+
+    {
+ 
+      "id": "2ano",
+      "titulo": "Tenho 2 anos! Movimento, palavras e curiosidade",
+      "subtitulo": "24-30 meses",
+      "resumo": "Aos 2 anos de idade, o teu filho está cada vez mais ativo, começa a usar frases simples, explorar, subir, correr, brincar. Aqui tens o que podes esperar e como apoiar estes marcos.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/2anos.svg",
+      "conteudo": [
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? O cérebro da criança se desenvolve mais rapidamente quando ela começa a ir para a escola.",
+          "resposta": "Falso! O cérebro desenvolve-se mais rapidamente antes do nascimento e durante os primeiros dois anos de vida."
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Social e emocional",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Gosta de imitar adultos e outras crianças",
+                "Fica feliz quando está com outras crianças",
+                "Mostra sinais de independência e às vezes teima"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Incentivar brincadeiras em grupo e permitir momentos de partilha ajuda no desenvolvimento emocional e social."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Linguagem e comunicação",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Diz frases curtas de duas a quatro palavras",
+                "Aponta para objetos quando são nomeados",
+                "Reconhece partes do corpo familiares",
+                "Reproduz palavras que ouve",
+                "Segue instruções simples"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Desenvolvimento do cérebro",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Começa a separar formas e cores",
+                "Encontra objetos escondidos sob camadas",
+                "Brinca de fingir",
+                "Segue instruções em duas etapas",
+                "Empilha pelo menos quatro blocos"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Movimento e desenvolvimento físico",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Corre, chuta bola e lança objetos acima da cabeça",
+                "Sobe e desce de móveis sem ajuda",
+                "Desenha ou imita linhas simples e círculos"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Alimentação e nutrição",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Mastiga bem com os dentes molares",
+                "Usa talheres com mais habilidade (embora com derrames)",
+                "Come alimentos do prato da família com supervisão"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Cada criança é diferente, mas alguns sinais podem merecer atenção e possivelmente uma avaliação profissional."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Não usa frases simples de duas palavras",
+                "Não imita ações ou não repete palavras que ouve",
+                "Não anda com segurança",
+                "Perde habilidades que já tinha",
+                "Mostra pouca curiosidade ou interações sociais reduzidas"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiveres dúvidas ou preocupações sobre como o teu filho está a crescer ou interagir, podes sempre contactar o SNS 24 para orientação especializada.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Tenho 1 ano",
+            "to": "/page/1ano"
+          },
+          "next": {
+            "label": "Tenho 3 anos",
+            "to": "/page/3ano"
+          }
+        }
+      ]
+    },
+
+
+
+    {
+ 
+      "id": "3ano",
+      "titulo": "Tenho 3 anos! Brincar, aprender e explorar",
+      "subtitulo": "36-48 meses",
+      "resumo": "Nesta fase, a tua criança está mais independente — corre, fala em frases, tem curiosidade, imaginação e começa a entender regras simples. Aqui vão marcos, dicas práticas e sinais para ficar atento.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/3anos.svg",
+      "conteudo": [
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Brincar livremente com outras crianças ajuda mais no desenvolvimento social do que focar apenas em aprender letras ou números.",
+          "resposta": "Verdade! As interações sociais, brincar e explorar com outras crianças são fundamentais para a empatia, a linguagem e as competências emocionais nesta idade."
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Social e emocional",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Brinca com outras crianças, partilha brinquedos embora ainda esteja a aprender a esperar a sua vez",
+                "Mostra afeto, conforta outros, imita comportamentos de adultos ou irmãos",
+                "Inicia brincadeiras de faz-de-conta simples"
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Incentivar oportunidades para brincar em grupo, dividir histórias, e expressar sentimentos com ajuda dos cuidadores reforça segurança emocional."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Linguagem e comunicação",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Fala frases completas de 3-4 palavras",
+                "Pergunta “porquê?” e combina palavras que ouviu",
+                "Conta histórias simples ou descreve o que fez ou viu ontem",
+                "Segue instruções com duas ou mais etapas"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Desenvolvimento cognitivo",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Reconhece cores e formas básicas",
+                "Agrupa objetos por categoria (como animais, meios de transporte)",
+                "Resolva problemas simples, como puzzles de 3-4 peças",
+                "Imita comportamentos de jogo de faz-de-conta"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Movimento e habilidades físicas",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Corre, sobe escadas alternando pés",
+                "Pula com ambos os pés juntos",
+                "Chuta bola, lança objetos acima da cabeça",
+                "Faz tarefas de coordenação fina: empilhar 6-8 blocos, usar talheres com mais precisão"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Alimentação e autonomia",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Come sozinho mais frequentemente, usando talheres",
+                "Come variedade de alimentos com diferentes texturas",
+                "Participa nas refeições da família",
+                "Entende “só mais um bocadinho” ou “já basta” em alguns contextos"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Cada criança tem seu ritmo, mas alguns sinais podem indicar que é bom consultar um profissional de saúde ou especialista."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Não consegue juntar frases simples ou comunicar necessidades básicas",
+                "Perde habilidades sociais ou deixa de interagir como antes",
+                "Dificuldade motora significativa: má coordenação, tropeçar muito",
+                "Pouca curiosidade ou recusa contínua para explorar ou brincar",
+                "Problemas de escuta ou compreensão (não responde quando se chama ou quando se pedem instruções simples)"
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiveres dúvidas sobre como a criança está a se desenvolver, interagir ou brincar, podes contactar o SNS 24 para orientação.",
+          "nota": "⚠️ Ligue 112 apenas em casos muito graves, como convulsões, desorientação ou incapacidade súbita de mexer-parte do corpo.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Tenho 2 anos",
+            "to": "/page/2ano"
+          }
+        }
+      ]
+    },
+
+
+    {
+      "id": "recem-nascido",
+      "titulo": "Recém-nascido. Olá, mundo!",
+      "subtitulo": "0–30 dias",
+      "resumo": "Nos primeiros dias de vida, tudo é novo para o bebé e para a família. Aqui ficam cuidados simples, sinais a ter atenção e formas de criar vínculo.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/recemnascido.svg",
+      "conteudo": [
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? O contacto pele com pele logo após o nascimento ajuda a regular a temperatura do bebé e cria laços afetivos.",
+          "resposta": "Verdade! Este contacto acalma o bebé, ajuda a controlar a temperatura, batimentos e respiração, e fortalece a ligação com os pais."
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Cuidados básicos"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Umbigo: manter limpo e seco; observar se fica vermelho ou com cheiro.",
+                "Banho: não precisa ser todos os dias; usar água morna e sabonete suave.",
+                "Pele: hidratar se estiver seca; evitar perfumes e pós de talco.",
+                "Fraldas: mudar sempre que estiver suja; limpar bem a pele.",
+                "Roupa: vestir em camadas, sem exagerar no agasalho."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Consultas e vacinas"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Consulta nas primeiras semanas de vida.",
+                "Teste do pezinho, rastreio auditivo e verificação da oxigenação.",
+                "Cumprir o Plano Nacional de Vacinação.",
+                "Registar tudo no Boletim de Saúde Infantil."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Família e apoio",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "É normal sentir tristeza ou chorar sem motivo nos primeiros dias (baby blues).",
+                "Partilhar tarefas entre cuidadores ajuda a descansar.",
+                "Falar sobre como se sente e pedir ajuda sempre que necessário.",
+                "Participar em grupos de apoio pode dar segurança."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "O que o bebé já faz",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Reflexos naturais: procura o peito, agarra com força, sobressalta-se com barulhos.",
+                "Movimentos ainda descoordenados.",
+                "Vê melhor a 20–30 cm de distância e prefere rostos.",
+                "Reconhece vozes familiares.",
+                "Fica calmo com contacto pele com pele."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Alimentação",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Aleitamento materno"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Dar sempre que o bebé pede (livre demanda).",
+                "A pega deve ser confortável para a mãe e eficaz para o bebé.",
+                "Deixar esvaziar uma mama antes de trocar para a outra."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Leite adaptado (quando necessário)"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Seguir sempre a indicação do profissional de saúde.",
+                "Lavar bem os biberões e nunca guardar sobras.",
+                "Dar o leite com o bebé semi-sentado."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Sono",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Dormem 14 a 17 horas por dia em pequenos períodos.",
+                "Acordam muitas vezes para mamar.",
+                "Devem dormir sempre de barriga para cima, em colchão firme, sem almofadas ou brinquedos.",
+                "É mais seguro dormir no quarto dos pais, mas não na mesma cama."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Vínculo e carinho",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Contacto pele com pele ajuda a sentir-se protegido.",
+                "Falar e cantar transmite calma e segurança.",
+                "Massagem suave pode relaxar.",
+                "Criar rituais simples: uma canção, uma história curta, tirar fotos para memória."
+              ]
+            }
+          ]
+        },
+        {
+            "tipo": "alerta",
+            "titulo": "Quando procurar ajuda",
+            "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+            "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+            "telefone": "808242424",
+            "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "next": {
+            "label": "Tenho 1 mês",
+            "to": "/page/1mes"
+          }
+        }
+      ]
+    },
+
+
+
+    {
+      "id": "1mes",
+      "titulo": "Tenho 1 mês! A descobrir o mundo devagarinho",
+      "subtitulo": "30–60 dias",
+      "resumo": "Com 1 mês, começo a estar mais desperto por curtos períodos, fixo melhor os rostos e respondo cada vez mais ao carinho dos cuidadores.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/1mes.svg",
+      "conteudo": [
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Os bebés já conseguem reconhecer a voz da mãe e do pai desde o nascimento.",
+          "resposta": "Verdade! Desde o útero que o bebé reconhece vozes familiares, e isso ajuda a criar segurança logo nos primeiros dias."
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Ainda tenho muitos reflexos, como o reflexo de agarrar e o de sobressalto.",
+                "É normal a cabeça cair para trás quando me seguram, preciso sempre de apoio no pescoço.",
+                "A pele pode descamar ou ter pequenas borbulhas — quase sempre é normal."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "O que já consigo fazer",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Consigo fixar melhor os rostos, sobretudo quando estão perto.",
+                "Começo a seguir objetos simples com os olhos.",
+                "Reajo a sons altos ou a vozes familiares.",
+                "Choro é a minha principal forma de comunicar, mas já começo a emitir sons suaves."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Alimentação",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Devo continuar a ser alimentado apenas com leite materno ou leite adaptado, conforme orientação de saúde.",
+                "As mamadas continuam a ser frequentes, dia e noite.",
+                "Dar atenção aos sinais de fome (mexer a boca, levar as mãos à boca, inquietação) antes de chorar."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Sono",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Durmo entre 14 a 17 horas por dia, mas acordo muitas vezes para comer.",
+                "É importante manter o sono seguro: sempre de barriga para cima, em colchão firme e sem objetos no berço.",
+                "O quarto pode estar partilhado com os pais, mas sem partilhar a cama."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Vínculo e carinho",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "O contacto pele com pele continua a ser muito importante.",
+                "Falar comigo com voz calma e olhar nos olhos ajuda-me a sentir seguro.",
+                "Carícias e mimos fortalecem a ligação emocional."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Cada bebé é único, mas partilha estes sinais com o médico ou enfermeira se notar:"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Não reage a sons fortes.",
+                "Não fixa o olhar em rostos ou objetos próximos.",
+                "Tem movimentos muito rígidos ou, pelo contrário, parece demasiado mole.",
+                "Não mama bem ou recusa as tomas de leite."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Recém-nascido",
+            "to": "/recemnascido"
+          },
+          "next": {
+            "label": "Tenho 2 meses",
+            "to": "/2mes"
+          }
+        }
+      ]
+    },
+
+
+    {
+      "id": "2mes",
+      "titulo": "Tenho 2 meses! Mais atento e sorridente",
+      "subtitulo": "60-90 dias",
+      "resumo": "Começo a responder a rostos, os meus sorrisos ficam mais frequentes e as rotinas entre sono, alimentação e vigília começam a definir-se.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/2meses.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "Social e emocional",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Consigo sorrir em resposta às pessoas.",
+                "Posso tentar consolar-me sugando a própria mão.",
+                "Olho para o rosto dos meus pais ou cuidador."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "O contacto pele a pele, sorrir de volta e olhar para rostos ajuda a construir vínculo e segurança."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Linguagem e comunicação",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Reajo a sons e viro-me para eles.",
+                "Faço sons suaves: cooing ou arrulhos."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Falar para mim e responder aos meus sons, mesmo que simples, ajuda muito o meu desenvolvimento da linguagem."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Desenvolvimento cerebral / percepção",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Sigo objetos ou rostos com os olhos quando se movem.",
+                "Reconheço rostos familiares.",
+                "Fico inquieto se estiver entediado."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Nomear pessoas e objetos que capto ajuda o meu cérebro a ligar significado ao que vejo."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Desenvolvimento físico e movimento",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Faço movimentos mais suaves com braços e pernas.",
+                "Consigo levantar a cabeça quando estou de bruços.",
+                "Começo a empurrar com os braços enquanto estou de barriga para baixo."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Alimentação",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Leite materno ou fórmula continua a ser o meu alimento principal.",
+                "Sucção e deglutição são processos que já faço com mais facilidade.",
+                "Mostro sinais de fome e de saciedade em cada mamada."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Coisas a observar",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "Cada bebé tem o seu ritmo, mas é importante estar atento a alguns sinais que justificam partilhar com o médico ou enfermeira."
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Não sorri para pessoas.",
+                "Não acompanha objetos em movimento com os olhos.",
+                "Não responde a sons.",
+                "Não consegue levantar a cabeça quando está de barriga para baixo.",
+                "Parece muito rígido ou, pelo contrário, demasiado mole."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Tenho 1 mês",
+            "to": "/1mes"
+          },
+          "next": {
+            "label": "Tenho 3 meses",
+            "to": "/3mes"
+          }
+        }
+      ]
+    },
+
+
+    {
+ 
+      "id": "3mes",
+      "titulo": "Tenho 3 meses! Força e curiosidade em ação",
+      "subtitulo": "90–120 dias",
+      "resumo": "Mais controlo cervical, sorrisos e “conversas” com arrulhos. Sugestões de sono seguro, alimentação e estímulos que acompanham esta fase de descoberta.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/3meses.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Consultas e seguimento"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Avaliar crescimento (peso, comprimento e PC), tónus e marcos.",
+                "Rever Plano Nacional de Vacinação e calendário próximo.",
+                "Confirmar suplementação (ex.: vitamina D) conforme prescrição."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Higiene e segurança"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Banhos curtos; hidratar pele se necessário; ambiente livre de fumo.",
+                "Transporte: sempre no SRI adequado, corretamente instalado.",
+                "Superfícies estáveis; nunca deixar o bebé sozinho em locais altos."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. Parentalidade e apoio",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Rotinas e previsibilidade"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Janelas de vigília um pouco maiores (~1h15–1h45).",
+                "Manter rede de apoio e pausas para autocuidado dos cuidadores."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Brincar e interação"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Conversar, cantar, responder aos arrulhos e sorrisos.",
+                "Momentos calmos e previsíveis ajudam o bebé a regular-se."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. Desenvolvimento do bebé",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Marcos típicos (≈ 3 meses)"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Controlo cervical melhor: sustém a cabeça por mais tempo.",
+                "Segue objetos por arcos amplos; olha para as mãos (hand regard).",
+                "Sorrisos sociais frequentes; responde a vozes e expressões.",
+                "Arrulhos e “conversas” com pausas (início de turn-taking)."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Estimulação adequada"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Tummy time diário, várias vezes por dia (sempre acordado e vigiado).",
+                "Brincadeiras cara-a-cara, espelho, livros/imagens de alto contraste.",
+                "Brinquedos leves/sonoros a 20–30 cm; incentivar alcance e preensão inicial."
+              ]
+            },
+            {
+              "tipo": "paragrafo",
+              "texto": "Cada bebé tem o seu ritmo; a vigilância regular orienta estímulos e sinaliza necessidades adicionais."
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Alimentação",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Aleitamento materno / fórmula"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Média de 6–8 tomas/24h; alguns bebés fazem blocos noturnos mais longos.",
+                "Seguir sinais de fome/saciedade; observar ganho ponderal.",
+                "Arrotar após as tomas; manter em posição vertical alguns minutos."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Apoio se necessário"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Dificuldade de pega, dor/fissuras ou ganho de peso insuficiente → pedir avaliação.",
+                "Fórmula: higiene rigorosa, diluição correta e descarte de sobras."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Sono",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Padrões esperados (90–120 dias)"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Total diário ≈ 14–15 h; mais regularidade noturna em alguns bebés.",
+                "Manter rotina: luz e interação de dia; pouca luz/estímulos à noite."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Segurança do sono"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "De costas numa superfície firme, sem objetos soltos no berço.",
+                "Quarto partilhado (sem partilha de cama) continua recomendado.",
+                "Evitar sobreaquecimento; roupa adequada à estação."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "6. Vínculo afetivo e cultura familiar",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Relação e responsividade"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Responder ao choro e aos sinais com rapidez e carinho cria segurança.",
+                "Mais trocas de sorrisos, arrulhos e atenção ao rosto do cuidador."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Rituais e memórias"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Histórias curtas, canções e passeios calmos; manter registos (fotografias, diário).",
+                "Introduzir gradualmente música e elementos culturais da família."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Tenho 2 meses",
+            "to": "/page/2mes"
+          },
+          "next": {
+            "label": "Tenho 4 meses",
+            "to": "/page/4mes"
+          }
+        }
+      ]
+    },
+
+
+    
+    {
+      "id": "4mes",
+      "titulo": "Tenho 4 meses! Descobertas com mais energia",
+      "subtitulo": "120–150 dias",
+      "resumo": "Mais força no pescoço, começa a rolar, agarrar objetos e dar risadas. Uma fase cheia de descobertas e novas interações.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/4meses.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Saúde e bem-estar",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Consulta e vacinação"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Avaliação de crescimento: peso, comprimento, perímetro cefálico.",
+                "Vacinas da 2.ª dose devem estar em dia.",
+                "Atualizar suplementação (como vitamina D), conforme orientação profissional."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Higiene e segurança"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Banhos rápidos; hidratar se necessário; manter ambiente livre de fumo.",
+                "Segurança em espaços altos ou escorregadios — não deixar o bebé sozinho.",
+                "Uso correto do SRI no carro e proteção ativa no lar."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Sinais de alerta"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Falta de reação a sons/vozes ou ausência de sorriso social.",
+                "Dificuldade no controlo da cabeça ou recusa alimentar persistente.",
+                "Choro inconsolável ou sinais de desidratação."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "2. Parentalidade e apoio",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Rotinas mais consistentes"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Janelas de vigília maiores (até ~1h45) e ciclos mais regulares de sono.",
+                "Rede de apoio continua essencial — pausas ajudam a recuperar energia."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Brincar e interagir"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Responde a sorrisos, arrulhos e jogos simples, como esconde-esconde.",
+                "Incentivar contacto visual, expressões faciais e trocas afetivas."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "3. Desenvolvimento do bebé",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Marcos típicos"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Controlo da cabeça firme; apoia-se nos braços em tummy time.",
+                "Começa a rolar, especialmente da barriga para as costas.",
+                "Coordenação mão-olho melhorada — agarra e leva objetos à boca.",
+                "Segue objetos com o olhar e reage a cores e padrões."
+              ]
+            },
+            {
+              "tipo": "subtitulo",
+              "texto": "Estimulação apropriada"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Oferecer tummy time várias vezes ao dia, sempre sob vigilância.",
+                "Brinquedos sonoros, espelhos seguros e objetos para agarrar.",
+                "Cantar, imitar arrulhos e promover trocas de vocalizações."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "4. Alimentação",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Aleitamento materno / fórmula"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Amamentação exclusiva até os 6 meses continua recomendada.",
+                "Se com fórmula, atenção à higiene, diluição correta e descarte adequado de sobras."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "5. Sono",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Padrões típicos"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Necessita ~14–16 horas por dia, incluindo 9–10 h noturnas e 2 sestas.",
+                "Rotinas de luz natural durante o dia e ambiente calmo à noite ajudam a consolidar o ritmo."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "6. Vínculo afetivo e cultura familiar",
+          "conteudo": [
+            {
+              "tipo": "subtitulo",
+              "texto": "Laços cada vez mais fortes"
+            },
+            {
+              "tipo": "lista",
+              "itens": [
+                "Sorrisos espontâneos, risadinhas e reconhecimento dos cuidadores.",
+                "Estimular com colo, brincadeiras faciais e leitura de histórias curtas."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "alerta",
+          "titulo": "Quando procurar ajuda",
+          "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+          "telefone": "808242424",
+          "rotulo": "Contactar SNS 24 (808 24 24 24)"
+        },
+        {
+          "tipo": "navegacao",
+          "previous": {
+            "label": "Tenho 3 meses",
+            "to": "/page/3mes"
+          },
+          "next": {
+            "label": "Tenho 5 meses",
+            "to": "/page/5mes"
+          }
+        }
+      ]
+    },
+
+
+
+
+
+    
+
+    {
+      "id": "sobre",
+      "titulo": "Sobre o Projeto Cres(Ser)",
+      "resumo": "O projeto Cres(SER) é uma iniciativa de apoio à parentalidade e promoção da saúde mental na gravidez e na primeira infância, desenvolvida no concelho de Águeda com o envolvimento de diversos parceiros comunitários.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/creche_.png",
+      "conteudo": [
+        {
+          "tipo": "subtitulo",
+          "texto": "O que é o projeto Cres(SER)?"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O Cres(SER) é o projeto que dá origem a esta plataforma web. Promovido pelo Centro de Saúde de Águeda e desenvolvido em articulação com parceiros locais — como a câmara municipal, creches, escolas, universidades e entidades sociais — tem como missão apoiar mães, pais e cuidadores desde a gravidez até aos 3 anos de vida da criança."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O projeto assenta numa premissa sólida: os primeiros 1000 dias de vida são decisivos para o desenvolvimento emocional, cognitivo e social da criança. Por isso, aposta numa intervenção comunitária, integrada e baseada em evidência científica, com foco na capacitação de quem cuida."
+        },
+        {
+          "tipo": "lista",
+          "titulo": "A intervenção destina-se a três grupos principais:",
+          "itens": [
+            "Profissionais de saúde",
+            "Profissionais de educação",
+            "Pais, mães e cuidadores"
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Objetivos do Projeto",
+          "itens": [
+            "Criar espaços de partilha, escuta ativa e aprendizagem entre pais e cuidadores.",
+            "Reforçar o vínculo afetivo entre pais e filhos.",
+            "Promover o desenvolvimento emocional, cognitivo e social saudável da criança.",
+            "Apoiar emocionalmente mães e pais durante o período de gestação e pós-parto.",
+            "Sensibilizar para a importância dos primeiros 1000 dias na construção do bem-estar futuro da criança."
+          ]
+        },
+        {
+          "tipo": "lista",
+          "titulo": "Atividades em destaque",
+          "itens": [
+            "Cres(SER) contigo… na barriga: Grupo para grávidas e pais a partir da 12.ª semana de gestação.",
+            "Cres(SER) contigo… no colo: Grupo para recém-papás durante a licença de maternidade/paternidade.",
+            "Cres(SER) contigo… para a vida: Grupo para mães, pais e cuidadores de crianças até aos 3 anos.",
+            "Caminhar Contigo: Caminhadas semanais com acompanhamento técnico.",
+            "Sessões práticas sobre temas como sono do bebé, massagem infantil, vinculação, nutrição, birras, entrada na creche, entre outros."
+          ]
+        },
+        {
+        "tipo": "contacto",
+        "telefone": "234610210",
+        "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
+        },
+
+        {
+          "tipo": "citacao",
+          "texto": "Se mudarmos o início da história, mudamos toda a história."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Apoio tecnológico e desenvolvimento"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "A plataforma web de apoio à parentalidade Cres(SER) foi desenvolvida por Leonardo Coelho, no âmbito do Mestrado em Comunicação e Tecnologias Web da Universidade de Aveiro, integrando as competências de UI/UX Design, Frontend e Backend (Fullstack)."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Esta aplicação tem como objetivo facilitar o acesso a conteúdos, artigos, eventos e recursos personalizados para mães, pais e cuidadores, garantindo uma experiência acessível, intuitiva e cientificamente fundamentada."
+        }
+      ]
+    },
+
+
+    
+    {
+      "id": "equipa",
+      "titulo": "Equipa Técnica",
+      "resumo": "O projeto Cres(Ser) conta com uma equipa dedicada ao apoio à parentalidade e ao desenvolvimento saudável na primeira infância.",
+      
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O projeto conta com uma equipa multidisciplinar composta por:"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Psicóloga clínica do Centro de Saúde de Águeda",
+            "Educadora de infância",
+            "Médica",
+            "Nutricionista",
+            "Fisioterapeuta",
+            "Assistente social",
+            "Colaboração com parceiros como a Universidade de Aveiro e o Centro Hospitalar do Baixo Vouga"
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Para participar ou saber mais"
+        },
+        
+        {
+          "tipo": "contacto",
+          "telefone": "234610210",
+          "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Se mudarmos o início da história, mudamos toda a história."
+        }
+      ]
+    },
+
+
+    {
+      "id": "contato",
+      "titulo": "Para participar ou saber mais",
+      
+      
+      "conteudo": [
+       
+        {
+          "tipo": "contacto",
+          "telefone": "234610210",
+          "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
+        },
+        {
+          "tipo": "citacao",
+          "texto": "Se mudarmos o início da história, mudamos toda a história."
+        }
+      ]
+    }
+  ]
+}

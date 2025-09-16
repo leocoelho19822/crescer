@@ -41,6 +41,7 @@ import Eventos from "./pages/EventosPage";
 import MesaMes from "./pages/MesAMesPage";
 import ReadingWithBabyPage from "./pages/articles/ReadingWithBaby";
 import ExploringObjectsPage from "./pages/articles/ExploringObjectsPage";
+import MontaPage from "./components/MontaPage";
 
 function App() {
   return (
@@ -57,6 +58,9 @@ function App() {
         <Route path="/1tri" element={<PrimeiroTrimestrePage />} />
         <Route path="/2tri" element={<SegundoTrimestrePage />} />
         <Route path="/3tri" element={<TerceiroTrimestrePage />} />
+        
+        <Route path="/page/:id" element={<MontaPage />} />
+
         <Route path="/sobre" element={<AboutPage />} />
         <Route path="/equipa" element={<TeamPage />} />
         <Route path="/contato" element={<ContactPage />} />

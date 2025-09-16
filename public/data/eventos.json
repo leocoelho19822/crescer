@@ -1,0 +1,11 @@
+{
+  "eventos": [
+    {
+      "id": "evento1",
+      "titulo": "Workshop de Alimentação Infantil",
+      "data": "2025-10-20",
+      "local": "Centro de Saúde de Águeda",
+      "descricao": "Sessão prática sobre introdução alimentar saudável."
+    }
+  ]
+}

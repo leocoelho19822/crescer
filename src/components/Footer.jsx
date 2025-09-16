@@ -17,9 +17,10 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Projeto</h4>
             <ul className="space-y-2 ">
-              <li><a href="/sobre">:: Sobre</a></li>
-              <li><a href="/equipa">:: Equipa</a></li>
-              <li><a href="/contato">:: Contatos</a></li>
+              <li><a href="/page/sobre">:: Sobre</a></li>
+              <li><a href="/page/equipa">:: Equipa</a></li>
+              <li><a href="/page/parceiros">:: Parceiros</a></li>
+              <li><a href="/page/contato">:: Contatos</a></li>
             </ul>
           </div>
 
@@ -27,13 +28,13 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Desenvolvimento</h4>
             <ul className="space-y-2 ">
-              <li><a href="/1tri">:: 1º Trimestre</a></li>
-              <li><a href="/2tri">:: 2º Trimestre</a></li>
-              <li><a href="/3tri">:: 3º Trimestre</a></li>
+              <li><a href="/page/1tri">:: 1º Trimestre</a></li>
+              <li><a href="/page/2tri">:: 2º Trimestre</a></li>
+              <li><a href="/page/3tri">:: 3º Trimestre</a></li>
               <li><a href="/mesames">:: Mês a mês</a></li>
-              <li><a href="/1ano">:: 1 Ano</a></li>
-              <li><a href="/2ano">:: 2 Anos</a></li>
-              <li><a href="/3ano">:: 3 Anos</a></li>
+              <li><a href="/page/1ano">:: 1 Ano</a></li>
+              <li><a href="/page/2ano">:: 2 Anos</a></li>
+              <li><a href="/page/3ano">:: 3 Anos</a></li>
             </ul>
           </div>
 
@@ -50,8 +51,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Legal</h4>
             <ul className="space-y-2 ">
-              <li><a href="/politica">:: Política de Privacidade</a></li>
-              <li><a href="/termos">:: Termos e Condições</a></li>
+              <li><a href="/page/politica">:: Política de Privacidade</a></li>
+              <li><a href="/page/termos">:: Termos e Condições</a></li>
               
             </ul>
           </div>

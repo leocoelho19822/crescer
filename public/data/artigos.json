@@ -1,0 +1,24 @@
+{
+  "artigos": [
+    {
+      "id": "1tri",
+      "titulo": "Primeiro Trimestre de Gravidez",
+      "resumo": "Mudanças no corpo da mãe e desenvolvimento inicial do bebé.",
+      "autor": "Equipa Cres(Ser)",
+      "data": "2025-09-16",
+      "imagem": "/imagens/1tri.svg",
+      "conteudo": [
+        {
+          "tipo": "acordeao",
+          "titulo": "1. Bem-estar emocional",
+          "conteudo": [
+            {
+              "tipo": "paragrafo",
+              "texto": "O início da gravidez traz muitas emoções..."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

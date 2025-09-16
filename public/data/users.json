@@ -1,0 +1,10 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "leonardo",
+      "name": "Leonardo Coelho",
+      "favorites": ["1tri", "2ano"]
+    }
+  ]
+}
