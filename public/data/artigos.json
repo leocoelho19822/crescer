@@ -28,7 +28,7 @@
       "autor": "Equipa Cres(Ser)",
       "revisado": "Prof. Marta Lopes, Fisioterapeuta",
       "data": "2025-01-10",
-      "icones": { "partilha": true, "favorito": false },
+      "icones": { "partilha": true, "favorito": true },
       "conteudo": [
         { "tipo": "paragrafo", "texto": "Exercícios leves ajudam na circulação, respiração e disposição da gestante." },
         { "tipo": "lista", "titulo": "Atividades seguras", "itens": ["Caminhadas leves", "Alongamentos", "Yoga pré-natal", "Natação"] },

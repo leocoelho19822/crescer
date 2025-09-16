@@ -319,6 +319,10 @@
           "previous": {
             "label": "Segundo Trimestre",
             "to": "/page/2tri"
+          },
+          "next": {
+            "label": "Olá, mundo!",
+            "to": "/page/recem-nascido"
           }
         }
       ]
@@ -872,6 +876,10 @@
         },
         {
           "tipo": "navegacao",
+          "previous": {
+            "label": "Terceiro Trimestre",
+            "to": "/page/3tri"
+          },
           "next": {
             "label": "Tenho 1 mês",
             "to": "/page/1mes"

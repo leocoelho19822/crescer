@@ -1,7 +1,9 @@
 // eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { FiPhoneCall, FiAlertTriangle, FiShare2 } from "react-icons/fi";
+import { FiPhoneCall, FiAlertTriangle, FiShare2, FiHeart } from "react-icons/fi";
+import { AiFillHeart } from "react-icons/ai"; // coração cheio
+
 import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
 
@@ -11,7 +13,9 @@ export default function MontaArtigo() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
   const [quizAnswers, setQuizAnswers] = useState({});
+  const [favorito, setFavorito] = useState(false);
 
+  // carregar artigo + verificar favoritos
   useEffect(() => {
     setLoading(true);
     setError(false);
@@ -27,6 +31,11 @@ export default function MontaArtigo() {
           setError(true);
         } else {
           setArtigo(foundArtigo);
+
+          const favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
+          if (favoritos.includes(foundArtigo.id)) {
+            setFavorito(true);
+          }
         }
         setLoading(false);
       })
@@ -35,6 +44,19 @@ export default function MontaArtigo() {
         setLoading(false);
       });
   }, [id]);
+
+  const toggleFavorito = () => {
+    let favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
+
+    if (favorito) {
+      favoritos = favoritos.filter((fid) => fid !== id);
+    } else {
+      favoritos.push(id);
+    }
+
+    localStorage.setItem("favoritos", JSON.stringify(favoritos));
+    setFavorito(!favorito);
+  };
 
   if (loading) return <p className="text-center mt-20">A carregar...</p>;
 
@@ -57,7 +79,7 @@ export default function MontaArtigo() {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8 mt-24  text-zinc-800">
+    <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
       {/* 1. Título */}
       <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
         {artigo.titulo}
@@ -68,47 +90,73 @@ export default function MontaArtigo() {
         <p className="text-lg italic text-zinc-600 mb-6">{artigo.resumo}</p>
       )}
 
-      {/* 3. Autor + Data + Partilhar */}
+      {/* 3. Autor + Data */}
       {(artigo.autor || artigo.data) && (
-        <div className="flex items-center justify-between mb-8">
-          <p className="text-sm text-gray-500">
+        <>
+        <div className="flex items-center justify-between mb-2 text-sm text-gray-500">
+          <p >
             {artigo.autor && <span>Por {artigo.autor}</span>}
+            </p>
+            <p>
             {artigo.revisado && <span> • Revisado por {artigo.revisado}</span>}
-            {(artigo.autor || artigo.revisado) && artigo.data && " • "}
-            {artigo.data && (
-              <span>{new Date(artigo.data).toLocaleDateString("pt-PT")}</span>
-            )}
-          </p>
-
-          {artigo.icones?.partilha && (
-            <button
-              onClick={() => {
-                if (navigator.share) {
-                  navigator.share({
-                    title: artigo.titulo,
-                    text: artigo.resumo || "",
-                    url: window.location.href,
-                  });
-                } else {
-                  navigator.clipboard.writeText(window.location.href);
-                  alert("Link copiado para a área de transferência!");
-                }
-              }}
-              className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
-            >
-              <FiShare2 size={18} />
-            </button>
-          )}
+            </p>
+            
         </div>
+        <div className="flex items-center justify-end mb-8 text-sm text-gray-500">
+          {artigo.data && (
+              <span>Última atualização em {new Date(artigo.data).toLocaleDateString("pt-PT")}</span>
+            )}
+            </div>
+            </>
       )}
 
-      {/* 4. Imagem */}
+      {/* 4. Imagem + Ações */}
       {artigo.imagem && (
-        <img
-          src={artigo.imagem}
-          alt={artigo.titulo}
-          className="w-full max-w-4xl mx-auto rounded-lg shadow mb-10 object-cover"
-        />
+        <>
+          <img
+            src={artigo.imagem}
+            alt={artigo.titulo}
+            className="w-full max-w-4xl mx-auto rounded-lg shadow mb-4 object-cover"
+          />
+
+          {/* Ícones */}
+          <div className="flex items-center justify-end space-x-6 mb-10">
+            {artigo.icones?.partilha && (
+              <button
+                onClick={() => {
+                  if (navigator.share) {
+                    navigator.share({
+                      title: artigo.titulo,
+                      text: artigo.resumo || "",
+                      url: window.location.href,
+                    });
+                  } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert("Link copiado para a área de transferência!");
+                  }
+                }}
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
+              >
+                <FiShare2 size={20} />
+                Partilhar
+              </button>
+            )}
+
+            {artigo.icones?.favorito && (
+              <button
+                onClick={toggleFavorito}
+                className="flex items-center text-gray-500 gap-2 text-sm transition cursor-pointer"
+              >
+                {favorito ? (
+                  <AiFillHeart size={22} className="text-red-600" />
+                ) : (
+                  <FiHeart size={20} className="text-gray-500 hover:text-red-600" />
+                )}
+                {favorito ? "Remover dos favoritos" : "Favoritar"}
+              </button>
+            )}
+          </div>
+        </>
       )}
 
       {/* 5. Conteúdo */}
@@ -117,10 +165,7 @@ export default function MontaArtigo() {
           switch (sec.tipo) {
             case "paragrafo":
               return (
-                <p
-                  key={i}
-                  className="text-base text-zinc-800 leading-relaxed mb-4"
-                >
+                <p key={i} className="text-base text-zinc-800 leading-relaxed mb-4">
                   {sec.texto}
                 </p>
               );
@@ -167,10 +212,7 @@ export default function MontaArtigo() {
               // eslint-disable-next-line
               const isShown = quizAnswers[i] || false;
               return (
-                <div
-                  key={i}
-                  className="my-6 border rounded-lg p-4 bg-emerald-50"
-                >
+                <div key={i} className="my-6 border rounded-lg p-4 bg-emerald-50">
                   <h2 className="text-lg font-bold text-zinc-800 mb-3">
                     {sec.titulo || "Teste de conhecimento"}
                   </h2>
@@ -241,6 +283,8 @@ export default function MontaArtigo() {
           }
         })}
       </div>
+
+      {/* Recursos relacionados */}
       <RecursosPensadosParaSi tipo={artigo.tipo} />
     </div>
   );

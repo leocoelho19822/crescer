@@ -76,12 +76,32 @@ export default function MontaPage() {
         <div className="flex items-center justify-between mb-8">
             <p className="text-sm text-gray-500">
             {page.autor && <span>Por {page.autor}</span>}
+            </p>
+            <p className="text-sm text-gray-500">
             {page.autor && page.data && " • "}
+            </p>
+            <p className="text-sm text-gray-500">
             {page.data && (
-                <span>{new Date(page.data).toLocaleDateString("pt-PT")}</span>
+                <span>Em {new Date(page.data).toLocaleDateString("pt-PT")}</span>
             )}
             </p>
 
+            
+        </div>
+        )}
+
+
+      {/* 4. Imagem */}
+      {page.imagem && (
+        <img
+          src={page.imagem}
+          alt={page.titulo}
+          className="w-full max-w-4xl mx-auto rounded-lg shadow mb-4 object-cover"
+        />
+      )}
+
+      <div className="flex items-center justify-end mb-16 ">
+            
             <button
             onClick={() => {
                 if (navigator.share) {
@@ -98,20 +118,9 @@ export default function MontaPage() {
             className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
             >
             <FiShare2 size={18} />
-            
+            Partilhar
             </button>
         </div>
-        )}
-
-
-      {/* 4. Imagem */}
-      {page.imagem && (
-        <img
-          src={page.imagem}
-          alt={page.titulo}
-          className="w-full max-w-4xl mx-auto rounded-lg shadow mb-10 object-cover"
-        />
-      )}
 
       {/* 5. Conteúdo */}
       <div className="prose prose-zinc lg:prose-lg max-w-none">

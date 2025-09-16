@@ -1,10 +1,7 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
-import { setAuthState } from "../store/authSlice";
-import { useLoginMutation, useGetProfileQuery } from "../store/api";
 import { ClipLoader } from "react-spinners";
-import logo from "../assets/verde1.svg"; 
+import logo from "../assets/verde1.svg";
 import Button from "./Button";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 
@@ -13,25 +10,34 @@ export default function LoginModal({ setIsOpen, setModalType }) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  const dispatch = useDispatch();
-  const [login, { isLoading }] = useLoginMutation();
-  const { refetch } = useGetProfileQuery();
+  const [isLoading, setIsLoading] = useState(false);
   const [passwordVisible, setPasswordVisible] = useState(false);
 
   const handleLogin = async (e) => {
     e.preventDefault();
     setError(null);
+    setIsLoading(true);
+
     try {
-      const data = await login({ email, password }).unwrap();
-      dispatch(setAuthState({ user: data.user, isAuthenticated: true }));
-      await refetch();
-      setIsOpen(false);
-    } catch (err) {
-      if (err?.status === 403) {
-        setError("Seu e-mail ainda não foi verificado. Verifique sua caixa de entrada.");
+      const res = await fetch("/data/users.json");
+      const users = await res.json();
+
+      const user = users.find(
+        (u) => u.email === email && u.password === password
+      );
+
+      if (user) {
+        // guarda login no localStorage
+        localStorage.setItem("user", JSON.stringify(user));
+        setIsOpen(false);
       } else {
         setError("E-mail ou senha inválidos.");
       }
+    } catch (err) {
+      console.error(err);
+      setError("Erro ao aceder ao ficheiro de utilizadores.");
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -74,7 +80,6 @@ export default function LoginModal({ setIsOpen, setModalType }) {
             >
               {passwordVisible ? <FiEyeOff size={15} /> : <FiEye size={15} />}
             </span>
-            
           </div>
 
           <div className="text-center text-sm text-gray-500 mb-4">
@@ -87,11 +92,7 @@ export default function LoginModal({ setIsOpen, setModalType }) {
             </button>
           </div>
 
-          <Button
-            type="submit"
-            className="w-full"
-            disabled={isLoading}
-          >
+          <Button type="submit" className="w-full" disabled={isLoading}>
             {isLoading ? <ClipLoader size={20} color="#000" /> : "Iniciar Sessão"}
           </Button>
         </form>

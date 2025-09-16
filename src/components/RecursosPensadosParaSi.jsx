@@ -80,7 +80,7 @@ export default function RecursosPensadosParaSi({ tipo }) {
           <Button onClick={() => setVisiveis((prev) => prev + 3)}>Ver mais</Button>
         )}
         {visiveis > 3 && (
-          <Button onClick={() => setVisiveis(3)} variant="secondary">
+          <Button onClick={() => setVisiveis(3)} variant="secondary" className="bg-gray-200 text-zinc-800 hover:bg-gray-300 transition">
             Ver menos
           </Button>
         )}
