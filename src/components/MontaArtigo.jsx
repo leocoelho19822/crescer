@@ -87,7 +87,7 @@ export default function MontaArtigo() {
 
       {/* 2. Resumo */}
       {artigo.resumo && (
-        <p className="text-lg italic text-zinc-600 mb-6">{artigo.resumo}</p>
+        <p className="text-lg italic text-zinc-600 mb-10">{artigo.resumo}</p>
       )}
 
       {/* 3. Autor + Data */}
@@ -102,7 +102,7 @@ export default function MontaArtigo() {
             </p>
             
         </div>
-        <div className="flex items-center justify-end mb-8 text-sm text-gray-500">
+        <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
           {artigo.data && (
               <span>Última atualização em {new Date(artigo.data).toLocaleDateString("pt-PT")}</span>
             )}
@@ -283,7 +283,7 @@ export default function MontaArtigo() {
           }
         })}
       </div>
-
+        <hr />
       {/* Recursos relacionados */}
       <RecursosPensadosParaSi tipo={artigo.tipo} />
     </div>
