@@ -74,7 +74,7 @@ export default function SobreSection() {
             </li>
           </ul>
           <div className="text-center">
-          <Button onClick={() => {navigate("/sobre")}} className="w-50">Saiba mais</Button>
+          <Button onClick={() => {navigate("/page/sobre")}} className="w-50">Saiba mais</Button>
           </div>
         </div>
       </div>

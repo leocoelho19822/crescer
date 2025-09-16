@@ -10,21 +10,21 @@ const cards = [
   {
     titulo: "1º Trimestre",
     imagem: trimestre1,
-    link: "/1tri",
+    link: "/page/1tri",
     texto:
       "Foco nos cuidados maternos, adaptação emocional, nutrição adequada e desenvolvimento inicial do bebé.",
   },
   {
     titulo: "2º Trimestre",
     imagem: trimestre2,
-    link: "/2tri",
+    link: "/page/2tri",
     texto:
       "Apoio ao bem-estar materno, vínculo com o bebê, preparação para o parto e acompanhamento do crescimento fetal.",
   },
   {
     titulo: "3º Trimestre",
     imagem: trimestre3,
-    link: "/3tri",
+    link: "/page/3tri",
     texto:
       "Preparação para o parto, cuidados com o corpo, fortalecimento do vínculo e planeamento para a chegada do bebé.",
   },

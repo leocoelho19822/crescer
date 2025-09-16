@@ -10,21 +10,21 @@ const cards = [
   {
     titulo: "1º Ano",
     imagem: ano1,
-    link: "/1ano",
+    link: "/page/1ano",
     texto:
       "Incentivo à marcha independente, exploração segura do ambiente e atividades que fortalecem a linguagem, autonomia e socialização.",
   },
   {
     titulo: "2º Ano",
     imagem: ano2,
-    link: "/2ano",
+    link: "/page/2ano",
     texto:
       "Apoio ao desenvolvimento da linguagem, autonomia nas rotinas e brincadeiras que estimulam criatividade e interação social.",
   },
   {
     titulo: "3º Ano",
     imagem: ano3,
-    link: "/3ano",
+    link: "/page/3ano",
     texto:
       "Estímulo ao pensamento simbólico, desenvolvimento emocional e social, com atividades que promovem linguagem, curiosidade e autonomia.",
   },

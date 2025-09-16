@@ -295,7 +295,7 @@ export default function MontaPage() {
                 <div key={i} className="mt-12 flex justify-between">
                 {sec.previous && (
                     <a href={sec.previous.to}>
-                    <Button className="px-5 py-3 bg-gray-200 text-zinc-800 rounded-lg hover:bg-gray-300 transition">
+                    <Button className="bg-gray-200 text-zinc-800 hover:bg-gray-300 transition">
                         ← {sec.previous.label}
                     </Button>
                     </a>

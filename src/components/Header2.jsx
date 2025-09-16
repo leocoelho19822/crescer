@@ -348,7 +348,7 @@ export default function HeaderHero() {
                   onClick={() => { navigate("/eventos"); setMenuOpen(false); }}
                   className="block hover:text-emerald-200 cursor-pointer"
                 >
-                  Comunidade
+                  Eventos
                 </li>
 
                 <hr className="my-6 border-white/10" />
@@ -393,7 +393,7 @@ export default function HeaderHero() {
                 <a href="/page/3anos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
               </ul>
             </li>
-            <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Comunidade</li></a>
+            <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Eventos</li></a>
           </ul>
 
           <div className="flex gap-4 items-center">
