@@ -73,7 +73,7 @@ export default function MontaPage() {
 
       {/* 3. Autor + Data + Partilhar */}
         {(page.autor || page.data) && (
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-4">
             <p className="text-sm text-gray-500">
             {page.autor && <span>Por {page.autor}</span>}
             </p>

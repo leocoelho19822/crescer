@@ -462,8 +462,8 @@
             "to": "/page/11mes"
           },
           "next": {
-            "label": "Tenho 2 anos",
-            "to": "/page/2ano"
+            "label": "Tenho 18 meses",
+            "to": "/page/18mes"
           }
         }
       ]
@@ -472,20 +472,19 @@
 
 
     {
- 
-      "id": "2ano",
-      "titulo": "Tenho 2 anos! Movimento, palavras e curiosidade",
-      "subtitulo": "24-30 meses",
-      "resumo": "Aos 2 anos de idade, o teu filho está cada vez mais ativo, começa a usar frases simples, explorar, subir, correr, brincar. Aqui tens o que podes esperar e como apoiar estes marcos.",
+      "id": "18mes",
+      "titulo": "Tenho 18 meses! A caminhar e a descobrir",
+      "subtitulo": "18 meses",
+      "resumo": "Com 18 meses, o teu filho já anda com confiança, começa a falar mais palavras, brincar de faz-de-conta e mostrar muita curiosidade pelo mundo à volta.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
-      "imagem": "/imagens/2anos.jpg",
+      "imagem": "/imagens/1_2anos.jpg",
       "conteudo": [
         {
           "tipo": "testeConhecimento",
           "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? O cérebro da criança se desenvolve mais rapidamente quando ela começa a ir para a escola.",
-          "resposta": "Falso! O cérebro desenvolve-se mais rapidamente antes do nascimento e durante os primeiros dois anos de vida."
+          "pergunta": "Verdadeiro ou falso? Aos 18 meses é esperado que todas as crianças já falem frases completas.",
+          "resposta": "Falso! Algumas crianças podem dizer frases de duas palavras, mas a maioria ainda usa palavras soltas nesta idade."
         },
         {
           "tipo": "acordeao",
@@ -494,14 +493,11 @@
             {
               "tipo": "lista",
               "itens": [
-                "Gosta de imitar adultos e outras crianças",
-                "Fica feliz quando está com outras crianças",
-                "Mostra sinais de independência e às vezes teima"
+                "Mostra afeto a pessoas conhecidas (abraços, beijos).",
+                "Pode ter birras quando contrariado.",
+                "Gosta de brincar perto de outras crianças, mesmo que ainda não brinque em conjunto.",
+                "Imita ações do dia a dia (fingir que fala ao telefone, varrer, alimentar bonecos)."
               ]
-            },
-            {
-              "tipo": "paragrafo",
-              "texto": "Incentivar brincadeiras em grupo e permitir momentos de partilha ajuda no desenvolvimento emocional e social."
             }
           ]
         },
@@ -512,55 +508,56 @@
             {
               "tipo": "lista",
               "itens": [
-                "Diz frases curtas de duas a quatro palavras",
-                "Aponta para objetos quando são nomeados",
-                "Reconhece partes do corpo familiares",
-                "Reproduz palavras que ouve",
-                "Segue instruções simples"
+                "Diz várias palavras familiares.",
+                "Aponta para objetos ou pessoas que deseja.",
+                "Segue instruções simples (ex.: 'dá-me a bola').",
+                "Aponta para partes do corpo quando pedimos."
               ]
             }
           ]
         },
         {
           "tipo": "acordeao",
-          "titulo": "Desenvolvimento do cérebro",
+          "titulo": "Cérebro e cognição",
           "conteudo": [
             {
               "tipo": "lista",
               "itens": [
-                "Começa a separar formas e cores",
-                "Encontra objetos escondidos sob camadas",
-                "Brinca de fingir",
-                "Segue instruções em duas etapas",
-                "Empilha pelo menos quatro blocos"
+                "Reconhece objetos comuns (copo, bola, boneco).",
+                "Explora jogos de causa-efeito (carros que andam, brinquedos de som).",
+                "Início de brincadeiras de faz-de-conta simples.",
+                "Constrói torre de 2–4 blocos."
               ]
             }
           ]
         },
         {
           "tipo": "acordeao",
-          "titulo": "Movimento e desenvolvimento físico",
+          "titulo": "Movimento e físico",
           "conteudo": [
             {
               "tipo": "lista",
               "itens": [
-                "Corre, chuta bola e lança objetos acima da cabeça",
-                "Sobe e desce de móveis sem ajuda",
-                "Desenha ou imita linhas simples e círculos"
+                "Anda sozinho com confiança.",
+                "Pode começar a correr curtas distâncias.",
+                "Sobe escadas com ajuda, um degrau de cada vez.",
+                "Bebe de copo e come com colher (ainda com derrames)."
               ]
             }
           ]
         },
         {
           "tipo": "acordeao",
-          "titulo": "Alimentação e nutrição",
+          "titulo": "Atividades para fazer juntos",
           "conteudo": [
             {
               "tipo": "lista",
               "itens": [
-                "Mastiga bem com os dentes molares",
-                "Usa talheres com mais habilidade (embora com derrames)",
-                "Come alimentos do prato da família com supervisão"
+                "Brincar de empilhar blocos ou copos.",
+                "Oferecer livros ilustrados e nomear imagens.",
+                "Cantar canções com gestos e rimas.",
+                "Dar oportunidade para ajudar em pequenas tarefas (apanhar brinquedos, guardar objetos).",
+                "Incentivar brincadeiras de faz-de-conta simples."
               ]
             }
           ]
@@ -571,16 +568,16 @@
           "conteudo": [
             {
               "tipo": "paragrafo",
-              "texto": "Cada criança é diferente, mas alguns sinais podem merecer atenção e possivelmente uma avaliação profissional."
+              "texto": "Cada criança cresce ao seu ritmo, mas fale com um profissional de saúde se notar:"
             },
             {
               "tipo": "lista",
               "itens": [
-                "Não usa frases simples de duas palavras",
-                "Não imita ações ou não repete palavras que ouve",
-                "Não anda com segurança",
-                "Perde habilidades que já tinha",
-                "Mostra pouca curiosidade ou interações sociais reduzidas"
+                "Não anda sozinho.",
+                "Não usa pelo menos 6 palavras.",
+                "Não aponta para mostrar interesse ou pedir algo.",
+                "Não imita ações de outros.",
+                "Não demonstra curiosidade pelo ambiente."
               ]
             }
           ]
@@ -588,8 +585,8 @@
         {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
-          "texto": "Se tiveres dúvidas ou preocupações sobre como o teu filho está a crescer ou interagir, podes sempre contactar o SNS 24 para orientação especializada.",
-          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
+          "texto": "Se tiver dúvidas ou preocupações sobre o desenvolvimento do seu filho, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
           "telefone": "808242424",
           "rotulo": "Contactar SNS 24 (808 24 24 24)"
         },
@@ -600,8 +597,8 @@
             "to": "/page/1ano"
           },
           "next": {
-            "label": "Tenho 3 anos",
-            "to": "/page/3ano"
+            "label": "Tenho 2 anos",
+            "to": "/page/2ano"
           }
         }
       ]
@@ -609,21 +606,21 @@
 
 
 
+
     {
- 
-      "id": "3ano",
-      "titulo": "Tenho 3 anos! Brincar, aprender e explorar",
-      "subtitulo": "36-48 meses",
-      "resumo": "Nesta fase, a tua criança está mais independente — corre, fala em frases, tem curiosidade, imaginação e começa a entender regras simples. Aqui vão marcos, dicas práticas e sinais para ficar atento.",
+      "id": "2ano",
+      "titulo": "Tenho 2 anos! Curiosidade e energia sem fim",
+      "subtitulo": "24 meses",
+      "resumo": "Aos 2 anos, a criança fala frases simples, corre, sobe, explora e começa a brincar com mais intenção. Esta fase é cheia de descobertas, independência e muita energia.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
-      "imagem": "/imagens/3anos.svg",
+      "imagem": "/imagens/2anos.jpg",
       "conteudo": [
         {
           "tipo": "testeConhecimento",
           "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Brincar livremente com outras crianças ajuda mais no desenvolvimento social do que focar apenas em aprender letras ou números.",
-          "resposta": "Verdade! As interações sociais, brincar e explorar com outras crianças são fundamentais para a empatia, a linguagem e as competências emocionais nesta idade."
+          "pergunta": "Verdadeiro ou falso? Aos 2 anos, a maioria das crianças já deve conseguir juntar duas palavras, como 'mais água' ou 'mãe vem'.",
+          "resposta": "Verdade! Nesta idade, a maior parte das crianças já consegue formar frases simples de duas ou mais palavras."
         },
         {
           "tipo": "acordeao",
@@ -632,14 +629,15 @@
             {
               "tipo": "lista",
               "itens": [
-                "Brinca com outras crianças, partilha brinquedos embora ainda esteja a aprender a esperar a sua vez",
-                "Mostra afeto, conforta outros, imita comportamentos de adultos ou irmãos",
-                "Inicia brincadeiras de faz-de-conta simples"
+                "Imita comportamentos de adultos e crianças mais velhas.",
+                "Gosta de brincar ao lado de outras crianças (brincar em paralelo).",
+                "Começa a mostrar mais independência e teimosia.",
+                "Demonstra emoções mais fortes e variadas."
               ]
             },
             {
               "tipo": "paragrafo",
-              "texto": "Incentivar oportunidades para brincar em grupo, dividir histórias, e expressar sentimentos com ajuda dos cuidadores reforça segurança emocional."
+              "texto": "Dar oportunidades para brincar com outras crianças e permitir escolhas simples reforça a confiança e a autonomia."
             }
           ]
         },
@@ -650,40 +648,41 @@
             {
               "tipo": "lista",
               "itens": [
-                "Fala frases completas de 3-4 palavras",
-                "Pergunta “porquê?” e combina palavras que ouviu",
-                "Conta histórias simples ou descreve o que fez ou viu ontem",
-                "Segue instruções com duas ou mais etapas"
+                "Diz frases curtas de duas a quatro palavras.",
+                "Segue instruções de dois passos (ex.: 'apanha o brinquedo e dá à mãe').",
+                "Aponta para imagens em livros quando nomeadas.",
+                "Repete palavras ouvidas em conversas."
               ]
             }
           ]
         },
         {
           "tipo": "acordeao",
-          "titulo": "Desenvolvimento cognitivo",
+          "titulo": "Cérebro e cognição",
           "conteudo": [
             {
               "tipo": "lista",
               "itens": [
-                "Reconhece cores e formas básicas",
-                "Agrupa objetos por categoria (como animais, meios de transporte)",
-                "Resolva problemas simples, como puzzles de 3-4 peças",
-                "Imita comportamentos de jogo de faz-de-conta"
+                "Começa a classificar formas e cores.",
+                "Completa frases simples em histórias e canções conhecidas.",
+                "Brinca de faz-de-conta mais elaborado (ex.: dar de comer a um boneco).",
+                "Constrói torres de 4 ou mais blocos."
               ]
             }
           ]
         },
         {
           "tipo": "acordeao",
-          "titulo": "Movimento e habilidades físicas",
+          "titulo": "Movimento e físico",
           "conteudo": [
             {
               "tipo": "lista",
               "itens": [
-                "Corre, sobe escadas alternando pés",
-                "Pula com ambos os pés juntos",
-                "Chuta bola, lança objetos acima da cabeça",
-                "Faz tarefas de coordenação fina: empilhar 6-8 blocos, usar talheres com mais precisão"
+                "Corre com mais segurança.",
+                "Sobe e desce de móveis sem ajuda.",
+                "Chuta bola e atira objetos por cima da cabeça.",
+                "Sobe escadas com apoio, um pé em cada degrau.",
+                "Desenha linhas e círculos simples."
               ]
             }
           ]
@@ -695,10 +694,26 @@
             {
               "tipo": "lista",
               "itens": [
-                "Come sozinho mais frequentemente, usando talheres",
-                "Come variedade de alimentos com diferentes texturas",
-                "Participa nas refeições da família",
-                "Entende “só mais um bocadinho” ou “já basta” em alguns contextos"
+                "Come sozinho com colher e garfo (ainda com alguma ajuda).",
+                "Participa nas refeições da família.",
+                "Experimenta variedade de alimentos e texturas.",
+                "Começa a demonstrar preferências alimentares."
+              ]
+            }
+          ]
+        },
+        {
+          "tipo": "acordeao",
+          "titulo": "Atividades para fazer juntos",
+          "conteudo": [
+            {
+              "tipo": "lista",
+              "itens": [
+                "Brincar de faz-de-conta com bonecos e utensílios.",
+                "Ler livros com imagens e incentivar a apontar e nomear.",
+                "Cantar canções com gestos e rimas.",
+                "Estimular jogos de construção com blocos.",
+                "Dar pequenas responsabilidades (guardar brinquedos, ajudar a pôr a mesa)."
               ]
             }
           ]
@@ -709,16 +724,16 @@
           "conteudo": [
             {
               "tipo": "paragrafo",
-              "texto": "Cada criança tem seu ritmo, mas alguns sinais podem indicar que é bom consultar um profissional de saúde ou especialista."
+              "texto": "Cada criança tem o seu ritmo, mas fale com o médico ou enfermeira se notar:"
             },
             {
               "tipo": "lista",
               "itens": [
-                "Não consegue juntar frases simples ou comunicar necessidades básicas",
-                "Perde habilidades sociais ou deixa de interagir como antes",
-                "Dificuldade motora significativa: má coordenação, tropeçar muito",
-                "Pouca curiosidade ou recusa contínua para explorar ou brincar",
-                "Problemas de escuta ou compreensão (não responde quando se chama ou quando se pedem instruções simples)"
+                "Não usa frases simples de duas palavras.",
+                "Não imita ações ou palavras de outros.",
+                "Não anda com segurança.",
+                "Mostra pouca curiosidade ou evita explorar o ambiente.",
+                "Perda de habilidades que já tinha."
               ]
             }
           ]
@@ -726,20 +741,21 @@
         {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
-          "texto": "Se tiveres dúvidas sobre como a criança está a se desenvolver, interagir ou brincar, podes contactar o SNS 24 para orientação.",
-          "nota": "⚠️ Ligue 112 apenas em casos muito graves, como convulsões, desorientação ou incapacidade súbita de mexer-parte do corpo.",
+          "texto": "Se tiver dúvidas ou preocupações sobre o desenvolvimento do seu filho, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
+          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
           "telefone": "808242424",
           "rotulo": "Contactar SNS 24 (808 24 24 24)"
         },
         {
           "tipo": "navegacao",
           "previous": {
-            "label": "Tenho 2 anos",
-            "to": "/page/2ano"
+            "label": "Tenho 18 meses",
+            "to": "/page/18mes"
           }
         }
       ]
     },
+        
 
 
     {

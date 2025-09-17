@@ -199,22 +199,22 @@ export default function HeaderHero() {
             </div>
 
             {/* Pesquisa */}
-<div className="mt-6">
-  <div className="relative">
-    <input
-      type="text"
-      placeholder="Pesquisar..."
-      className="w-full rounded-lg px-4 py-3 pr-10 
-                 bg-white text-gray-800 placeholder-gray-400 
-                 shadow-sm border border-white/30 
-                 focus:outline-none focus:ring-2 focus:ring-white/70"
-    />
-    <BsSearch 
-      size={18} 
-      className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" 
-    />
-  </div>
-</div>
+            <div className="mt-6">
+              <div className="relative">
+                <input
+                  type="text"
+                  placeholder="Pesquisar..."
+                  className="w-full rounded-lg px-4 py-3 pr-10 
+                            bg-white text-gray-800 placeholder-gray-400 
+                            shadow-sm border border-white/30 
+                            focus:outline-none focus:ring-2 focus:ring-white/70"
+                />
+                <BsSearch 
+                  size={18} 
+                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" 
+                />
+              </div>
+            </div>
 
 
             {/* Lista de links / submenus */}
@@ -325,19 +325,19 @@ export default function HeaderHero() {
                         onClick={() => { navigate("/page/1ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        1º Ano
+                        Tenho 1 ano
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/18mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 1 ano e meio
                       </li>
                       <li
                         onClick={() => { navigate("/page/2ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        2º Ano
-                      </li>
-                      <li
-                        onClick={() => { navigate("/page/3ano"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        3º Ano
+                        Tenho 2 anos
                       </li>
                     </ul>
                   )}
@@ -388,9 +388,9 @@ export default function HeaderHero() {
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Vida<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <a href="/mesames"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li></a>
-                <a href="/page/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li></a>
-                <a href="/page/2ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li></a>
-                <a href="/page/3ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
+                <a href="/page/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 1 ano</li></a>
+                <a href="/page/18mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 1 ano e meio</li></a>
+                <a href="/page/2ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 2 anos</li></a>
               </ul>
             </li>
             <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Eventos</li></a>

@@ -1,30 +1,31 @@
 // eslint-disable-next-line
 import React from "react";
 import ano1 from "../assets/1ano.jpg";
+import ano1_2 from "../assets/1_2anos.jpg";
 import ano2 from "../assets/2anos.jpg";
-import ano3 from "../assets/3anos.svg";
+
 
 import { Link } from "react-router-dom";
 
 const cards = [
   {
-    titulo: "1º Ano",
+    titulo: "Já tenho 1 ano",
     imagem: ano1,
     link: "/page/1ano",
     texto:
       "Incentivo à marcha independente, exploração segura do ambiente e atividades que fortalecem a linguagem, autonomia e socialização.",
   },
   {
-    titulo: "2º Ano",
-    imagem: ano2,
-    link: "/page/2ano",
+    titulo: "Já tenho 18 meses",
+    imagem: ano1_2,
+    link: "/page/18mes",
     texto:
       "Apoio ao desenvolvimento da linguagem, autonomia nas rotinas e brincadeiras que estimulam criatividade e interação social.",
   },
   {
-    titulo: "3º Ano",
-    imagem: ano3,
-    link: "/page/3ano",
+    titulo: "Já tenho 2 anos",
+    imagem: ano2,
+    link: "/page/2ano",
     texto:
       "Estímulo ao pensamento simbólico, desenvolvimento emocional e social, com atividades que promovem linguagem, curiosidade e autonomia.",
   },
