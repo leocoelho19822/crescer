@@ -74,7 +74,8 @@ export default function HeaderHero() {
     e.preventDefault();
     if (searchTerm.trim()) {
       navigate(`/pesquisa?q=${encodeURIComponent(searchTerm)}`);
-      setMenuOpen(false); // fecha o menu mobile
+      setMenuOpen(false); 
+      setSearchTerm("");
     }
   };
 
