@@ -389,8 +389,8 @@ export default function HeaderHero() {
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <a href="/mesames"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li></a>
                 <a href="/page/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">1 ano</li></a>
-                <a href="/page/2anos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li></a>
-                <a href="/page/3anos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
+                <a href="/page/2ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">2 anos</li></a>
+                <a href="/page/3ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">3 anos</li></a>
               </ul>
             </li>
             <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Eventos</li></a>

@@ -104,7 +104,14 @@ export default function MontaArtigo() {
         </div>
         <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
           {artigo.data && (
+            <>
+            <p>
+            <span>Categoria  {artigo.categoria}</span>
+            </p>
+            <p>
               <span>Última atualização em {new Date(artigo.data).toLocaleDateString("pt-PT")}</span>
+              </p>
+              </>
             )}
             </div>
             </>
@@ -212,7 +219,7 @@ export default function MontaArtigo() {
               // eslint-disable-next-line
               const isShown = quizAnswers[i] || false;
               return (
-                <div key={i} className="my-6 border rounded-lg p-4 bg-emerald-50">
+                <div key={i} className="my-20 border rounded-lg p-4 bg-emerald-50">
                   <h2 className="text-lg font-bold text-zinc-800 mb-3">
                     {sec.titulo || "Teste de conhecimento"}
                   </h2>
