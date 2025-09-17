@@ -35,7 +35,7 @@ export default function SearchResults() {
     <main className="max-w-4xl mx-auto px-4 py-10 mt-24">
       <h1 className="text-3xl font-bold text-zinc-800 mb-8">
         Resultados da pesquisa por:{" "}
-        <span className="text-emerald-600">"{query}"</span>
+        <span className="text-emerald-600">{query}</span>
       </h1>
 
       {resultados.length === 0 ? (
