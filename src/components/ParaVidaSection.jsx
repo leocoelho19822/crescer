@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from "react";
-import ano1 from "../assets/1ano.svg";
-import ano2 from "../assets/2anos.svg";
+import ano1 from "../assets/1ano.jpg";
+import ano2 from "../assets/2anos.jpg";
 import ano3 from "../assets/3anos.svg";
 
 import { Link } from "react-router-dom";

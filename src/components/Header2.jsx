@@ -3,8 +3,8 @@ import React, { useEffect, useState, useRef } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
 import parentalidadeBg1 from "../assets/campo17072025.png";
-import parentalidadeBg2 from "../assets/parque16072025.png";
-import brincar from "../assets/brincar16072025.png"
+import parentalidadeBg2 from "../assets/parque16072025.jpg";
+import brincar from "../assets/brincar_juntos.jpg"
 import logoverde from "../assets/Logo_Branco.svg";
 
 import { CgProfile } from "react-icons/cg";
