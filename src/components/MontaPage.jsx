@@ -275,7 +275,7 @@ export default function MontaPage() {
             return (
                 <div
                 key={i}
-                className="mt-10 p-6 bg-emerald-50 border border-emerald-50 rounded-xl shadow-sm"
+                className="mt-10 p-6 bg-amber-50 border border-amber-200 rounded-xl shadow-sm"
                 >
                 <div className="flex items-center mb-4">
                     <FiAlertTriangle className="text-zinc-600 mr-2" size={24} />
@@ -337,9 +337,12 @@ export default function MontaPage() {
           }
         })}
       </div>
+
        <hr className="mt-24" />
-      {/* Recursos relacionados */}
-            <RecursosPensadosParaSi tipo={page.tipo} />
+      
+       <RecursosPensadosParaSi tipo={page.tipo} />
+
+
     </div>
   );
 }
