@@ -773,80 +773,318 @@
     },
 
     {
-      "id": "para-a-vida-educacao-precoce",
-      "titulo": "A importância da educação precoce",
-      "resumo": "A aprendizagem nos primeiros anos tem impacto direto na vida adulta.",
-      "categoria": "Educação",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/educacao-precoce.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Prof. Luís Almeida",
-      "data": "2025-03-20",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Investir na educação precoce gera benefícios duradouros." }
-      ]
+    "id": "para-a-vida-educacao-precoce",
+    "titulo": "A importância da educação precoce",
+    "resumo": "Nos primeiros anos de vida, as aprendizagens têm impacto profundo no desenvolvimento cognitivo, emocional e social. Uma educação de qualidade nessa fase inicial prepara para o êxito escolar, fortalece competências de vida e contribui para uma sociedade mais equitativa.",
+    "categoria": "Educação",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/educacao-precoce.jpg",
+    "autor": "4",
+    "revisado": "2",
+    "data": "2025-03-20",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "A educação nos primeiros anos — particularmente até aos 3–5 anos — é crucial porque o cérebro está em rápido desenvolvimento. Estimular a criança cedo, com cuidados, brincadeira, linguagem e interacção, cria bases sólidas para aprendizagens futuras. "
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Benefícios de uma educação precoce"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Melhora da capacidade cognitiva, linguagem e atenção desde cedo. ",
+            "Desenvolvimento social e emocional, como empatia, autoconfiança e cooperação. ",
+            "Redução de desigualdades — crianças de contextos vulneráveis se beneficiam muito com acesso precoce. ",
+            "Preparação para o sucesso escolar: melhor desempenho, frequência adequada e menos repetências. "
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Como promover uma educação de qualidade desde cedo"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Ambientes seguros, acolhedores e estimulantes, com brinquedos, livros e espaços para exploração. ",
+            "Professores, cuidadores ou famílias que falem, cantem, leiam e brinquem com a criança. ",
+            "Programas pré-escolares de qualidade, inclusivos, com currículos adequados à idade. ",
+            "Políticas públicas que priorizem o acesso universal, equitativo e com recursos suficientes. "
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Possíveis desafios"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Em muitos lugares, o acesso à educação precoce é desigual. Custos, distância, falta de profissionais formados e recursos limitados interferem. Garantir que todos as crianças tenham oportunidades semelhantes exige compromisso político, investimento e atenção às comunidades mais desfavorecidas. "
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "A educação pré-escolar de qualidade só beneficia crianças se começarem muito cedo (antes dos 2 anos)?",
+        "resposta": "Parcialmente falso. Embora quanto mais cedo melhor, o importante é qualidade, consistência e continuidade, mesmo se começar aos 3 ou 4 anos, pode trazer benefícios significativos."
+        }
+    ]
+    },
+
+    {
+    "id": "para-a-vida-direitos-crianca",
+    "titulo": "Direitos da Criança",
+    "resumo": "Todas as crianças, independentemente da sua origem, género, religião ou condição social, têm direitos fundamentais reconhecidos internacionalmente pela Convenção sobre os Direitos da Criança. Estes direitos garantem proteção, desenvolvimento saudável, oportunidades de aprendizagem e participação ativa na sociedade.",
+    "categoria": "Cidadania",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/direitos.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Jurista Rita Monteiro",
+    "data": "2025-03-22",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "A Convenção sobre os Direitos da Criança, adotada em 1989 pela ONU, é o tratado internacional mais ratificado do mundo. Estabelece que todas as crianças têm direito a sobreviver, a se desenvolver plenamente, a serem protegidas contra abusos e a participar ativamente nas suas comunidades."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Direitos fundamentais"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Educação — acesso gratuito e de qualidade para que todas as crianças aprendam e desenvolvam o seu potencial.",
+            "Saúde — direito a serviços de saúde adequados, nutrição equilibrada e água potável.",
+            "Proteção — garantia de segurança contra exploração, violência, discriminação ou negligência.",
+            "Identidade — direito a ter um nome, uma nacionalidade e a viver com dignidade desde o nascimento.",
+            "Participação — oportunidade de expressar opiniões e ser ouvida em decisões que lhe dizem respeito."
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Por que é importante conhecer estes direitos"
+        },
+    {
+      "tipo": "paragrafo",
+      "texto": "Quando os direitos das crianças são respeitados, toda a sociedade ganha. Garantir educação, saúde e proteção contribui para comunidades mais justas, reduz desigualdades e promove um futuro mais sustentável."
     },
     {
-      "id": "para-a-vida-direitos-crianca",
-      "titulo": "Direitos da Criança",
-      "resumo": "Conheça os principais direitos garantidos às crianças.",
-      "categoria": "Cidadania",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/direitos.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Jurista Rita Monteiro",
-      "data": "2025-03-22",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "lista", "titulo": "Direitos fundamentais", "itens": ["Educação", "Saúde", "Proteção", "Identidade"] }
-      ]
+      "tipo": "testeConhecimento",
+      "titulo": "Teste de conhecimento",
+      "pergunta": "A Convenção sobre os Direitos da Criança aplica-se apenas a alguns países?",
+      "resposta": "Falso. É o tratado internacional mais ratificado da história, reconhecido pela grande maioria dos países do mundo."
+    }
+    ]
     },
+    
+
+
     {
-      "id": "para-a-vida-nutricao-escolar",
-      "titulo": "Alimentação saudável na escola",
-      "resumo": "Lanches equilibrados ajudam no desempenho escolar.",
-      "categoria": "Nutrição",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/nutricao-escola.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Nutricionista Cláudia Faria",
-      "data": "2025-03-25",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Evitar processados e priorizar frutas e cereais integrais." }
-      ]
+    "id": "para-a-vida-nutricao-escolar",
+    "titulo": "Alimentação saudável na escola",
+    "resumo": "Uma alimentação equilibrada durante o período escolar garante energia, concentração e bom humor para aprender. Ao oferecer lanches nutritivos, evita-se o excesso de açúcar e gorduras, promovendo um melhor desempenho académico e contribuindo para hábitos saudáveis ao longo da vida.",
+    "categoria": "Nutrição",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/nutricao-escola.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Nutricionista Cláudia Faria",
+    "data": "2025-03-25",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "O ambiente escolar é um espaço onde as crianças passam grande parte do dia. Garantir refeições e lanches equilibrados não só favorece o rendimento escolar, como também previne problemas de saúde relacionados com má nutrição, como obesidade e défice de atenção."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "O que incluir nos lanches"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Frutas frescas — fonte de fibras, vitaminas e energia natural",
+            "Cereais integrais — pão ou bolachas sem açúcar refinado para energia sustentada",
+            "Proteínas magras — iogurte natural, queijo fresco ou ovo cozido",
+            "Água como principal bebida — evitando refrigerantes ou sumos artificiais"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "O que evitar"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Snacks ultraprocessados como batatas fritas e bolachas recheadas",
+            "Bebidas açucaradas e refrigerantes",
+            "Excesso de fritos e fast food",
+            "Alimentos com muito sal, açúcar ou gordura saturada"
+        ]
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Pais, professores e escolas podem trabalhar em conjunto para incentivar escolhas saudáveis. O envolvimento das crianças na preparação das lancheiras também aumenta a aceitação de alimentos nutritivos."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Refrigerantes e snacks processados podem fazer parte da lancheira escolar todos os dias?",
+        "resposta": "Falso. Esses alimentos devem ser evitados, pois comprometem a saúde e reduzem o rendimento escolar."
+        }
+    ]
     },
+
+    
     {
-      "id": "para-a-vida-seguranca-casa",
-      "titulo": "Segurança em casa",
-      "resumo": "Pequenas mudanças evitam acidentes infantis.",
-      "categoria": "Prevenção",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/seguranca.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Enf. Tiago Cruz",
-      "data": "2025-03-28",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "lista", "titulo": "Cuidados", "itens": ["Protetores de tomada", "Grades nas janelas", "Produtos de limpeza fora do alcance"] }
-      ]
+    "id": "para-a-vida-seguranca-casa",
+    "titulo": "Segurança em casa",
+    "resumo": "O lar deve ser um espaço de proteção, mas também é onde ocorrem muitos acidentes infantis. Com pequenas mudanças no ambiente e atenção redobrada, é possível reduzir significativamente os riscos e garantir que as crianças cresçam de forma segura.",
+    "categoria": "Prevenção",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/seguranca.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Enf. Tiago Cruz",
+    "data": "2025-03-28",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Quedas, queimaduras, intoxicações e choques elétricos estão entre os acidentes mais comuns em casa com crianças. Prevenir é sempre o melhor caminho, e muitas medidas podem ser adotadas de forma simples e acessível."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Cuidados essenciais"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Colocar protetores nas tomadas para evitar choques elétricos",
+            "Instalar grades de proteção em janelas e varandas",
+            "Guardar produtos de limpeza, medicamentos e objetos cortantes fora do alcance",
+            "Evitar toalhas compridas que as crianças possam puxar e derrubar objetos quentes",
+            "Nunca deixar baldes ou banheiras cheios de água sem supervisão"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Supervisão constante"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Nenhuma medida substitui a atenção dos cuidadores. Supervisão próxima, principalmente em áreas como cozinha, casa de banho e varandas, é indispensável para reduzir riscos de acidentes graves."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "É suficiente instalar grades e protetores de tomada para garantir a segurança da criança em casa?",
+        "resposta": "Falso. Embora ajudem bastante, a supervisão constante e a adoção de várias medidas de prevenção são indispensáveis."
+        }
+    ]
     },
+
+   {
+    "id": "para-a-vida-escola-inclusiva",
+    "titulo": "Escola inclusiva",
+    "resumo": "Uma escola inclusiva é aquela que acolhe todas as crianças, independentemente da sua origem, género, condição física, cognitiva, social ou cultural. Garantir uma educação de qualidade para todos promove a equidade, valoriza a diversidade e fortalece o respeito mútuo desde cedo.",
+    "categoria": "Educação",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/escola.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Profª Maria Lopes",
+    "data": "2025-03-30",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "A inclusão escolar vai além do acesso físico às salas de aula. Envolve adaptar metodologias, currículos e atitudes para que cada criança aprenda de acordo com as suas necessidades e potencialidades."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Princípios da escola inclusiva"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Garantir acesso à educação a todas as crianças, sem discriminação",
+            "Valorizar a diversidade como um recurso para a aprendizagem coletiva",
+            "Oferecer apoio pedagógico adaptado às diferentes necessidades",
+            "Formar professores para práticas inclusivas e respeitosas",
+            "Envolver famílias e comunidade no processo educativo"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Benefícios da inclusão"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Uma escola inclusiva favorece a convivência entre diferentes realidades, promove empatia, reduz preconceitos e fortalece valores de cidadania. Todas as crianças ganham quando o ambiente escolar é justo e acessível."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "A inclusão escolar beneficia apenas as crianças com deficiência?",
+        "resposta": "Falso. A inclusão beneficia todas as crianças, pois promove respeito, cooperação e aprendizagem em conjunto."
+        }
+    ]
+    },
+
     {
-      "id": "para-a-vida-escola-inclusiva",
-      "titulo": "Escola inclusiva",
-      "resumo": "Educação de qualidade deve acolher todas as crianças.",
-      "categoria": "Educação",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/escola.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Profª Maria Lopes",
-      "data": "2025-03-30",
-      "icones": { "partilha": false, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "A inclusão escolar promove diversidade e respeito." }
-      ]
+    "id": "para-a-vida-playtime-anytime",
+    "titulo": "Brincar a qualquer momento",
+    "resumo": "Nos primeiros 1.000 dias, cada interação conta. Transformar momentos do dia a dia em brincadeiras fortalece o vínculo, estimula o cérebro do bebé e promove comunicação desde o início.",
+    "categoria": "Desenvolvimento",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/playtime-anytime.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Prof. Luís Almeida",
+    "data": "2025-04-05",
+    "icones": { "partilha": true, "favorito": false },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Durante os primeiros 3 anos, o cérebro do bebé cresce mais rapidamente do que em qualquer outra fase da vida. É possível apoiar esse crescimento com interações simples, mesmo antes que a criança fale."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "O que é o modelo serve-and-return"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Serve-and-return é uma série de trocas entre criança e cuidador — quando o bebé faz um som ou gesto (“serve”), e o adulto responde com atenção e carinho (“return”). Estas interações repetidas ajudam a formar conexões neurais importantes."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Como brincar no dia a dia"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Jogo do nome: ao vestir ou trocar de roupa, diga o nome de cada peça e descreva cores ou texturas.",
+            "Brincadeira durante as refeições: observe o interesse da criança pelos alimentos, nomeie-os e envolva-a (por exemplo, deixar que toque ou escolha).",
+            "Hora do banho: permetir que escolha brinquedos ou objetos seguros, brincar de “acabou” ao terminar com algo que gostou.",
+            "Passeios: ao caminhar, aponte objetos ou sons pelo caminho, fale sobre o que a criança vê ou ouve."
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Benefícios para o bebé"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Estas pequenas brincadeiras ajudam no desenvolvimento da linguagem, atenção, curiosidade e na capacidade de aprender com o ambiente. Também fortalecem o vínculo afetivo entre cuidador e bebé."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Só se aprende brincando com brinquedos especiais?",
+        "resposta": "Falso. Qualquer momento simples, como vestir, alimentar ou passear, pode ser usado para brincar e estimular o bebé."
+        }
+    ]
     },
+
+
     {
       "id": "para-a-vida-desporto",
       "titulo": "Benefícios do desporto infantil",

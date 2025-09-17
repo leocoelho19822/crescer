@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FiPhoneCall, FiAlertTriangle, FiShare2 } from "react-icons/fi";
 import Button from "../components/Button";
+import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
 
 export default function MontaPage() {
   const { id } = useParams();
@@ -336,6 +337,9 @@ export default function MontaPage() {
           }
         })}
       </div>
+       <hr className="mt-24" />
+      {/* Recursos relacionados */}
+            <RecursosPensadosParaSi tipo={page.tipo} />
     </div>
   );
 }

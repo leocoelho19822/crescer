@@ -68,6 +68,25 @@ export default function HeaderHero() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
 
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (e) => {
+    e.preventDefault();
+    if (searchTerm.trim()) {
+      navigate(`/pesquisa?q=${encodeURIComponent(searchTerm)}`);
+      setMenuOpen(false); // fecha o menu mobile
+    }
+  };
+
+  useEffect(() => {
+    const storedUser = localStorage.getItem("user");
+    if (storedUser) {
+      setUser(JSON.parse(storedUser));
+      setIsAuthenticated(true);
+    }
+  }, []);
+
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
@@ -119,8 +138,10 @@ export default function HeaderHero() {
   const handleLogout = () => {
   setIsAuthenticated(false);
   setUser(null);
+  localStorage.removeItem("user");
   setProfileModalOpen(false);
 };
+
 
 
   const { image, title, subtitle } = slides[currentSlide];
@@ -200,20 +221,22 @@ export default function HeaderHero() {
 
             {/* Pesquisa */}
             <div className="mt-6">
-              <div className="relative">
+              <form onSubmit={handleSearch} className="relative">
                 <input
                   type="text"
                   placeholder="Pesquisar..."
-                  className="w-full rounded-lg px-4 py-3 pr-10 
-                            bg-white text-gray-800 placeholder-gray-400 
-                            shadow-sm border border-white/30 
-                            focus:outline-none focus:ring-2 focus:ring-white/70"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  className="w-full border border-gray-300 rounded-lg px-4 py-2 pr-10 text-sm text-white"
                 />
-                <BsSearch 
-                  size={18} 
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400" 
-                />
-              </div>
+                <button
+                  type="submit"
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-white cursor-pointer"
+                >
+                  <BsSearch size={18} />
+                </button>
+              </form>
+
             </div>
 
 
@@ -397,14 +420,22 @@ export default function HeaderHero() {
           </ul>
 
           <div className="flex gap-4 items-center">
-            <div className="relative">
+            <form onSubmit={handleSearch} className="relative">
               <input
                 type="text"
                 placeholder="Pesquisar..."
-                className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="w-full border border-gray-300 rounded-lg px-4 py-2 pr-10 text-sm text-white"
               />
-              <BsSearch className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-100" />
-            </div>
+              <button
+                type="submit"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white cursor-pointer"
+              >
+                <BsSearch size={18} />
+              </button>
+            </form>
+
             {isAuthenticated ? (
               <>
                 {user?.favorites?.length > 0 ? (
@@ -446,7 +477,14 @@ export default function HeaderHero() {
       
 
       {profileModalOpen && <ProfileModal setIsOpen={setProfileModalOpen} handleLogout={handleLogout} />}
-      {modalType === "login" && <LoginModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
+      {modalType === "login" && (
+        <LoginModal
+          setIsOpen={() => setModalType(null)}
+          setModalType={setModalType}
+          setUser={setUser}
+          setIsAuthenticated={setIsAuthenticated}
+        />
+      )}
       {modalType === "register" && <RegisterModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
       {modalType === "forgot-password" && <ForgotPasswordModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
     </>

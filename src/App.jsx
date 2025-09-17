@@ -17,6 +17,7 @@ import WaveDivider from "./components/WaveDivider";
 import Eventos from "./pages/EventosPage";
 import MesaMes from "./pages/MesAMesPage";
 import MontaPage from "./components/MontaPage";
+import SearchResults from "./pages/SearchResults";
 
 function App() {
   return (
@@ -36,6 +37,8 @@ function App() {
 
         <Route path="/mesames" element={<MesaMes />} />
         <Route path="/eventos" element={<Eventos />} />
+
+        <Route path="/pesquisa" element={<SearchResults />} />
         
 
         <Route path="*" element={<NotFound />} />

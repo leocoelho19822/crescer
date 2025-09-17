@@ -55,7 +55,7 @@ export default function RecursosPensadosParaSi({ tipo }) {
               <img
                 src={artigo.imagem}
                 alt={artigo.titulo}
-                className="w-full h-40 object-cover"
+                className="w-full h-50 object-cover"
               />
             )}
             <div className="p-5 flex flex-col flex-grow">

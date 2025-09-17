@@ -8,7 +8,7 @@
       "name": "Leonardo Coelho",
       "role": "admin",
       "specialty": null,
-      "email": "leonardo@example.com",
+      "email": "leo.coelho@crescer.pt",
       "favorites": ["1tri", "2ano"],
       "active": true
     },
@@ -20,7 +20,7 @@
       "name": "João Silva",
       "role": "profissional",
       "specialty": "Médico de Família",
-      "email": "joao.silva@example.com",
+      "email": "joao.silva@crescer.pt",
       "favorites": [],
       "active": true
     },
@@ -32,7 +32,7 @@
       "name": "Carla Mendes",
       "role": "profissional",
       "specialty": "Nutrição",
-      "email": "carla.mendes@example.com",
+      "email": "carla.mendes@crescer.pt",
       "favorites": [],
       "active": true
     },

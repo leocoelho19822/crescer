@@ -6,6 +6,7 @@
       "resumo": "Nas primeiras 13 semanas, o teu corpo e o bebé sofrem grandes mudanças internas. Aqui está um guia prático para esta fase inicial.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "gravidez",
       "imagem": "/imagens/1tri.svg",
       "conteudo": [
         {
@@ -117,6 +118,7 @@
       "resumo": "No segundo trimestre, muitos sintomas do início aliviam, a barriga começa a aparecer e o bebé continua a desenvolver órgãos essenciais, músculos e sentidos.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "gravidez",
       "imagem": "/imagens/2tri.svg",
       "conteudo": [
         {
@@ -227,6 +229,7 @@
       "resumo": "Das semanas 29 a 40, o teu bebé continua a crescer, ganhando peso, e podes sentir mais desconfortos físicos. Aqui tens dicas para esta reta final.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "gravidez",
       "imagem": "/imagens/3tri.svg",
       "conteudo": [
         {
@@ -337,6 +340,7 @@
       "resumo": "Entre brincadeiras, explorações e muitos “mamãs”/“papás”, este é um ano de grandes marcos no desenvolvimento do teu filho. Vamos ver o que esperar e como apoiar esta fase.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "para a vida",
       "imagem": "/imagens/1ano.jpg",
       "conteudo": [
                 {
@@ -478,6 +482,7 @@
       "resumo": "Com 18 meses, o teu filho já anda com confiança, começa a falar mais palavras, brincar de faz-de-conta e mostrar muita curiosidade pelo mundo à volta.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "para a vida",
       "imagem": "/imagens/1_2anos.jpg",
       "conteudo": [
         {
@@ -614,6 +619,7 @@
       "resumo": "Aos 2 anos, a criança fala frases simples, corre, sobe, explora e começa a brincar com mais intenção. Esta fase é cheia de descobertas, independência e muita energia.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "para a vida",
       "imagem": "/imagens/2anos.jpg",
       "conteudo": [
         {
@@ -765,6 +771,7 @@
       "resumo": "Nos primeiros dias de vida, tudo é novo para o bebé e para a família. Aqui ficam cuidados simples, sinais a ter atenção e formas de criar vínculo.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/recemnascido.jpg",
       "conteudo": [
         {
@@ -913,6 +920,7 @@
       "resumo": "Com 1 mês, começo a estar mais desperto por curtos períodos, fixo melhor os rostos e respondo cada vez mais ao carinho dos cuidadores.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/1mes.jpg",
       "conteudo": [
         {

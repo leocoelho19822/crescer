@@ -6,7 +6,8 @@ import Button from "./Button";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 
 // eslint-disable-next-line
-export default function LoginModal({ setIsOpen, setModalType }) {
+export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuthenticated }) {
+
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
@@ -20,15 +21,18 @@ export default function LoginModal({ setIsOpen, setModalType }) {
 
     try {
       const res = await fetch("/data/users.json");
-      const users = await res.json();
+      const data = await res.json();
+      const users = data.users || [];
 
       const user = users.find(
         (u) => u.email === email && u.password === password
       );
 
+
       if (user) {
-        // guarda login no localStorage
         localStorage.setItem("user", JSON.stringify(user));
+        setUser(user);
+        setIsAuthenticated(true);
         setIsOpen(false);
       } else {
         setError("E-mail ou senha inválidos.");
