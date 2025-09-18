@@ -48,8 +48,8 @@ export default function Footer() {
               <li><a href="/page/3tri">:: 3º Trimestre</a></li>
               <li><a href="/mesames">:: Mês a mês</a></li>
               <li><a href="/page/1ano">:: 1 Ano</a></li>
+              <li><a href="/page/18mes">:: 1 ano e meio</a></li>
               <li><a href="/page/2ano">:: 2 Anos</a></li>
-              <li><a href="/page/3ano">:: 3 Anos</a></li>
             </ul>
           </div>
 
