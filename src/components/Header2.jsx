@@ -1,6 +1,6 @@
 // eslint-disable-next-line
 import React, { useEffect, useState, useRef } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import parentalidadeBg1 from "../assets/campo17072025.png";
 import parentalidadeBg2 from "../assets/parque16072025.jpg";
@@ -173,9 +173,14 @@ export default function HeaderHero() {
             {isAuthenticated ? (
               <>
                 {user?.favorites?.length > 0 ? (
-                  <AiFillHeart className="text-white text-2xl cursor-pointer" />
+                  <Link to="/favoritos">
+                    <AiFillHeart className="text-white text-2xl cursor-pointer" />
+                  </Link>
                 ) : (
-                  <AiFillHeart className="text-white text-2xl cursor-pointer" />
+                  
+                    <AiFillHeart className="text-white text-2xl " />
+                  
+
                 )}
                 <button onClick={() => setProfileModalOpen(true)}>
                   <CgProfile size={25} className="cursor-pointer" />
@@ -440,7 +445,9 @@ export default function HeaderHero() {
             {isAuthenticated ? (
               <>
                 {user?.favorites?.length > 0 ? (
-                  <AiFillHeart className="text-white text-2xl cursor-pointer" />
+                  <Link to="/favoritos">
+                    <AiFillHeart className="text-white text-2xl cursor-pointer" />
+                  </Link>
                 ) : (
                   <AiFillHeart className="text-white text-2xl cursor-pointer" />
                 )}

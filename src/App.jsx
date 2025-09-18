@@ -18,6 +18,7 @@ import Eventos from "./pages/EventosPage";
 import MesaMes from "./pages/MesAMesPage";
 import MontaPage from "./components/MontaPage";
 import SearchResults from "./pages/SearchResults";
+import FavoritosPage from "./pages/FavoritosPage";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         <Route path="/eventos" element={<Eventos />} />
 
         <Route path="/pesquisa" element={<SearchResults />} />
+
+        <Route path="/favoritos" element={<FavoritosPage />} />
         
 
         <Route path="*" element={<NotFound />} />

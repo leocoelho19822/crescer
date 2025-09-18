@@ -38,7 +38,7 @@ export default function MontaPage() {
       });
   }, [id]);
 
-  if (loading) return <p className="text-center mt-20">A carregar...</p>;
+  if (loading) return <p className="text-center mt-24">A carregar...</p>;
 
   if (error || !page) {
     return (

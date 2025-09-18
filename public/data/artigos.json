@@ -650,37 +650,178 @@
     ]
     },
 
+    {
+    "id": "no-colo-choro",
+    "titulo": "O choro do bebé",
+    "resumo": "O choro é a principal forma de comunicação do recém-nascido. Através dele, o bebé expressa fome, desconforto, sono ou necessidade de afeto. Aprender a interpretar os diferentes tipos de choro ajuda os cuidadores a responder com mais tranquilidade e segurança.",
+    "categoria": "Comunicação",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/choro-bebe.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Enf. Joana Carvalho",
+    "data": "2025-02-18",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Nos primeiros meses, o choro é a principal forma de o bebé comunicar as suas necessidades. Embora possa gerar ansiedade nos cuidadores, compreender que o choro é normal e esperado ajuda a lidar melhor com esse momento."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Motivos comuns do choro"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Fome ou sede",
+            "Fralda suja ou desconforto físico",
+            "Sono ou cansaço",
+            "Desejo de colo e proximidade",
+            "Cólica ou desconfortos digestivos",
+            "Temperatura ambiente inadequada (frio ou calor)"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Como acalmar o bebé"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Oferecer alimento se for hora da mamada",
+            "Verificar a fralda e trocar se necessário",
+            "Pegar ao colo e embalar suavemente",
+            "Falar ou cantar com voz calma",
+            "Garantir que o ambiente está confortável e silencioso"
+        ]
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "É importante lembrar que cada bebé é único. Com o tempo, os cuidadores aprendem a reconhecer padrões no choro e a identificar mais rapidamente as necessidades do seu filho."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "O choro do bebé deve ser sempre ignorado para que ele aprenda a se acalmar sozinho?",
+        "resposta": "Falso. O choro é a forma de comunicação do bebé. Atender às suas necessidades fortalece o vínculo e transmite segurança."
+        }
+    ]
+    },
+
+
 
     {
-      "id": "no-colo-cancoes",
-      "titulo": "Cantar canções de embalar",
-      "resumo": "A música é poderosa para acalmar e estimular o bebé.",
-      "categoria": "Estímulo Auditivo",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/cancoes.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Musicoterapeuta Carla Sousa",
-      "data": "2025-02-20",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Cantar canções promove vínculo e segurança emocional." }
-      ]
+    "id": "no-colo-cancoes",
+    "titulo": "Cantar canções de embalar",
+    "resumo": "As canções de embalar são mais do que música: são uma forma de comunicação que acalma, transmite segurança e fortalece o vínculo entre bebé e cuidadores. Além disso, o ritmo e a melodia estimulam o desenvolvimento auditivo e linguístico desde os primeiros meses de vida.",
+    "categoria": "Estímulo Auditivo",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/cancoes.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Musicoterapeuta Carla Sousa",
+    "data": "2025-02-20",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Cantar para o bebé é uma prática universal que atravessa culturas e gerações. A melodia suave transmite calma, enquanto a voz familiar dos pais ou cuidadores dá segurança emocional e reforça o vínculo afetivo."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Benefícios das canções de embalar"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Ajudam a acalmar e adormecer o bebé",
+            "Fortalecem o vínculo entre cuidadores e criança",
+            "Estimulam a perceção auditiva e a memória sonora",
+            "Contribuem para o desenvolvimento da linguagem",
+            "Criam rotinas de sono e momentos de tranquilidade"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Dicas para cantar ao bebé"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Escolher músicas calmas e repetitivas, com melodia suave",
+            "Cantar com voz baixa e pausada, transmitindo serenidade",
+            "Repetir canções diariamente para criar familiaridade",
+            "Associar as canções a momentos de rotina, como a hora de dormir ou após o banho"
+        ]
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Não é necessário ter uma voz perfeita. O mais importante é a proximidade, o tom afetivo e a constância, que fazem da canção um recurso valioso no cuidado diário."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Cantar canções de embalar só ajuda o bebé a dormir?",
+        "resposta": "Falso. Além de acalmar, as canções estimulam o desenvolvimento auditivo, a linguagem e o vínculo afetivo."
+        }
+    ]
     },
+
     {
-      "id": "no-colo-brincar",
-      "titulo": "Brincar no tapete",
-      "resumo": "O brincar livre é essencial para o desenvolvimento motor.",
-      "categoria": "Psicomotricidade",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/brincar-tapete.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Prof. Daniel Costa",
-      "data": "2025-02-22",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Dar espaço para explorar ajuda no desenvolvimento físico." }
-      ]
+    "id": "no-colo-brincar",
+    "titulo": "Brincar no tapete",
+    "resumo": "O brincar livre no chão, especialmente em tapetes firmes e seguros, é essencial para o desenvolvimento motor e cognitivo do bebé. Durante estas experiências, a criança explora, descobre o corpo e o ambiente, fortalecendo músculos e aprendendo a mover-se com autonomia.",
+    "categoria": "Psicomotricidade",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/brincar-tapete.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Prof. Daniel Costa",
+    "data": "2025-02-22",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Dar espaço para o bebé brincar no tapete promove a liberdade de movimento e favorece o desenvolvimento físico. É uma oportunidade para explorar diferentes posições, rolar, gatinhar e, mais tarde, tentar os primeiros passos."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Benefícios do brincar livre"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Fortalece músculos do pescoço, costas e pernas",
+            "Estimula a coordenação motora e o equilíbrio",
+            "Favorece a exploração sensorial através do contacto com texturas e objetos",
+            "Aumenta a autonomia e a confiança do bebé",
+            "Cria oportunidades de interação com cuidadores durante o brincar"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Dicas de segurança"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Utilizar um tapete firme, limpo e antiderrapante",
+            "Manter brinquedos seguros, adequados à idade e sem peças pequenas",
+            "Estar sempre presente para supervisionar",
+            "Garantir que o espaço esteja livre de objetos perigosos"
+        ]
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Brincar no tapete não exige brinquedos sofisticados — muitas vezes, a interação com o cuidador e objetos simples do dia a dia são os maiores estímulos."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "O bebé só desenvolve a motricidade com brinquedos educativos específicos?",
+        "resposta": "Falso. O brincar livre no chão já oferece estímulos suficientes para fortalecer o corpo e apoiar o desenvolvimento motor."
+        }
+    ]
     },
+
     {
     "id": "no-colo-alimentacao-introducao",
     "titulo": "Introdução alimentar segura",
@@ -691,7 +832,7 @@
     "autor": "Equipa Cres(Ser)",
     "revisado": "Nutricionista Inês Duarte",
     "data": "2025-02-25",
-    "icones": { "partilha": true, "favorito": false },
+    "icones": { "partilha": true, "favorito": true },
     "conteudo": [
         {
         "tipo": "paragrafo",
@@ -795,7 +936,7 @@
     "autor": "Equipa Cres(Ser)",
     "revisado": "Enf. Miguel Reis",
     "data": "2025-03-02",
-    "icones": { "partilha": true, "favorito": false },
+    "icones": { "partilha": true, "favorito": true },
     "conteudo": [
         {
         "tipo": "paragrafo",
@@ -898,7 +1039,7 @@
     "autor": "Equipa Cres(Ser)",
     "revisado": "Enf. Raquel Santos",
     "data": "2025-03-08",
-    "icones": { "partilha": true, "favorito": false },
+    "icones": { "partilha": true, "favorito": true },
     "conteudo": [
         {
         "tipo": "paragrafo",

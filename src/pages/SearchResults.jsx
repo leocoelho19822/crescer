@@ -33,7 +33,7 @@ export default function SearchResults() {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10 mt-24">
-      <h1 className="text-3xl font-bold text-zinc-800 mb-8">
+      <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
         Resultados da pesquisa por:{" "}
         <span className="text-emerald-600">{query}</span>
       </h1>
