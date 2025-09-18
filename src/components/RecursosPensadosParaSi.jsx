@@ -40,7 +40,7 @@ export default function RecursosPensadosParaSi({ tipo }) {
   const visiveisArtigos = artigos.slice(0, visiveis);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 relative">
+    <div className="max-w-7xl mx-auto  py-8 relative">
       <h2 className="text-3xl font-bold text-zinc-800 mb-8">Recursos pensados para si</h2>
 
       {/* Grid de artigos em cards verticais */}
