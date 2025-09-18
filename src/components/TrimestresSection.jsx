@@ -1,8 +1,8 @@
 // eslint-disable-next-line
 import React from "react";
-import trimestre1 from "../assets/1tri.svg";
-import trimestre2 from "../assets/2tri.svg";
-import trimestre3 from "../assets/3tri.svg";
+import trimestre1 from "../assets/1tri.jpg";
+import trimestre2 from "../assets/2tri.jpg";
+import trimestre3 from "../assets/3tri.jpg";
 import { Link } from "react-router-dom";
 
 

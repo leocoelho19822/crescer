@@ -9,21 +9,21 @@ import { Link } from "react-router-dom";
 
 const cards = [
   {
-    titulo: "Já tenho 1 ano",
+    titulo: "Tenho 1 ano",
     imagem: ano1,
     link: "/page/1ano",
     texto:
       "Incentivo à marcha independente, exploração segura do ambiente e atividades que fortalecem a linguagem, autonomia e socialização.",
   },
   {
-    titulo: "Já tenho 18 meses",
+    titulo: "Tenho 18 meses",
     imagem: ano1_2,
     link: "/page/18mes",
     texto:
       "Apoio ao desenvolvimento da linguagem, autonomia nas rotinas e brincadeiras que estimulam criatividade e interação social.",
   },
   {
-    titulo: "Já tenho 2 anos",
+    titulo: "Tenho 2 anos",
     imagem: ano2,
     link: "/page/2ano",
     texto:

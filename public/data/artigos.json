@@ -726,51 +726,164 @@
         { "tipo": "paragrafo", "texto": "Contacto pele a pele ajuda na regulação da temperatura e vínculo." }
       ]
     },
+
     {
-      "id": "no-colo-sinais",
-      "titulo": "Sinais de fome e saciedade",
-      "resumo": "Reconhecer os sinais evita choro excessivo.",
-      "categoria": "Alimentação",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/sinais-fome.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Enf. Patrícia Melo",
-      "data": "2025-03-05",
-      "icones": { "partilha": false, "favorito": true },
-      "conteudo": [
-        { "tipo": "lista", "titulo": "Sinais comuns", "itens": ["Levar mãos à boca", "Virar a cabeça à procura", "Chupar dedos"] }
-      ]
+    "id": "no-colo-sinais",
+    "titulo": "Sinais de fome e saciedade",
+    "resumo": "Reconhecer os sinais de fome e de saciedade ajuda os cuidadores a responderem de forma adequada às necessidades do bebé, evitando choro excessivo e promovendo uma relação positiva com a alimentação desde o início da vida.",
+    "categoria": "Alimentação",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/sinais-fome.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Enf. Patrícia Melo",
+    "data": "2025-03-05",
+    "icones": { "partilha": false, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "O choro é um sinal tardio de fome. Identificar os sinais precoces permite alimentar o bebé no momento certo, tornando a experiência mais tranquila para a criança e para os cuidadores."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Sinais de fome"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Levar as mãos ou dedos à boca",
+            "Virar a cabeça em busca do peito ou da chupeta (reflexo de procura)",
+            "Fazer movimentos de sucção ou chupetar os dedos",
+            "Agitar braços e pernas em inquietação"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Sinais de saciedade"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Largar o peito ou o biberão espontaneamente",
+            "Relaxe dos braços e corpo",
+            "Fechar a boca ou virar o rosto quando já não quer mais",
+            "Adormecer satisfeito após a mamada"
+        ]
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Ao respeitar os sinais de fome e saciedade, os cuidadores fortalecem a confiança do bebé, reduzem episódios de choro excessivo e promovem uma relação saudável com a alimentação."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "O choro é sempre o primeiro sinal de fome do bebé?",
+        "resposta": "Falso. O choro geralmente é um sinal tardio. Os sinais precoces incluem levar as mãos à boca, procurar o peito e fazer movimentos de sucção."
+        }
+    ]
     },
+
     {
-      "id": "no-colo-banho",
-      "titulo": "O primeiro banho",
-      "resumo": "Momento de higiene e afeto.",
-      "categoria": "Cuidados Básicos",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/banho.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Enf. Raquel Santos",
-      "data": "2025-03-08",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Água morna, ambiente calmo e segurança são essenciais." }
-      ]
+    "id": "no-colo-banho",
+    "titulo": "O primeiro banho",
+    "resumo": "O primeiro banho do bebé é um momento de higiene, afeto e aprendizagem para os cuidadores. Mais do que limpar, esta experiência reforça o vínculo emocional, transmite segurança e ajuda a criar uma rotina tranquila nos cuidados diários.",
+    "categoria": "Cuidados Básicos",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/banho-bebe.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Enf. Raquel Santos",
+    "data": "2025-03-08",
+    "icones": { "partilha": true, "favorito": false },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "O primeiro banho não deve ser apressado. É uma oportunidade para o bebé se adaptar ao toque da água e para os pais criarem confiança nos cuidados. O ideal é esperar algumas horas ou até um dia após o nascimento, seguindo a recomendação do profissional de saúde."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Preparar o ambiente"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Garantir que o ambiente esteja calmo, sem correntes de ar",
+            "Utilizar água morna, testando a temperatura no pulso ou no antebraço",
+            "Separar previamente todos os materiais: toalha, roupa limpa, fralda e sabonete neutro",
+            "Manter sempre uma mão apoiando o bebé para segurança"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Durante o banho"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "O banho deve ser rápido e delicado. Limpe suavemente o corpo do bebé, dando atenção às pregas da pele. A cabeça pode ser lavada por último, para evitar que o bebé fique frio rapidamente."
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Após o banho, seque o bebé com uma toalha macia, sem esfregar, e vista-o imediatamente para manter o calor corporal."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "É necessário dar banho todos os dias ao recém-nascido?",
+        "resposta": "Falso. Nos primeiros meses, não é preciso banhar o bebé diariamente. A higiene pode ser feita com panos húmidos entre os banhos completos."
+        }
+    ]
     },
+
+
+
     {
-      "id": "no-colo-vacinas-bebe",
-      "titulo": "Vacinação no primeiro ano",
-      "resumo": "Protege contra doenças graves.",
-      "categoria": "Imunização",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/vacinas.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Dr. Paulo Gomes",
-      "data": "2025-03-10",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Cumprir o plano vacinal protege a longo prazo." }
-      ]
+    "id": "no-colo-vacinas-bebe",
+    "titulo": "Vacinação no primeiro ano",
+    "resumo": "As vacinas do primeiro ano de vida são fundamentais para proteger os bebés contra doenças potencialmente graves. Cumprir o calendário vacinal garante imunidade precoce e contribui para a saúde individual e coletiva.",
+    "categoria": "Imunização",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/vacinas.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Dr. Paulo Gomes",
+    "data": "2025-03-10",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "No primeiro ano de vida, o sistema imunitário do bebé ainda está em formação. As vacinas ajudam a criar defesas contra vírus e bactérias que podem causar infeções graves, como meningite, pneumonia e poliomielite."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Principais vacinas do primeiro ano"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "BCG — protege contra formas graves de tuberculose",
+            "Hepatite B — previne infeções hepáticas que podem tornar-se crónicas",
+            "DTPa — protege contra difteria, tétano e tosse convulsa",
+            "Poliomielite — evita a paralisia infantil",
+            "Hib — protege contra infeções como meningite e epiglotite",
+            "Pneumocócica — reduz risco de pneumonia e otite",
+            "Rotavírus — previne gastroenterites graves",
+            "Vacina contra o sarampo, rubéola e papeira (aplicada próximo do fim do primeiro ano)"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Por que cumprir o calendário vacinal"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Seguir corretamente as datas do plano de vacinação é essencial para garantir a eficácia da imunização. Atrasos podem deixar o bebé desprotegido em fases críticas do desenvolvimento."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Vacinar um bebé serve apenas para proteger a sua própria saúde?",
+        "resposta": "Falso. Além de proteger o bebé, a vacinação ajuda a criar imunidade coletiva, reduzindo a circulação de doenças na comunidade."
+        }
+    ]
     },
+
 
     {
     "id": "para-a-vida-educacao-precoce",
@@ -1040,7 +1153,7 @@
     "autor": "Equipa Cres(Ser)",
     "revisado": "Prof. Luís Almeida",
     "data": "2025-04-05",
-    "icones": { "partilha": true, "favorito": false },
+    "icones": { "partilha": true, "favorito": true },
     "conteudo": [
         {
         "tipo": "paragrafo",
@@ -1085,80 +1198,99 @@
     },
 
 
+    
     {
-      "id": "para-a-vida-desporto",
-      "titulo": "Benefícios do desporto infantil",
-      "resumo": "Atividade física fortalece corpo e mente.",
-      "categoria": "Saúde",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/desporto.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Prof. André Lima",
-      "data": "2025-04-02",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Praticar desporto ajuda na disciplina e integração social." }
-      ]
-    },
+        "id": "para-a-vida-tecnologia",
+        "titulo": "Uso saudável da tecnologia",
+        "resumo": "A tecnologia pode ser uma aliada na aprendizagem e no entretenimento das crianças, mas o equilíbrio é fundamental. O uso em excesso de ecrãs pode afetar o sono, a atenção e a socialização. Definir regras claras e oferecer alternativas offline garante um desenvolvimento mais saudável e equilibrado.",
+        "categoria": "Digital",
+        "tipo": "para a vida",
+        "imagem": "/assets/unicef/tecnologia.jpg",
+        "autor": "Equipa Cres(Ser)",
+        "revisado": "Psicólogo Hugo Vieira",
+        "data": "2025-04-05",
+        "icones": { "partilha": true, "favorito": true },
+        "conteudo": [
+            {
+            "tipo": "paragrafo",
+            "texto": "O mundo digital faz parte do quotidiano das famílias e pode trazer benefícios, como acesso à informação e recursos educativos. No entanto, quando não há limites, o tempo excessivo em frente a ecrãs pode prejudicar hábitos de sono, atividade física e interações sociais."
+            },
+            {
+            "tipo": "subtitulo",
+            "texto": "Boas práticas"
+            },
+            {
+            "tipo": "lista",
+            "itens": [
+                "Limitar o tempo de ecrã de acordo com a idade — crianças pequenas devem ter pouco ou nenhum contacto com dispositivos eletrónicos.",
+                "Oferecer atividades offline como jogos de tabuleiro, leitura e brincadeiras ao ar livre.",
+                "Acompanhar e supervisionar o que a criança vê, garantindo conteúdos adequados à idade.",
+                "Promover momentos sem tecnologia, como refeições em família e a hora de dormir.",
+                "Dar o exemplo — quando os adultos equilibram o uso da tecnologia, as crianças tendem a imitar."
+            ]
+            },
+            {
+            "tipo": "subtitulo",
+            "texto": "O papel dos pais"
+            },
+            {
+            "tipo": "paragrafo",
+            "texto": "Os pais e cuidadores têm papel fundamental em orientar as crianças para um uso saudável da tecnologia. Estar presente, dialogar sobre conteúdos e incentivar outras formas de aprendizagem e lazer são estratégias essenciais para criar equilíbrio."
+            },
+            {
+            "tipo": "testeConhecimento",
+            "titulo": "Teste de conhecimento",
+            "pergunta": "Crianças em idade pré-escolar podem passar horas em frente a ecrãs sem prejuízo?",
+            "resposta": "Falso. O uso excessivo pode prejudicar o desenvolvimento, afetar o sono e reduzir oportunidades de brincadeiras ativas."
+            }
+        ]
+        },
+
     {
-      "id": "para-a-vida-tecnologia",
-      "titulo": "Uso saudável da tecnologia",
-      "resumo": "Equilíbrio é essencial para o desenvolvimento.",
-      "categoria": "Digital",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/tecnologia.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Psicólogo Hugo Vieira",
-      "data": "2025-04-05",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "lista", "titulo": "Boas práticas", "itens": ["Limitar tempo de ecrã", "Atividades offline", "Supervisão dos pais"] }
-      ]
-    },
-    {
-      "id": "para-a-vida-higiene",
-      "titulo": "Higiene e saúde",
-      "resumo": "Ensinar hábitos básicos previne doenças.",
-      "categoria": "Saúde Pública",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/higiene.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Enf. Vânia Ramos",
-      "data": "2025-04-08",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Lavar as mãos regularmente evita infeções." }
-      ]
-    },
-    {
-      "id": "para-a-vida-arte",
-      "titulo": "A arte na infância",
-      "resumo": "Criatividade é parte essencial do desenvolvimento.",
-      "categoria": "Cultura",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/arte.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Arte-educadora Joana Pires",
-      "data": "2025-04-10",
-      "icones": { "partilha": false, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Desenhar, pintar e cantar estimulam a expressão." }
-      ]
-    },
-    {
-      "id": "para-a-vida-natureza",
-      "titulo": "Crescer em contacto com a natureza",
-      "resumo": "Ambientes verdes favorecem a saúde física e emocional.",
-      "categoria": "Ambiente",
-      "tipo": "para a vida",
-      "imagem": "/assets/unicef/natureza.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Bióloga Clara Rocha",
-      "data": "2025-04-12",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Brincar ao ar livre promove equilíbrio e reduz stress." }
-      ]
+    "id": "para-a-vida-higiene",
+    "titulo": "Higiene e saúde",
+    "resumo": "Ensinar e praticar hábitos básicos de higiene desde cedo é fundamental para prevenir doenças e promover uma vida mais saudável. Pequenos gestos como lavar as mãos, escovar os dentes e manter o ambiente limpo reduzem significativamente o risco de infeções e criam rotinas positivas para a vida adulta.",
+    "categoria": "Saúde Pública",
+    "tipo": "para a vida",
+    "imagem": "/assets/unicef/higiene.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Enf. Vânia Ramos",
+    "data": "2025-04-08",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Crianças que aprendem práticas de higiene adequadas têm menos probabilidade de adoecer e mais condições de frequentar a escola de forma regular. Além disso, criam hábitos que levam para a vida adulta."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Hábitos essenciais"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Lavar as mãos antes das refeições, após usar a casa de banho e ao chegar da rua",
+            "Escovar os dentes pelo menos duas vezes por dia, com pasta fluoretada",
+            "Tomar banho regularmente e manter unhas cortadas e limpas",
+            "Manter roupas e calçado limpos e adequados ao clima",
+            "Evitar partilhar objetos pessoais como escovas de dentes ou garrafas de água"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Cuidados com o ambiente"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "Ambientes limpos e bem ventilados reduzem o risco de propagação de vírus e bactérias. É importante também garantir o correto armazenamento de alimentos e a eliminação segura do lixo doméstico."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Lavar as mãos apenas com água é suficiente para prevenir infeções?",
+        "resposta": "Falso. Para uma higiene eficaz é necessário usar água e sabão ou, quando não disponíveis, uma solução à base de álcool."
+        }
+    ]
     }
   ]
 }

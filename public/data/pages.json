@@ -7,7 +7,7 @@
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
       "tipo": "gravidez",
-      "imagem": "/imagens/1tri.svg",
+      "imagem": "/imagens/1tri.jpg",
       "conteudo": [
         {
           "tipo": "acordeao",
@@ -119,7 +119,7 @@
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
       "tipo": "gravidez",
-      "imagem": "/imagens/2tri.svg",
+      "imagem": "/imagens/2tri.jpg",
       "conteudo": [
         {
           "tipo": "acordeao",
@@ -230,7 +230,7 @@
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
       "tipo": "gravidez",
-      "imagem": "/imagens/3tri.svg",
+      "imagem": "/imagens/3tri.jpg",
       "conteudo": [
         {
           "tipo": "acordeao",
@@ -1067,6 +1067,7 @@
       "resumo": "Nesta fase começo a sorrir mais, sigo rostos e objetos, levanto a cabeça por alguns segundos e respondo melhor às vozes familiares.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/2meses.jpg",
       "conteudo": [
         {
@@ -1248,6 +1249,7 @@
       "resumo": "Mais controlo da cabeça, sorrisos e arrulhos. Descubro as mãos, sigo objetos e adoro brincar frente a frente.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/3meses.jpg",
       "conteudo": [
         {
@@ -1399,6 +1401,7 @@
       "resumo": "Mais força no pescoço, começo a rolar, agarrar objetos e dar risadinhas. Uma fase cheia de descobertas e novas interações.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/4meses.jpg",
       "conteudo": [
         {
@@ -1548,6 +1551,7 @@
       "resumo": "Mais controlo, mais risos e muita vontade de explorar: rolar, agarrar, levar à boca e conversar com sons.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/5meses.jpg",
       "conteudo": [
         {
@@ -1691,67 +1695,68 @@
     },
 
     {
-      "id": "6mes",
-      "titulo": "Tenho 6 meses! Novos sabores, novas conquistas",
-      "subtitulo": "180–210 dias",
-      "resumo": "Começam os sólidos, o sentar com apoio e muitas brincadeiras de imitar sons. Sugestões simples para estimular, alimentar e cuidar com segurança.",
-      "autor": "Equipa Cres(Ser)",
-      "data": "2025-09-16",
-      "imagem": "/imagens/6meses.jpg",
-      "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? O leite continua a ser o principal alimento do bebé, mesmo depois de começar a provar outros alimentos.",
-          "resposta": "Verdade! Até ao primeiro ano, o leite materno ou fórmula continuam a ser a base da alimentação, mesmo após a introdução dos sólidos."
-        },
-        {
-          "tipo": "acordeao",
-          "titulo": "Saúde e bem-estar",
-          "conteudo": [
+        "id": "6mes",
+        "titulo": "Tenho 6 meses! Novos sabores, novas conquistas",
+        "subtitulo": "180–210 dias",
+        "resumo": "Começam os sólidos, o sentar com apoio e muitas brincadeiras de imitar sons. Sugestões simples para estimular, alimentar e cuidar com segurança.",
+        "autor": "Equipa Cres(Ser)",
+        "data": "2025-09-16",
+        "tipo": "no colo",
+        "imagem": "/imagens/6meses.jpg",
+        "conteudo": [
             {
-              "tipo": "lista",
-              "itens": [
-                "Consulta de vigilância para acompanhar peso, comprimento e perímetro cefálico.",
-                "Verificação das vacinas do calendário nacional.",
-                "Segurança reforçada em casa: proteger tomadas, cantos e afastar objetos pequenos."
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "acordeao",
-          "titulo": "Desenvolvimento do bebé",
-          "conteudo": [
+            "tipo": "testeConhecimento",
+            "titulo": "Teste de conhecimento",
+            "pergunta": "Verdadeiro ou falso? O leite continua a ser o principal alimento do bebé, mesmo depois de começar a provar outros alimentos.",
+            "resposta": "Verdade! Até ao primeiro ano, o leite materno ou fórmula continuam a ser a base da alimentação, mesmo após a introdução dos sólidos."
+            },
             {
-              "tipo": "lista",
-              "itens": [
-                "Rolo para ambos os lados e apoio-me melhor nas mãos.",
-                "Sento-me com apoio por curtos períodos.",
-                "Transfiro objetos de uma mão para a outra.",
-                "Balbucio sons como “ba”, “da” ou “ga”.",
-                "Respondo ao meu nome e presto mais atenção ao ambiente."
-              ]
-            }
-          ]
-        },
+            "tipo": "acordeao",
+            "titulo": "Saúde e bem-estar",
+            "conteudo": [
+                {
+                "tipo": "lista",
+                "itens": [
+                    "Consulta de vigilância para acompanhar peso, comprimento e perímetro cefálico.",
+                    "Verificação das vacinas do calendário nacional.",
+                    "Segurança reforçada em casa: proteger tomadas, cantos e afastar objetos pequenos."
+                ]
+                }
+            ]
+            },
+            {
+            "tipo": "acordeao",
+            "titulo": "Desenvolvimento do bebé",
+            "conteudo": [
+                {
+                "tipo": "lista",
+                "itens": [
+                    "Rolo para ambos os lados e apoio-me melhor nas mãos.",
+                    "Sento-me com apoio por curtos períodos.",
+                    "Transfiro objetos de uma mão para a outra.",
+                    "Balbucio sons como “ba”, “da” ou “ga”.",
+                    "Respondo ao meu nome e presto mais atenção ao ambiente."
+                ]
+                }
+            ]
+            },
+            {
+    "tipo": "acordeao",
+    "titulo": "Atividades para fazer com o bebé",
+    "conteudo": [
         {
-  "tipo": "acordeao",
-  "titulo": "Atividades para fazer com o bebé",
-  "conteudo": [
-    {
-      "tipo": "lista",
-      "itens": [
-        "Oferecer diferentes texturas de alimentos seguros e macios (papa, puré ou pedaços adaptados).",
-        "Brincar sentado com apoio, oferecendo brinquedos para explorar com as mãos e a boca.",
-        "Colocar objetos em frente para que tente agarrar e passar de uma mão para a outra.",
-        "Estimular movimentos de rolar com brincadeiras no tapete.",
-        "Brincar de imitar sons e gestos, incentivando a 'conversa'.",
-        "Ler livros simples com imagens grandes e coloridas."
-      ]
-    }
-  ]
-},
+        "tipo": "lista",
+        "itens": [
+            "Oferecer diferentes texturas de alimentos seguros e macios (papa, puré ou pedaços adaptados).",
+            "Brincar sentado com apoio, oferecendo brinquedos para explorar com as mãos e a boca.",
+            "Colocar objetos em frente para que tente agarrar e passar de uma mão para a outra.",
+            "Estimular movimentos de rolar com brincadeiras no tapete.",
+            "Brincar de imitar sons e gestos, incentivando a 'conversa'.",
+            "Ler livros simples com imagens grandes e coloridas."
+        ]
+        }
+    ]
+    },
         {
           "tipo": "acordeao",
           "titulo": "Alimentação",
@@ -1848,6 +1853,7 @@
       "resumo": "Sentar com apoio, preparar para gatinhar e explorar com muita curiosidade. Ideias simples para brincar, alimentar com segurança e manter uma boa rotina.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/7meses.jpg",
       "conteudo": [
         {
@@ -2006,6 +2012,7 @@
       "resumo": "Sento sem apoio, exploro o chão e balbucio cada vez mais. Ideias para brincar, alimentar com segurança e manter rotinas tranquilas.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/8meses.jpg",
       "conteudo": [
         {
@@ -2162,6 +2169,7 @@
       "resumo": "Gatinhar consistente, pôr-se de pé com apoio e pinça a afinar. Ideias para brincar, promover segurança e evoluir nos sólidos com confiança.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/9meses.jpg",
       "conteudo": [
         {
@@ -2316,6 +2324,7 @@
       "resumo": "Ficar de pé com apoio, passos laterais, pinça a afinar e muita curiosidade. Ideias para brincar com segurança, evoluir nos sólidos e apoiar a comunicação.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/10meses.jpg",
       "conteudo": [
         {
@@ -2474,6 +2483,7 @@
       "resumo": "Levantar-se sozinho, andar com apoio, balbuciar muito e imitar gestos. Sugestões para estimular a autonomia, brincar com segurança e apoiar a alimentação variada.",
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
+      "tipo": "no colo",
       "imagem": "/imagens/11meses.jpg",
       "conteudo": [
         {

@@ -1,5 +1,5 @@
 // eslint-disable-next-line
-import React from 'react';
+import React, { useState } from 'react';
 import { FaFacebook, FaInstagram, FaGithub, FaYoutube } from 'react-icons/fa';
 import logo from '../assets/Logo_Branco.svg';
 import logoua from '../assets/ua-logo-branco.svg';
@@ -8,6 +8,21 @@ import Button from './Button';
 //import simbolo from '../assets/simbolo_cres_ser.svg';
 
 export default function Footer() {
+  const [success, setSuccess] = useState(false);
+  const [email, setEmail] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email) return;
+
+    // Aqui podes adicionar a lógica para enviar o email ao backend
+    setSuccess(true);
+    setEmail(""); // limpa o input
+
+    // Limpar a mensagem após alguns segundos (opcional)
+    setTimeout(() => setSuccess(false), 5000);
+  };
+
   return (
     <footer className="bg-[#78B19A] text-white sm:-mt-12 -mt-6">
       <div className="max-w-screen-xl mx-auto px-4 py-16 pt-20">
@@ -43,7 +58,6 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Comunidade</h4>
             <ul className="space-y-2 ">
               <li><a href="/eventos">:: Eventos</a></li>
-              
             </ul>
           </div>
 
@@ -53,7 +67,6 @@ export default function Footer() {
             <ul className="space-y-2 ">
               <li><a href="/page/politica">:: Política de Privacidade</a></li>
               <li><a href="/page/termos">:: Termos e Condições</a></li>
-              
             </ul>
           </div>
         </div>
@@ -72,19 +85,28 @@ export default function Footer() {
             </div>
 
             {/* Formulário à direita */}
-            <form className="flex items-center gap-2 w-full md:w-auto">
-              <input
-                type="email"
-                placeholder="Digite o seu email"
-                className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
-                required
-              />
-              <Button>Subscrever</Button>
-              
+            <form onSubmit={handleSubmit} className="flex flex-col gap-2 w-full md:w-auto">
+              <div className="flex items-center gap-2">
+                <input
+                  type="email"
+                  placeholder="Digite o seu email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-transparent"
+                  required
+                />
+                <Button type="submit">Subscrever</Button>
+              </div>
+
+              {/* Mensagem de sucesso */}
+              {success && (
+                <p className="text-sm text-white bg-emerald-600 border border-emerald-700 rounded-lg px-4 py-2 shadow">
+                  ✅ O seu email foi registado com sucesso! Em breve receberá novidades da nossa equipa.
+                </p>
+              )}
             </form>
           </div>
         </div>
-
 
         {/* Rodapé inferior */}
         <div className="border-t border-[#fff] pt-10 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
@@ -103,8 +125,6 @@ export default function Footer() {
             <a href="#" aria-label="YouTube"><FaYoutube className="hover:text-gray-300" /></a>
           </div>
         </div>
-
-        
       </div>
     </footer>
   );
