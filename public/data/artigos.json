@@ -682,50 +682,156 @@
       ]
     },
     {
-      "id": "no-colo-alimentacao-introducao",
-      "titulo": "Introdução alimentar segura",
-      "resumo": "Primeiros passos na diversificação alimentar do bebé.",
-      "categoria": "Nutrição Infantil",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/introducao-alimentar.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Nutricionista Inês Duarte",
-      "data": "2025-02-25",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "A introdução alimentar deve começar aos 6 meses, com supervisão." }
-      ]
+    "id": "no-colo-alimentacao-introducao",
+    "titulo": "Introdução alimentar segura",
+    "resumo": "A introdução alimentar é um marco importante no desenvolvimento do bebé. A partir dos 6 meses, além do leite materno ou fórmula, novos alimentos são introduzidos de forma gradual para garantir nutrição adequada, prevenir deficiências e estimular hábitos saudáveis.",
+    "categoria": "Nutrição Infantil",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/introducao-alimentar.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Nutricionista Inês Duarte",
+    "data": "2025-02-25",
+    "icones": { "partilha": true, "favorito": false },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "A introdução alimentar deve começar por volta dos 6 meses, mantendo o aleitamento como base. Esse processo deve ser gradual e supervisionado, respeitando o ritmo de cada bebé."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Alimentos recomendados"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Frutas amassadas ou em puré, sem adição de açúcar",
+            "Legumes cozidos e triturados",
+            "Cereais simples, como arroz ou aveia",
+            "Carnes magras bem cozinhadas e desfiadas",
+            "Peixes sem espinhas, introduzidos com cautela",
+            "Água oferecida em pequenas quantidades"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Cuidados importantes"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Introduzir um alimento de cada vez, para observar possíveis alergias",
+            "Evitar sal, açúcar, mel e alimentos ultraprocessados",
+            "Manter consistência adequada à idade para evitar engasgamentos",
+            "Supervisionar sempre o bebé durante as refeições",
+            "Oferecer variedade para estimular diferentes sabores e texturas"
+        ]
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "A introdução alimentar é também uma oportunidade de partilha familiar. Refeições em conjunto ajudam a criar hábitos saudáveis e reforçam o vínculo entre pais e filhos."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "A introdução alimentar deve começar logo após os 4 meses de vida?",
+        "resposta": "Falso. A recomendação da OMS e UNICEF é iniciar a diversificação alimentar por volta dos 6 meses, mantendo o leite como principal fonte de nutrição."
+        }
+    ]
     },
+
     {
-      "id": "no-colo-dentes",
-      "titulo": "Cuidar dos primeiros dentes",
-      "resumo": "A higiene oral deve começar cedo.",
-      "categoria": "Saúde Oral",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/dentes.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Dentista Filipa Amaral",
-      "data": "2025-02-28",
-      "icones": { "partilha": true, "favorito": true },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Use gaze ou dedeira para limpar as gengivas e dentes." }
-      ]
+    "id": "no-colo-dentes",
+    "titulo": "Cuidar dos primeiros dentes",
+    "resumo": "A higiene oral deve começar ainda antes do aparecimento dos primeiros dentes. Criar rotinas de limpeza desde cedo ajuda a prevenir cáries, favorece a saúde das gengivas e prepara o bebé para bons hábitos de higiene que levará para a vida adulta.",
+    "categoria": "Saúde Oral",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/dentes.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Dentista Filipa Amaral",
+    "data": "2025-02-28",
+    "icones": { "partilha": true, "favorito": true },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Os cuidados orais devem começar ainda na fase das gengivas, mesmo antes de surgir o primeiro dente. A limpeza regular ajuda a evitar acumulação de resíduos de leite e bactérias."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Como limpar a boca do bebé"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Utilizar uma gaze ou dedeira humedecida para limpar gengivas e dentes após as mamadas",
+            "Introduzir escova de cerdas macias quando os primeiros dentes nascerem",
+            "Usar uma quantidade mínima de pasta dentífrica com flúor (do tamanho de um grão de arroz)",
+            "Evitar adormecer o bebé com biberão de leite ou sumo para prevenir cáries precoces"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Primeira ida ao dentista"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "A primeira consulta com o dentista deve acontecer até ao primeiro aniversário ou após o aparecimento do primeiro dente, para acompanhamento da saúde oral e orientação aos pais."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "A higiene oral só é necessária quando todos os dentes já nasceram?",
+        "resposta": "Falso. A higiene deve começar desde cedo, mesmo antes da erupção dentária, com a limpeza das gengivas."
+        }
+    ]
     },
+
     {
-      "id": "no-colo-vinculo",
-      "titulo": "Contacto pele a pele",
-      "resumo": "Fortalece o vínculo e regula o bebé.",
-      "categoria": "Vínculo Afetivo",
-      "tipo": "no colo",
-      "imagem": "/assets/unicef/pele-pele.png",
-      "autor": "Equipa Cres(Ser)",
-      "revisado": "Enf. Miguel Reis",
-      "data": "2025-03-02",
-      "icones": { "partilha": true, "favorito": false },
-      "conteudo": [
-        { "tipo": "paragrafo", "texto": "Contacto pele a pele ajuda na regulação da temperatura e vínculo." }
-      ]
+    "id": "no-colo-vinculo",
+    "titulo": "Contacto pele a pele",
+    "resumo": "O contacto pele a pele logo após o nascimento é uma prática simples e poderosa. Além de fortalecer o vínculo entre bebé e cuidador, ajuda a regular a temperatura corporal, estabiliza a respiração e o batimento cardíaco, promove o início da amamentação e transmite segurança emocional.",
+    "categoria": "Vínculo Afetivo",
+    "tipo": "no colo",
+    "imagem": "/assets/unicef/pele-pele.jpg",
+    "autor": "Equipa Cres(Ser)",
+    "revisado": "Enf. Miguel Reis",
+    "data": "2025-03-02",
+    "icones": { "partilha": true, "favorito": false },
+    "conteudo": [
+        {
+        "tipo": "paragrafo",
+        "texto": "Colocar o recém-nascido diretamente sobre o peito nu da mãe ou do pai logo após o parto traz inúmeros benefícios fisiológicos e emocionais. Esse contacto pode ser continuado nos primeiros meses de vida como parte da rotina de cuidados."
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Benefícios do contacto pele a pele"
+        },
+        {
+        "tipo": "lista",
+        "itens": [
+            "Ajuda a regular a temperatura corporal do bebé",
+            "Estabiliza a respiração e o batimento cardíaco",
+            "Favorece a produção de leite materno e o início da amamentação",
+            "Reduz o choro e promove relaxamento",
+            "Fortalece o vínculo afetivo e a confiança entre bebé e cuidadores"
+        ]
+        },
+        {
+        "tipo": "subtitulo",
+        "texto": "Como praticar"
+        },
+        {
+        "tipo": "paragrafo",
+        "texto": "O contacto pele a pele deve ser feito em ambiente tranquilo, com o bebé apenas de fralda ou com manta leve, em posição segura sobre o peito do cuidador. É importante garantir que as vias respiratórias do bebé estejam sempre livres."
+        },
+        {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "O contacto pele a pele deve ser feito apenas logo após o nascimento?",
+        "resposta": "Falso. Embora seja essencial nas primeiras horas, o contacto pele a pele pode ser praticado diariamente nos primeiros meses, fortalecendo o vínculo e trazendo benefícios contínuos."
+        }
+    ]
     },
+
 
     {
     "id": "no-colo-sinais",
@@ -737,7 +843,7 @@
     "autor": "Equipa Cres(Ser)",
     "revisado": "Enf. Patrícia Melo",
     "data": "2025-03-05",
-    "icones": { "partilha": false, "favorito": true },
+    "icones": { "partilha": true, "favorito": true },
     "conteudo": [
         {
         "tipo": "paragrafo",
