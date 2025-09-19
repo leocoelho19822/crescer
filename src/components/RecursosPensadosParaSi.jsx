@@ -35,7 +35,7 @@ export default function RecursosPensadosParaSi({ tipo }) {
   }, [tipo]);
 
   if (loading) return <p className="text-center text-gray-600">A carregar artigos...</p>;
-  if (!artigos.length) return <p className="text-center text-gray-600">--</p>;
+  if (!artigos.length) return <p className="text-center text-gray-600"></p>;
 
   const visiveisArtigos = artigos.slice(0, visiveis);
 

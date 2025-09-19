@@ -2,51 +2,157 @@
   "users": [
     {
       "id": 1,
-      "username": "leonardo",
-      "password": "12345",
-      "title": null,
       "name": "Leonardo Coelho",
-      "role": "admin",
-      "specialty": null,
       "email": "leo.coelho@crescer.pt",
+      "password_hash": "$2b$10$hashLeonardo123",
+      "role": "admin",
+      "title": null,
+      "specialty": null,
+      "imagem": "/assets/users/leonardo.png",
       "favorites": ["1tri", "2ano"],
-      "active": true
+      "active": true,
+      "email_verified": true,
+      "last_login": "2025-09-18T14:22:00Z",
+      "failed_attempts": 0,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": true,
+        "tema": "claro"
+      },
+      "created_at": "2025-01-10T10:00:00Z",
+      "updated_at": "2025-09-19T12:30:00Z"
     },
     {
       "id": 2,
-      "username": "joao_silva",
-      "password": "medico123",
-      "title": "Dr.",
       "name": "João Silva",
-      "role": "profissional",
-      "specialty": "Médico de Família",
       "email": "joao.silva@crescer.pt",
+      "password_hash": "$2b$10$hashJoao123",
+      "role": "profissional",
+      "title": "Dr.",
+      "specialty": "Médico de Família",
+      "imagem": "/assets/users/joao.png",
       "favorites": [],
-      "active": true
+      "active": true,
+      "email_verified": true,
+      "last_login": "2025-09-17T09:00:00Z",
+      "failed_attempts": 0,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": true,
+        "tema": "claro"
+      },
+      "created_at": "2025-02-01T11:30:00Z",
+      "updated_at": "2025-09-15T08:45:00Z"
     },
     {
       "id": 3,
-      "username": "carla_mendes",
-      "password": "nutri2025",
-      "title": "Nutricionista",
       "name": "Carla Mendes",
-      "role": "profissional",
-      "specialty": "Nutrição",
       "email": "carla.mendes@crescer.pt",
+      "password_hash": "$2b$10$hashCarla123",
+      "role": "profissional",
+      "title": "Nutricionista",
+      "specialty": "Nutrição",
+      "imagem": "/assets/users/carla.png",
       "favorites": [],
-      "active": true
+      "active": true,
+      "email_verified": true,
+      "last_login": "2025-09-10T16:20:00Z",
+      "failed_attempts": 1,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": false,
+        "tema": "escuro"
+      },
+      "created_at": "2025-02-15T09:00:00Z",
+      "updated_at": "2025-09-10T16:30:00Z"
     },
     {
       "id": 4,
-      "username": "equipa_crescer",
-      "password": "crescer2025",
+      "name": "Rita Reis",
+      "email": "rita@gmail.com",
+      "password_hash": "$2b$10$hashRita123",
+      "role": "geral",
       "title": null,
-      "name": "Equipa Cres(Ser)",
-      "role": "editorial",
-      "specialty": "Conteúdo Institucional",
-      "email": "equipa@crescer.pt",
+      "specialty": null,
+      "imagem": "/assets/users/rita.png",
       "favorites": [],
-      "active": true
+      "active": true,
+      "email_verified": false,
+      "last_login": null,
+      "failed_attempts": 0,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": true,
+        "tema": "claro"
+      },
+      "created_at": "2025-03-01T14:00:00Z",
+      "updated_at": "2025-03-01T14:00:00Z"
+    },
+    {
+      "id": 5,
+      "name": "Equipa Cres(Ser)",
+      "email": "equipa@crescer.pt",
+      "password_hash": "$2b$10$hashEquipa123",
+      "role": "editorial",
+      "title": null,
+      "specialty": "Conteúdo Institucional",
+      "imagem": "/assets/users/equipa.png",
+      "favorites": [],
+      "active": true,
+      "email_verified": true,
+      "last_login": "2025-09-12T12:10:00Z",
+      "failed_attempts": 0,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": true,
+        "tema": "claro"
+      },
+      "created_at": "2025-02-20T12:00:00Z",
+      "updated_at": "2025-09-12T12:15:00Z"
+    },
+    {
+      "id": 6,
+      "name": "Joana Costa",
+      "email": "joana.costa@gmail.com",
+      "password_hash": "$2b$10$hashJoana123",
+      "role": "geral",
+      "title": null,
+      "specialty": null,
+      "imagem": "/assets/users/joana.png",
+      "favorites": [],
+      "active": true,
+      "email_verified": false,
+      "last_login": null,
+      "failed_attempts": 0,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": false,
+        "tema": "claro"
+      },
+      "created_at": "2025-03-10T09:30:00Z",
+      "updated_at": "2025-03-10T09:30:00Z"
+    },
+    {
+      "id": 7,
+      "name": "Miguel Fernandes",
+      "email": "miguel.fernandes@gmail.com",
+      "password_hash": "$2b$10$hashMiguel123",
+      "role": "geral",
+      "title": null,
+      "specialty": null,
+      "imagem": "/assets/users/miguel.png",
+      "favorites": [],
+      "active": true,
+      "email_verified": false,
+      "last_login": null,
+      "failed_attempts": 0,
+      "preferences": {
+        "idioma": "pt-PT",
+        "notificacoes": true,
+        "tema": "escuro"
+      },
+      "created_at": "2025-03-12T15:00:00Z",
+      "updated_at": "2025-03-12T15:00:00Z"
     }
   ]
 }

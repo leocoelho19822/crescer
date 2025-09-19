@@ -2750,6 +2750,27 @@
       ]
     },
 
+    {
+        "id": "parceiros",
+        "titulo": "Parceiros",
+        "conteudo": [
+            {
+                "tipo": "paragrafo",
+                "texto": "O projeto Cres(Ser) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil."
+            },
+            {
+                "tipo": "lista",
+                "itens": [
+                    "Universidade de Aveiro",
+                    "Centro de Saúde de Águeda",
+                    "Centro Hospitalar do Baixo Vouga",
+                    "Câmara Municipal de Águeda",
+                    "Associação de Pais da Escola XYZ"
+                ]
+            }
+        ]
+    },
+
 
     {
       "id": "contato",

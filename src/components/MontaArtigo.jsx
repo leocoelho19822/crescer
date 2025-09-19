@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FiPhoneCall, FiAlertTriangle, FiShare2, FiHeart } from "react-icons/fi";
-import { AiFillHeart } from "react-icons/ai"; // coração cheio
+import { AiFillHeart } from "react-icons/ai";
 
 import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
@@ -14,13 +14,15 @@ export default function MontaArtigo() {
   const [error, setError] = useState(false);
   const [quizAnswers, setQuizAnswers] = useState({});
   const [favorito, setFavorito] = useState(false);
+  const [autorNome, setAutorNome] = useState("");
+  const [revisorNome, setRevisorNome] = useState("");
 
-  // carregar artigo + verificar favoritos
+  // carregar artigo
   useEffect(() => {
     setLoading(true);
     setError(false);
 
-    fetch("/data/artigos.json")
+    fetch("/data/artigos_enterprise.json")
       .then((res) => {
         if (!res.ok) throw new Error("Artigo não encontrado");
         return res.json();
@@ -44,6 +46,20 @@ export default function MontaArtigo() {
         setLoading(false);
       });
   }, [id]);
+
+  // carregar autor/revisor depois do artigo
+  useEffect(() => {
+    if (!artigo) return;
+
+    fetch("/data/users.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const autor = data.users.find((u) => u.id === artigo.autor_id);
+        const revisor = data.users.find((u) => u.id === artigo.revisor_id);
+        setAutorNome(autor ? autor.name : "");
+        setRevisorNome(revisor ? revisor.title + " " + revisor.name : "");
+      });
+  }, [artigo]);
 
   const toggleFavorito = () => {
     let favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
@@ -90,32 +106,25 @@ export default function MontaArtigo() {
         <p className="text-lg italic text-zinc-600 mb-10">{artigo.resumo}</p>
       )}
 
-      {/* 3. Autor + Data */}
-      {(artigo.autor || artigo.data) && (
-        <>
-        <div className="flex items-center justify-between mb-2 text-sm text-gray-500">
-          <p >
-            {artigo.autor && <span>Por {artigo.autor}</span>}
-            </p>
-            <p>
-            {artigo.revisado && <span> • Revisado por {artigo.revisado}</span>}
-            </p>
-            
+      {/* 3. Autor + Categoria + Data */}
+      <div className="mb-6 text-sm text-gray-500 space-y-1">
+        {/* Linha 1 */}
+        <div className="flex justify-between">
+          <p>{autorNome && <span>Por {autorNome}</span>}</p>
+          <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
         </div>
-        <div className="flex items-center justify-between mb-4 text-sm text-gray-500">
-          {artigo.data && (
-            <>
-            <p>
-            <span>Categoria  {artigo.categoria}</span>
-            </p>
-            <p>
-              <span>Última atualização em {new Date(artigo.data).toLocaleDateString("pt-PT")}</span>
-              </p>
-              </>
-            )}
-            </div>
-            </>
-      )}
+
+        {/* Linha 2 */}
+        <div className="flex justify-between">
+          <p>Categoria: {artigo.categoria}</p>
+          <p>
+            Última atualização em{" "}
+            {new Date(artigo.updated_at).toLocaleDateString("pt-PT")}
+          </p>
+        </div>
+      </div>
+
+
 
       {/* 4. Imagem + Ações */}
       {artigo.imagem && (
@@ -126,7 +135,6 @@ export default function MontaArtigo() {
             className="w-full max-w-4xl mx-auto rounded-lg shadow mb-4 object-cover"
           />
 
-          {/* Ícones */}
           <div className="flex items-center justify-end space-x-6 mb-10">
             {artigo.icones?.partilha && (
               <button
@@ -290,7 +298,9 @@ export default function MontaArtigo() {
           }
         })}
       </div>
-        <hr />
+
+      <hr />
+
       {/* Recursos relacionados */}
       <RecursosPensadosParaSi tipo={artigo.tipo} />
     </div>

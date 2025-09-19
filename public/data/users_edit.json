@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "leonardo",
+      "password": "12345",
+      "title": null,
+      "name": "Leonardo Coelho",
+      "role": "admin",
+      "specialty": null,
+      "email": "leo.coelho@crescer.pt",
+      "favorites": ["1tri", "2ano"],
+      "active": true
+    },
+    {
+      "id": 2,
+      "username": "joao_silva",
+      "password": "medico123",
+      "title": "Dr.",
+      "name": "João Silva",
+      "role": "profissional",
+      "specialty": "Médico de Família",
+      "email": "joao.silva@crescer.pt",
+      "favorites": [],
+      "active": true
+    },
+    {
+      "id": 3,
+      "username": "carla_mendes",
+      "password": "nutri2025",
+      "title": "Nutricionista",
+      "name": "Carla Mendes",
+      "role": "profissional",
+      "specialty": "Nutrição",
+      "email": "carla.mendes@crescer.pt",
+      "favorites": [],
+      "active": true
+    },
+    {
+      "id": 4,
+      "username": "equipa_crescer",
+      "password": "crescer2025",
+      "title": null,
+      "name": "Equipa Cres(Ser)",
+      "role": "editorial",
+      "specialty": "Conteúdo Institucional",
+      "email": "equipa@crescer.pt",
+      "favorites": [],
+      "active": true
+    }
+  ]
+}
