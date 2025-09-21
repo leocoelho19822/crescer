@@ -42,8 +42,9 @@ export default function Dashboard() {
   if (!user) return null;
 
   // Estatísticas
-  const artigosPublicados = artigos.length;
-  const artigosPendentes = 0; // futuro quando tiver status pendente
+  const artigosPublicados = artigos.filter((a) => a.status === "publicado").length;
+  const artigosPendentes = artigos.filter((a) => a.status === "pendente").length;
+
   const eventosPublicados = eventos.filter((e) => e.ativo).length;
   const eventosPendentes = eventos.filter((e) => !e.ativo).length;
 
@@ -78,7 +79,7 @@ export default function Dashboard() {
             pendentes={eventosPendentes}
             Icon={FiCalendar}
             cor="bg-blue-500"
-            link="/admin/eventos"
+            link="/editorial/eventos"
           />
 
           {/* Só admin vê estatísticas de utilizadores */}

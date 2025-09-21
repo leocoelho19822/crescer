@@ -39,7 +39,7 @@ export default function LoginAdmin() {
       // guarda info no localStorage
       localStorage.setItem(
         "user",
-        JSON.stringify({ name: user.name, email: user.email, role: user.role })
+        JSON.stringify({ id: user.id, name: user.name, email: user.email, role: user.role })
       );
 
       setErro("");

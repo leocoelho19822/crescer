@@ -1946,6 +1946,80 @@
       ],
       "related": [],
       "link": "/artigos/para-a-vida-higiene"
+    },
+
+    {
+  "id": 31,
+  "slug": "no-colo-choro-purple",
+  "titulo": "O período do choro PURPLE",
+  "resumo": "Entre as 2 semanas e os 5 meses, muitos bebés passam por uma fase de choro intenso, normal no desenvolvimento, conhecida como 'período PURPLE'. Reconhecer esta etapa ajuda pais e cuidadores a lidar melhor com o cansaço e a frustração.",
+  "categoria": "Comunicação",
+  "tipo": "no colo",
+  "imagem": "/assets/unicef/choro-purple.jpg",
+  "autorId": 5,
+  "revisorId": 2,
+  "status": "pendente",
+  "published_at": null,
+  "created_at": "2025-09-16T00:00:00.000Z",
+  "updated_at": "2025-09-16T00:00:00.000Z",
+  "tags": ["no colo", "comunicação", "choro purple"],
+  "lang": "pt-PT",
+  "icones": {
+    "partilha": false,
+    "favorito": false
+  },
+  "reading_time": 2,
+  "conteudo": [
+    {
+      "tipo": "paragrafo",
+      "texto": "O choro é a principal forma de comunicação do recém-nascido. De acordo com o pediatra Ronald Barr, existe uma fase chamada 'período PURPLE', que se inicia por volta das 2 semanas, atinge o pico aos 2 meses e pode prolongar-se até aos 3-5 meses, diminuindo depois de forma gradual."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "O que significa PURPLE"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "P (Peak of crying) — Pico do choro por volta dos 2 meses",
+        "U (Unexpected) — Choro inesperado, sem motivo aparente",
+        "R (Resists soothing) — Resiste a tentativas de acalmar",
+        "P (Pain-like face) — Expressão facial de dor, mesmo sem dor real",
+        "L (Long lasting) — Pode durar longos períodos, até 5h por dia",
+        "E (Evening) — Mais frequente ao final do dia/noite"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "É importante compreender que este período é uma fase normal do desenvolvimento e não está relacionado com doença nem com falhas do cuidador."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "O que pode ser feito"
+    },
+    {
+      "tipo": "lista",
+      "itens": [
+        "Verificar fome, fralda ou cansaço",
+        "Pegar ao colo, embalar, falar ou cantar suavemente",
+        "Dar banho ou manter contacto próximo",
+        "Se sentir desespero, deixar o bebé em local seguro e afastar-se por alguns minutos"
+      ]
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Nunca se deve abanar ou sacudir o bebé. Este gesto pode provocar danos cerebrais graves, convulsões ou até ser fatal."
+    },
+    {
+      "tipo": "testeConhecimento",
+      "titulo": "Teste de conhecimento",
+      "pergunta": "O período PURPLE é sinal de doença ou de falha dos pais?",
+      "resposta": "Falso. Trata-se de uma fase normal do desenvolvimento do bebé, que passa com o tempo."
     }
+  ],
+  "related": [],
+  "link": "/artigos/no-colo-choro-purple"
+}
+
   ]
 }

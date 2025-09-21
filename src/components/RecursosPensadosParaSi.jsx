@@ -26,7 +26,10 @@ export default function RecursosPensadosParaSi({ tipo }) {
     fetch("/data/artigos.json")
       .then((res) => res.json())
       .then((data) => {
-        const filtrados = data.artigos.filter((a) => a.tipo === tipo);
+        const filtrados = data.artigos.filter(
+  (a) => a.tipo === tipo && a.status === "publicado"
+);
+
         const sorteados = shuffleArray(filtrados); // embaralhar
         setArtigos(sorteados);
         setLoading(false);

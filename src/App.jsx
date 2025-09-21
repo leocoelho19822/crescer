@@ -22,6 +22,9 @@ import FavoritosPage from "./pages/FavoritosPage";
 import LoginAdmin from "./pages/editorial/LoginAdmin";
 import Dashboard from "./pages/editorial/Dashboard";
 import ArtigosList from "./pages/editorial/ArtigosList";
+import ArtigoForm from "./pages/editorial/ArtigoForm";
+import EventosList from "./pages/editorial/EventosList";
+import EventoForm from "./pages/editorial/EventoForm";
 
 function App() {
   return (
@@ -58,6 +61,11 @@ function App() {
         <Route path="/editorial" element={<LoginAdmin />} />
         <Route path="/editorial/dashboard" element={<Dashboard />} />
         <Route path="/editorial/artigos" element={<ArtigosList />} />
+        <Route path="/editorial/eventos" element={<EventosList />} />
+        <Route path="/editorial/artigos/novo" element={<ArtigoForm />} />
+        <Route path="/editorial/artigos/editar/:id" element={<ArtigoForm />} />
+        <Route path="/editorial/eventos/novo" element={<EventoForm />} />
+        <Route path="/editorial/eventos/editar/:id" element={<EventoForm />} />
       </Routes>
     </Router>
   );

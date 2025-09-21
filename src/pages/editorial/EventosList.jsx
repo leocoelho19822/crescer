@@ -1,37 +1,44 @@
 // eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FiEdit, FiTrash2, FiSearch, FiFilter, FiBookOpen } from "react-icons/fi";
+import {
+  FiEdit,
+  FiTrash2,
+  FiSearch,
+  FiFilter,
+  FiCalendar,
+} from "react-icons/fi";
 import HeaderEdit from "./HeaderEdit";
 
 // eslint-disable-next-line
-export default function ArtigosList() {
-  const [artigos, setArtigos] = useState([]);
+export default function EventosList() {
+  const [eventos, setEventos] = useState([]);
   const [search, setSearch] = useState("");
-  const [filtroStatus, setFiltroStatus] = useState("todos");
+  const [filtroAtivo, setFiltroAtivo] = useState("todos");
 
   useEffect(() => {
-    fetch("/data/artigos.json")
+    fetch("/data/eventos.json")
       .then((res) => res.json())
-      .then((data) => setArtigos(data.artigos || []));
+      .then((data) => setEventos(data.eventos || []));
   }, []);
 
-  const artigosFiltrados = artigos.filter((a) => {
-    const matchSearch =
-      a.titulo.toLowerCase().includes(search.toLowerCase()) ||
-      a.categoria.toLowerCase().includes(search.toLowerCase());
+  const eventosFiltrados = eventos.filter((e) => {
+    const matchSearch = e.titulo.toLowerCase().includes(search.toLowerCase());
 
-    const matchStatus =
-      filtroStatus === "todos" ? true : a.status === filtroStatus;
+    const matchAtivo =
+      filtroAtivo === "todos"
+        ? true
+        : filtroAtivo === "ativos"
+        ? e.ativo
+        : !e.ativo;
 
-    return matchSearch && matchStatus;
+    return matchSearch && matchAtivo;
   });
 
   const handleDelete = (id) => {
-    if (window.confirm("Tens a certeza que desejas excluir este artigo?")) {
-      console.log("Excluir artigo:", id);
-      // Aqui faria a exclusão real (backend/JSON)
-      setArtigos((prev) => prev.filter((a) => a.id !== id));
+    if (window.confirm("Tens a certeza que desejas excluir este evento?")) {
+      console.log("Excluir evento:", id);
+      setEventos((prev) => prev.filter((e) => e.id !== id));
     }
   };
 
@@ -43,8 +50,8 @@ export default function ArtigosList() {
         {/* Título + Filtros */}
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
           <h1 className="text-2xl font-bold flex items-center gap-2">
-            <FiBookOpen className="text-[#78B19A]" />
-            Gestão de Artigos
+            <FiCalendar className="text-[#78B19A]" />
+            Gestão de Eventos
           </h1>
 
           <div className="flex gap-3">
@@ -60,67 +67,57 @@ export default function ArtigosList() {
               />
             </div>
 
-            {/* Filtro de status */}
+            {/* Filtro Ativo/Inativo */}
             <div className="flex items-center bg-white rounded-lg shadow px-3 py-2">
               <FiFilter className="text-gray-500 mr-2" />
               <select
-                value={filtroStatus}
-                onChange={(e) => setFiltroStatus(e.target.value)}
+                value={filtroAtivo}
+                onChange={(e) => setFiltroAtivo(e.target.value)}
                 className="text-sm outline-none bg-transparent"
               >
                 <option value="todos">Todos</option>
-                <option value="publicado">Publicado</option>
-                <option value="pendente">Pendente</option>
-                <option value="arquivado">Arquivado</option>
+                <option value="ativos">Ativos</option>
+                <option value="inativos">Inativos</option>
               </select>
             </div>
           </div>
         </div>
 
-        {/* Botão Novo Artigo */}
+        {/* Botão Novo Evento */}
         <div className="flex justify-end mb-6">
           <Link
-            to="/editorial/artigos/novo"
+            to="/editorial/eventos/novo"
             className="bg-[#78B19A] hover:bg-[#5e8e79] text-white px-4 py-2 rounded-lg shadow transition flex items-center gap-2"
           >
-            + Novo Artigo
+            + Novo Evento
           </Link>
         </div>
 
         {/* Mobile view (cards) */}
         <div className="md:hidden space-y-4">
-          {artigosFiltrados.map((a) => (
-            <div key={a.id} className="bg-white rounded-lg shadow p-4">
-              <h3 className="font-bold text-lg mb-1">{a.titulo}</h3>
+          {eventosFiltrados.map((e) => (
+            <div key={e.id} className="bg-white rounded-lg shadow p-4">
+              <h3 className="font-bold text-lg mb-1">{e.titulo}</h3>
               <p className="text-sm text-gray-600 mb-1">
-                Categoria: {a.categoria}
+                Data: {new Date(e.data).toLocaleDateString("pt-PT")}
               </p>
               <p
                 className={`text-sm font-medium mb-1 ${
-                  a.status === "publicado"
-                    ? "text-green-600"
-                    : a.status === "pendente"
-                    ? "text-yellow-600"
-                    : "text-gray-600"
+                  e.ativo ? "text-green-600" : "text-red-600"
                 }`}
               >
-                Estado: {a.status}
+                {e.ativo ? "Ativo" : "Inativo"}
               </p>
-              <p className="text-sm text-gray-500 mb-3">
-                Publicado em:{" "}
-                {a.published_at
-                  ? new Date(a.published_at).toLocaleDateString("pt-PT")
-                  : "-"}
-              </p>
+              <p className="text-sm text-gray-500 mb-3">{e.local}</p>
               <div className="flex justify-end gap-4">
                 <Link
-                  to={`/editorial/artigos/editar/${a.id}`}
+                  to={`/editorial/eventos/editar/${e.id}`}
                   className="text-blue-600 flex items-center gap-1"
                 >
                   <FiEdit /> Editar
                 </Link>
                 <button
-                  onClick={() => handleDelete(a.id)}
+                  onClick={() => handleDelete(e.id)}
                   className="text-red-600 flex items-center gap-1"
                 >
                   <FiTrash2 /> Excluir
@@ -129,9 +126,9 @@ export default function ArtigosList() {
             </div>
           ))}
 
-          {artigosFiltrados.length === 0 && (
+          {eventosFiltrados.length === 0 && (
             <p className="text-center text-gray-500">
-              Nenhum artigo encontrado
+              Nenhum evento encontrado
             </p>
           )}
         </div>
@@ -142,42 +139,36 @@ export default function ArtigosList() {
             <thead className="bg-gray-100 text-gray-700">
               <tr>
                 <th className="p-3">Título</th>
-                <th className="p-3">Categoria</th>
+                <th className="p-3">Data</th>
+                <th className="p-3">Local</th>
                 <th className="p-3">Estado</th>
-                <th className="p-3">Publicado em</th>
                 <th className="p-3 text-right">Ações</th>
               </tr>
             </thead>
             <tbody>
-              {artigosFiltrados.map((a) => (
-                <tr key={a.id} className="border-b hover:bg-gray-50">
-                  <td className="p-3">{a.titulo}</td>
-                  <td className="p-3">{a.categoria}</td>
+              {eventosFiltrados.map((e) => (
+                <tr key={e.id} className="border-b hover:bg-gray-50">
+                  <td className="p-3">{e.titulo}</td>
+                  <td className="p-3">
+                    {new Date(e.data).toLocaleDateString("pt-PT")}
+                  </td>
+                  <td className="p-3">{e.local}</td>
                   <td
-                    className={`p-3 capitalize ${
-                      a.status === "publicado"
-                        ? "text-green-600"
-                        : a.status === "pendente"
-                        ? "text-yellow-600"
-                        : "text-gray-600"
+                    className={`p-3 ${
+                      e.ativo ? "text-green-600" : "text-red-600"
                     }`}
                   >
-                    {a.status}
-                  </td>
-                  <td className="p-3">
-                    {a.published_at
-                      ? new Date(a.published_at).toLocaleDateString("pt-PT")
-                      : "-"}
+                    {e.ativo ? "Ativo" : "Inativo"}
                   </td>
                   <td className="p-3 flex gap-3 justify-end">
                     <Link
-                      to={`/editorial/artigos/editar/${a.id}`}
+                      to={`/editorial/eventos/editar/${e.id}`}
                       className="text-blue-600 hover:underline flex items-center gap-1"
                     >
                       <FiEdit /> Editar
                     </Link>
                     <button
-                      onClick={() => handleDelete(a.id)}
+                      onClick={() => handleDelete(e.id)}
                       className="text-red-600 hover:underline flex items-center gap-1"
                     >
                       <FiTrash2 /> Excluir
@@ -186,10 +177,10 @@ export default function ArtigosList() {
                 </tr>
               ))}
 
-              {artigosFiltrados.length === 0 && (
+              {eventosFiltrados.length === 0 && (
                 <tr>
                   <td colSpan="5" className="p-3 text-center text-gray-500">
-                    Nenhum artigo encontrado
+                    Nenhum evento encontrado
                   </td>
                 </tr>
               )}

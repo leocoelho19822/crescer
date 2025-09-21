@@ -28,11 +28,13 @@ export default function MontaArtigo() {
         return res.json();
       })
       .then((data) => {
-        const foundArtigo = data.artigos.find((a) => a.slug === id); // procura pelo slug
-        if (!foundArtigo) {
-          setError(true);
-        } else {
-          setArtigo(foundArtigo);
+      const foundArtigo = data.artigos.find(
+        (a) => a.slug === id && a.status === "publicado"
+      );
+      if (!foundArtigo) {
+        setError(true);
+      } else {
+        setArtigo(foundArtigo);
 
           const favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
           if (favoritos.includes(foundArtigo.slug)) {
@@ -55,8 +57,8 @@ export default function MontaArtigo() {
     fetch("/data/users.json")
       .then((res) => res.json())
       .then((data) => {
-        const autor = data.users.find((u) => u.id === artigo.autor_id);
-        const revisor = data.users.find((u) => u.id === artigo.revisor_id);
+        const autor = data.users.find((u) => u.id === artigo.autorId);
+        const revisor = data.users.find((u) => u.id === artigo.revisorId);
         setAutorNome(autor ? autor.name : "");
         setRevisorNome(revisor ? revisor.title + " " + revisor.name : "");
       });
