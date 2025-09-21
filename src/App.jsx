@@ -25,6 +25,7 @@ import ArtigosList from "./pages/editorial/ArtigosList";
 import ArtigoForm from "./pages/editorial/ArtigoForm";
 import EventosList from "./pages/editorial/EventosList";
 import EventoForm from "./pages/editorial/EventoForm";
+import ArtigoView from "./pages/editorial/ArtigoView";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
         <Route path="/editorial/artigos/editar/:id" element={<ArtigoForm />} />
         <Route path="/editorial/eventos/novo" element={<EventoForm />} />
         <Route path="/editorial/eventos/editar/:id" element={<EventoForm />} />
+        <Route path="/editorial/artigos/ver/:id" element={<ArtigoView />} />
       </Routes>
     </Router>
   );

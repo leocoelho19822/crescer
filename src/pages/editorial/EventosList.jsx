@@ -46,7 +46,7 @@ export default function EventosList() {
     <div className="min-h-screen bg-gray-100">
       <HeaderEdit user={JSON.parse(localStorage.getItem("user"))} />
 
-      <main className="p-6 max-w-7xl mx-auto">
+      <main className="p-4 max-w-7xl mx-auto">
         {/* Título + Filtros */}
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
           <h1 className="text-2xl font-bold flex items-center gap-2">

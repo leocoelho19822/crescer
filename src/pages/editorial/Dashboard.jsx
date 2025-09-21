@@ -60,7 +60,7 @@ export default function Dashboard() {
       <HeaderEdit user={user} />
 
       {/* Cards */}
-      <main className="p-6 max-w-7xl mx-auto">
+      <main className="p-4 max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Artigos */}
           <StatCard

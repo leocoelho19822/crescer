@@ -58,7 +58,7 @@ export default function ArtigoForm() {
     <div className="min-h-screen bg-gray-100">
       <HeaderEdit user={JSON.parse(localStorage.getItem("user"))} />
 
-      <main className="p-6 max-w-7xl mx-auto">
+      <main className="p-4 max-w-7xl mx-auto">
         <h1 className="text-2xl font-bold mb-6 flex items-center gap-2">
           <FiBookOpen className="text-[#78B19A]" />
           {id ? "Editar Artigo" : "Criar Novo Artigo"}

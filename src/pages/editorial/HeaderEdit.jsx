@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import { FiArrowLeft } from "react-icons/fi";
+import { FiArrowLeft, FiLogOut  } from "react-icons/fi";
 import logo from "../../assets/Logo_Branco.svg";
 
 // eslint-disable-next-line
@@ -40,6 +40,7 @@ export default function HeaderEdit({ user }) {
           </div>
 
           {/* Utilizador + Logout */}
+          {/* Utilizador + Logout */}
           {user && (
             <div className="flex flex-col sm:flex-row items-center gap-3 sm:gap-6 w-full sm:w-auto">
               <div className="text-center sm:text-right">
@@ -52,12 +53,14 @@ export default function HeaderEdit({ user }) {
                   localStorage.removeItem("user");
                   window.location.href = "/editorial";
                 }}
-                className="bg-red-500 hover:bg-red-400 text-white px-4 py-2 rounded-lg shadow transition w-full sm:w-auto"
+                className="text-white hover:text-red-300 transition cursor-pointer"
+                title="Terminar Sessão"
               >
-                Terminar Sessão
+                <FiLogOut size={22} />
               </button>
             </div>
           )}
+
         </div>
       </header>
 

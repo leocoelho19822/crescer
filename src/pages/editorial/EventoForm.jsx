@@ -83,7 +83,7 @@ export default function EventoForm() {
     <div className="min-h-screen bg-gray-100">
       <HeaderEdit user={user} />
 
-      <main className="p-6 max-w-4xl mx-auto">
+      <main className="p-4 max-w-4xl mx-auto">
         <h1 className="text-2xl font-bold mb-6 flex items-center gap-2">
           <FiCalendar className="text-[#78B19A]" />
           {id ? "Editar Evento" : "Criar Novo Evento"}

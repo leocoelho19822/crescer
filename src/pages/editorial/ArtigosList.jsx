@@ -1,7 +1,13 @@
 // eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FiEdit, FiTrash2, FiSearch, FiFilter, FiBookOpen } from "react-icons/fi";
+import {
+  FiEdit,
+  FiTrash2,
+  FiSearch,
+  FiFilter,
+  FiBookOpen,
+} from "react-icons/fi";
 import HeaderEdit from "./HeaderEdit";
 
 // eslint-disable-next-line
@@ -9,6 +15,8 @@ export default function ArtigosList() {
   const [artigos, setArtigos] = useState([]);
   const [search, setSearch] = useState("");
   const [filtroStatus, setFiltroStatus] = useState("todos");
+
+  const user = JSON.parse(localStorage.getItem("user"));
 
   useEffect(() => {
     fetch("/data/artigos.json")
@@ -30,16 +38,15 @@ export default function ArtigosList() {
   const handleDelete = (id) => {
     if (window.confirm("Tens a certeza que desejas excluir este artigo?")) {
       console.log("Excluir artigo:", id);
-      // Aqui faria a exclusão real (backend/JSON)
       setArtigos((prev) => prev.filter((a) => a.id !== id));
     }
   };
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <HeaderEdit user={JSON.parse(localStorage.getItem("user"))} />
+      <HeaderEdit user={user} />
 
-      <main className="p-6 max-w-7xl mx-auto">
+      <main className="p-4 max-w-7xl mx-auto">
         {/* Título + Filtros */}
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-6">
           <h1 className="text-2xl font-bold flex items-center gap-2">
@@ -112,28 +119,42 @@ export default function ArtigosList() {
                   ? new Date(a.published_at).toLocaleDateString("pt-PT")
                   : "-"}
               </p>
-              <div className="flex justify-end gap-4">
+              <div className="flex justify-end gap-3">
+                {/* Ver */}
                 <Link
-                  to={`/editorial/artigos/editar/${a.id}`}
-                  className="text-blue-600 flex items-center gap-1"
+                  to={`/editorial/artigos/ver/${a.id}`}
+                  className="text-gray-700 hover:text-gray-900"
+                  title="Visualizar"
                 >
-                  <FiEdit /> Editar
+                  <FiBookOpen size={18} />
                 </Link>
-                <button
-                  onClick={() => handleDelete(a.id)}
-                  className="text-red-600 flex items-center gap-1"
-                >
-                  <FiTrash2 /> Excluir
-                </button>
+
+                {/* Editar */}
+                {user?.role === "profissional" ||
+                user?.role === "admin" ||
+                (user?.role === "editorial" && a.status === "pendente") ? (
+                  <Link
+                    to={`/editorial/artigos/editar/${a.id}`}
+                    className="text-blue-600 hover:text-blue-800"
+                    title="Editar"
+                  >
+                    <FiEdit size={18} />
+                  </Link>
+                ) : null}
+
+                {/* Excluir */}
+                {(user?.role === "profissional" || user?.role === "admin") && (
+                  <button
+                    onClick={() => handleDelete(a.id)}
+                    className="text-red-600 hover:text-red-800"
+                    title="Excluir"
+                  >
+                    <FiTrash2 size={18} />
+                  </button>
+                )}
               </div>
             </div>
           ))}
-
-          {artigosFiltrados.length === 0 && (
-            <p className="text-center text-gray-500">
-              Nenhum artigo encontrado
-            </p>
-          )}
         </div>
 
         {/* Desktop view (tabela) */}
@@ -170,18 +191,38 @@ export default function ArtigosList() {
                       : "-"}
                   </td>
                   <td className="p-3 flex gap-3 justify-end">
+                    {/* Ver */}
                     <Link
-                      to={`/editorial/artigos/editar/${a.id}`}
-                      className="text-blue-600 hover:underline flex items-center gap-1"
+                      to={`/editorial/artigos/ver/${a.id}`}
+                      className="text-gray-700 hover:text-gray-900"
+                      title="Visualizar"
                     >
-                      <FiEdit /> Editar
+                      <FiBookOpen size={18} />
                     </Link>
-                    <button
-                      onClick={() => handleDelete(a.id)}
-                      className="text-red-600 hover:underline flex items-center gap-1"
-                    >
-                      <FiTrash2 /> Excluir
-                    </button>
+
+                    {/* Editar */}
+                    {user?.role === "profissional" ||
+                    user?.role === "admin" ||
+                    (user?.role === "editorial" && a.status === "pendente") ? (
+                      <Link
+                        to={`/editorial/artigos/editar/${a.id}`}
+                        className="text-blue-600 hover:text-blue-800"
+                        title="Editar"
+                      >
+                        <FiEdit size={18} />
+                      </Link>
+                    ) : null}
+
+                    {/* Excluir */}
+                    {(user?.role === "profissional" || user?.role === "admin") && (
+                      <button
+                        onClick={() => handleDelete(a.id)}
+                        className="text-red-600 hover:text-red-800"
+                        title="Excluir"
+                      >
+                        <FiTrash2 size={18} />
+                      </button>
+                    )}
                   </td>
                 </tr>
               ))}
