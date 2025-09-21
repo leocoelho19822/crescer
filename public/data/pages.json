@@ -343,12 +343,7 @@
       "tipo": "para a vida",
       "imagem": "/imagens/1ano.jpg",
       "conteudo": [
-                {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Verdadeiro ou falso? Apenas 15 minutos de brincadeira podem construir milhões de conexões no cérebro do teu bebé.",
-        "resposta": "Verdade! Cada abraço, canção ou jogo simples ajuda o desenvolvimento do bebé de muitas formas."
-        },
+                
 
         {
           "tipo": "acordeao",
@@ -452,6 +447,12 @@
           ]
         },
         {
+        "tipo": "testeConhecimento",
+        "titulo": "Teste de conhecimento",
+        "pergunta": "Verdadeiro ou falso? Apenas 15 minutos de brincadeira podem construir milhões de conexões no cérebro do teu bebé.",
+        "resposta": "Verdade! Cada abraço, canção ou jogo simples ajuda o desenvolvimento do bebé de muitas formas."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiveres dúvidas ou preocupações sobre como o teu bebé está a crescer ou a brincar, podes sempre contactar o SNS 24 para orientação especializada.",
@@ -485,12 +486,7 @@
       "tipo": "para a vida",
       "imagem": "/imagens/1_2anos.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 18 meses é esperado que todas as crianças já falem frases completas.",
-          "resposta": "Falso! Algumas crianças podem dizer frases de duas palavras, mas a maioria ainda usa palavras soltas nesta idade."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Social e emocional",
@@ -588,6 +584,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 18 meses é esperado que todas as crianças já falem frases completas.",
+          "resposta": "Falso! Algumas crianças podem dizer frases de duas palavras, mas a maioria ainda usa palavras soltas nesta idade."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre o desenvolvimento do seu filho, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -622,12 +624,7 @@
       "tipo": "para a vida",
       "imagem": "/imagens/2anos.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 2 anos, a maioria das crianças já deve conseguir juntar duas palavras, como 'mais água' ou 'mãe vem'.",
-          "resposta": "Verdade! Nesta idade, a maior parte das crianças já consegue formar frases simples de duas ou mais palavras."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Social e emocional",
@@ -745,6 +742,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 2 anos, a maioria das crianças já deve conseguir juntar duas palavras, como 'mais água' ou 'mãe vem'.",
+          "resposta": "Verdade! Nesta idade, a maior parte das crianças já consegue formar frases simples de duas ou mais palavras."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre o desenvolvimento do seu filho, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -774,12 +777,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/recemnascido.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? O contacto pele com pele logo após o nascimento ajuda a regular a temperatura do bebé e cria laços afetivos.",
-          "resposta": "Verdade! Este contacto acalma o bebé, ajuda a controlar a temperatura, batimentos e respiração, e fortalece a ligação com os pais."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -890,6 +888,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? O contacto pele com pele logo após o nascimento ajuda a regular a temperatura do bebé e cria laços afetivos.",
+          "resposta": "Verdade! Este contacto acalma o bebé, ajuda a controlar a temperatura, batimentos e respiração, e fortalece a ligação com os pais."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -923,12 +927,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/1mes.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? O choro é a principal forma de comunicação do bebé nesta fase.",
-          "resposta": "Verdade! O choro é a forma mais comum de o bebé mostrar fome, desconforto ou necessidade de colo."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -1038,6 +1037,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? O choro é a principal forma de comunicação do bebé nesta fase.",
+          "resposta": "Verdade! O choro é a forma mais comum de o bebé mostrar fome, desconforto ou necessidade de colo."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -1070,12 +1075,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/2meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Com 2 meses, muitos bebés já conseguem sorrir em resposta a quem lhes fala ou sorri.",
-          "resposta": "Verdade! Este é o chamado 'sorriso social' e mostra o início de uma maior interação."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -1220,6 +1220,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Com 2 meses, muitos bebés já conseguem sorrir em resposta a quem lhes fala ou sorri.",
+          "resposta": "Verdade! Este é o chamado 'sorriso social' e mostra o início de uma maior interação."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -1252,12 +1258,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/3meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 3 meses o bebé já deve conseguir sentar-se sozinho sem apoio.",
-          "resposta": "Falso! Nesta idade o bebé ainda não se senta sozinho. O que acontece é que já sustenta melhor a cabeça e começa a ganhar força para, mais tarde, se sentar."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -1371,6 +1372,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 3 meses o bebé já deve conseguir sentar-se sozinho sem apoio.",
+          "resposta": "Falso! Nesta idade o bebé ainda não se senta sozinho. O que acontece é que já sustenta melhor a cabeça e começa a ganhar força para, mais tarde, se sentar."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -1404,12 +1411,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/4meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 4 meses, muitos bebés já conseguem sustentar a cabeça com firmeza.",
-          "resposta": "Verdade! Com 4 meses, o bebé costuma ter bom controlo da cabeça, sobretudo quando está sentado com apoio ou em tummy time."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -1522,6 +1524,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 4 meses, muitos bebés já conseguem sustentar a cabeça com firmeza.",
+          "resposta": "Verdade! Com 4 meses, o bebé costuma ter bom controlo da cabeça, sobretudo quando está sentado com apoio ou em tummy time."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -1554,12 +1562,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/5meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 5 meses, o bebé já deve comer papas e sopas diariamente.",
-          "resposta": "Falso! A introdução alimentar só costuma começar por volta dos 6 meses, salvo indicação médica. Até lá, o leite continua a ser o alimento principal."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -1673,6 +1676,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 5 meses, o bebé já deve comer papas e sopas diariamente.",
+          "resposta": "Falso! A introdução alimentar só costuma começar por volta dos 6 meses, salvo indicação médica. Até lá, o leite continua a ser o alimento principal."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -1704,12 +1713,7 @@
         "tipo": "no colo",
         "imagem": "/imagens/6meses.jpg",
         "conteudo": [
-            {
-            "tipo": "testeConhecimento",
-            "titulo": "Teste de conhecimento",
-            "pergunta": "Verdadeiro ou falso? O leite continua a ser o principal alimento do bebé, mesmo depois de começar a provar outros alimentos.",
-            "resposta": "Verdade! Até ao primeiro ano, o leite materno ou fórmula continuam a ser a base da alimentação, mesmo após a introdução dos sólidos."
-            },
+            
             {
             "tipo": "acordeao",
             "titulo": "Saúde e bem-estar",
@@ -1824,6 +1828,12 @@
           ]
         },
         {
+            "tipo": "testeConhecimento",
+            "titulo": "Teste de conhecimento",
+            "pergunta": "Verdadeiro ou falso? O leite continua a ser o principal alimento do bebé, mesmo depois de começar a provar outros alimentos.",
+            "resposta": "Verdade! Até ao primeiro ano, o leite materno ou fórmula continuam a ser a base da alimentação, mesmo após a introdução dos sólidos."
+            },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -1856,12 +1866,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/7meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Os andadores ajudam o bebé a aprender a andar mais depressa.",
-          "resposta": "Falso! Os andadores não ajudam a andar mais cedo e podem ser perigosos. O ideal é deixar o bebé explorar no chão, com segurança e supervisão."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -1983,6 +1988,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Os andadores ajudam o bebé a aprender a andar mais depressa.",
+          "resposta": "Falso! Os andadores não ajudam a andar mais cedo e podem ser perigosos. O ideal é deixar o bebé explorar no chão, com segurança e supervisão."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -2015,12 +2026,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/8meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 8 meses, o bebé já consegue compreender pequenas frases como 'vem cá' ou 'dá a mão'.",
-          "resposta": "Falso! O bebé reconhece o nome e tons de voz, mas a compreensão de frases só acontece mais tarde. Nesta fase, reage mais à entoação e a palavras familiares."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -2140,6 +2146,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 8 meses, o bebé já consegue compreender pequenas frases como 'vem cá' ou 'dá a mão'.",
+          "resposta": "Falso! O bebé reconhece o nome e tons de voz, mas a compreensão de frases só acontece mais tarde. Nesta fase, reage mais à entoação e a palavras familiares."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -2172,12 +2184,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/9meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? O bebé de 9 meses já pode comer mel em pequenas quantidades.",
-          "resposta": "Falso! O mel não deve ser oferecido antes dos 12 meses devido ao risco de botulismo infantil."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -2295,6 +2302,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? O bebé de 9 meses já pode comer mel em pequenas quantidades.",
+          "resposta": "Falso! O mel não deve ser oferecido antes dos 12 meses devido ao risco de botulismo infantil."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -2327,12 +2340,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/10meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? Aos 10 meses, muitos bebés já conseguem pôr-se de pé segurando-se a móveis.",
-          "resposta": "Verdade! Nesta idade, é comum que o bebé se apoie em móveis para ficar de pé e até dê passos laterais com apoio."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -2454,6 +2462,12 @@
           ]
         },
         {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? Aos 10 meses, muitos bebés já conseguem pôr-se de pé segurando-se a móveis.",
+          "resposta": "Verdade! Nesta idade, é comum que o bebé se apoie em móveis para ficar de pé e até dê passos laterais com apoio."
+        },
+        {
           "tipo": "alerta",
           "titulo": "Quando procurar ajuda",
           "texto": "Se tiver dúvidas ou preocupações sobre a saúde do seu bebé, pode sempre contactar o SNS 24 para receber orientação de profissionais de saúde.",
@@ -2486,12 +2500,7 @@
       "tipo": "no colo",
       "imagem": "/imagens/11meses.jpg",
       "conteudo": [
-        {
-          "tipo": "testeConhecimento",
-          "titulo": "Teste de conhecimento",
-          "pergunta": "Verdadeiro ou falso? É comum que aos 11 meses alguns bebés já consigam dar 1 ou 2 passos sozinhos.",
-          "resposta": "Verdade! Alguns bebés podem dar os primeiros passos perto do 1.º ano, mas andar sozinho só é esperado normalmente entre os 12 e os 18 meses."
-        },
+        
         {
           "tipo": "acordeao",
           "titulo": "Saúde e bem-estar",
@@ -2610,6 +2619,12 @@
               ]
             }
           ]
+        },
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Verdadeiro ou falso? É comum que aos 11 meses alguns bebés já consigam dar 1 ou 2 passos sozinhos.",
+          "resposta": "Verdade! Alguns bebés podem dar os primeiros passos perto do 1.º ano, mas andar sozinho só é esperado normalmente entre os 12 e os 18 meses."
         },
         {
           "tipo": "alerta",
