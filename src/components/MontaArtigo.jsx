@@ -22,20 +22,20 @@ export default function MontaArtigo() {
     setLoading(true);
     setError(false);
 
-    fetch("/data/artigos_enterprise.json")
+    fetch("/data/artigos.json") 
       .then((res) => {
         if (!res.ok) throw new Error("Artigo não encontrado");
         return res.json();
       })
       .then((data) => {
-        const foundArtigo = data.artigos.find((a) => a.id === id);
+        const foundArtigo = data.artigos.find((a) => a.slug === id); // procura pelo slug
         if (!foundArtigo) {
           setError(true);
         } else {
           setArtigo(foundArtigo);
 
           const favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
-          if (favoritos.includes(foundArtigo.id)) {
+          if (favoritos.includes(foundArtigo.slug)) {
             setFavorito(true);
           }
         }
@@ -46,6 +46,7 @@ export default function MontaArtigo() {
         setLoading(false);
       });
   }, [id]);
+
 
   // carregar autor/revisor depois do artigo
   useEffect(() => {

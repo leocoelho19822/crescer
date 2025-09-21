@@ -1,6 +1,5 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
-import { useSendResetPasswordMutation } from "../store/api";
 import { ClipLoader } from "react-spinners";
 import Button from "./Button";
 
@@ -9,32 +8,35 @@ function ForgotPasswordModal({ setIsOpen }) {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState(null);
   const [error, setError] = useState(null);
-  const [sendResetPassword, { isLoading }] = useSendResetPasswordMutation();
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleResetPassword = async (e) => {
     e.preventDefault();
     setError(null);
     setMessage(null);
+    setIsLoading(true);
 
     try {
-        await sendResetPassword({ email }).unwrap();
-        setMessage("Verifique seu e-mail, enviaremos um link de redefinição.");
-    } catch (err) {
-        console.error("Erro ao solicitar redefinição de senha:", err);
-        
-        // Verifica se o erro é de e-mail não encontrado
-        if (err?.data?.message === "E-mail não encontrado na base de dados.") {
-            setError("E-mail não cadastrado. Verifique o e-mail digitado.");
-        } else {
-            setError("Erro ao solicitar redefinição de senha. Tente novamente.");
-        }
-    }
-};
+      // verificar no localStorage
+      const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
 
+      const user = storedUsers.find((u) => u.email === email);
+
+      if (user) {
+        setMessage("Verifique seu e-mail, enviaremos um link de redefinição (simulação).");
+      } else {
+        setError("E-mail não cadastrado. Verifique o e-mail digitado.");
+      }
+    } catch {
+      setError("Erro ao solicitar redefinição de senha. Tente novamente.");
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <div 
-      className="fixed inset-0 bg-gray-900/90 flex justify-center items-center z-[101]"
+      className="fixed inset-0 bg-black/50 flex justify-center px-4 items-center z-[101]"
       onClick={() => setIsOpen(false)}
     >
       <div 
@@ -69,7 +71,7 @@ function ForgotPasswordModal({ setIsOpen }) {
             className="w-full"
             disabled={isLoading}
           >
-            {isLoading ? <ClipLoader size={20} color="#FFF" /> : "Enviar"}
+            {isLoading ? <ClipLoader size={20} color="#000" /> : "Enviar"}
           </Button>
         </form>
       </div>

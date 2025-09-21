@@ -13,23 +13,25 @@ export default function FavoritosPage() {
 
   const carregarFavoritos = () => {
     const stored = localStorage.getItem("favoritos");
-    const ids = stored ? JSON.parse(stored) : [];
+    const slugs = stored ? JSON.parse(stored) : [];
 
-    fetch("/data/artigos.json")
+    fetch("/data/artigos.json") // usa novo ficheiro
       .then((res) => res.json())
       .then((data) => {
         const allArtigos = data.artigos;
-        const favs = allArtigos.filter((artigo) => ids.includes(artigo.id));
+        const favs = allArtigos.filter((artigo) =>
+          slugs.includes(artigo.slug)
+        );
         setFavoritos(favs);
       });
   };
 
-  const removerFavorito = (id) => {
+  const removerFavorito = (slug) => {
     const stored = localStorage.getItem("favoritos");
-    let ids = stored ? JSON.parse(stored) : [];
-    ids = ids.filter((favId) => favId !== id);
-    localStorage.setItem("favoritos", JSON.stringify(ids));
-    setFavoritos((prev) => prev.filter((artigo) => artigo.id !== id));
+    let slugs = stored ? JSON.parse(stored) : [];
+    slugs = slugs.filter((favSlug) => favSlug !== slug);
+    localStorage.setItem("favoritos", JSON.stringify(slugs));
+    setFavoritos((prev) => prev.filter((artigo) => artigo.slug !== slug));
   };
 
   const handleVerMais = () => {
@@ -38,10 +40,12 @@ export default function FavoritosPage() {
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10 mt-24">
-      <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">Meus Favoritos</h1>
+      <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
+        Meus Favoritos
+      </h1>
       <p className="text-gray-600 mb-8">
         Aqui encontras todos os artigos que guardaste como favoritos. Esta secção é o teu espaço pessoal para rever conteúdos importantes e voltar rapidamente àquilo que mais gostaste.
-        </p>
+      </p>
 
       {favoritos.length === 0 ? (
         <p className="text-gray-600">Ainda não tens artigos guardados.</p>
@@ -50,7 +54,7 @@ export default function FavoritosPage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {favoritos.slice(0, visiveis).map((artigo) => (
               <div
-                key={artigo.id}
+                key={artigo.slug}
                 className="rounded-2xl shadow-md border border-gray-200 bg-white flex flex-col overflow-hidden hover:shadow-lg transition"
               >
                 {artigo.imagem && (
@@ -69,13 +73,13 @@ export default function FavoritosPage() {
                   </p>
                   <div className="flex justify-between items-center mt-4 text-sm">
                     <Link
-                      to={`/artigo/${artigo.id}`}
+                      to={`/artigo/${artigo.slug}`} // rota usa slug
                       className="text-blue-600 hover:underline font-medium"
                     >
                       Ler mais →
                     </Link>
                     <button
-                      onClick={() => removerFavorito(artigo.id)}
+                      onClick={() => removerFavorito(artigo.slug)}
                       className="text-red-500 hover:underline"
                     >
                       Remover
@@ -96,4 +100,3 @@ export default function FavoritosPage() {
     </main>
   );
 }
-

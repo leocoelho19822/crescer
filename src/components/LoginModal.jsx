@@ -25,7 +25,7 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
       const users = data.users || [];
 
       const user = users.find(
-        (u) => u.email === email && u.password === password
+        (u) => u.email === email && u.password_hash === password
       );
 
 

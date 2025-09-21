@@ -1,11 +1,9 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
-import { useRegisterMutation } from "../store/api";
 import { ClipLoader } from "react-spinners";
 import logo from "../assets/verde1.svg";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 import Button from "./Button";
-
 
 // eslint-disable-next-line
 function RegisterModal({ setIsOpen, setModalType }) {
@@ -14,10 +12,14 @@ function RegisterModal({ setIsOpen, setModalType }) {
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
-  const [registerUser, { isLoading }] = useRegisterMutation();
+  const [isLoading, setIsLoading] = useState(false);
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [passwordValid, setPasswordValid] = useState(false);
 
+  const validatePassword = (password) => {
+    const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    return passwordRegex.test(password);
+  };
 
   const handleRegister = async (e) => {
     e.preventDefault();
@@ -32,24 +34,39 @@ function RegisterModal({ setIsOpen, setModalType }) {
       return;
     }
 
+    setIsLoading(true);
+
     try {
-      await registerUser({ name, email, password }).unwrap();
-      setSuccess("Conta criada com sucesso! Verifique seu e-mail.");
-    } catch (err) {
-      if (err?.data?.message === "E-mail já existe em nossa base de dados") {
+      // buscar lista de utilizadores já registados (localStorage)
+      const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
+
+      // verificar se email já existe
+      if (storedUsers.some((u) => u.email === email)) {
         setError("Este e-mail já está em uso. Tente outro ou faça login.");
-      } else {
-        setError("Erro ao criar conta. Tente novamente.");
+        return;
       }
+
+      // criar novo utilizador
+      const newUser = {
+        id: Date.now(),
+        nome: name,
+        email,
+        password,
+      };
+
+      // guardar utilizador na lista
+      localStorage.setItem("users", JSON.stringify([...storedUsers, newUser]));
+
+      setSuccess("Conta criada com sucesso! Agora pode iniciar sessão.");
+      setName("");
+      setEmail("");
+      setPassword("");
+    } catch {
+      setError("Erro ao criar conta. Tente novamente.");
+    } finally {
+      setIsLoading(false);
     }
   };
-
-
-    const validatePassword = (password) => {
-    const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-    return passwordRegex.test(password);
-  };
-
 
   return (
     <div
@@ -77,7 +94,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
             placeholder="Digite seu nome"
             required
           />
-          
+
           <input
             type="email"
             value={email}
@@ -86,7 +103,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
             placeholder="Digite seu e-mail"
             required
           />
-          
+
           <div className="relative">
             <input
               type={passwordVisible ? "text" : "password"}
@@ -116,14 +133,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
             </p>
           )}
 
-
-
-
-          <Button
-            type="submit"
-            className="w-full "
-            disabled={isLoading}
-          >
+          <Button type="submit" className="w-full" disabled={isLoading}>
             {isLoading ? <ClipLoader size={20} color="#000" /> : "Continuar"}
           </Button>
         </form>
@@ -133,7 +143,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
         <div className="text-center text-sm text-gray-600">
           Já é membro?{" "}
           <button
-            className="underline"
+            className="underline cursor-pointer"
             onClick={() => setModalType("login")}
           >
             Entrar!

@@ -1,7 +1,8 @@
 // eslint-disable-next-line
 import React, { useState } from "react";
 import { FiEye, FiEyeOff } from "react-icons/fi";
-import logo from "../../assets/verde1.svg"; 
+import logo from "../../assets/verde1.svg";
+import Button from "../../components/Button";
 
 export default function LoginAdmin() {
   const [email, setEmail] = useState("");
@@ -9,19 +10,50 @@ export default function LoginAdmin() {
   const [erro, setErro] = useState("");
   const [mostrarPassword, setMostrarPassword] = useState(false);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+
     if (!email || !password) {
       setErro("Preencha todos os campos.");
       return;
     }
-    setErro("");
-    alert("Sessão iniciada com sucesso!");
+
+    try {
+      const res = await fetch("/data/users.json");
+      const data = await res.json();
+
+      const user = data.users.find(
+        (u) => u.email === email && u.password_hash === password
+      );
+
+      if (!user) {
+        setErro("Credenciais inválidas.");
+        return;
+      }
+
+      if (!["admin", "profissional", "editorial"].includes(user.role)) {
+        setErro("Acesso restrito. O seu perfil não tem permissões.");
+        return;
+      }
+
+      // guarda info no localStorage
+      localStorage.setItem(
+        "user",
+        JSON.stringify({ name: user.name, email: user.email, role: user.role })
+      );
+
+      setErro("");
+      // redireciona para o dashboard
+      window.location.href = "/editorial/dashboard";
+    } catch (err) {
+      console.error("Erro ao carregar utilizadores:", err);
+      setErro("Erro no servidor. Tente novamente.");
+    }
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-white">
-      <div className="bg-gray-100 p-8 rounded-2xl shadow-lg w-full max-w-sm">
+    <div className="flex items-center justify-center px-4 min-h-screen bg-gray-100">
+      <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-sm">
         {/* Logo */}
         <div className="flex justify-center mb-4">
           <img src={logo} alt="Cres(Ser)" className="h-10" />
@@ -34,9 +66,7 @@ export default function LoginAdmin() {
 
         {/* Formulário */}
         <form onSubmit={handleSubmit} className="space-y-4">
-          {erro && (
-            <p className="text-red-500 text-sm text-center">{erro}</p>
-          )}
+          {erro && <p className="text-red-500 text-sm text-center">{erro}</p>}
 
           {/* Email */}
           <input
@@ -76,12 +106,12 @@ export default function LoginAdmin() {
           </div>
 
           {/* Botão */}
-          <button
+          <Button
             type="submit"
-            className="w-full py-3 bg-emerald-400 text-white font-medium rounded-lg shadow hover:bg-emerald-500 transition"
+            className="w-full py-3 text-white font-medium rounded-lg shadow hover:bg-emerald-500 transition"
           >
             Iniciar Sessão
-          </button>
+          </Button>
         </form>
       </div>
     </div>

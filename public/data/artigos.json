@@ -1,1109 +1,1409 @@
 {
   "artigos": [
     {
-    "id": "gravidez-alimentacao-saudavel",
-    "titulo": "Alimentação saudável na gravidez",
-    "resumo": "Uma dieta equilibrada durante a gestação é essencial para garantir energia à mãe e fornecer todos os nutrientes necessários ao crescimento e desenvolvimento saudável do bebé. Comer bem ajuda a prevenir complicações, fortalece o sistema imunitário e prepara o corpo para o parto e a amamentação.",
-    "categoria": "Nutrição",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/alimentacao-saudavel.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Dra. Teresa Barros, Obstetra",
-    "data": "2025-01-05",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 1,
+      "slug": "gravidez-alimentacao-saudavel",
+      "titulo": "Alimentação saudável na gravidez",
+      "resumo": "Uma dieta equilibrada durante a gestação é essencial para garantir energia à mãe e fornecer todos os nutrientes necessários ao crescimento e desenvolvimento saudável do bebé. Comer bem ajuda a prevenir complicações, fortalece o sistema imunitário e prepara o corpo para o parto e a amamentação.",
+      "categoria": "Nutrição",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/alimentacao-saudavel.jpg",
+      "autorId": 5,
+      "revisorId": 3,
+      "status": "publicado",
+      "published_at": "2025-01-06T00:00:00.000Z",
+      "created_at": "2025-01-05T00:00:00.000Z",
+      "updated_at": "2025-01-06T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "nutrição"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "subtitulo",
-        "texto": "Porque a nutrição importa"
+          "tipo": "subtitulo",
+          "texto": "Porque a nutrição importa"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Durante a gravidez, as necessidades nutricionais aumentam. Uma dieta equilibrada garante vitaminas, minerais e energia fundamentais para o crescimento do bebé e para o bem-estar da mãe."
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, as necessidades nutricionais aumentam. Uma dieta equilibrada garante vitaminas, minerais e energia fundamentais para o crescimento do bebé e para o bem-estar da mãe."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Recomendações"
+          "tipo": "subtitulo",
+          "texto": "Recomendações"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Frutas e vegetais variados — ricos em fibras, vitaminas e minerais",
             "Proteínas magras como peixe, frango e leguminosas — importantes para o crescimento fetal",
             "Cereais integrais — fornecem energia de forma mais duradoura",
             "Evitar álcool e limitar cafeína — para prevenir riscos ao desenvolvimento do bebé",
             "Hidratação adequada — água deve ser a principal fonte de líquidos"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Equilíbrio e moderação"
+          "tipo": "subtitulo",
+          "texto": "Equilíbrio e moderação"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Ao contrário do que muitos acreditam, não é necessário 'comer por dois'. O ideal é comer de forma equilibrada, distribuindo as refeições ao longo do dia e dando prioridade à qualidade dos alimentos, em vez da quantidade."
+          "tipo": "paragrafo",
+          "texto": "Ao contrário do que muitos acreditam, não é necessário 'comer por dois'. O ideal é comer de forma equilibrada, distribuindo as refeições ao longo do dia e dando prioridade à qualidade dos alimentos, em vez da quantidade."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Na gravidez deve-se comer por dois?",
-        "resposta": "Falso. O correto é comer para dois, garantindo os nutrientes necessários, mas não em dobro."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Na gravidez deve-se comer por dois?",
+          "resposta": "Falso. O correto é comer para dois, garantindo os nutrientes necessários, mas não em dobro."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-alimentacao-saudavel"
     },
-
     {
-    "id": "gravidez-exercicios-leves",
-    "titulo": "Exercícios leves na gestação",
-    "resumo": "A prática de exercícios leves e adaptados durante a gravidez contribui para o bem-estar físico e emocional, melhorando a circulação, a respiração e a disposição da gestante. Além disso, ajuda a preparar o corpo para o parto e facilita a recuperação após o nascimento do bebé.",
-    "categoria": "Bem-estar",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/exercicios-leves.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Prof. Marta Lopes, Fisioterapeuta",
-    "data": "2025-01-10",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 2,
+      "slug": "gravidez-exercicios-leves",
+      "titulo": "Exercícios leves na gestação",
+      "resumo": "A prática de exercícios leves e adaptados durante a gravidez contribui para o bem-estar físico e emocional, melhorando a circulação, a respiração e a disposição da gestante. Além disso, ajuda a preparar o corpo para o parto e facilita a recuperação após o nascimento do bebé.",
+      "categoria": "Bem-estar",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/exercicios-leves.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-01-11T00:00:00.000Z",
+      "created_at": "2025-01-10T00:00:00.000Z",
+      "updated_at": "2025-01-11T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "bem-estar"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Exercícios leves e regulares ajudam a reduzir desconfortos comuns da gravidez, como dores nas costas, inchaços e cansaço. Também favorecem o equilíbrio emocional e contribuem para noites de sono mais tranquilas."
+          "tipo": "paragrafo",
+          "texto": "Exercícios leves e regulares ajudam a reduzir desconfortos comuns da gravidez, como dores nas costas, inchaços e cansaço. Também favorecem o equilíbrio emocional e contribuem para noites de sono mais tranquilas."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Atividades seguras"
+          "tipo": "subtitulo",
+          "texto": "Atividades seguras"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Caminhadas leves — melhoram a circulação e ajudam a controlar o peso",
             "Alongamentos — aliviam tensões musculares e aumentam a flexibilidade",
             "Yoga pré-natal — promove relaxamento, respiração consciente e força muscular",
             "Natação — reduz o impacto nas articulações e proporciona alívio para a coluna"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Cuidados importantes"
+          "tipo": "subtitulo",
+          "texto": "Cuidados importantes"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Antes de iniciar qualquer atividade física, a grávida deve conversar com o médico para confirmar se não há contraindicações. É essencial respeitar os limites do corpo, manter-se hidratada e parar o exercício se sentir tontura, dor ou falta de ar."
+          "tipo": "paragrafo",
+          "texto": "Antes de iniciar qualquer atividade física, a grávida deve conversar com o médico para confirmar se não há contraindicações. É essencial respeitar os limites do corpo, manter-se hidratada e parar o exercício se sentir tontura, dor ou falta de ar."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Exercícios de impacto intenso, como corrida ou saltos, são recomendados durante a gravidez?",
-        "resposta": "Falso. Durante a gestação devem ser priorizadas atividades leves e adaptadas, sempre com orientação profissional."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Exercícios de impacto intenso, como corrida ou saltos, são recomendados durante a gravidez?",
+          "resposta": "Falso. Durante a gestação devem ser priorizadas atividades leves e adaptadas, sempre com orientação profissional."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-exercicios-leves"
     },
-
     {
-    "id": "gravidez-prenatal",
-    "titulo": "A importância do pré-natal",
-    "resumo": "As consultas de pré-natal são essenciais para garantir um acompanhamento seguro e personalizado ao longo da gestação. Além de permitir identificar riscos precocemente, estas consultas oferecem orientações sobre saúde, nutrição, parto e cuidados com o bebé, fortalecendo a confiança da mãe e da família durante toda a gravidez.",
-    "categoria": "Saúde Materna",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/pre-natal.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Dr. João Silva, Médico de Família",
-    "data": "2025-01-15",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 3,
+      "slug": "gravidez-prenatal",
+      "titulo": "A importância do pré-natal",
+      "resumo": "As consultas de pré-natal são essenciais para garantir um acompanhamento seguro e personalizado ao longo da gestação. Além de permitir identificar riscos precocemente, estas consultas oferecem orientações sobre saúde, nutrição, parto e cuidados com o bebé, fortalecendo a confiança da mãe e da família durante toda a gravidez.",
+      "categoria": "Saúde Materna",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/pre-natal.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-01-16T00:00:00.000Z",
+      "created_at": "2025-01-15T00:00:00.000Z",
+      "updated_at": "2025-01-16T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "saúde materna"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "O pré-natal permite acompanhar de forma contínua a evolução da gravidez, avaliar a saúde da mãe e do bebé, e oferecer apoio físico e emocional. Quanto mais cedo se inicia, maiores são os benefícios."
+          "tipo": "paragrafo",
+          "texto": "O pré-natal permite acompanhar de forma contínua a evolução da gravidez, avaliar a saúde da mãe e do bebé, e oferecer apoio físico e emocional. Quanto mais cedo se inicia, maiores são os benefícios."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios"
+          "tipo": "subtitulo",
+          "texto": "Benefícios"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Deteção precoce de complicações como hipertensão ou diabetes gestacional",
             "Orientações sobre alimentação, atividade física e preparação para o parto",
             "Promoção da saúde do bebé através de vacinas, rastreios e exames complementares",
             "Apoio psicológico e esclarecimento de dúvidas frequentes da mãe e da família"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que esperar das consultas"
+          "tipo": "subtitulo",
+          "texto": "O que esperar das consultas"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Durante o pré-natal, o profissional de saúde acompanha o crescimento do bebé, mede a pressão arterial, pede análises e exames quando necessário, e orienta sobre sinais de alerta. É também um momento de diálogo, em que a grávida pode partilhar receios e receber apoio."
+          "tipo": "paragrafo",
+          "texto": "Durante o pré-natal, o profissional de saúde acompanha o crescimento do bebé, mede a pressão arterial, pede análises e exames quando necessário, e orienta sobre sinais de alerta. É também um momento de diálogo, em que a grávida pode partilhar receios e receber apoio."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "As consultas de pré-natal só são necessárias se a grávida tiver problemas de saúde?",
-        "resposta": "Falso. Mesmo em gestações sem complicações, o acompanhamento pré-natal é essencial para garantir uma gravidez saudável e prevenir riscos."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "As consultas de pré-natal só são necessárias se a grávida tiver problemas de saúde?",
+          "resposta": "Falso. Mesmo em gestações sem complicações, o acompanhamento pré-natal é essencial para garantir uma gravidez saudável e prevenir riscos."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-prenatal"
     },
-
     {
-    "id": "gravidez-saude-mental",
-    "titulo": "Saúde mental na gravidez",
-    "resumo": "Cuidar da mente é tão importante quanto cuidar do corpo. Durante a gravidez, é natural que surjam emoções intensas devido às mudanças hormonais, às transformações físicas e às expectativas em relação ao futuro. Dar atenção ao bem-estar psicológico é essencial para uma gestação mais tranquila e saudável.",
-    "categoria": "Saúde Mental",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/gravidez-mental.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Psicóloga Ana Martins",
-    "data": "2025-01-20",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 4,
+      "slug": "gravidez-saude-mental",
+      "titulo": "Saúde mental na gravidez",
+      "resumo": "Cuidar da mente é tão importante quanto cuidar do corpo. Durante a gravidez, é natural que surjam emoções intensas devido às mudanças hormonais, às transformações físicas e às expectativas em relação ao futuro. Dar atenção ao bem-estar psicológico é essencial para uma gestação mais tranquila e saudável.",
+      "categoria": "Saúde Mental",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-mental.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-01-21T00:00:00.000Z",
+      "created_at": "2025-01-20T00:00:00.000Z",
+      "updated_at": "2025-01-21T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "saúde mental"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "subtitulo",
-        "texto": "Alterações emocionais comuns"
+          "tipo": "subtitulo",
+          "texto": "Alterações emocionais comuns"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Mudanças hormonais, expectativas em relação à maternidade e novas responsabilidades podem gerar ansiedade, oscilações de humor e stress. Estes sentimentos são normais, mas devem ser acompanhados de estratégias de autocuidado."
+          "tipo": "paragrafo",
+          "texto": "Mudanças hormonais, expectativas em relação à maternidade e novas responsabilidades podem gerar ansiedade, oscilações de humor e stress. Estes sentimentos são normais, mas devem ser acompanhados de estratégias de autocuidado."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Estratégias de autocuidado"
+          "tipo": "subtitulo",
+          "texto": "Estratégias de autocuidado"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Praticar exercícios de relaxamento e respiração",
             "Manter diálogo aberto com o parceiro, família e amigos",
             "Criar rotinas que favoreçam o descanso e o sono",
             "Procurar momentos de lazer e atividades prazerosas",
             "Partilhar dúvidas e receios com profissionais de saúde"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Rede de apoio"
+          "tipo": "subtitulo",
+          "texto": "Rede de apoio"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "A rede de apoio emocional é fundamental. O acompanhamento psicológico durante a gravidez pode ser útil para prevenir problemas mais sérios e preparar a mulher para os desafios da maternidade."
+          "tipo": "paragrafo",
+          "texto": "A rede de apoio emocional é fundamental. O acompanhamento psicológico durante a gravidez pode ser útil para prevenir problemas mais sérios e preparar a mulher para os desafios da maternidade."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Sentir alguma ansiedade na gravidez é sempre sinal de doença mental?",
-        "resposta": "Falso. A ansiedade leve pode ser uma reação normal às mudanças. O importante é procurar ajuda se os sintomas forem intensos ou persistentes."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Sentir alguma ansiedade na gravidez é sempre sinal de doença mental?",
+          "resposta": "Falso. A ansiedade leve pode ser uma reação normal às mudanças. O importante é procurar ajuda se os sintomas forem intensos ou persistentes."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-saude-mental"
     },
-
     {
-    "id": "gravidez-vacinacao",
-    "titulo": "Vacinação durante a gravidez",
-    "resumo": "Durante a gestação, algumas vacinas são especialmente importantes para proteger a mãe e oferecer anticorpos que passam para o bebé ainda no útero. Estar vacinada reduz riscos de complicações e fortalece a imunidade em fases críticas do desenvolvimento.",
-    "categoria": "Prevenção",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/gravidez-vacina.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Paula Rodrigues",
-    "data": "2025-01-25",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 5,
+      "slug": "gravidez-vacinacao",
+      "titulo": "Vacinação durante a gravidez",
+      "resumo": "Durante a gestação, algumas vacinas são especialmente importantes para proteger a mãe e oferecer anticorpos que passam para o bebé ainda no útero. Estar vacinada reduz riscos de complicações e fortalece a imunidade em fases críticas do desenvolvimento.",
+      "categoria": "Prevenção",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-vacina.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-01-26T00:00:00.000Z",
+      "created_at": "2025-01-25T00:00:00.000Z",
+      "updated_at": "2025-01-26T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "prevenção"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "A vacinação é uma forma eficaz de proteger a grávida e o bebé contra doenças que podem ser graves. Algumas vacinas são recomendadas de forma rotineira, enquanto outras só devem ser aplicadas em situações específicas."
+          "tipo": "paragrafo",
+          "texto": "A vacinação é uma forma eficaz de proteger a grávida e o bebé contra doenças que podem ser graves. Algumas vacinas são recomendadas de forma rotineira, enquanto outras só devem ser aplicadas em situações específicas."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Vacinas recomendadas"
+          "tipo": "subtitulo",
+          "texto": "Vacinas recomendadas"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Gripe (influenza) — recomendada em qualquer fase da gravidez, especialmente no inverno",
             "Tétano, difteria e tosse convulsa (Tdap) — importante para proteger o recém-nascido nos primeiros meses",
             "Hepatite B — indicada em alguns casos, segundo avaliação médica"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Vacinas contraindicadas"
+          "tipo": "subtitulo",
+          "texto": "Vacinas contraindicadas"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Algumas vacinas com vírus vivos atenuados, como a da rubéola ou varicela, não devem ser aplicadas durante a gestação. Por isso, é essencial verificar o boletim de vacinas antes de engravidar."
+          "tipo": "paragrafo",
+          "texto": "Algumas vacinas com vírus vivos atenuados, como a da rubéola ou varicela, não devem ser aplicadas durante a gestação. Por isso, é essencial verificar o boletim de vacinas antes de engravidar."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Sempre que houver dúvidas, a grávida deve conversar com o profissional de saúde para garantir que recebe as vacinas certas, no momento adequado."
+          "tipo": "paragrafo",
+          "texto": "Sempre que houver dúvidas, a grávida deve conversar com o profissional de saúde para garantir que recebe as vacinas certas, no momento adequado."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Todas as vacinas são permitidas na gravidez?",
-        "resposta": "Falso. Algumas vacinas, como as de vírus vivos, são contraindicadas. O ideal é seguir sempre a orientação médica."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Todas as vacinas são permitidas na gravidez?",
+          "resposta": "Falso. Algumas vacinas, como as de vírus vivos, são contraindicadas. O ideal é seguir sempre a orientação médica."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-vacinacao"
     },
-
     {
-    "id": "gravidez-sono",
-    "titulo": "Sono e descanso da grávida",
-    "resumo": "Dormir bem durante a gravidez é fundamental para a saúde física e emocional da mãe, além de favorecer o crescimento e desenvolvimento saudável do bebé. Criar rotinas de descanso e encontrar posições adequadas ajuda a reduzir desconfortos e garante noites mais tranquilas.",
-    "categoria": "Bem-estar",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/gravidez-sono.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Dr. Rui Ferreira",
-    "data": "2025-01-28",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 6,
+      "slug": "gravidez-sono",
+      "titulo": "Sono e descanso da grávida",
+      "resumo": "Dormir bem durante a gravidez é fundamental para a saúde física e emocional da mãe, além de favorecer o crescimento e desenvolvimento saudável do bebé. Criar rotinas de descanso e encontrar posições adequadas ajuda a reduzir desconfortos e garante noites mais tranquilas.",
+      "categoria": "Bem-estar",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-sono.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-01-29T00:00:00.000Z",
+      "created_at": "2025-01-28T00:00:00.000Z",
+      "updated_at": "2025-01-29T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "bem-estar"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Durante a gravidez, é comum surgirem alterações no sono devido a fatores hormonais, aumento da barriga, azia ou ansiedade. Ainda assim, o descanso continua a ser essencial para a recuperação física e para o bem-estar emocional da mãe."
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, é comum surgirem alterações no sono devido a fatores hormonais, aumento da barriga, azia ou ansiedade. Ainda assim, o descanso continua a ser essencial para a recuperação física e para o bem-estar emocional da mãe."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Dicas para melhorar o sono"
+          "tipo": "subtitulo",
+          "texto": "Dicas para melhorar o sono"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Adotar horários regulares para dormir e acordar",
             "Preferir deitar-se sobre o lado esquerdo, melhorando a circulação",
             "Utilizar almofadas para apoiar a barriga e as costas",
             "Evitar bebidas com cafeína no final do dia",
             "Criar um ambiente tranquilo e confortável no quarto"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Importância do descanso"
+          "tipo": "subtitulo",
+          "texto": "Importância do descanso"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Dormir bem contribui para a regulação da pressão arterial, fortalece o sistema imunitário e melhora o humor. Além disso, ajuda o corpo a lidar com as mudanças físicas e prepara a mãe para o parto e para os cuidados com o bebé."
+          "tipo": "paragrafo",
+          "texto": "Dormir bem contribui para a regulação da pressão arterial, fortalece o sistema imunitário e melhora o humor. Além disso, ajuda o corpo a lidar com as mudanças físicas e prepara a mãe para o parto e para os cuidados com o bebé."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Dormir de barriga para cima é a posição mais recomendada durante a gravidez?",
-        "resposta": "Falso. A posição lateral, preferencialmente sobre o lado esquerdo, é a mais indicada porque melhora a circulação e reduz desconfortos."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Dormir de barriga para cima é a posição mais recomendada durante a gravidez?",
+          "resposta": "Falso. A posição lateral, preferencialmente sobre o lado esquerdo, é a mais indicada porque melhora a circulação e reduz desconfortos."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-sono"
     },
-
     {
-    "id": "gravidez-hidratacao",
-    "titulo": "Importância da hidratação",
-    "resumo": "Beber água de forma adequada durante a gravidez é essencial para a saúde da mãe e do bebé. A hidratação correta contribui para o transporte de nutrientes, ajuda a prevenir inchaços e favorece o bom funcionamento do organismo ao longo da gestação.",
-    "categoria": "Nutrição",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/gravidez-agua.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Nutricionista Carla Mendes",
-    "data": "2025-02-01",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 7,
+      "slug": "gravidez-hidratacao",
+      "titulo": "Importância da hidratação",
+      "resumo": "Beber água de forma adequada durante a gravidez é essencial para a saúde da mãe e do bebé. A hidratação correta contribui para o transporte de nutrientes, ajuda a prevenir inchaços e favorece o bom funcionamento do organismo ao longo da gestação.",
+      "categoria": "Nutrição",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-agua.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-02T00:00:00.000Z",
+      "created_at": "2025-02-01T00:00:00.000Z",
+      "updated_at": "2025-02-02T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "nutrição"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Durante a gravidez, as necessidades de líquidos aumentam, pois o corpo trabalha mais para sustentar o crescimento e desenvolvimento do bebé. Uma boa hidratação ajuda também a manter o volume do líquido amniótico adequado."
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, as necessidades de líquidos aumentam, pois o corpo trabalha mais para sustentar o crescimento e desenvolvimento do bebé. Uma boa hidratação ajuda também a manter o volume do líquido amniótico adequado."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios de beber água"
+          "tipo": "subtitulo",
+          "texto": "Benefícios de beber água"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Facilita o transporte de nutrientes essenciais para o bebé",
             "Ajuda a prevenir inchaços e retenção de líquidos",
             "Contribui para o bom funcionamento dos rins e digestão",
             "Auxilia na regulação da temperatura corporal",
             "Reduz o risco de obstipação comum na gravidez"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como garantir uma boa hidratação"
+          "tipo": "subtitulo",
+          "texto": "Como garantir uma boa hidratação"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "O ideal é beber água ao longo do dia, em pequenas quantidades, evitando longos períodos sem ingestão de líquidos. Além da água, sumos naturais, infusões sem cafeína, leite e sopas também podem contribuir para a hidratação."
+          "tipo": "paragrafo",
+          "texto": "O ideal é beber água ao longo do dia, em pequenas quantidades, evitando longos períodos sem ingestão de líquidos. Além da água, sumos naturais, infusões sem cafeína, leite e sopas também podem contribuir para a hidratação."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Refrigerantes e bebidas açucaradas são boas opções para manter a hidratação durante a gravidez?",
-        "resposta": "Falso. Apesar de conterem líquidos, não substituem a água e podem trazer excesso de açúcar e aditivos prejudiciais."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Refrigerantes e bebidas açucaradas são boas opções para manter a hidratação durante a gravidez?",
+          "resposta": "Falso. Apesar de conterem líquidos, não substituem a água e podem trazer excesso de açúcar e aditivos prejudiciais."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-hidratacao"
     },
-
-
     {
-    "id": "gravidez-partos",
-    "titulo": "Tipos de parto",
-    "resumo": "Existem diferentes formas de trazer um bebé ao mundo, e conhecer cada opção ajuda a reduzir ansiedades e a preparar-se melhor para o momento do nascimento. Ao compreender as características do parto normal, da cesária e do parto humanizado, os pais podem tomar decisões mais informadas em conjunto com os profissionais de saúde.",
-    "categoria": "Parto",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/parto.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Dra. Beatriz Nogueira",
-    "data": "2025-02-05",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 8,
+      "slug": "gravidez-partos",
+      "titulo": "Tipos de parto",
+      "resumo": "Existem diferentes formas de trazer um bebé ao mundo, e conhecer cada opção ajuda a reduzir ansiedades e a preparar-se melhor para o momento do nascimento. Ao compreender as características do parto normal, da cesária e do parto humanizado, os pais podem tomar decisões mais informadas em conjunto com os profissionais de saúde.",
+      "categoria": "Parto",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/parto.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-06T00:00:00.000Z",
+      "created_at": "2025-02-05T00:00:00.000Z",
+      "updated_at": "2025-02-06T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "parto"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Informar-se sobre os diferentes tipos de parto ajuda os futuros pais a sentirem-se mais confiantes e preparados. Cada opção tem as suas vantagens e deve ser avaliada em conjunto com a equipa de saúde."
+          "tipo": "paragrafo",
+          "texto": "Informar-se sobre os diferentes tipos de parto ajuda os futuros pais a sentirem-se mais confiantes e preparados. Cada opção tem as suas vantagens e deve ser avaliada em conjunto com a equipa de saúde."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Opções comuns"
+          "tipo": "subtitulo",
+          "texto": "Opções comuns"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Parto normal — ocorre pela via vaginal, geralmente com recuperação mais rápida e menor risco de complicações cirúrgicas.",
             "Cesária — é uma intervenção cirúrgica recomendada em casos específicos, como sofrimento fetal, má posição do bebé ou complicações médicas.",
             "Parto humanizado — prioriza o protagonismo da mulher, o respeito às suas escolhas e um ambiente acolhedor, podendo acontecer no hospital ou em casa, dependendo da avaliação clínica."
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que considerar"
+          "tipo": "subtitulo",
+          "texto": "O que considerar"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Cada gestação é única. O ideal é conversar com profissionais de saúde sobre desejos, expectativas e eventuais riscos, construindo um plano de parto que respeite tanto a vontade da mãe quanto a segurança do bebé."
+          "tipo": "paragrafo",
+          "texto": "Cada gestação é única. O ideal é conversar com profissionais de saúde sobre desejos, expectativas e eventuais riscos, construindo um plano de parto que respeite tanto a vontade da mãe quanto a segurança do bebé."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "O parto normal é sempre a melhor opção para todas as mulheres?",
-        "resposta": "Falso. Embora seja geralmente seguro e recomendado, existem situações clínicas em que a cesária é a alternativa mais adequada para proteger a saúde da mãe e do bebé."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "O parto normal é sempre a melhor opção para todas as mulheres?",
+          "resposta": "Falso. Embora seja geralmente seguro e recomendado, existem situações clínicas em que a cesária é a alternativa mais adequada para proteger a saúde da mãe e do bebé."
         }
-    ]
-    },
-
-    {
-  "id": "gravidez-mitos",
-  "titulo": "Mitos e verdades na gravidez",
-  "resumo": "Separar informações corretas de crenças populares.",
-  "categoria": "Informação",
-  "tipo": "gravidez",
-  "imagem": "/assets/unicef/gravidez-mitos.jpg",
-  "autor": "Equipa Cres(Ser)",
-  "revisado": "Dr. Carlos Lopes",
-  "data": "2025-02-10",
-  "icones": { "partilha": true, "favorito": true },
-  "conteudo": [
-    {
-      "tipo": "paragrafo",
-      "texto": "Durante a gravidez, circulam muitas ideias populares que nem sempre correspondem à realidade. É importante distinguir os factos comprovados cientificamente dos mitos para garantir uma gestação mais tranquila e segura."
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-partos"
     },
     {
-      "tipo": "testeConhecimento",
-      "pergunta": "Grávida pode pintar o cabelo?",
-      "resposta": "Verdadeiro, mas com cautela. A recomendação é evitar o 1º trimestre e preferir tintas sem amoníaco."
-    },
-    {
-      "tipo": "testeConhecimento",
-      "pergunta": "A gestante deve “comer por dois”?",
-      "resposta": "Falso. O ideal é manter uma alimentação equilibrada e adequada, sem exageros, garantindo todos os nutrientes necessários."
-    },
-    {
-      "tipo": "testeConhecimento",
-      "pergunta": "Exercícios físicos são proibidos na gravidez?",
-      "resposta": "Falso. Atividade física moderada e adaptada, como caminhadas e alongamentos, é benéfica e recomendada, salvo contraindicação médica."
-    },
-    {
-      "tipo": "testeConhecimento",
-      "pergunta": "Tomar café prejudica o bebé?",
-      "resposta": "Falso, desde que em moderação. O consumo deve ser limitado, pois a cafeína em excesso pode trazer riscos."
-    },
-    {
-      "tipo": "testeConhecimento",
-      "pergunta": "Comer morangos provoca alergia no bebé?",
-      "resposta": "Falso. Não há evidência de que alimentos como morango causem alergias no bebé durante a gravidez."
-    },
-    {
-      "tipo": "testeConhecimento",
-      "pergunta": "O sexo durante a gravidez faz mal ao bebé?",
-      "resposta": "Falso. Na maioria das gestações saudáveis, o sexo é seguro e não prejudica o bebé, exceto se houver indicação médica em contrário."
-    }
-  ]
-},
-
-    {
-    "id": "gravidez-planeamento",
-    "titulo": "Planeamento da gravidez",
-    "resumo": "Estar preparada ajuda a viver a gestação de forma tranquila.",
-    "categoria": "Preparação",
-    "tipo": "gravidez",
-    "imagem": "/assets/unicef/gravidez-planeamento.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Luísa Ferreira",
-    "data": "2025-02-15",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 9,
+      "slug": "gravidez-mitos",
+      "titulo": "Mitos e verdades na gravidez",
+      "resumo": "Separar informações corretas de crenças populares.",
+      "categoria": "Informação",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-mitos.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-11T00:00:00.000Z",
+      "created_at": "2025-02-10T00:00:00.000Z",
+      "updated_at": "2025-02-11T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "informação"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "O planeamento pré-concecional permite avaliar a saúde da mulher e do casal antes da gravidez, identificando possíveis riscos e promovendo hábitos saudáveis para uma gestação mais tranquila."
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, circulam muitas ideias populares que nem sempre correspondem à realidade. É importante distinguir os factos comprovados cientificamente dos mitos para garantir uma gestação mais tranquila e segura."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Por que é importante"
+          "tipo": "testeConhecimento",
+          "pergunta": "Grávida pode pintar o cabelo?",
+          "resposta": "Verdadeiro, mas com cautela. A recomendação é evitar o 1º trimestre e preferir tintas sem amoníaco."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Preparar-se para engravidar ajuda a reduzir complicações, aumenta as hipóteses de uma gravidez saudável e favorece o desenvolvimento do bebé desde os primeiros dias."
+          "tipo": "testeConhecimento",
+          "pergunta": "A gestante deve “comer por dois”?",
+          "resposta": "Falso. O ideal é manter uma alimentação equilibrada e adequada, sem exageros, garantindo todos os nutrientes necessários."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que considerar antes de engravidar"
+          "tipo": "testeConhecimento",
+          "pergunta": "Exercícios físicos são proibidos na gravidez?",
+          "resposta": "Falso. Atividade física moderada e adaptada, como caminhadas e alongamentos, é benéfica e recomendada, salvo contraindicação médica."
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "testeConhecimento",
+          "pergunta": "Tomar café prejudica o bebé?",
+          "resposta": "Falso, desde que em moderação. O consumo deve ser limitado, pois a cafeína em excesso pode trazer riscos."
+        },
+        {
+          "tipo": "testeConhecimento",
+          "pergunta": "Comer morangos provoca alergia no bebé?",
+          "resposta": "Falso. Não há evidência de que alimentos como morango causem alergias no bebé durante a gravidez."
+        },
+        {
+          "tipo": "testeConhecimento",
+          "pergunta": "O sexo durante a gravidez faz mal ao bebé?",
+          "resposta": "Falso. Na maioria das gestações saudáveis, o sexo é seguro e não prejudica o bebé, exceto se houver indicação médica em contrário."
+        }
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-mitos"
+    },
+    {
+      "id": 10,
+      "slug": "gravidez-planeamento",
+      "titulo": "Planeamento da gravidez",
+      "resumo": "Estar preparada ajuda a viver a gestação de forma tranquila.",
+      "categoria": "Preparação",
+      "tipo": "gravidez",
+      "imagem": "/assets/unicef/gravidez-planeamento.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-16T00:00:00.000Z",
+      "created_at": "2025-02-15T00:00:00.000Z",
+      "updated_at": "2025-02-16T00:00:00.000Z",
+      "tags": [
+        "gravidez",
+        "preparação"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O planeamento pré-concecional permite avaliar a saúde da mulher e do casal antes da gravidez, identificando possíveis riscos e promovendo hábitos saudáveis para uma gestação mais tranquila."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "Por que é importante"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Preparar-se para engravidar ajuda a reduzir complicações, aumenta as hipóteses de uma gravidez saudável e favorece o desenvolvimento do bebé desde os primeiros dias."
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O que considerar antes de engravidar"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
             "Fazer uma consulta pré-concecional para avaliar a saúde e receber orientações",
             "Adotar uma alimentação equilibrada, rica em frutas, legumes e cereais integrais",
             "Iniciar suplementação de ácido fólico, conforme orientação médica",
             "Atualizar vacinas recomendadas antes da gestação",
             "Reduzir ou eliminar o consumo de álcool, tabaco e cafeína em excesso",
             "Praticar atividade física regular adequada ao estado de saúde"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Aspectos emocionais"
+          "tipo": "subtitulo",
+          "texto": "Aspectos emocionais"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "A preparação não envolve apenas cuidados físicos. É igualmente importante refletir sobre o apoio familiar, a estabilidade emocional e a rede de suporte que estará presente durante a gravidez e após o nascimento do bebé."
+          "tipo": "paragrafo",
+          "texto": "A preparação não envolve apenas cuidados físicos. É igualmente importante refletir sobre o apoio familiar, a estabilidade emocional e a rede de suporte que estará presente durante a gravidez e após o nascimento do bebé."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "O ácido fólico deve começar a ser tomado apenas após confirmar a gravidez?",
-        "resposta": "Falso. O ideal é iniciar a suplementação de ácido fólico ainda antes da conceção, para reduzir o risco de malformações."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "O ácido fólico deve começar a ser tomado apenas após confirmar a gravidez?",
+          "resposta": "Falso. O ideal é iniciar a suplementação de ácido fólico ainda antes da conceção, para reduzir o risco de malformações."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/gravidez-planeamento"
     },
-
-
     {
-    "id": "no-colo-massagem-bebe",
-    "titulo": "Massagem para o bebé",
-    "resumo": "Tocar e massagear fortalece o vínculo e ajuda o bebé a relaxar.",
-    "categoria": "Vínculo Afetivo",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/massagem-bebe.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Joana Freitas",
-    "data": "2025-02-12",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 11,
+      "slug": "no-colo-massagem-bebe",
+      "titulo": "Massagem para o bebé",
+      "resumo": "Tocar e massagear fortalece o vínculo e ajuda o bebé a relaxar.",
+      "categoria": "Vínculo Afetivo",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/massagem-bebe.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-13T00:00:00.000Z",
+      "created_at": "2025-02-12T00:00:00.000Z",
+      "updated_at": "2025-02-13T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "vínculo afetivo"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios da massagem"
+          "tipo": "subtitulo",
+          "texto": "Benefícios da massagem"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "A massagem ajuda o bebé a sentir-se seguro e amado, fortalecendo a ligação emocional entre pais e filhos. Além disso, pode contribuir para melhorar o sono, aliviar cólicas e estimular o desenvolvimento motor e sensorial."
+          "tipo": "paragrafo",
+          "texto": "A massagem ajuda o bebé a sentir-se seguro e amado, fortalecendo a ligação emocional entre pais e filhos. Além disso, pode contribuir para melhorar o sono, aliviar cólicas e estimular o desenvolvimento motor e sensorial."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como praticar"
+          "tipo": "subtitulo",
+          "texto": "Como praticar"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Escolha um momento em que o bebé esteja desperto, tranquilo e recetivo. Coloque-o confortavelmente de barriga para cima, num espaço seguro e aquecido."
+          "tipo": "paragrafo",
+          "texto": "Escolha um momento em que o bebé esteja desperto, tranquilo e recetivo. Coloque-o confortavelmente de barriga para cima, num espaço seguro e aquecido."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Com as mãos limpas, faça movimentos suaves e lentos, começando pelos braços e pernas e avançando depois para a barriga e costas. Observe sempre as reações do bebé e ajuste a intensidade do toque."
+          "tipo": "paragrafo",
+          "texto": "Com as mãos limpas, faça movimentos suaves e lentos, começando pelos braços e pernas e avançando depois para a barriga e costas. Observe sempre as reações do bebé e ajuste a intensidade do toque."
         },
         {
-        "tipo": "lista",
-        "titulo": "Dicas",
-        "itens": [
+          "tipo": "lista",
+          "titulo": "Dicas",
+          "itens": [
             "Escolha um local calmo e aquecido",
             "Use óleo vegetal neutro, em pequena quantidade",
             "Mantenha o contacto visual com o bebé",
             "Respeite os sinais de desconforto e pare se necessário"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que o bebé aprende"
+          "tipo": "subtitulo",
+          "texto": "O que o bebé aprende"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Com a massagem, o bebé descobre novas sensações, melhora a consciência corporal e sente-se mais calmo e protegido. Este momento também reforça a confiança entre o bebé e quem cuida dele."
+          "tipo": "paragrafo",
+          "texto": "Com a massagem, o bebé descobre novas sensações, melhora a consciência corporal e sente-se mais calmo e protegido. Este momento também reforça a confiança entre o bebé e quem cuida dele."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "A massagem pode ajudar a aliviar cólicas no bebé?",
-        "resposta": "Verdadeiro. Movimentos suaves na barriga podem contribuir para o alívio das cólicas."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "A massagem pode ajudar a aliviar cólicas no bebé?",
+          "resposta": "Verdadeiro. Movimentos suaves na barriga podem contribuir para o alívio das cólicas."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-massagem-bebe"
     },
-
     {
-    "id": "explorar-objetos",
-    "titulo": "Explorar objetos",
-    "resumo": "Uma forma simples e divertida de estimular a coordenação e a força das mãos do bebé, usando brinquedos e objetos do dia a dia.",
-    "categoria": "Estimulação Precoce",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/exploring.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Pedagoga Sofia Almeida",
-    "data": "2025-02-18",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 12,
+      "slug": "explorar-objetos",
+      "titulo": "Explorar objetos",
+      "resumo": "Uma forma simples e divertida de estimular a coordenação e a força das mãos do bebé, usando brinquedos e objetos do dia a dia.",
+      "categoria": "Estimulação Precoce",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/exploring.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-19T00:00:00.000Z",
+      "created_at": "2025-02-18T00:00:00.000Z",
+      "updated_at": "2025-02-19T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "estimulação precoce"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "subtitulo",
-        "texto": "Materiais necessários"
+          "tipo": "subtitulo",
+          "texto": "Materiais necessários"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Tabuleiro de cartão, plástico ou alumínio",
             "Bolas ou brinquedos pequenos que caibam nas mãos do bebé",
             "Fita-cola de papel"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que podem fazer juntos"
+          "tipo": "subtitulo",
+          "texto": "O que podem fazer juntos"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Antes de começar, prepare o local onde a atividade vai decorrer. O bebé deve estar sentado numa cadeira."
+          "tipo": "paragrafo",
+          "texto": "Antes de começar, prepare o local onde a atividade vai decorrer. O bebé deve estar sentado numa cadeira."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Cole os brinquedos ou bolas no tabuleiro com a fita-cola. Coloque o tabuleiro em frente ao bebé e incentive-o a observar os objetos e a tentar agarrá-los com a mão."
+          "tipo": "paragrafo",
+          "texto": "Cole os brinquedos ou bolas no tabuleiro com a fita-cola. Coloque o tabuleiro em frente ao bebé e incentive-o a observar os objetos e a tentar agarrá-los com a mão."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Pode modelar o movimento para que ele imite os seus gestos e ajudá-lo caso tenha dificuldade em retirar completamente o brinquedo (lembre-se de remover a fita dos brinquedos antes de os entregar ao bebé)."
+          "tipo": "paragrafo",
+          "texto": "Pode modelar o movimento para que ele imite os seus gestos e ajudá-lo caso tenha dificuldade em retirar completamente o brinquedo (lembre-se de remover a fita dos brinquedos antes de os entregar ao bebé)."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Motivar e felicitar o bebé é essencial: elogie sempre que ele conseguir pegar num objeto ou se esforçar para o retirar."
+          "tipo": "paragrafo",
+          "texto": "Motivar e felicitar o bebé é essencial: elogie sempre que ele conseguir pegar num objeto ou se esforçar para o retirar."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que o bebé está a aprender"
+          "tipo": "subtitulo",
+          "texto": "O que o bebé está a aprender"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Com esta atividade, o bebé fortalece os músculos das mãos, melhora a coordenação dos movimentos e aprende pela imitação."
+          "tipo": "paragrafo",
+          "texto": "Com esta atividade, o bebé fortalece os músculos das mãos, melhora a coordenação dos movimentos e aprende pela imitação."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/explorar-objetos"
     },
-
     {
-    "id": "no-colo-leitura",
-    "titulo": "Leitura com o bebé",
-    "resumo": "Partilhe momentos de leitura com o bebé para estimular a linguagem, a imaginação e o vínculo afetivo desde cedo.",
-    "categoria": "Estimulação Precoce",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/leituraart.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Pedagoga Sofia Almeida",
-    "data": "2025-02-18",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 13,
+      "slug": "no-colo-leitura",
+      "titulo": "Leitura com o bebé",
+      "resumo": "Partilhe momentos de leitura com o bebé para estimular a linguagem, a imaginação e o vínculo afetivo desde cedo.",
+      "categoria": "Estimulação Precoce",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/leituraart.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-19T00:00:00.000Z",
+      "created_at": "2025-02-18T00:00:00.000Z",
+      "updated_at": "2025-02-19T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "estimulação precoce"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 2,
+      "conteudo": [
         {
-        "tipo": "subtitulo",
-        "texto": "Materiais necessários"
+          "tipo": "subtitulo",
+          "texto": "Materiais necessários"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Um livro para bebé (pode ser de pano, cartão rígido ou capa dura, com cores vivas, imagens grandes e elementos táteis). Caso não tenha um, pode utilizar folhas de papel dobradas ao meio, desenhando algumas figuras ou formas simples em cores fortes."
+          "tipo": "paragrafo",
+          "texto": "Um livro para bebé (pode ser de pano, cartão rígido ou capa dura, com cores vivas, imagens grandes e elementos táteis). Caso não tenha um, pode utilizar folhas de papel dobradas ao meio, desenhando algumas figuras ou formas simples em cores fortes."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que podem fazer juntos"
+          "tipo": "subtitulo",
+          "texto": "O que podem fazer juntos"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Coloque o bebé no seu colo de forma a que ambos possam ver o livro, mas garantindo também que consegue observar o rosto do bebé. Segure o livro de forma visível e leia em voz alta. Pode descrever as imagens, inventar pequenas histórias, apontar para as figuras e nomeá-las. Use frases curtas e simples. Varie o tom de voz — fale baixo, mostre surpresa, faça pausas."
+          "tipo": "paragrafo",
+          "texto": "Coloque o bebé no seu colo de forma a que ambos possam ver o livro, mas garantindo também que consegue observar o rosto do bebé. Segure o livro de forma visível e leia em voz alta. Pode descrever as imagens, inventar pequenas histórias, apontar para as figuras e nomeá-las. Use frases curtas e simples. Varie o tom de voz — fale baixo, mostre surpresa, faça pausas."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Deixe o bebé observar as suas expressões faciais e reaja às dele. Identifique o que ele parece gostar mais ou menos. Permita que toque no livro, explore as páginas e até leve à boca (se for seguro). Se o bebé emitir sons enquanto lê, incentive-o a “ler” consigo. Repita os seus sons, faça perguntas simples e elogie as suas reações."
+          "tipo": "paragrafo",
+          "texto": "Deixe o bebé observar as suas expressões faciais e reaja às dele. Identifique o que ele parece gostar mais ou menos. Permita que toque no livro, explore as páginas e até leve à boca (se for seguro). Se o bebé emitir sons enquanto lê, incentive-o a “ler” consigo. Repita os seus sons, faça perguntas simples e elogie as suas reações."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Se notar que o bebé perde o interesse (afasta o olhar ou protesta), espere pacientemente até que volte a prestar atenção. Se isso não acontecer, interrompa a leitura e retome mais tarde."
+          "tipo": "paragrafo",
+          "texto": "Se notar que o bebé perde o interesse (afasta o olhar ou protesta), espere pacientemente até que volte a prestar atenção. Se isso não acontecer, interrompa a leitura e retome mais tarde."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que o seu bebé está a aprender"
+          "tipo": "subtitulo",
+          "texto": "O que o seu bebé está a aprender"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Partilhar momentos de leitura fortalece as competências de comunicação e favorece o desenvolvimento da linguagem desde cedo."
+          "tipo": "paragrafo",
+          "texto": "Partilhar momentos de leitura fortalece as competências de comunicação e favorece o desenvolvimento da linguagem desde cedo."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-leitura"
     },
-
     {
-    "id": "no-colo-choro",
-    "titulo": "O choro do bebé",
-    "resumo": "O choro é a principal forma de comunicação do recém-nascido. Através dele, o bebé expressa fome, desconforto, sono ou necessidade de afeto. Aprender a interpretar os diferentes tipos de choro ajuda os cuidadores a responder com mais tranquilidade e segurança.",
-    "categoria": "Comunicação",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/choro-bebe.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Joana Carvalho",
-    "data": "2025-02-18",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 14,
+      "slug": "no-colo-choro",
+      "titulo": "O choro do bebé",
+      "resumo": "O choro é a principal forma de comunicação do recém-nascido. Através dele, o bebé expressa fome, desconforto, sono ou necessidade de afeto. Aprender a interpretar os diferentes tipos de choro ajuda os cuidadores a responder com mais tranquilidade e segurança.",
+      "categoria": "Comunicação",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/choro-bebe.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-19T00:00:00.000Z",
+      "created_at": "2025-02-18T00:00:00.000Z",
+      "updated_at": "2025-02-19T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "comunicação"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Nos primeiros meses, o choro é a principal forma de o bebé comunicar as suas necessidades. Embora possa gerar ansiedade nos cuidadores, compreender que o choro é normal e esperado ajuda a lidar melhor com esse momento."
+          "tipo": "paragrafo",
+          "texto": "Nos primeiros meses, o choro é a principal forma de o bebé comunicar as suas necessidades. Embora possa gerar ansiedade nos cuidadores, compreender que o choro é normal e esperado ajuda a lidar melhor com esse momento."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Motivos comuns do choro"
+          "tipo": "subtitulo",
+          "texto": "Motivos comuns do choro"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Fome ou sede",
             "Fralda suja ou desconforto físico",
             "Sono ou cansaço",
             "Desejo de colo e proximidade",
             "Cólica ou desconfortos digestivos",
             "Temperatura ambiente inadequada (frio ou calor)"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como acalmar o bebé"
+          "tipo": "subtitulo",
+          "texto": "Como acalmar o bebé"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Oferecer alimento se for hora da mamada",
             "Verificar a fralda e trocar se necessário",
             "Pegar ao colo e embalar suavemente",
             "Falar ou cantar com voz calma",
             "Garantir que o ambiente está confortável e silencioso"
-        ]
+          ]
         },
         {
-        "tipo": "paragrafo",
-        "texto": "É importante lembrar que cada bebé é único. Com o tempo, os cuidadores aprendem a reconhecer padrões no choro e a identificar mais rapidamente as necessidades do seu filho."
+          "tipo": "paragrafo",
+          "texto": "É importante lembrar que cada bebé é único. Com o tempo, os cuidadores aprendem a reconhecer padrões no choro e a identificar mais rapidamente as necessidades do seu filho."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "O choro do bebé deve ser sempre ignorado para que ele aprenda a se acalmar sozinho?",
-        "resposta": "Falso. O choro é a forma de comunicação do bebé. Atender às suas necessidades fortalece o vínculo e transmite segurança."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "O choro do bebé deve ser sempre ignorado para que ele aprenda a se acalmar sozinho?",
+          "resposta": "Falso. O choro é a forma de comunicação do bebé. Atender às suas necessidades fortalece o vínculo e transmite segurança."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-choro"
     },
-
-
-
     {
-    "id": "no-colo-cancoes",
-    "titulo": "Cantar canções de embalar",
-    "resumo": "As canções de embalar são mais do que música: são uma forma de comunicação que acalma, transmite segurança e fortalece o vínculo entre bebé e cuidadores. Além disso, o ritmo e a melodia estimulam o desenvolvimento auditivo e linguístico desde os primeiros meses de vida.",
-    "categoria": "Estímulo Auditivo",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/cancoes.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Musicoterapeuta Carla Sousa",
-    "data": "2025-02-20",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 15,
+      "slug": "no-colo-cancoes",
+      "titulo": "Cantar canções de embalar",
+      "resumo": "As canções de embalar são mais do que música: são uma forma de comunicação que acalma, transmite segurança e fortalece o vínculo entre bebé e cuidadores. Além disso, o ritmo e a melodia estimulam o desenvolvimento auditivo e linguístico desde os primeiros meses de vida.",
+      "categoria": "Estímulo Auditivo",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/cancoes.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-21T00:00:00.000Z",
+      "created_at": "2025-02-20T00:00:00.000Z",
+      "updated_at": "2025-02-21T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "estímulo auditivo"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Cantar para o bebé é uma prática universal que atravessa culturas e gerações. A melodia suave transmite calma, enquanto a voz familiar dos pais ou cuidadores dá segurança emocional e reforça o vínculo afetivo."
+          "tipo": "paragrafo",
+          "texto": "Cantar para o bebé é uma prática universal que atravessa culturas e gerações. A melodia suave transmite calma, enquanto a voz familiar dos pais ou cuidadores dá segurança emocional e reforça o vínculo afetivo."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios das canções de embalar"
+          "tipo": "subtitulo",
+          "texto": "Benefícios das canções de embalar"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Ajudam a acalmar e adormecer o bebé",
             "Fortalecem o vínculo entre cuidadores e criança",
             "Estimulam a perceção auditiva e a memória sonora",
             "Contribuem para o desenvolvimento da linguagem",
             "Criam rotinas de sono e momentos de tranquilidade"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Dicas para cantar ao bebé"
+          "tipo": "subtitulo",
+          "texto": "Dicas para cantar ao bebé"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Escolher músicas calmas e repetitivas, com melodia suave",
             "Cantar com voz baixa e pausada, transmitindo serenidade",
             "Repetir canções diariamente para criar familiaridade",
             "Associar as canções a momentos de rotina, como a hora de dormir ou após o banho"
-        ]
+          ]
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Não é necessário ter uma voz perfeita. O mais importante é a proximidade, o tom afetivo e a constância, que fazem da canção um recurso valioso no cuidado diário."
+          "tipo": "paragrafo",
+          "texto": "Não é necessário ter uma voz perfeita. O mais importante é a proximidade, o tom afetivo e a constância, que fazem da canção um recurso valioso no cuidado diário."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Cantar canções de embalar só ajuda o bebé a dormir?",
-        "resposta": "Falso. Além de acalmar, as canções estimulam o desenvolvimento auditivo, a linguagem e o vínculo afetivo."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Cantar canções de embalar só ajuda o bebé a dormir?",
+          "resposta": "Falso. Além de acalmar, as canções estimulam o desenvolvimento auditivo, a linguagem e o vínculo afetivo."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-cancoes"
     },
-
     {
-    "id": "no-colo-brincar",
-    "titulo": "Brincar no tapete",
-    "resumo": "O brincar livre no chão, especialmente em tapetes firmes e seguros, é essencial para o desenvolvimento motor e cognitivo do bebé. Durante estas experiências, a criança explora, descobre o corpo e o ambiente, fortalecendo músculos e aprendendo a mover-se com autonomia.",
-    "categoria": "Psicomotricidade",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/brincar-tapete.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Prof. Daniel Costa",
-    "data": "2025-02-22",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 16,
+      "slug": "no-colo-brincar",
+      "titulo": "Brincar no tapete",
+      "resumo": "O brincar livre no chão, especialmente em tapetes firmes e seguros, é essencial para o desenvolvimento motor e cognitivo do bebé. Durante estas experiências, a criança explora, descobre o corpo e o ambiente, fortalecendo músculos e aprendendo a mover-se com autonomia.",
+      "categoria": "Psicomotricidade",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/brincar-tapete.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-23T00:00:00.000Z",
+      "created_at": "2025-02-22T00:00:00.000Z",
+      "updated_at": "2025-02-23T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "psicomotricidade"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Dar espaço para o bebé brincar no tapete promove a liberdade de movimento e favorece o desenvolvimento físico. É uma oportunidade para explorar diferentes posições, rolar, gatinhar e, mais tarde, tentar os primeiros passos."
+          "tipo": "paragrafo",
+          "texto": "Dar espaço para o bebé brincar no tapete promove a liberdade de movimento e favorece o desenvolvimento físico. É uma oportunidade para explorar diferentes posições, rolar, gatinhar e, mais tarde, tentar os primeiros passos."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios do brincar livre"
+          "tipo": "subtitulo",
+          "texto": "Benefícios do brincar livre"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Fortalece músculos do pescoço, costas e pernas",
             "Estimula a coordenação motora e o equilíbrio",
             "Favorece a exploração sensorial através do contacto com texturas e objetos",
             "Aumenta a autonomia e a confiança do bebé",
             "Cria oportunidades de interação com cuidadores durante o brincar"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Dicas de segurança"
+          "tipo": "subtitulo",
+          "texto": "Dicas de segurança"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Utilizar um tapete firme, limpo e antiderrapante",
             "Manter brinquedos seguros, adequados à idade e sem peças pequenas",
             "Estar sempre presente para supervisionar",
             "Garantir que o espaço esteja livre de objetos perigosos"
-        ]
+          ]
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Brincar no tapete não exige brinquedos sofisticados — muitas vezes, a interação com o cuidador e objetos simples do dia a dia são os maiores estímulos."
+          "tipo": "paragrafo",
+          "texto": "Brincar no tapete não exige brinquedos sofisticados — muitas vezes, a interação com o cuidador e objetos simples do dia a dia são os maiores estímulos."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "O bebé só desenvolve a motricidade com brinquedos educativos específicos?",
-        "resposta": "Falso. O brincar livre no chão já oferece estímulos suficientes para fortalecer o corpo e apoiar o desenvolvimento motor."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "O bebé só desenvolve a motricidade com brinquedos educativos específicos?",
+          "resposta": "Falso. O brincar livre no chão já oferece estímulos suficientes para fortalecer o corpo e apoiar o desenvolvimento motor."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-brincar"
     },
-
     {
-    "id": "no-colo-alimentacao-introducao",
-    "titulo": "Introdução alimentar segura",
-    "resumo": "A introdução alimentar é um marco importante no desenvolvimento do bebé. A partir dos 6 meses, além do leite materno ou fórmula, novos alimentos são introduzidos de forma gradual para garantir nutrição adequada, prevenir deficiências e estimular hábitos saudáveis.",
-    "categoria": "Nutrição Infantil",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/introducao-alimentar.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Nutricionista Inês Duarte",
-    "data": "2025-02-25",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 17,
+      "slug": "no-colo-alimentacao-introducao",
+      "titulo": "Introdução alimentar segura",
+      "resumo": "A introdução alimentar é um marco importante no desenvolvimento do bebé. A partir dos 6 meses, além do leite materno ou fórmula, novos alimentos são introduzidos de forma gradual para garantir nutrição adequada, prevenir deficiências e estimular hábitos saudáveis.",
+      "categoria": "Nutrição Infantil",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/introducao-alimentar.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-02-26T00:00:00.000Z",
+      "created_at": "2025-02-25T00:00:00.000Z",
+      "updated_at": "2025-02-26T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "nutrição infantil"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "A introdução alimentar deve começar por volta dos 6 meses, mantendo o aleitamento como base. Esse processo deve ser gradual e supervisionado, respeitando o ritmo de cada bebé."
+          "tipo": "paragrafo",
+          "texto": "A introdução alimentar deve começar por volta dos 6 meses, mantendo o aleitamento como base. Esse processo deve ser gradual e supervisionado, respeitando o ritmo de cada bebé."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Alimentos recomendados"
+          "tipo": "subtitulo",
+          "texto": "Alimentos recomendados"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Frutas amassadas ou em puré, sem adição de açúcar",
             "Legumes cozidos e triturados",
             "Cereais simples, como arroz ou aveia",
             "Carnes magras bem cozinhadas e desfiadas",
             "Peixes sem espinhas, introduzidos com cautela",
             "Água oferecida em pequenas quantidades"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Cuidados importantes"
+          "tipo": "subtitulo",
+          "texto": "Cuidados importantes"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Introduzir um alimento de cada vez, para observar possíveis alergias",
             "Evitar sal, açúcar, mel e alimentos ultraprocessados",
             "Manter consistência adequada à idade para evitar engasgamentos",
             "Supervisionar sempre o bebé durante as refeições",
             "Oferecer variedade para estimular diferentes sabores e texturas"
-        ]
+          ]
         },
         {
-        "tipo": "paragrafo",
-        "texto": "A introdução alimentar é também uma oportunidade de partilha familiar. Refeições em conjunto ajudam a criar hábitos saudáveis e reforçam o vínculo entre pais e filhos."
+          "tipo": "paragrafo",
+          "texto": "A introdução alimentar é também uma oportunidade de partilha familiar. Refeições em conjunto ajudam a criar hábitos saudáveis e reforçam o vínculo entre pais e filhos."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "A introdução alimentar deve começar logo após os 4 meses de vida?",
-        "resposta": "Falso. A recomendação da OMS e UNICEF é iniciar a diversificação alimentar por volta dos 6 meses, mantendo o leite como principal fonte de nutrição."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "A introdução alimentar deve começar logo após os 4 meses de vida?",
+          "resposta": "Falso. A recomendação da OMS e UNICEF é iniciar a diversificação alimentar por volta dos 6 meses, mantendo o leite como principal fonte de nutrição."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-alimentacao-introducao"
     },
-
     {
-    "id": "no-colo-dentes",
-    "titulo": "Cuidar dos primeiros dentes",
-    "resumo": "A higiene oral deve começar ainda antes do aparecimento dos primeiros dentes. Criar rotinas de limpeza desde cedo ajuda a prevenir cáries, favorece a saúde das gengivas e prepara o bebé para bons hábitos de higiene que levará para a vida adulta.",
-    "categoria": "Saúde Oral",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/dentes.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Dentista Filipa Amaral",
-    "data": "2025-02-28",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 18,
+      "slug": "no-colo-dentes",
+      "titulo": "Cuidar dos primeiros dentes",
+      "resumo": "A higiene oral deve começar ainda antes do aparecimento dos primeiros dentes. Criar rotinas de limpeza desde cedo ajuda a prevenir cáries, favorece a saúde das gengivas e prepara o bebé para bons hábitos de higiene que levará para a vida adulta.",
+      "categoria": "Saúde Oral",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/dentes.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-01T00:00:00.000Z",
+      "created_at": "2025-02-28T00:00:00.000Z",
+      "updated_at": "2025-03-01T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "saúde oral"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Os cuidados orais devem começar ainda na fase das gengivas, mesmo antes de surgir o primeiro dente. A limpeza regular ajuda a evitar acumulação de resíduos de leite e bactérias."
+          "tipo": "paragrafo",
+          "texto": "Os cuidados orais devem começar ainda na fase das gengivas, mesmo antes de surgir o primeiro dente. A limpeza regular ajuda a evitar acumulação de resíduos de leite e bactérias."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como limpar a boca do bebé"
+          "tipo": "subtitulo",
+          "texto": "Como limpar a boca do bebé"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Utilizar uma gaze ou dedeira humedecida para limpar gengivas e dentes após as mamadas",
             "Introduzir escova de cerdas macias quando os primeiros dentes nascerem",
             "Usar uma quantidade mínima de pasta dentífrica com flúor (do tamanho de um grão de arroz)",
             "Evitar adormecer o bebé com biberão de leite ou sumo para prevenir cáries precoces"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Primeira ida ao dentista"
+          "tipo": "subtitulo",
+          "texto": "Primeira ida ao dentista"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "A primeira consulta com o dentista deve acontecer até ao primeiro aniversário ou após o aparecimento do primeiro dente, para acompanhamento da saúde oral e orientação aos pais."
+          "tipo": "paragrafo",
+          "texto": "A primeira consulta com o dentista deve acontecer até ao primeiro aniversário ou após o aparecimento do primeiro dente, para acompanhamento da saúde oral e orientação aos pais."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "A higiene oral só é necessária quando todos os dentes já nasceram?",
-        "resposta": "Falso. A higiene deve começar desde cedo, mesmo antes da erupção dentária, com a limpeza das gengivas."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "A higiene oral só é necessária quando todos os dentes já nasceram?",
+          "resposta": "Falso. A higiene deve começar desde cedo, mesmo antes da erupção dentária, com a limpeza das gengivas."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-dentes"
     },
-
     {
-    "id": "no-colo-vinculo",
-    "titulo": "Contacto pele a pele",
-    "resumo": "O contacto pele a pele logo após o nascimento é uma prática simples e poderosa. Além de fortalecer o vínculo entre bebé e cuidador, ajuda a regular a temperatura corporal, estabiliza a respiração e o batimento cardíaco, promove o início da amamentação e transmite segurança emocional.",
-    "categoria": "Vínculo Afetivo",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/pele-pele.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Miguel Reis",
-    "data": "2025-03-02",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 19,
+      "slug": "no-colo-vinculo",
+      "titulo": "Contacto pele a pele",
+      "resumo": "O contacto pele a pele logo após o nascimento é uma prática simples e poderosa. Além de fortalecer o vínculo entre bebé e cuidador, ajuda a regular a temperatura corporal, estabiliza a respiração e o batimento cardíaco, promove o início da amamentação e transmite segurança emocional.",
+      "categoria": "Vínculo Afetivo",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/pele-pele.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-03T00:00:00.000Z",
+      "created_at": "2025-03-02T00:00:00.000Z",
+      "updated_at": "2025-03-03T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "vínculo afetivo"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Colocar o recém-nascido diretamente sobre o peito nu da mãe ou do pai logo após o parto traz inúmeros benefícios fisiológicos e emocionais. Esse contacto pode ser continuado nos primeiros meses de vida como parte da rotina de cuidados."
+          "tipo": "paragrafo",
+          "texto": "Colocar o recém-nascido diretamente sobre o peito nu da mãe ou do pai logo após o parto traz inúmeros benefícios fisiológicos e emocionais. Esse contacto pode ser continuado nos primeiros meses de vida como parte da rotina de cuidados."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios do contacto pele a pele"
+          "tipo": "subtitulo",
+          "texto": "Benefícios do contacto pele a pele"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Ajuda a regular a temperatura corporal do bebé",
             "Estabiliza a respiração e o batimento cardíaco",
             "Favorece a produção de leite materno e o início da amamentação",
             "Reduz o choro e promove relaxamento",
             "Fortalece o vínculo afetivo e a confiança entre bebé e cuidadores"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como praticar"
+          "tipo": "subtitulo",
+          "texto": "Como praticar"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "O contacto pele a pele deve ser feito em ambiente tranquilo, com o bebé apenas de fralda ou com manta leve, em posição segura sobre o peito do cuidador. É importante garantir que as vias respiratórias do bebé estejam sempre livres."
+          "tipo": "paragrafo",
+          "texto": "O contacto pele a pele deve ser feito em ambiente tranquilo, com o bebé apenas de fralda ou com manta leve, em posição segura sobre o peito do cuidador. É importante garantir que as vias respiratórias do bebé estejam sempre livres."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "O contacto pele a pele deve ser feito apenas logo após o nascimento?",
-        "resposta": "Falso. Embora seja essencial nas primeiras horas, o contacto pele a pele pode ser praticado diariamente nos primeiros meses, fortalecendo o vínculo e trazendo benefícios contínuos."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "O contacto pele a pele deve ser feito apenas logo após o nascimento?",
+          "resposta": "Falso. Embora seja essencial nas primeiras horas, o contacto pele a pele pode ser praticado diariamente nos primeiros meses, fortalecendo o vínculo e trazendo benefícios contínuos."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-vinculo"
     },
-
-
     {
-    "id": "no-colo-sinais",
-    "titulo": "Sinais de fome e saciedade",
-    "resumo": "Reconhecer os sinais de fome e de saciedade ajuda os cuidadores a responderem de forma adequada às necessidades do bebé, evitando choro excessivo e promovendo uma relação positiva com a alimentação desde o início da vida.",
-    "categoria": "Alimentação",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/sinais-fome.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Patrícia Melo",
-    "data": "2025-03-05",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 20,
+      "slug": "no-colo-sinais",
+      "titulo": "Sinais de fome e saciedade",
+      "resumo": "Reconhecer os sinais de fome e de saciedade ajuda os cuidadores a responderem de forma adequada às necessidades do bebé, evitando choro excessivo e promovendo uma relação positiva com a alimentação desde o início da vida.",
+      "categoria": "Alimentação",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/sinais-fome.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-06T00:00:00.000Z",
+      "created_at": "2025-03-05T00:00:00.000Z",
+      "updated_at": "2025-03-06T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "alimentação"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "O choro é um sinal tardio de fome. Identificar os sinais precoces permite alimentar o bebé no momento certo, tornando a experiência mais tranquila para a criança e para os cuidadores."
+          "tipo": "paragrafo",
+          "texto": "O choro é um sinal tardio de fome. Identificar os sinais precoces permite alimentar o bebé no momento certo, tornando a experiência mais tranquila para a criança e para os cuidadores."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Sinais de fome"
+          "tipo": "subtitulo",
+          "texto": "Sinais de fome"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Levar as mãos ou dedos à boca",
             "Virar a cabeça em busca do peito ou da chupeta (reflexo de procura)",
             "Fazer movimentos de sucção ou chupetar os dedos",
             "Agitar braços e pernas em inquietação"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Sinais de saciedade"
+          "tipo": "subtitulo",
+          "texto": "Sinais de saciedade"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Largar o peito ou o biberão espontaneamente",
             "Relaxe dos braços e corpo",
             "Fechar a boca ou virar o rosto quando já não quer mais",
             "Adormecer satisfeito após a mamada"
-        ]
+          ]
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Ao respeitar os sinais de fome e saciedade, os cuidadores fortalecem a confiança do bebé, reduzem episódios de choro excessivo e promovem uma relação saudável com a alimentação."
+          "tipo": "paragrafo",
+          "texto": "Ao respeitar os sinais de fome e saciedade, os cuidadores fortalecem a confiança do bebé, reduzem episódios de choro excessivo e promovem uma relação saudável com a alimentação."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "O choro é sempre o primeiro sinal de fome do bebé?",
-        "resposta": "Falso. O choro geralmente é um sinal tardio. Os sinais precoces incluem levar as mãos à boca, procurar o peito e fazer movimentos de sucção."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "O choro é sempre o primeiro sinal de fome do bebé?",
+          "resposta": "Falso. O choro geralmente é um sinal tardio. Os sinais precoces incluem levar as mãos à boca, procurar o peito e fazer movimentos de sucção."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-sinais"
     },
-
     {
-    "id": "no-colo-banho",
-    "titulo": "O primeiro banho",
-    "resumo": "O primeiro banho do bebé é um momento de higiene, afeto e aprendizagem para os cuidadores. Mais do que limpar, esta experiência reforça o vínculo emocional, transmite segurança e ajuda a criar uma rotina tranquila nos cuidados diários.",
-    "categoria": "Cuidados Básicos",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/banho-bebe.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Raquel Santos",
-    "data": "2025-03-08",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 21,
+      "slug": "no-colo-banho",
+      "titulo": "O primeiro banho",
+      "resumo": "O primeiro banho do bebé é um momento de higiene, afeto e aprendizagem para os cuidadores. Mais do que limpar, esta experiência reforça o vínculo emocional, transmite segurança e ajuda a criar uma rotina tranquila nos cuidados diários.",
+      "categoria": "Cuidados Básicos",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/banho-bebe.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-09T00:00:00.000Z",
+      "created_at": "2025-03-08T00:00:00.000Z",
+      "updated_at": "2025-03-09T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "cuidados básicos"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "O primeiro banho não deve ser apressado. É uma oportunidade para o bebé se adaptar ao toque da água e para os pais criarem confiança nos cuidados. O ideal é esperar algumas horas ou até um dia após o nascimento, seguindo a recomendação do profissional de saúde."
+          "tipo": "paragrafo",
+          "texto": "O primeiro banho não deve ser apressado. É uma oportunidade para o bebé se adaptar ao toque da água e para os pais criarem confiança nos cuidados. O ideal é esperar algumas horas ou até um dia após o nascimento, seguindo a recomendação do profissional de saúde."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Preparar o ambiente"
+          "tipo": "subtitulo",
+          "texto": "Preparar o ambiente"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Garantir que o ambiente esteja calmo, sem correntes de ar",
             "Utilizar água morna, testando a temperatura no pulso ou no antebraço",
             "Separar previamente todos os materiais: toalha, roupa limpa, fralda e sabonete neutro",
             "Manter sempre uma mão apoiando o bebé para segurança"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Durante o banho"
+          "tipo": "subtitulo",
+          "texto": "Durante o banho"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "O banho deve ser rápido e delicado. Limpe suavemente o corpo do bebé, dando atenção às pregas da pele. A cabeça pode ser lavada por último, para evitar que o bebé fique frio rapidamente."
+          "tipo": "paragrafo",
+          "texto": "O banho deve ser rápido e delicado. Limpe suavemente o corpo do bebé, dando atenção às pregas da pele. A cabeça pode ser lavada por último, para evitar que o bebé fique frio rapidamente."
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Após o banho, seque o bebé com uma toalha macia, sem esfregar, e vista-o imediatamente para manter o calor corporal."
+          "tipo": "paragrafo",
+          "texto": "Após o banho, seque o bebé com uma toalha macia, sem esfregar, e vista-o imediatamente para manter o calor corporal."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "É necessário dar banho todos os dias ao recém-nascido?",
-        "resposta": "Falso. Nos primeiros meses, não é preciso banhar o bebé diariamente. A higiene pode ser feita com panos húmidos entre os banhos completos."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "É necessário dar banho todos os dias ao recém-nascido?",
+          "resposta": "Falso. Nos primeiros meses, não é preciso banhar o bebé diariamente. A higiene pode ser feita com panos húmidos entre os banhos completos."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-banho"
     },
-
-
-
     {
-    "id": "no-colo-vacinas-bebe",
-    "titulo": "Vacinação no primeiro ano",
-    "resumo": "As vacinas do primeiro ano de vida são fundamentais para proteger os bebés contra doenças potencialmente graves. Cumprir o calendário vacinal garante imunidade precoce e contribui para a saúde individual e coletiva.",
-    "categoria": "Imunização",
-    "tipo": "no colo",
-    "imagem": "/assets/unicef/vacinas.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Dr. Paulo Gomes",
-    "data": "2025-03-10",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 22,
+      "slug": "no-colo-vacinas-bebe",
+      "titulo": "Vacinação no primeiro ano",
+      "resumo": "As vacinas do primeiro ano de vida são fundamentais para proteger os bebés contra doenças potencialmente graves. Cumprir o calendário vacinal garante imunidade precoce e contribui para a saúde individual e coletiva.",
+      "categoria": "Imunização",
+      "tipo": "no colo",
+      "imagem": "/assets/unicef/vacinas.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-11T00:00:00.000Z",
+      "created_at": "2025-03-10T00:00:00.000Z",
+      "updated_at": "2025-03-11T00:00:00.000Z",
+      "tags": [
+        "no colo",
+        "imunização"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "No primeiro ano de vida, o sistema imunitário do bebé ainda está em formação. As vacinas ajudam a criar defesas contra vírus e bactérias que podem causar infeções graves, como meningite, pneumonia e poliomielite."
+          "tipo": "paragrafo",
+          "texto": "No primeiro ano de vida, o sistema imunitário do bebé ainda está em formação. As vacinas ajudam a criar defesas contra vírus e bactérias que podem causar infeções graves, como meningite, pneumonia e poliomielite."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Principais vacinas do primeiro ano"
+          "tipo": "subtitulo",
+          "texto": "Principais vacinas do primeiro ano"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "BCG — protege contra formas graves de tuberculose",
             "Hepatite B — previne infeções hepáticas que podem tornar-se crónicas",
             "DTPa — protege contra difteria, tétano e tosse convulsa",
@@ -1112,432 +1412,540 @@
             "Pneumocócica — reduz risco de pneumonia e otite",
             "Rotavírus — previne gastroenterites graves",
             "Vacina contra o sarampo, rubéola e papeira (aplicada próximo do fim do primeiro ano)"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Por que cumprir o calendário vacinal"
+          "tipo": "subtitulo",
+          "texto": "Por que cumprir o calendário vacinal"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Seguir corretamente as datas do plano de vacinação é essencial para garantir a eficácia da imunização. Atrasos podem deixar o bebé desprotegido em fases críticas do desenvolvimento."
+          "tipo": "paragrafo",
+          "texto": "Seguir corretamente as datas do plano de vacinação é essencial para garantir a eficácia da imunização. Atrasos podem deixar o bebé desprotegido em fases críticas do desenvolvimento."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Vacinar um bebé serve apenas para proteger a sua própria saúde?",
-        "resposta": "Falso. Além de proteger o bebé, a vacinação ajuda a criar imunidade coletiva, reduzindo a circulação de doenças na comunidade."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Vacinar um bebé serve apenas para proteger a sua própria saúde?",
+          "resposta": "Falso. Além de proteger o bebé, a vacinação ajuda a criar imunidade coletiva, reduzindo a circulação de doenças na comunidade."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/no-colo-vacinas-bebe"
     },
-
-
     {
-    "id": "para-a-vida-educacao-precoce",
-    "titulo": "A importância da educação precoce",
-    "resumo": "Nos primeiros anos de vida, as aprendizagens têm impacto profundo no desenvolvimento cognitivo, emocional e social. Uma educação de qualidade nessa fase inicial prepara para o êxito escolar, fortalece competências de vida e contribui para uma sociedade mais equitativa.",
-    "categoria": "Educação",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/educacao-precoce.jpg",
-    "autor": "4",
-    "revisado": "2",
-    "data": "2025-03-20",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 23,
+      "slug": "para-a-vida-educacao-precoce",
+      "titulo": "A importância da educação precoce",
+      "resumo": "Nos primeiros anos de vida, as aprendizagens têm impacto profundo no desenvolvimento cognitivo, emocional e social. Uma educação de qualidade nessa fase inicial prepara para o êxito escolar, fortalece competências de vida e contribui para uma sociedade mais equitativa.",
+      "categoria": "Educação",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/educacao-precoce.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-21T00:00:00.000Z",
+      "created_at": "2025-03-20T00:00:00.000Z",
+      "updated_at": "2025-03-21T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "educação"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "A educação nos primeiros anos — particularmente até aos 3–5 anos — é crucial porque o cérebro está em rápido desenvolvimento. Estimular a criança cedo, com cuidados, brincadeira, linguagem e interacção, cria bases sólidas para aprendizagens futuras. "
+          "tipo": "paragrafo",
+          "texto": "A educação nos primeiros anos — particularmente até aos 3–5 anos — é crucial porque o cérebro está em rápido desenvolvimento. Estimular a criança cedo, com cuidados, brincadeira, linguagem e interacção, cria bases sólidas para aprendizagens futuras. "
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios de uma educação precoce"
+          "tipo": "subtitulo",
+          "texto": "Benefícios de uma educação precoce"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Melhora da capacidade cognitiva, linguagem e atenção desde cedo. ",
             "Desenvolvimento social e emocional, como empatia, autoconfiança e cooperação. ",
             "Redução de desigualdades — crianças de contextos vulneráveis se beneficiam muito com acesso precoce. ",
             "Preparação para o sucesso escolar: melhor desempenho, frequência adequada e menos repetências. "
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como promover uma educação de qualidade desde cedo"
+          "tipo": "subtitulo",
+          "texto": "Como promover uma educação de qualidade desde cedo"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Ambientes seguros, acolhedores e estimulantes, com brinquedos, livros e espaços para exploração. ",
             "Professores, cuidadores ou famílias que falem, cantem, leiam e brinquem com a criança. ",
             "Programas pré-escolares de qualidade, inclusivos, com currículos adequados à idade. ",
             "Políticas públicas que priorizem o acesso universal, equitativo e com recursos suficientes. "
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Possíveis desafios"
+          "tipo": "subtitulo",
+          "texto": "Possíveis desafios"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Em muitos lugares, o acesso à educação precoce é desigual. Custos, distância, falta de profissionais formados e recursos limitados interferem. Garantir que todos as crianças tenham oportunidades semelhantes exige compromisso político, investimento e atenção às comunidades mais desfavorecidas. "
+          "tipo": "paragrafo",
+          "texto": "Em muitos lugares, o acesso à educação precoce é desigual. Custos, distância, falta de profissionais formados e recursos limitados interferem. Garantir que todos as crianças tenham oportunidades semelhantes exige compromisso político, investimento e atenção às comunidades mais desfavorecidas. "
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "A educação pré-escolar de qualidade só beneficia crianças se começarem muito cedo (antes dos 2 anos)?",
-        "resposta": "Parcialmente falso. Embora quanto mais cedo melhor, o importante é qualidade, consistência e continuidade, mesmo se começar aos 3 ou 4 anos, pode trazer benefícios significativos."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "A educação pré-escolar de qualidade só beneficia crianças se começarem muito cedo (antes dos 2 anos)?",
+          "resposta": "Parcialmente falso. Embora quanto mais cedo melhor, o importante é qualidade, consistência e continuidade, mesmo se começar aos 3 ou 4 anos, pode trazer benefícios significativos."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-educacao-precoce"
     },
-
     {
-    "id": "para-a-vida-direitos-crianca",
-    "titulo": "Direitos da Criança",
-    "resumo": "Todas as crianças, independentemente da sua origem, género, religião ou condição social, têm direitos fundamentais reconhecidos internacionalmente pela Convenção sobre os Direitos da Criança. Estes direitos garantem proteção, desenvolvimento saudável, oportunidades de aprendizagem e participação ativa na sociedade.",
-    "categoria": "Cidadania",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/direitos.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Jurista Rita Monteiro",
-    "data": "2025-03-22",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 24,
+      "slug": "para-a-vida-direitos-crianca",
+      "titulo": "Direitos da Criança",
+      "resumo": "Todas as crianças, independentemente da sua origem, género, religião ou condição social, têm direitos fundamentais reconhecidos internacionalmente pela Convenção sobre os Direitos da Criança. Estes direitos garantem proteção, desenvolvimento saudável, oportunidades de aprendizagem e participação ativa na sociedade.",
+      "categoria": "Cidadania",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/direitos.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-23T00:00:00.000Z",
+      "created_at": "2025-03-22T00:00:00.000Z",
+      "updated_at": "2025-03-23T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "cidadania"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "A Convenção sobre os Direitos da Criança, adotada em 1989 pela ONU, é o tratado internacional mais ratificado do mundo. Estabelece que todas as crianças têm direito a sobreviver, a se desenvolver plenamente, a serem protegidas contra abusos e a participar ativamente nas suas comunidades."
+          "tipo": "paragrafo",
+          "texto": "A Convenção sobre os Direitos da Criança, adotada em 1989 pela ONU, é o tratado internacional mais ratificado do mundo. Estabelece que todas as crianças têm direito a sobreviver, a se desenvolver plenamente, a serem protegidas contra abusos e a participar ativamente nas suas comunidades."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Direitos fundamentais"
+          "tipo": "subtitulo",
+          "texto": "Direitos fundamentais"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Educação — acesso gratuito e de qualidade para que todas as crianças aprendam e desenvolvam o seu potencial.",
             "Saúde — direito a serviços de saúde adequados, nutrição equilibrada e água potável.",
             "Proteção — garantia de segurança contra exploração, violência, discriminação ou negligência.",
             "Identidade — direito a ter um nome, uma nacionalidade e a viver com dignidade desde o nascimento.",
             "Participação — oportunidade de expressar opiniões e ser ouvida em decisões que lhe dizem respeito."
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Por que é importante conhecer estes direitos"
+          "tipo": "subtitulo",
+          "texto": "Por que é importante conhecer estes direitos"
         },
-    {
-      "tipo": "paragrafo",
-      "texto": "Quando os direitos das crianças são respeitados, toda a sociedade ganha. Garantir educação, saúde e proteção contribui para comunidades mais justas, reduz desigualdades e promove um futuro mais sustentável."
+        {
+          "tipo": "paragrafo",
+          "texto": "Quando os direitos das crianças são respeitados, toda a sociedade ganha. Garantir educação, saúde e proteção contribui para comunidades mais justas, reduz desigualdades e promove um futuro mais sustentável."
+        },
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "A Convenção sobre os Direitos da Criança aplica-se apenas a alguns países?",
+          "resposta": "Falso. É o tratado internacional mais ratificado da história, reconhecido pela grande maioria dos países do mundo."
+        }
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-direitos-crianca"
     },
     {
-      "tipo": "testeConhecimento",
-      "titulo": "Teste de conhecimento",
-      "pergunta": "A Convenção sobre os Direitos da Criança aplica-se apenas a alguns países?",
-      "resposta": "Falso. É o tratado internacional mais ratificado da história, reconhecido pela grande maioria dos países do mundo."
-    }
-    ]
-    },
-    
-
-
-    {
-    "id": "para-a-vida-nutricao-escolar",
-    "titulo": "Alimentação saudável na escola",
-    "resumo": "Uma alimentação equilibrada durante o período escolar garante energia, concentração e bom humor para aprender. Ao oferecer lanches nutritivos, evita-se o excesso de açúcar e gorduras, promovendo um melhor desempenho académico e contribuindo para hábitos saudáveis ao longo da vida.",
-    "categoria": "Nutrição",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/nutricao-escola.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Nutricionista Cláudia Faria",
-    "data": "2025-03-25",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 25,
+      "slug": "para-a-vida-nutricao-escolar",
+      "titulo": "Alimentação saudável na escola",
+      "resumo": "Uma alimentação equilibrada durante o período escolar garante energia, concentração e bom humor para aprender. Ao oferecer lanches nutritivos, evita-se o excesso de açúcar e gorduras, promovendo um melhor desempenho académico e contribuindo para hábitos saudáveis ao longo da vida.",
+      "categoria": "Nutrição",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/nutricao-escola.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-26T00:00:00.000Z",
+      "created_at": "2025-03-25T00:00:00.000Z",
+      "updated_at": "2025-03-26T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "nutrição"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "O ambiente escolar é um espaço onde as crianças passam grande parte do dia. Garantir refeições e lanches equilibrados não só favorece o rendimento escolar, como também previne problemas de saúde relacionados com má nutrição, como obesidade e défice de atenção."
+          "tipo": "paragrafo",
+          "texto": "O ambiente escolar é um espaço onde as crianças passam grande parte do dia. Garantir refeições e lanches equilibrados não só favorece o rendimento escolar, como também previne problemas de saúde relacionados com má nutrição, como obesidade e défice de atenção."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que incluir nos lanches"
+          "tipo": "subtitulo",
+          "texto": "O que incluir nos lanches"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Frutas frescas — fonte de fibras, vitaminas e energia natural",
             "Cereais integrais — pão ou bolachas sem açúcar refinado para energia sustentada",
             "Proteínas magras — iogurte natural, queijo fresco ou ovo cozido",
             "Água como principal bebida — evitando refrigerantes ou sumos artificiais"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que evitar"
+          "tipo": "subtitulo",
+          "texto": "O que evitar"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Snacks ultraprocessados como batatas fritas e bolachas recheadas",
             "Bebidas açucaradas e refrigerantes",
             "Excesso de fritos e fast food",
             "Alimentos com muito sal, açúcar ou gordura saturada"
-        ]
+          ]
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Pais, professores e escolas podem trabalhar em conjunto para incentivar escolhas saudáveis. O envolvimento das crianças na preparação das lancheiras também aumenta a aceitação de alimentos nutritivos."
+          "tipo": "paragrafo",
+          "texto": "Pais, professores e escolas podem trabalhar em conjunto para incentivar escolhas saudáveis. O envolvimento das crianças na preparação das lancheiras também aumenta a aceitação de alimentos nutritivos."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Refrigerantes e snacks processados podem fazer parte da lancheira escolar todos os dias?",
-        "resposta": "Falso. Esses alimentos devem ser evitados, pois comprometem a saúde e reduzem o rendimento escolar."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Refrigerantes e snacks processados podem fazer parte da lancheira escolar todos os dias?",
+          "resposta": "Falso. Esses alimentos devem ser evitados, pois comprometem a saúde e reduzem o rendimento escolar."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-nutricao-escolar"
     },
-
-    
     {
-    "id": "para-a-vida-seguranca-casa",
-    "titulo": "Segurança em casa",
-    "resumo": "O lar deve ser um espaço de proteção, mas também é onde ocorrem muitos acidentes infantis. Com pequenas mudanças no ambiente e atenção redobrada, é possível reduzir significativamente os riscos e garantir que as crianças cresçam de forma segura.",
-    "categoria": "Prevenção",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/seguranca.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Tiago Cruz",
-    "data": "2025-03-28",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 26,
+      "slug": "para-a-vida-seguranca-casa",
+      "titulo": "Segurança em casa",
+      "resumo": "O lar deve ser um espaço de proteção, mas também é onde ocorrem muitos acidentes infantis. Com pequenas mudanças no ambiente e atenção redobrada, é possível reduzir significativamente os riscos e garantir que as crianças cresçam de forma segura.",
+      "categoria": "Prevenção",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/seguranca.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-29T00:00:00.000Z",
+      "created_at": "2025-03-28T00:00:00.000Z",
+      "updated_at": "2025-03-29T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "prevenção"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Quedas, queimaduras, intoxicações e choques elétricos estão entre os acidentes mais comuns em casa com crianças. Prevenir é sempre o melhor caminho, e muitas medidas podem ser adotadas de forma simples e acessível."
+          "tipo": "paragrafo",
+          "texto": "Quedas, queimaduras, intoxicações e choques elétricos estão entre os acidentes mais comuns em casa com crianças. Prevenir é sempre o melhor caminho, e muitas medidas podem ser adotadas de forma simples e acessível."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Cuidados essenciais"
+          "tipo": "subtitulo",
+          "texto": "Cuidados essenciais"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Colocar protetores nas tomadas para evitar choques elétricos",
             "Instalar grades de proteção em janelas e varandas",
             "Guardar produtos de limpeza, medicamentos e objetos cortantes fora do alcance",
             "Evitar toalhas compridas que as crianças possam puxar e derrubar objetos quentes",
             "Nunca deixar baldes ou banheiras cheios de água sem supervisão"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Supervisão constante"
+          "tipo": "subtitulo",
+          "texto": "Supervisão constante"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Nenhuma medida substitui a atenção dos cuidadores. Supervisão próxima, principalmente em áreas como cozinha, casa de banho e varandas, é indispensável para reduzir riscos de acidentes graves."
+          "tipo": "paragrafo",
+          "texto": "Nenhuma medida substitui a atenção dos cuidadores. Supervisão próxima, principalmente em áreas como cozinha, casa de banho e varandas, é indispensável para reduzir riscos de acidentes graves."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "É suficiente instalar grades e protetores de tomada para garantir a segurança da criança em casa?",
-        "resposta": "Falso. Embora ajudem bastante, a supervisão constante e a adoção de várias medidas de prevenção são indispensáveis."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "É suficiente instalar grades e protetores de tomada para garantir a segurança da criança em casa?",
+          "resposta": "Falso. Embora ajudem bastante, a supervisão constante e a adoção de várias medidas de prevenção são indispensáveis."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-seguranca-casa"
     },
-
-   {
-    "id": "para-a-vida-escola-inclusiva",
-    "titulo": "Escola inclusiva",
-    "resumo": "Uma escola inclusiva é aquela que acolhe todas as crianças, independentemente da sua origem, género, condição física, cognitiva, social ou cultural. Garantir uma educação de qualidade para todos promove a equidade, valoriza a diversidade e fortalece o respeito mútuo desde cedo.",
-    "categoria": "Educação",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/escola.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Profª Maria Lopes",
-    "data": "2025-03-30",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+    {
+      "id": 27,
+      "slug": "para-a-vida-escola-inclusiva",
+      "titulo": "Escola inclusiva",
+      "resumo": "Uma escola inclusiva é aquela que acolhe todas as crianças, independentemente da sua origem, género, condição física, cognitiva, social ou cultural. Garantir uma educação de qualidade para todos promove a equidade, valoriza a diversidade e fortalece o respeito mútuo desde cedo.",
+      "categoria": "Educação",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/escola.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-03-30T23:00:00.000Z",
+      "created_at": "2025-03-30T00:00:00.000Z",
+      "updated_at": "2025-03-30T23:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "educação"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "A inclusão escolar vai além do acesso físico às salas de aula. Envolve adaptar metodologias, currículos e atitudes para que cada criança aprenda de acordo com as suas necessidades e potencialidades."
+          "tipo": "paragrafo",
+          "texto": "A inclusão escolar vai além do acesso físico às salas de aula. Envolve adaptar metodologias, currículos e atitudes para que cada criança aprenda de acordo com as suas necessidades e potencialidades."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Princípios da escola inclusiva"
+          "tipo": "subtitulo",
+          "texto": "Princípios da escola inclusiva"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Garantir acesso à educação a todas as crianças, sem discriminação",
             "Valorizar a diversidade como um recurso para a aprendizagem coletiva",
             "Oferecer apoio pedagógico adaptado às diferentes necessidades",
             "Formar professores para práticas inclusivas e respeitosas",
             "Envolver famílias e comunidade no processo educativo"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios da inclusão"
+          "tipo": "subtitulo",
+          "texto": "Benefícios da inclusão"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Uma escola inclusiva favorece a convivência entre diferentes realidades, promove empatia, reduz preconceitos e fortalece valores de cidadania. Todas as crianças ganham quando o ambiente escolar é justo e acessível."
+          "tipo": "paragrafo",
+          "texto": "Uma escola inclusiva favorece a convivência entre diferentes realidades, promove empatia, reduz preconceitos e fortalece valores de cidadania. Todas as crianças ganham quando o ambiente escolar é justo e acessível."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "A inclusão escolar beneficia apenas as crianças com deficiência?",
-        "resposta": "Falso. A inclusão beneficia todas as crianças, pois promove respeito, cooperação e aprendizagem em conjunto."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "A inclusão escolar beneficia apenas as crianças com deficiência?",
+          "resposta": "Falso. A inclusão beneficia todas as crianças, pois promove respeito, cooperação e aprendizagem em conjunto."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-escola-inclusiva"
     },
-
     {
-    "id": "para-a-vida-playtime-anytime",
-    "titulo": "Brincar a qualquer momento",
-    "resumo": "Nos primeiros 1.000 dias, cada interação conta. Transformar momentos do dia a dia em brincadeiras fortalece o vínculo, estimula o cérebro do bebé e promove comunicação desde o início.",
-    "categoria": "Desenvolvimento",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/playtime-anytime.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Prof. Luís Almeida",
-    "data": "2025-04-05",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 28,
+      "slug": "para-a-vida-playtime-anytime",
+      "titulo": "Brincar a qualquer momento",
+      "resumo": "Nos primeiros 1.000 dias, cada interação conta. Transformar momentos do dia a dia em brincadeiras fortalece o vínculo, estimula o cérebro do bebé e promove comunicação desde o início.",
+      "categoria": "Desenvolvimento",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/playtime-anytime.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-04-06T00:00:00.000Z",
+      "created_at": "2025-04-05T00:00:00.000Z",
+      "updated_at": "2025-04-06T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "desenvolvimento"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Durante os primeiros 3 anos, o cérebro do bebé cresce mais rapidamente do que em qualquer outra fase da vida. É possível apoiar esse crescimento com interações simples, mesmo antes que a criança fale."
+          "tipo": "paragrafo",
+          "texto": "Durante os primeiros 3 anos, o cérebro do bebé cresce mais rapidamente do que em qualquer outra fase da vida. É possível apoiar esse crescimento com interações simples, mesmo antes que a criança fale."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "O que é o modelo serve-and-return"
+          "tipo": "subtitulo",
+          "texto": "O que é o modelo serve-and-return"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Serve-and-return é uma série de trocas entre criança e cuidador — quando o bebé faz um som ou gesto (“serve”), e o adulto responde com atenção e carinho (“return”). Estas interações repetidas ajudam a formar conexões neurais importantes."
+          "tipo": "paragrafo",
+          "texto": "Serve-and-return é uma série de trocas entre criança e cuidador — quando o bebé faz um som ou gesto (“serve”), e o adulto responde com atenção e carinho (“return”). Estas interações repetidas ajudam a formar conexões neurais importantes."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Como brincar no dia a dia"
+          "tipo": "subtitulo",
+          "texto": "Como brincar no dia a dia"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Jogo do nome: ao vestir ou trocar de roupa, diga o nome de cada peça e descreva cores ou texturas.",
             "Brincadeira durante as refeições: observe o interesse da criança pelos alimentos, nomeie-os e envolva-a (por exemplo, deixar que toque ou escolha).",
             "Hora do banho: permetir que escolha brinquedos ou objetos seguros, brincar de “acabou” ao terminar com algo que gostou.",
             "Passeios: ao caminhar, aponte objetos ou sons pelo caminho, fale sobre o que a criança vê ou ouve."
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Benefícios para o bebé"
+          "tipo": "subtitulo",
+          "texto": "Benefícios para o bebé"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Estas pequenas brincadeiras ajudam no desenvolvimento da linguagem, atenção, curiosidade e na capacidade de aprender com o ambiente. Também fortalecem o vínculo afetivo entre cuidador e bebé."
+          "tipo": "paragrafo",
+          "texto": "Estas pequenas brincadeiras ajudam no desenvolvimento da linguagem, atenção, curiosidade e na capacidade de aprender com o ambiente. Também fortalecem o vínculo afetivo entre cuidador e bebé."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Só se aprende brincando com brinquedos especiais?",
-        "resposta": "Falso. Qualquer momento simples, como vestir, alimentar ou passear, pode ser usado para brincar e estimular o bebé."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Só se aprende brincando com brinquedos especiais?",
+          "resposta": "Falso. Qualquer momento simples, como vestir, alimentar ou passear, pode ser usado para brincar e estimular o bebé."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-playtime-anytime"
     },
-
-
-    
     {
-        "id": "para-a-vida-tecnologia",
-        "titulo": "Uso saudável da tecnologia",
-        "resumo": "A tecnologia pode ser uma aliada na aprendizagem e no entretenimento das crianças, mas o equilíbrio é fundamental. O uso em excesso de ecrãs pode afetar o sono, a atenção e a socialização. Definir regras claras e oferecer alternativas offline garante um desenvolvimento mais saudável e equilibrado.",
-        "categoria": "Digital",
-        "tipo": "para a vida",
-        "imagem": "/assets/unicef/tecnologia.jpg",
-        "autor": "Equipa Cres(Ser)",
-        "revisado": "Psicólogo Hugo Vieira",
-        "data": "2025-04-05",
-        "icones": { "partilha": true, "favorito": true },
-        "conteudo": [
-            {
-            "tipo": "paragrafo",
-            "texto": "O mundo digital faz parte do quotidiano das famílias e pode trazer benefícios, como acesso à informação e recursos educativos. No entanto, quando não há limites, o tempo excessivo em frente a ecrãs pode prejudicar hábitos de sono, atividade física e interações sociais."
-            },
-            {
-            "tipo": "subtitulo",
-            "texto": "Boas práticas"
-            },
-            {
-            "tipo": "lista",
-            "itens": [
-                "Limitar o tempo de ecrã de acordo com a idade — crianças pequenas devem ter pouco ou nenhum contacto com dispositivos eletrónicos.",
-                "Oferecer atividades offline como jogos de tabuleiro, leitura e brincadeiras ao ar livre.",
-                "Acompanhar e supervisionar o que a criança vê, garantindo conteúdos adequados à idade.",
-                "Promover momentos sem tecnologia, como refeições em família e a hora de dormir.",
-                "Dar o exemplo — quando os adultos equilibram o uso da tecnologia, as crianças tendem a imitar."
-            ]
-            },
-            {
-            "tipo": "subtitulo",
-            "texto": "O papel dos pais"
-            },
-            {
-            "tipo": "paragrafo",
-            "texto": "Os pais e cuidadores têm papel fundamental em orientar as crianças para um uso saudável da tecnologia. Estar presente, dialogar sobre conteúdos e incentivar outras formas de aprendizagem e lazer são estratégias essenciais para criar equilíbrio."
-            },
-            {
-            "tipo": "testeConhecimento",
-            "titulo": "Teste de conhecimento",
-            "pergunta": "Crianças em idade pré-escolar podem passar horas em frente a ecrãs sem prejuízo?",
-            "resposta": "Falso. O uso excessivo pode prejudicar o desenvolvimento, afetar o sono e reduzir oportunidades de brincadeiras ativas."
-            }
-        ]
+      "id": 29,
+      "slug": "para-a-vida-tecnologia",
+      "titulo": "Uso saudável da tecnologia",
+      "resumo": "A tecnologia pode ser uma aliada na aprendizagem e no entretenimento das crianças, mas o equilíbrio é fundamental. O uso em excesso de ecrãs pode afetar o sono, a atenção e a socialização. Definir regras claras e oferecer alternativas offline garante um desenvolvimento mais saudável e equilibrado.",
+      "categoria": "Digital",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/tecnologia.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-04-06T00:00:00.000Z",
+      "created_at": "2025-04-05T00:00:00.000Z",
+      "updated_at": "2025-04-06T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "digital"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O mundo digital faz parte do quotidiano das famílias e pode trazer benefícios, como acesso à informação e recursos educativos. No entanto, quando não há limites, o tempo excessivo em frente a ecrãs pode prejudicar hábitos de sono, atividade física e interações sociais."
         },
-
+        {
+          "tipo": "subtitulo",
+          "texto": "Boas práticas"
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Limitar o tempo de ecrã de acordo com a idade — crianças pequenas devem ter pouco ou nenhum contacto com dispositivos eletrónicos.",
+            "Oferecer atividades offline como jogos de tabuleiro, leitura e brincadeiras ao ar livre.",
+            "Acompanhar e supervisionar o que a criança vê, garantindo conteúdos adequados à idade.",
+            "Promover momentos sem tecnologia, como refeições em família e a hora de dormir.",
+            "Dar o exemplo — quando os adultos equilibram o uso da tecnologia, as crianças tendem a imitar."
+          ]
+        },
+        {
+          "tipo": "subtitulo",
+          "texto": "O papel dos pais"
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Os pais e cuidadores têm papel fundamental em orientar as crianças para um uso saudável da tecnologia. Estar presente, dialogar sobre conteúdos e incentivar outras formas de aprendizagem e lazer são estratégias essenciais para criar equilíbrio."
+        },
+        {
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Crianças em idade pré-escolar podem passar horas em frente a ecrãs sem prejuízo?",
+          "resposta": "Falso. O uso excessivo pode prejudicar o desenvolvimento, afetar o sono e reduzir oportunidades de brincadeiras ativas."
+        }
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-tecnologia"
+    },
     {
-    "id": "para-a-vida-higiene",
-    "titulo": "Higiene e saúde",
-    "resumo": "Ensinar e praticar hábitos básicos de higiene desde cedo é fundamental para prevenir doenças e promover uma vida mais saudável. Pequenos gestos como lavar as mãos, escovar os dentes e manter o ambiente limpo reduzem significativamente o risco de infeções e criam rotinas positivas para a vida adulta.",
-    "categoria": "Saúde Pública",
-    "tipo": "para a vida",
-    "imagem": "/assets/unicef/higiene.jpg",
-    "autor": "Equipa Cres(Ser)",
-    "revisado": "Enf. Vânia Ramos",
-    "data": "2025-04-08",
-    "icones": { "partilha": true, "favorito": true },
-    "conteudo": [
+      "id": 30,
+      "slug": "para-a-vida-higiene",
+      "titulo": "Higiene e saúde",
+      "resumo": "Ensinar e praticar hábitos básicos de higiene desde cedo é fundamental para prevenir doenças e promover uma vida mais saudável. Pequenos gestos como lavar as mãos, escovar os dentes e manter o ambiente limpo reduzem significativamente o risco de infeções e criam rotinas positivas para a vida adulta.",
+      "categoria": "Saúde Pública",
+      "tipo": "para a vida",
+      "imagem": "/assets/unicef/higiene.jpg",
+      "autorId": 5,
+      "revisorId": 2,
+      "status": "publicado",
+      "published_at": "2025-04-09T00:00:00.000Z",
+      "created_at": "2025-04-08T00:00:00.000Z",
+      "updated_at": "2025-04-09T00:00:00.000Z",
+      "tags": [
+        "para a vida",
+        "saúde pública"
+      ],
+      "lang": "pt-PT",
+      "icones": {
+        "partilha": true,
+        "favorito": true
+      },
+      "reading_time": 1,
+      "conteudo": [
         {
-        "tipo": "paragrafo",
-        "texto": "Crianças que aprendem práticas de higiene adequadas têm menos probabilidade de adoecer e mais condições de frequentar a escola de forma regular. Além disso, criam hábitos que levam para a vida adulta."
+          "tipo": "paragrafo",
+          "texto": "Crianças que aprendem práticas de higiene adequadas têm menos probabilidade de adoecer e mais condições de frequentar a escola de forma regular. Além disso, criam hábitos que levam para a vida adulta."
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Hábitos essenciais"
+          "tipo": "subtitulo",
+          "texto": "Hábitos essenciais"
         },
         {
-        "tipo": "lista",
-        "itens": [
+          "tipo": "lista",
+          "itens": [
             "Lavar as mãos antes das refeições, após usar a casa de banho e ao chegar da rua",
             "Escovar os dentes pelo menos duas vezes por dia, com pasta fluoretada",
             "Tomar banho regularmente e manter unhas cortadas e limpas",
             "Manter roupas e calçado limpos e adequados ao clima",
             "Evitar partilhar objetos pessoais como escovas de dentes ou garrafas de água"
-        ]
+          ]
         },
         {
-        "tipo": "subtitulo",
-        "texto": "Cuidados com o ambiente"
+          "tipo": "subtitulo",
+          "texto": "Cuidados com o ambiente"
         },
         {
-        "tipo": "paragrafo",
-        "texto": "Ambientes limpos e bem ventilados reduzem o risco de propagação de vírus e bactérias. É importante também garantir o correto armazenamento de alimentos e a eliminação segura do lixo doméstico."
+          "tipo": "paragrafo",
+          "texto": "Ambientes limpos e bem ventilados reduzem o risco de propagação de vírus e bactérias. É importante também garantir o correto armazenamento de alimentos e a eliminação segura do lixo doméstico."
         },
         {
-        "tipo": "testeConhecimento",
-        "titulo": "Teste de conhecimento",
-        "pergunta": "Lavar as mãos apenas com água é suficiente para prevenir infeções?",
-        "resposta": "Falso. Para uma higiene eficaz é necessário usar água e sabão ou, quando não disponíveis, uma solução à base de álcool."
+          "tipo": "testeConhecimento",
+          "titulo": "Teste de conhecimento",
+          "pergunta": "Lavar as mãos apenas com água é suficiente para prevenir infeções?",
+          "resposta": "Falso. Para uma higiene eficaz é necessário usar água e sabão ou, quando não disponíveis, uma solução à base de álcool."
         }
-    ]
+      ],
+      "related": [],
+      "link": "/artigos/para-a-vida-higiene"
     }
   ]
 }

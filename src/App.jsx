@@ -20,6 +20,8 @@ import MontaPage from "./components/MontaPage";
 import SearchResults from "./pages/SearchResults";
 import FavoritosPage from "./pages/FavoritosPage";
 import LoginAdmin from "./pages/editorial/LoginAdmin";
+import Dashboard from "./pages/editorial/Dashboard";
+import ArtigosList from "./pages/editorial/ArtigosList";
 
 function App() {
   return (
@@ -54,6 +56,8 @@ function App() {
 
         {/* Rota sem header/footer */}
         <Route path="/editorial" element={<LoginAdmin />} />
+        <Route path="/editorial/dashboard" element={<Dashboard />} />
+        <Route path="/editorial/artigos" element={<ArtigosList />} />
       </Routes>
     </Router>
   );

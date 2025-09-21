@@ -14,7 +14,7 @@ function ProfileModal({ setIsOpen, handleLogout }) {
 
   if (!userData) {
     return (
-      <div className="fixed inset-0 bg-gray-900/90 flex justify-center items-center z-[100]" onClick={() => setIsOpen(false)}>
+      <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-[100]" onClick={() => setIsOpen(false)}>
         <div className="bg-white p-6 rounded-lg shadow-lg w-96 relative" onClick={(e) => e.stopPropagation()}>
           <button 
             className="absolute top-2 right-2 text-gray-600 cursor-pointer hover:text-black"
@@ -29,7 +29,7 @@ function ProfileModal({ setIsOpen, handleLogout }) {
   }
 
   return (
-    <div className="fixed inset-0 bg-gray-900/90 flex justify-center items-center z-[100]" onClick={() => setIsOpen(false)}>
+    <div className="fixed inset-0 bg-black/50 flex justify-center items-center z-[100]" onClick={() => setIsOpen(false)}>
       <div className="bg-white p-6 rounded-lg shadow-lg w-96 relative" onClick={(e) => e.stopPropagation()}>
         <button 
           className="absolute top-2 right-2 text-gray-600 cursor-pointer hover:text-black"
