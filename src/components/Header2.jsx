@@ -56,7 +56,9 @@ export default function HeaderHero() {
   const [profileModalOpen, setProfileModalOpen] = useState(false);
   const [isProjectOpen, setIsProjectOpen] = useState(false);
   const [isBarrigaOpen, setIsBarrigaOpen] = useState(false);
+  const [isColoOpen, setIsColoOpen] = useState(false);
   const [isVidaOpen, setIsVidaOpen] = useState(false);
+  const [isComunidadeOpen, setIsComunidadeOpen] = useState(false);
 
   
   const [isAuthenticated, setIsAuthenticated] = useState(false);
@@ -329,6 +331,43 @@ export default function HeaderHero() {
                   )}
                 </li>
 
+                {/* No Colo */}
+                <li>
+                  <button
+                    onClick={() => setIsColoOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isColoOpen}
+                  >
+                    <span>No Colo</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isColoOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isColoOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/page/recem-nascido"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Recém-Nascido
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/1mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 1 mês
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/2mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 2 meses
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
                 {/* Na Vida */}
                 <li>
                   <button
@@ -360,7 +399,7 @@ export default function HeaderHero() {
                         onClick={() => { navigate("/page/18mes"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        Tenho 1 ano e meio
+                        Tenho 18 meses
                       </li>
                       <li
                         onClick={() => { navigate("/page/2ano"); setMenuOpen(false); }}
@@ -372,13 +411,39 @@ export default function HeaderHero() {
                   )}
                 </li>
 
-                {/* Comunidade (sem submenu) */}
-                <li
-                  onClick={() => { navigate("/eventos"); setMenuOpen(false); }}
-                  className="block hover:text-emerald-200 cursor-pointer"
-                >
-                  Eventos
+                {/* Na Vida */}
+                <li>
+                  <button
+                    onClick={() => setIsComunidadeOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isComunidadeOpen}
+                  >
+                    <span>Comunidade</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isComunidadeOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isComunidadeOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/eventos"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Eventos
+                      </li>
+                      <li
+                        onClick={() => { navigate("/atividades"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Atividades
+                      </li>
+                      
+                    </ul>
+                  )}
                 </li>
+
+                
 
                 <hr className="my-6 border-white/10" />
 
@@ -414,15 +479,30 @@ export default function HeaderHero() {
               </ul>
             </li>
             <li className="relative group">
+              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">No Colo<MdKeyboardArrowDown size={20} /></button>
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
+                <a href="/page/recem-nascido"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Recém-Nascido</li></a>
+                <a href="/page/1mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 1 mês</li></a>
+                <a href="/page/2mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 2 meses</li></a>
+              </ul>
+            </li>
+            <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Na Vida<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <a href="/mesames"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li></a>
+                
                 <a href="/page/1ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 1 ano</li></a>
-                <a href="/page/18mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 1 ano e meio</li></a>
+                <a href="/page/18mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 18 meses</li></a>
                 <a href="/page/2ano"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 2 anos</li></a>
               </ul>
             </li>
-            <a href="/eventos"><li className="hover:text-emerald-200 uppercase">Eventos</li></a>
+            <li className="relative group">
+              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Comunidade<MdKeyboardArrowDown size={20} /></button>
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
+                <a href="/eventos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Eventos</li></a>
+                <a href="/eventos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Atividades</li></a>
+                
+              </ul>
+            </li>
           </ul>
 
           <div className="flex gap-4 items-center">

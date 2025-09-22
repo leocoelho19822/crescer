@@ -23,10 +23,10 @@ export default function Eventos() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
       <h1 className="text-3xl md:text-4xl font-bold mb-8">
-        Eventos na Comunidade
+        Atividades
       </h1>
       <p className="text-lg text-zinc-700 mb-8">
-        Todos são bem-vindos a participar nos nossos eventos — pais, mães, familiares
+        Todos são bem-vindos a participar das nossas atividades — pais, mães, familiares
         e cuidadores. Estes momentos são pensados para criar partilha, aprender em
         conjunto e fortalecer a comunidade.
       </p>
@@ -34,7 +34,7 @@ export default function Eventos() {
       {/* Secção 1: Ativos */}
       {ativos.length > 0 && (
         <>
-          <h2 className="text-2xl font-semibold mb-4">Eventos com inscrição ativa</h2>
+          <h2 className="text-2xl font-semibold mb-4">Atividades com inscrição ativa</h2>
           <div className="grid sm:grid-cols-2 gap-6 mb-10">
             {ativos.map((e) => (
               <CardEvento key={e.id} {...e} status="ativo" />
@@ -58,7 +58,7 @@ export default function Eventos() {
       {/* Secção 3: Passados */}
       {passados.length > 0 && (
         <>
-          <h2 className="text-2xl font-semibold mb-4">Eventos passados</h2>
+          <h2 className="text-2xl font-semibold mb-4">Atividades passados</h2>
           <div className="grid sm:grid-cols-2 gap-6 mb-10">
             {passados.map((e) => (
               <CardEvento key={e.id} {...e} status="passado" />
