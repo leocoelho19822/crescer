@@ -2721,84 +2721,84 @@
     },
 
     {
-      "id": "sobre",
-      "titulo": "Sobre o Projeto Cres(Ser)",
-      "resumo": "O projeto Cres(SER) é uma iniciativa de apoio à parentalidade e promoção da saúde mental na gravidez e na primeira infância, desenvolvida no concelho de Águeda com o envolvimento de diversos parceiros comunitários.",
-      "autor": "Equipa Cres(Ser)",
-      "data": "2025-09-16",
-      "imagem": "/imagens/creche_.jpg",
-      "icones": {
-        "partilha": true,
-        "favorito": false
-      },
-      "conteudo": [
-        {
-          "tipo": "subtitulo",
-          "texto": "O que é o projeto Cres(SER)?"
-        },
-        {
-          "tipo": "paragrafo",
-          "texto": "O Cres(SER) é o projeto que dá origem a esta plataforma web. Promovido pelo Centro de Saúde de Águeda e desenvolvido em articulação com parceiros locais — como a câmara municipal, creches, escolas, universidades e entidades sociais — tem como missão apoiar mães, pais e cuidadores desde a gravidez até aos 3 anos de vida da criança."
-        },
-        {
-          "tipo": "paragrafo",
-          "texto": "O projeto assenta numa premissa sólida: os primeiros 1000 dias de vida são decisivos para o desenvolvimento emocional, cognitivo e social da criança. Por isso, aposta numa intervenção comunitária, integrada e baseada em evidência científica, com foco na capacitação de quem cuida."
-        },
-        {
-          "tipo": "lista",
-          "titulo": "A intervenção destina-se a três grupos principais:",
-          "itens": [
-            "Profissionais de saúde",
-            "Profissionais de educação",
-            "Pais, mães e cuidadores"
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Objetivos do Projeto",
-          "itens": [
-            "Criar espaços de partilha, escuta ativa e aprendizagem entre pais e cuidadores.",
-            "Reforçar o vínculo afetivo entre pais e filhos.",
-            "Promover o desenvolvimento emocional, cognitivo e social saudável da criança.",
-            "Apoiar emocionalmente mães e pais durante o período de gestação e pós-parto.",
-            "Sensibilizar para a importância dos primeiros 1000 dias na construção do bem-estar futuro da criança."
-          ]
-        },
-        {
-          "tipo": "lista",
-          "titulo": "Atividades em destaque",
-          "itens": [
-            "Cres(SER) contigo… na barriga: Grupo para grávidas e pais a partir da 12.ª semana de gestação.",
-            "Cres(SER) contigo… no colo: Grupo para recém-papás durante a licença de maternidade/paternidade.",
-            "Cres(SER) contigo… para a vida: Grupo para mães, pais e cuidadores de crianças até aos 3 anos.",
-            "Caminhar Contigo: Caminhadas semanais com acompanhamento técnico.",
-            "Sessões práticas sobre temas como sono do bebé, massagem infantil, vinculação, nutrição, birras, entrada na creche, entre outros."
-          ]
-        },
-        {
-        "tipo": "contacto",
-        "telefone": "234610210",
-        "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
-        },
-
-        {
-          "tipo": "citacao",
-          "texto": "Se mudarmos o início da história, mudamos toda a história."
-        },
-        {
-          "tipo": "subtitulo",
-          "texto": "Apoio tecnológico e desenvolvimento"
-        },
-        {
-          "tipo": "paragrafo",
-          "texto": "A plataforma web de apoio à parentalidade Cres(SER) foi desenvolvida no âmbito do Mestrado em Comunicação e Tecnologias Web da Universidade de Aveiro, integrando as competências de UI/UX Design, Frontend e Backend (Fullstack)."
-        },
-        {
-          "tipo": "paragrafo",
-          "texto": "Esta aplicação tem como objetivo facilitar o acesso a conteúdos, artigos, eventos e recursos personalizados para mães, pais e cuidadores, garantindo uma experiência acessível, intuitiva e cientificamente fundamentada."
-        }
+  "id": "sobre",
+  "titulo": "Sobre o Projeto Cres(Ser)",
+  "resumo": "O projeto Cres(SER) é uma iniciativa de apoio à parentalidade e promoção da saúde mental na gravidez e na primeira infância, desenvolvida no concelho de Águeda com o envolvimento de diversos parceiros comunitários.",
+  "autor": "Equipa Cres(Ser)",
+  "data": "2025-09-16",
+  "imagem": "/imagens/creche_.jpg",
+  "icones": {
+    "partilha": true,
+    "favorito": false
+  },
+  "conteudo": [
+    {
+      "tipo": "subtitulo",
+      "texto": "O que é o projeto Cres(SER)?"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "O Projeto Cres(SER) em Águeda é uma iniciativa de intervenção na comunidade, promovida pela Saúde (Unidade de Recursos Assistenciais Partilhados do ACeS Baixo Vouga, Centro de Saúde de Águeda). O objetivo é implementar um projeto-piloto focado na promoção da saúde mental durante a gravidez e a primeira infância, atuando de forma integrada em diferentes contextos, como a Saúde, Educação e Ação Social. O projeto conta com a colaboração de vários parceiros locais, incluindo a câmara municipal, creches, meios de comunicação, empresas, CPCJ, Universidade de Aveiro e o Centro Hospitalar do Baixo Vouga."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Com base em estudos da psicologia clínica e neurociências, o projeto reconhece que as experiências vividas nos primeiros anos de vida têm um impacto crucial no desenvolvimento da criança. Por isso, alinha-se com as recomendações da Organização Mundial de Saúde e da Direção Geral de Saúde, que sublinham a importância de intervir nos cuidados de saúde na primeira infância, a partir da gravidez, pois a saúde mental infantil é a chave para a prevenção da saúde psicossocial ao longo de toda a vida."
+    },
+    {
+      "tipo": "lista",
+      "titulo": "A intervenção destina-se a três grupos principais:",
+      "itens": [
+        "Profissionais de saúde ",
+        "Profissionais de educação ",
+        "Pais ou outros cuidadores "
       ]
     },
+    {
+      "tipo": "lista",
+      "titulo": "Objetivos do Projeto",
+      "itens": [
+        "Criar espaços de partilha, apoio mútuo e aprendizagem, começando na gravidez até aos 3 anos do bebé.",
+        "Promover o desenvolvimento da maternidade/paternidade de forma mais saudável, consciente e positiva.",
+        "Dar suporte emocional aos pais (especialmente à mãe) a partir da gestação.",
+        "Preparar os pais para o período do nascimento, a reorganização familiar e a parentalidade.",
+        "Promover a consistência dos cuidados parentais, interações adequadas entre pais e filhos, e a vinculação segura, que são requisitos essenciais para um bom desenvolvimento emocional, cognitivo e social da criança.",
+        "Fornecer informações, incentivando a reflexão e o debate sobre temas definidos ou propostos pelos participantes.",
+        "Incentivar a criação de laços e redes de apoio entre os participantes."
+      ]
+    },
+    {
+      "tipo": "lista",
+      "titulo": "Atividades em destaque",
+      "itens": [
+        "Cres(SER) contigo… na barriga: Grupo para grávidas e pais grávidos, a partir da 12ª semana de gestação, com encontros quinzenais às segundas-feiras, das 17h às 18h30.",
+        "Cres(SER) contigo… no colo: Grupo para recém-pais durante a licença de maternidade/paternidade, com encontros quinzenais às segundas-feiras, das 15h às 16h30.",
+        "Cres(SER) contigo… para a vida: Grupo para pais após a licença até ao 3º ano de vida do bebé, com encontros mensais às segundas-feiras, das 17h às 18h30.",
+        "Sessões práticas sobre temas variados, como o desenvolvimento e a comunicação do feto, alterações emocionais na gravidez, o papel do pai, a importância do vínculo, o sono do bebé e a massagem infantil, a entrada na creche, o desenvolvimento social e a comunicação com a criança, e a disciplina (birras)."
+      ]
+    },
+    {
+      "tipo": "contacto",
+      "telefone": "234610210",
+      "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
+    },
+    {
+      "tipo": "citacao",
+      "texto": "Para termos crianças mais saudáveis, equilibradas e felizes é importante começar onde tudo começa: na gravidez e primeira infância."
+    },
+    {
+      "tipo": "subtitulo",
+      "texto": "Apoio tecnológico e desenvolvimento"
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "A plataforma web de apoio à parentalidade Cres(SER) foi desenvolvida no âmbito do Mestrado em Comunicação e Tecnologias Web da Universidade de Aveiro, integrando as competências de UI/UX Design, Frontend e Backend (Fullstack)."
+    },
+    {
+      "tipo": "paragrafo",
+      "texto": "Esta aplicação tem como objetivo facilitar o acesso a conteúdos, artigos, eventos e recursos personalizados para mães, pais e cuidadores, garantindo uma experiência acessível, intuitiva e cientificamente fundamentada."
+    }
+  ]
+},
 
 
     
@@ -2842,43 +2842,115 @@
     },
 
     {
-        "id": "parceiros",
-        "titulo": "Parceiros",
-        "resumo": "O projeto Cres(Ser) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil.",
-        "conteudo": [
-            
-            {
-                "tipo": "lista",
-                "itens": [
-                    "Universidade de Aveiro",
-                    "Centro de Saúde de Águeda",
-                    "Centro Hospitalar do Baixo Vouga",
-                    "Câmara Municipal de Águeda",
-                    "Associação de Pais da Escola XYZ"
-                ]
-            }
-        ]
-    },
-
-
+  "id": "parceiros",
+  "titulo": "Parceiros",
+  "resumo": "O projeto Cres(Ser) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil.",
+  "tipo": "institucional",
+  
+  "icones": {
+    "partilha": false,
+    "favorito": false
+  },
+  "conteudo": [
     {
-      "id": "contato",
-      "titulo": "Para participar ou saber mais",
-      
-      
+      "tipo": "acordeao",
+      "titulo": "Universidade de Aveiro",
       "conteudo": [
-       
         {
-          "tipo": "contacto",
-          "telefone": "234610210",
-          "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
+          "tipo": "paragrafo",
+          "texto": "A Universidade de Aveiro apoia o projeto através da investigação científica e do desenvolvimento tecnológico, fornecendo também orientação académica."
         },
         {
-          "tipo": "citacao",
-          "texto": "Se mudarmos o início da história, mudamos toda a história."
+          "tipo": "imagem",
+          "src": "/imagens/parceiros/ua.png",
+          "alt": "Logótipo Universidade de Aveiro"
         }
       ]
     },
+    {
+      "tipo": "acordeao",
+      "titulo": "Centro de Saúde de Águeda",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O Centro de Saúde de Águeda colabora garantindo validação de conteúdos de saúde e apoio direto às famílias."
+        }
+        
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Centro Hospitalar do Baixo Vouga",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O Centro Hospitalar do Baixo Vouga contribui com conhecimento clínico especializado e acompanhamento materno-infantil."
+        }
+        
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Câmara Municipal de Águeda",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A Câmara Municipal de Águeda apoia o projeto na ligação à comunidade, fornecendo recursos locais e promovendo a iniciativa."
+        },
+        {
+          "tipo": "imagem",
+          "src": "/imagens/parceiros/cma.png",
+          "alt": "Logótipo Câmara Municipal de Águeda"
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Associação de Pais da Escola XYZ",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "A Associação de Pais da Escola XYZ ajuda a aproximar famílias e educadores, promovendo a parentalidade positiva."
+        }
+      ]
+    }
+  ]
+},
+
+
+   {
+    "id": "contato",
+    "titulo": "Para participar ou saber mais",
+    "resumo": "Entre em contacto connosco para esclarecer dúvidas ou participar nas atividades do projeto Cres(Ser).",
+    "tipo": "institucional",
+    "icones": {
+      "partilha": false,
+      "favorito": false
+    },
+    "conteudo": [
+      {
+        "tipo": "contacto",
+        "telefone": "234610210",
+        "rotulo": "234 610 210 (3ªs e 5ªs, 10h às 13h)"
+      },
+      {
+        "tipo": "email",
+        "endereco": "crescer@csagueda.pt",
+        "rotulo": "crescer@csagueda.pt"
+      },
+      {
+        "tipo": "localizacao",
+        "morada": "Centro de Saúde de Águeda, R. 12 de Dezembro 125, 3750-154 Águeda",
+        "mapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.740630690837!2d-8.446!3d40.577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23ac39c00!2sR.%2012%20de%20Dezembro%20125%2C%203750-154%20%C3%81gueda!5e0!3m2!1spt-PT!2spt!4v1700000000000"
+    },
+
+      {
+        "tipo": "citacao",
+        "texto": "Se mudarmos o início da história, mudamos toda a história."
+      }
+    ]
+  },
+
 
     {
       "id": "termos",

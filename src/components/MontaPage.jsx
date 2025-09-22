@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { FiPhoneCall, FiAlertTriangle, FiShare2 } from "react-icons/fi";
+import { FiPhoneCall, FiAlertTriangle, FiShare2, FiMail, FiMapPin } from "react-icons/fi";
 import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
 
@@ -192,6 +192,16 @@ export default function MontaPage() {
                                 {item.texto}
                             </p>
                             );
+                            case "imagem":
+                            return (
+                              <div key={j} className="my-2 flex justify-start">
+                                <img
+                                  src={item.src}
+                                  alt={item.alt || "Imagem"}
+                                  className="max-h-24 object-contain"
+                                />
+                              </div>
+                            );
                         case "lista":
                             return (
                             <ul
@@ -251,8 +261,38 @@ export default function MontaPage() {
             );
 
 
+            case "email":
+            return (
+              <div key={i} className="flex items-center gap-3 my-3">
+                <FiMail className="text-green-600 w-5 h-5" />
+                <a href={`mailto:${sec.endereco}`} className="text-green-600 hover:underline">
+                  {sec.rotulo}
+                </a>
+              </div>
+            );
 
 
+            case "localizacao":
+            return (
+              <div key={i} className="my-6">
+                <div className="flex items-center gap-3 mb-2">
+                  <FiMapPin className="text-red-600 w-5 h-5" />
+                  <span className="font-semibold text-gray-800">Localização</span>
+                </div>
+                <p className="text-gray-700 mb-3">{sec.morada}</p>
+                <div className="w-full h-64 rounded-lg overflow-hidden shadow">
+                  <iframe
+                    src={sec.mapa}
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            );
 
             case "contacto":
               return (
@@ -324,6 +364,16 @@ export default function MontaPage() {
                 </div>
             );
 
+            case "imagem":
+            return (
+              <div key={i} className="my-4 flex justify-center">
+                <img
+                  src={sec.conteudo.src}
+                  alt={sec.alt || "Imagem"}
+                  className="max-h-24 object-contain"
+                />
+              </div>
+            );
 
 
             case "citacao":
@@ -341,8 +391,9 @@ export default function MontaPage() {
           }
         })}
       </div>
-
+      {page.icones?.partilha && (
        <hr className="mt-24" />
+      )}
       
        <RecursosPensadosParaSi tipo={page.tipo} />
 
