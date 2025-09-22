@@ -101,27 +101,31 @@ export default function MontaPage() {
         />
       )}
 
+      {page.icones?.partilha && (
       <div className="flex items-center justify-end mb-16 ">
             
-            <button
-            onClick={() => {
-                if (navigator.share) {
-                navigator.share({
-                    title: page.titulo,
-                    text: page.resumo || "",
-                    url: window.location.href,
-                });
-                } else {
-                navigator.clipboard.writeText(window.location.href);
-                alert("Link copiado para a área de transferência!");
-                }
-            }}
-            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
-            >
-            <FiShare2 size={18} />
-            Partilhar
-            </button>
+            
+                          <button
+                            onClick={() => {
+                              if (navigator.share) {
+                                navigator.share({
+                                  title: page.titulo,
+                                  text: page.resumo || "",
+                                  url: window.location.href,
+                                });
+                              } else {
+                                navigator.clipboard.writeText(window.location.href);
+                                alert("Link copiado para a área de transferência!");
+                              }
+                            }}
+                            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
+                          >
+                            <FiShare2 size={20} />
+                            Partilhar
+                          </button>
+                        
         </div>
+        )}
 
       {/* 5. Conteúdo */}
       <div className="prose prose-zinc lg:prose-lg max-w-none">

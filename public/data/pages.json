@@ -8,6 +8,10 @@
       "data": "2025-09-16",
       "tipo": "gravidez",
       "imagem": "/imagens/1tri.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         {
           "tipo": "acordeao",
@@ -120,6 +124,10 @@
       "data": "2025-09-16",
       "tipo": "gravidez",
       "imagem": "/imagens/2tri.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         {
           "tipo": "acordeao",
@@ -231,6 +239,10 @@
       "data": "2025-09-16",
       "tipo": "gravidez",
       "imagem": "/imagens/3tri.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         {
           "tipo": "acordeao",
@@ -342,6 +354,10 @@
       "data": "2025-09-16",
       "tipo": "para a vida",
       "imagem": "/imagens/1ano.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
                 
 
@@ -485,6 +501,10 @@
       "data": "2025-09-16",
       "tipo": "para a vida",
       "imagem": "/imagens/1_2anos.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -623,6 +643,10 @@
       "data": "2025-09-16",
       "tipo": "para a vida",
       "imagem": "/imagens/2anos.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -776,6 +800,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/recemnascido.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -926,6 +954,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/1mes.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -1074,6 +1106,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/2meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -1257,6 +1293,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/3meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -1410,6 +1450,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/4meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -1561,6 +1605,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/5meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -1712,6 +1760,10 @@
         "data": "2025-09-16",
         "tipo": "no colo",
         "imagem": "/imagens/6meses.jpg",
+        "icones": {
+        "partilha": true,
+        "favorito": false
+      },
         "conteudo": [
             
             {
@@ -1865,6 +1917,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/7meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -2025,6 +2081,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/8meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -2183,6 +2243,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/9meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -2339,6 +2403,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/10meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -2499,6 +2567,10 @@
       "data": "2025-09-16",
       "tipo": "no colo",
       "imagem": "/imagens/11meses.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         
         {
@@ -2655,6 +2727,10 @@
       "autor": "Equipa Cres(Ser)",
       "data": "2025-09-16",
       "imagem": "/imagens/creche_.jpg",
+      "icones": {
+        "partilha": true,
+        "favorito": false
+      },
       "conteudo": [
         {
           "tipo": "subtitulo",
@@ -2768,11 +2844,9 @@
     {
         "id": "parceiros",
         "titulo": "Parceiros",
+        "resumo": "O projeto Cres(Ser) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil.",
         "conteudo": [
-            {
-                "tipo": "paragrafo",
-                "texto": "O projeto Cres(Ser) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil."
-            },
+            
             {
                 "tipo": "lista",
                 "itens": [
