@@ -6,7 +6,8 @@ import {
   FiUserCheck,
   FiUserPlus,
   FiUser,
-  FiCalendar
+  FiCalendar,
+  FiGrid
 } from "react-icons/fi";
 
 import StatCard from "./StatCard";
@@ -61,7 +62,17 @@ export default function Dashboard() {
 
       {/* Cards */}
       <main className="p-4 max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      {/* Título */}
+      <div className="mb-6">
+        <h1 className="text-3xl font-bold flex items-center gap-2 text-gray-800">
+          <FiGrid className="text-[#78B19A]" />
+          Dashboard
+        </h1>
+        <p className="text-sm text-gray-500">Visão geral do sistema administrativo</p>
+      </div>
+
+      {/* Cards */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {/* Artigos */}
           <StatCard
             titulo="Artigos"
@@ -110,7 +121,7 @@ export default function Dashboard() {
                 link="/admin/users"
               />
               <StatCard
-                titulo="Editorias"
+                titulo="Editoriais"
                 publicados={countEditorais}
                 pendentes={0}
                 Icon={FiUserPlus}
