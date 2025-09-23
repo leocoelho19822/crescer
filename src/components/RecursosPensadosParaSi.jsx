@@ -44,7 +44,7 @@ export default function RecursosPensadosParaSi({ tipo }) {
 
   return (
     <div className="max-w-7xl mx-auto  py-8 relative">
-      <h2 className="text-3xl font-bold text-zinc-800 mb-8">Recursos pensados para si</h2>
+      <h2 className="text-3xl font-bold text-zinc-800 mb-8">Artigos relacionados</h2>
 
       {/* Grid de artigos em cards verticais */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

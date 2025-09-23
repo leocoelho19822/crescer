@@ -36,7 +36,7 @@ export default function ParaVida() {
     <section className=" py-16 ">
       <div className="max-w-7xl px-4 mx-auto text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-zinc-800 mb-4">
-          Cres(Ser) contigo... para a vida
+          Cres(Ser) contigo... na vida
         </h2>
         <p className="text-gray-700 leading-relaxed mb-8 ">
           À medida que a criança cresce, surgem novas aprendizagens, desafios e descobertas que marcam o seu desenvolvimento. 

@@ -48,7 +48,7 @@ export default function Footer() {
               <li><a href="/page/3tri">:: 3º Trimestre</a></li>
               <li><a href="/mesames">:: Mês a mês</a></li>
               <li><a href="/page/1ano">:: 1 Ano</a></li>
-              <li><a href="/page/18mes">:: 1 ano e meio</a></li>
+              <li><a href="/page/18mes">:: 18 meses</a></li>
               <li><a href="/page/2ano">:: 2 Anos</a></li>
             </ul>
           </div>
@@ -58,6 +58,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Comunidade</h4>
             <ul className="space-y-2 ">
               <li><a href="/eventos">:: Eventos</a></li>
+              <li><a href="/atividades">:: Atividades</a></li>
             </ul>
           </div>
 
