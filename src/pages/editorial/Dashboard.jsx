@@ -102,7 +102,7 @@ export default function Dashboard() {
                 pendentes={0}
                 Icon={FiUsers}
                 cor="bg-indigo-500"
-                link="/admin/users"
+                link="/editorial/users"
               />
               <StatCard
                 titulo="Admins"
@@ -110,7 +110,7 @@ export default function Dashboard() {
                 pendentes={0}
                 Icon={FiUserCheck}
                 cor="bg-purple-500"
-                link="/admin/users"
+                link="/editorial/users"
               />
               <StatCard
                 titulo="Profissionais"
@@ -118,7 +118,7 @@ export default function Dashboard() {
                 pendentes={0}
                 Icon={FiUserCheck}
                 cor="bg-green-500"
-                link="/admin/users"
+                link="/editorial/users"
               />
               <StatCard
                 titulo="Editoriais"
@@ -126,7 +126,7 @@ export default function Dashboard() {
                 pendentes={0}
                 Icon={FiUserPlus}
                 cor="bg-orange-500"
-                link="/admin/users"
+                link="/editorial/users"
               />
               <StatCard
                 titulo="Utilizadores Gerais"
@@ -134,7 +134,7 @@ export default function Dashboard() {
                 pendentes={0}
                 Icon={FiUser}
                 cor="bg-gray-500"
-                link="/admin/users"
+                link="/editorial/users"
               />
             </>
           )}

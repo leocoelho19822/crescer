@@ -16,6 +16,8 @@ export default function EventosList() {
   const [search, setSearch] = useState("");
   const [filtroAtivo, setFiltroAtivo] = useState("todos");
 
+  const user = JSON.parse(localStorage.getItem("user"));
+
   useEffect(() => {
     fetch("/data/eventos.json")
       .then((res) => res.json())
@@ -44,7 +46,7 @@ export default function EventosList() {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <HeaderEdit user={JSON.parse(localStorage.getItem("user"))} />
+      <HeaderEdit user={user} />
 
       <main className="p-4 max-w-7xl mx-auto">
         {/* Título + Filtros */}
@@ -109,27 +111,34 @@ export default function EventosList() {
                 {e.ativo ? "Ativo" : "Inativo"}
               </p>
               <p className="text-sm text-gray-500 mb-3">{e.local}</p>
-              <div className="flex justify-end gap-4">
-                <Link
-                  to={`/editorial/eventos/editar/${e.id}`}
-                  className="text-blue-600 flex items-center gap-1"
-                >
-                  <FiEdit /> Editar
-                </Link>
-                <button
-                  onClick={() => handleDelete(e.id)}
-                  className="text-red-600 flex items-center gap-1"
-                >
-                  <FiTrash2 /> Excluir
-                </button>
+              <div className="flex justify-end gap-3">
+                {/* Editar */}
+                {user?.role === "profissional" || user?.role === "admin" ? (
+                  <Link
+                    to={`/editorial/eventos/editar/${e.id}`}
+                    className="text-blue-600 hover:text-blue-800"
+                    title="Editar"
+                  >
+                    <FiEdit size={18} />
+                  </Link>
+                ) : null}
+
+                {/* Excluir */}
+                {(user?.role === "profissional" || user?.role === "admin") && (
+                  <button
+                    onClick={() => handleDelete(e.id)}
+                    className="text-red-600 hover:text-red-800"
+                    title="Excluir"
+                  >
+                    <FiTrash2 size={18} />
+                  </button>
+                )}
               </div>
             </div>
           ))}
 
           {eventosFiltrados.length === 0 && (
-            <p className="text-center text-gray-500">
-              Nenhum evento encontrado
-            </p>
+            <p className="text-center text-gray-500">Nenhum evento encontrado</p>
           )}
         </div>
 
@@ -161,18 +170,27 @@ export default function EventosList() {
                     {e.ativo ? "Ativo" : "Inativo"}
                   </td>
                   <td className="p-3 flex gap-3 justify-end">
-                    <Link
-                      to={`/editorial/eventos/editar/${e.id}`}
-                      className="text-blue-600 hover:underline flex items-center gap-1"
-                    >
-                      <FiEdit /> Editar
-                    </Link>
-                    <button
-                      onClick={() => handleDelete(e.id)}
-                      className="text-red-600 hover:underline flex items-center gap-1"
-                    >
-                      <FiTrash2 /> Excluir
-                    </button>
+                    {/* Editar */}
+                    {user?.role === "profissional" || user?.role === "admin" ? (
+                      <Link
+                        to={`/editorial/eventos/editar/${e.id}`}
+                        className="text-blue-600 hover:text-blue-800"
+                        title="Editar"
+                      >
+                        <FiEdit size={18} />
+                      </Link>
+                    ) : null}
+
+                    {/* Excluir */}
+                    {(user?.role === "profissional" || user?.role === "admin") && (
+                      <button
+                        onClick={() => handleDelete(e.id)}
+                        className="text-red-600 hover:text-red-800"
+                        title="Excluir"
+                      >
+                        <FiTrash2 size={18} />
+                      </button>
+                    )}
                   </td>
                 </tr>
               ))}

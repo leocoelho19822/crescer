@@ -88,7 +88,7 @@ export default function ArtigosList() {
         <div className="flex justify-end mb-6">
           <Link
             to="/editorial/artigos/novo"
-            className="bg-[#78B19A] hover:bg-[#5e8e79] text-white px-4 py-2 rounded-lg shadow transition flex items-center gap-2"
+            className="bg-[#78B19A] hover:bg-[#5e8e79] text-white px-4 py-2 rounded-lg shadow transition flex items-center gap-2 cursor-pointer"
           >
             + Novo Artigo
           </Link>

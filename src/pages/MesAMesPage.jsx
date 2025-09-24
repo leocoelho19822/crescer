@@ -1,6 +1,7 @@
 // eslint-disable-next-line
 import React from "react";
 import MesamesSection from "../components/MesamesSection";
+import RecursosPensadosParaSi from "../components/RecursosPensadosParaSi";
 
 export default function MesaMes() {
   return (
@@ -10,9 +11,10 @@ export default function MesaMes() {
       </h1>
       <MesamesSection />
 
-      
-        
+      <hr className="mt-24" />
+      <RecursosPensadosParaSi tipo="no colo" />
       
     </div>
+    
   );
 }

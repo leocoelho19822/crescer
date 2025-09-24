@@ -96,7 +96,7 @@ export default function Footer() {
                   className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-transparent"
                   required
                 />
-                <Button type="submit">Subscrever</Button>
+                <Button type="submit" className='border border-1'>Subscrever</Button>
               </div>
 
               {/* Mensagem de sucesso */}

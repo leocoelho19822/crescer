@@ -26,6 +26,8 @@ import ArtigoForm from "./pages/editorial/ArtigoForm";
 import EventosList from "./pages/editorial/EventosList";
 import EventoForm from "./pages/editorial/EventoForm";
 import ArtigoView from "./pages/editorial/ArtigoView";
+import UsersList from "./pages/editorial/UserList";
+import UserForm from "./pages/editorial/UserForm";
 
 function App() {
   return (
@@ -58,7 +60,7 @@ function App() {
           }
         />
 
-        {/* Rota sem header/footer */}
+        {/* Rota sem header/footer para editorial */}
         <Route path="/editorial" element={<LoginAdmin />} />
         <Route path="/editorial/dashboard" element={<Dashboard />} />
         <Route path="/editorial/artigos" element={<ArtigosList />} />
@@ -68,6 +70,9 @@ function App() {
         <Route path="/editorial/eventos/novo" element={<EventoForm />} />
         <Route path="/editorial/eventos/editar/:id" element={<EventoForm />} />
         <Route path="/editorial/artigos/ver/:id" element={<ArtigoView />} />
+        <Route path="/editorial/users" element={<UsersList />} />
+        <Route path="/editorial/users/novo" element={<UserForm />} />
+        <Route path="/editorial/users/editar/:id" element={<UserForm />} />
       </Routes>
     </Router>
   );
