@@ -154,7 +154,7 @@ export default function HeaderHero() {
       {/* NAVBAR FIXA */}
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-          isHomePage ? (scrolled ? "bg-[#78B19A]/90" : "bg-transparent") : "bg-[#78B19A]"
+          isHomePage ? (scrolled ? "bg-[#78B19A]/90" : "bg-transparent") : "bg-[#78B19A]/90"
         } text-white`}
       >
         {/* Barra superior (mobile) */}
@@ -189,7 +189,7 @@ export default function HeaderHero() {
                 </button>
               </>
             ) : (
-              <Button onClick={() => setModalType("login")}>Entrar</Button>
+              <Button onClick={() => setModalType("login")} className="border border-gray-300">Entrar</Button>
             )}
           </div>
         </div>
@@ -197,7 +197,7 @@ export default function HeaderHero() {
         {/* -------- MENU MOBILE: overlay + painel deslizante -------- */}
         {/* Overlay escuro */}
         <div
-          className={`lg:hidden fixed inset-0 z-40 bg-black/60 transition-opacity duration-300 ${
+          className={`lg:hidden fixed inset-0 z-40 bg-black/50 transition-opacity duration-300 ${
             menuOpen ? "opacity-100" : "pointer-events-none opacity-0"
           }`}
           onClick={() => setMenuOpen(false)}
@@ -599,7 +599,7 @@ export default function HeaderHero() {
                 </button>
               </>
             ) : (
-              <Button onClick={() => setModalType("login")}>Entrar</Button>
+              <Button onClick={() => setModalType("login")} className="border border-gray-300">Entrar</Button>
             )}
           </div>
         </div>

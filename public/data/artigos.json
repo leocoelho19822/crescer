@@ -2006,6 +2006,7 @@
         "Se sentir desespero, deixar o bebé em local seguro e afastar-se por alguns minutos"
       ]
     },
+    
     {
       "tipo": "paragrafo",
       "texto": "Nunca se deve abanar ou sacudir o bebé. Este gesto pode provocar danos cerebrais graves, convulsões ou até ser fatal."
@@ -2015,6 +2016,14 @@
       "titulo": "Teste de conhecimento",
       "pergunta": "O período PURPLE é sinal de doença ou de falha dos pais?",
       "resposta": "Falso. Trata-se de uma fase normal do desenvolvimento do bebé, que passa com o tempo."
+    },
+    {
+     "tipo": "fontes",
+      "itens": [
+        "UNICEF. (2020). Guia para pais: Compreender o choro do bebé.",
+        "Barr, R. G. (2000). Colic and crying syndromes in infants. Pediatrics, 106(5), 1242-1246.",
+        "American Academy of Pediatrics. (2014). Shaken Baby Syndrome: Information for Parents and Caregivers."
+      ]
     }
   ],
   "related": [],

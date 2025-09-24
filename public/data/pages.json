@@ -1,347 +1,431 @@
 {
   "pages": [
     {
-      "id": "1tri",
-      "titulo": "Primeiro Trimestre de Gravidez: o que esperar nas primeiras semanas",
-      "resumo": "Nas primeiras 13 semanas, o teu corpo e o bebé sofrem grandes mudanças internas. Aqui está um guia prático para esta fase inicial.",
-      "autor": "Equipa Cres(Ser)",
-      "data": "2025-09-16",
-      "tipo": "gravidez",
-      "imagem": "/imagens/1tri.jpg",
-      "icones": {
-        "partilha": true,
-        "favorito": false
-      },
+  "id": "1tri",
+  "titulo": "Primeiro Trimestre de Gravidez: o que esperar nas primeiras semanas",
+  "resumo": "Nas primeiras 13 semanas, o teu corpo e o bebé sofrem grandes mudanças internas. Aqui está um guia prático para esta fase inicial.",
+  "autor": "Equipa Cres(Ser)",
+  "data": "2025-09-16",
+  "tipo": "gravidez",
+  "imagem": "/imagens/1tri.jpg",
+  "icones": {
+    "partilha": true,
+    "favorito": false
+  },
+  "conteudo": [
+    {
+      "tipo": "acordeao",
+      "titulo": "Como te podes sentir",
       "conteudo": [
         {
-          "tipo": "acordeao",
-          "titulo": "Como te podes sentir",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "O teu corpo está a preparar-se para uma nova vida. É comum sentires cansaço, náuseas, mudanças hormonais que alteram o apetite ou preferências alimentares, mais vontade de urinar, alterações de humor — tudo isso faz parte do normal."
-            },
-            {
-              "tipo": "lista",
-              "itens": [
-                "Sensibilidade mamária",
-                "Alterações súbitas de humor",
-                "Náuseas ou vómitos (especialmente de manhã)",
-                "Mais vontade de urinar",
-                "Cansaço extremo",
-                "Sono mais instável ou dor nas costas/pelve"
-              ]
-            }
+          "tipo": "paragrafo",
+          "texto": "O teu corpo está a preparar-se para uma nova vida. É comum sentires cansaço, náuseas, alterações hormonais, maior sensibilidade emocional e mudanças de apetite."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Sensibilidade mamária",
+            "Alterações súbitas de humor",
+            "Náuseas ou vómitos (especialmente de manhã)",
+            "Mais vontade de urinar",
+            "Cansaço extremo e necessidade de descansar mais",
+            "Sono mais instável ou dor nas costas/pelve"
           ]
         },
         {
-          "tipo": "acordeao",
-          "titulo": "Desenvolvimento do bebé",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "O bebé está em crescimento rápido: desde a formação do cérebro, espinha, até órgãos internos como rins, fígado, ouvidos e membros. Cada parte vai tomando forma gradualmente."
-            },
-            {
-              "tipo": "lista",
-              "itens": [
-                "Formação do cérebro e da medula espinhal",
-                "Desenvolvimento do ouvido interno",
-                "Tecido cardíaco a começar a trabalhar",
-                "Paladar, dedos das mãos e dos pés, órgãos responsáveis pela respiração em desenvolvimento",
-                "Pele, olhos e outras feições iniciais"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "acordeao",
-          "titulo": "Cuidados importantes",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "Pequenas mudanças no dia-a-dia ajudam muito: alimentação equilibrada, evitar álcool/tabaco, manter hidratação, exercício leve se aprovado, e apoio emocional."
-            },
-            {
-              "tipo": "lista",
-              "itens": [
-                "Comer uma dieta nutritiva com variedade",
-                "Evitar substâncias nocivas",
-                "Tomar vitaminas ou suplementos apenas se forem recomendados",
-                "Mover-te com suavidade (por exemplo, caminhar)",
-                "Descansar quando preciso"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "acordeao",
-          "titulo": "Coisas a observar",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "Embora muitas experiências sejam normais, alguns sinais devem ser partilhados com o profissional de saúde."
-            },
-            {
-              "tipo": "lista",
-              "itens": [
-                "Sangramento vaginal mais acentuado do que o habitual ou persistente",
-                "Vómitos que não permitem manter líquidos ou alimentos",
-                "Febre persistente",
-                "Dor ao urinar ou ardor",
-                "Dor abdominal intensa ou cólicas fortes"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "alerta",
-          "titulo": "Quando procurar ajuda",
-          "texto": "Se tiveres dúvidas sobre como estás a sentir-te ou mudanças que não parecem normais, podes contactar o SNS 24 para orientação com profissionais de saúde.",
-          "nota": "⚠️ Ligue 112 apenas em casos muito graves, como sangramento abundante, dor intensa ou se te sentires muito mal.",
-          "telefone": "808242424",
-          "rotulo": "Contactar SNS 24 (808 24 24 24)"
-        },
-        {
-          "tipo": "navegacao",
-          "next": {
-            "label": "Segundo Trimestre",
-            "to": "/page/2tri"
-          }
+          "tipo": "paragrafo",
+          "texto": "Estas sensações fazem parte do normal, mas podem ser desgastantes. Apoio emocional e hábitos de vida equilibrados ajudam a ultrapassar esta fase."
         }
       ]
     },
+    {
+      "tipo": "acordeao",
+      "titulo": "Desenvolvimento do bebé",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "O bebé cresce rapidamente nesta fase: desde a formação do cérebro e da espinha, até ao início do funcionamento de órgãos como o coração, fígado e rins."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Formação do cérebro e da medula espinhal",
+            "Desenvolvimento do ouvido interno e dos olhos",
+            "Coração começa a bater regularmente",
+            "Começam a formar-se braços, pernas, dedos das mãos e dos pés",
+            "Placenta e cordão umbilical estabelecem-se para nutrir o bebé"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Cuidados importantes",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Pequenas mudanças no dia-a-dia fazem diferença no bem-estar da mãe e do bebé. A alimentação equilibrada e o descanso são fundamentais."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Comer uma dieta nutritiva com variedade de frutas, legumes e proteínas",
+            "Evitar álcool, tabaco e drogas",
+            "Tomar suplementos (como ácido fólico) apenas se recomendados por profissionais de saúde",
+            "Hidratar-te regularmente",
+            "Praticar exercício leve se tiveres autorização médica"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Preparação antecipada",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Agendar a primeira consulta pré-natal",
+            "Fazer análises e exames recomendados",
+            "Conversar com o médico sobre histórico familiar e saúde geral",
+            "Construir uma rede de apoio emocional e prática (família, amigos, profissionais de saúde)"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Coisas a observar",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Embora muitas experiências sejam normais, alguns sinais devem ser partilhados com o profissional de saúde."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Sangramento vaginal mais acentuado ou persistente",
+            "Vómitos que impedem de manter líquidos ou alimentos",
+            "Febre persistente",
+            "Dor ou ardor ao urinar",
+            "Dor abdominal intensa ou cólicas fortes"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se tiveres dúvidas sobre como te sentes ou mudanças que não parecem normais, podes contactar o SNS 24 para orientação com profissionais de saúde.",
+      "nota": "⚠️ Ligue 112 apenas em casos muito graves, como sangramento abundante, dor intensa ou se te sentires muito mal.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+    {
+      "tipo": "fontes",
+      "itens": [
+        "World Health Organization. Recommendations on antenatal care: https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf",
+        "SNS24 – Guia para grávidas: https://www.sns24.gov.pt/guia/guia-para-gravidas/",
+        "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS): https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf",
+        "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros): https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+      ]
+    },
+    {
+      "tipo": "navegacao",
+      "next": {
+        "label": "Segundo Trimestre",
+        "to": "/page/2tri"
+      }
+    }
+  ]
+},
 
 
 
 
     {
-
-      "id": "2tri",
-      "titulo": "Segundo Trimestre de Gravidez: guia para semanas 13-28",
-      "resumo": "No segundo trimestre, muitos sintomas do início aliviam, a barriga começa a aparecer e o bebé continua a desenvolver órgãos essenciais, músculos e sentidos.",
-      "autor": "Equipa Cres(Ser)",
-      "data": "2025-09-16",
-      "tipo": "gravidez",
-      "imagem": "/imagens/2tri.jpg",
-      "icones": {
-        "partilha": true,
-        "favorito": false
-      },
+  "id": "2tri",
+  "titulo": "Segundo Trimestre de Gravidez: guia para semanas 13-28",
+  "resumo": "No segundo trimestre, muitos sintomas do início aliviam, a barriga começa a aparecer e o bebé continua a desenvolver órgãos essenciais, músculos e sentidos.",
+  "autor": "Equipa Cres(Ser)",
+  "data": "2025-09-16",
+  "tipo": "gravidez",
+  "imagem": "/imagens/2tri.jpg",
+  "icones": {
+    "partilha": true,
+    "favorito": false
+  },
+  "conteudo": [
+    {
+      "tipo": "acordeao",
+      "titulo": "Como podes sentir-te",
       "conteudo": [
         {
-          "tipo": "acordeao",
-          "titulo": "Como podes sentir-te",
-          "conteudo": [
-            {
-              "tipo": "lista",
-              "itens": [
-                "Menos náuseas e mais energia comparado ao primeiro trimestre",
-                "Alongamento da barriga à medida que o útero cresce",
-                "Possível dor lombar ou pélvica devido à mudança no centro de gravidade",
-                "Escurecimento da pele em certas áreas (linha no abdómen, areolas mais escuras)",
-                "Formação de estrias nos seios, abdómen, coxas"
-              ]
-            },
-            {
-              "tipo": "paragrafo",
-              "texto": "Estas sensações são comuns e variam bastante. Caminhadas leves, postura correta e apoio físico (como cintas ou fisioterapia, quando indicado) ajudam a aliviar desconforto."
-            }
+          "tipo": "lista",
+          "itens": [
+            "Menos náuseas e mais energia comparado ao primeiro trimestre",
+            "Alongamento da barriga à medida que o útero cresce",
+            "Possível dor lombar ou pélvica devido à mudança no centro de gravidade",
+            "Escurecimento da pele em certas áreas (linha no abdómen, aréolas mais escuras)",
+            "Formação de estrias nos seios, abdómen, coxas"
           ]
         },
         {
-          "tipo": "acordeao",
-          "titulo": "Como o bebé está a crescer",
-          "conteudo": [
-            {
-              "tipo": "lista",
-              "itens": [
-                "Os ossos começam a endurecer",
-                "A pele começa a ficar mais espessa",
-                "Formação das unhas nos dedos dos pés",
-                "Desenvolvimento do ouvido e possibilidade de ouvir sons externos",
-                "Verniz ou características iniciais do sistema nervoso motor se fortalecem"
-              ]
-            },
-            {
-              "tipo": "paragrafo",
-              "texto": "O crescimento varia muito entre gravidezes. Clínicas de saúde fazem ecografias e consultas para verificar se tudo progrediu bem."
-            }
-          ]
+          "tipo": "paragrafo",
+          "texto": "Estas sensações são comuns e variam bastante. Caminhadas leves, postura correta e apoio físico (como cintas ou fisioterapia, quando indicado) ajudam a aliviar desconforto."
         },
         {
-          "tipo": "acordeao",
-          "titulo": "Dicas de autocuidado",
-          "conteudo": [
-            {
-              "tipo": "lista",
-              "itens": [
-                "Mover-te regularmente, se for seguro para ti (por exemplo caminhada, alongamentos leves)",
-                "Comer alimentos variados ricos em nutrientes (proteínas, frutas, legumes)",
-                "Beber bastante água para evitar desidratação",
-                "Dormir em posições confortáveis; usar almofadas de apoio",
-                "Consultar profissionais de saúde se algum sintoma te preocupar"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "acordeao",
-          "titulo": "Coisas a observar",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "Embora muitas mudanças sejam normais, alguns sinais devem levar a uma conversa com o teu médico ou enfermeira."
-            },
-            {
-              "tipo": "lista",
-              "itens": [
-                "Cãibras fortes ou dor abdominal persistente",
-                "Febre que não baixa com medidas simples",
-                "Sangramento vaginal ou perda de líquido inusitada",
-                "Inchaço súbito ou muito pronunciado nas mãos, rosto ou pés",
-                "Dificuldade para respirar, palpitações ou visão turva"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "alerta",
-          "titulo": "Quando procurar ajuda",
-          "texto": "Se tiveres preocupações com o teu bem-estar ou se algo parecer fora do habitual, podes sempre contactar o SNS 24 para orientação com profissionais de saúde.",
-          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como dor intensa, sangramento abundante ou se te sentires muito mal.",
-          "telefone": "808242424",
-          "rotulo": "Contactar SNS 24 (808 24 24 24)"
-        },
-        {
-          "tipo": "navegacao",
-          "previous": {
-            "label": "Primeiro Trimestre",
-            "to": "/page/1tri"
-          },
-          "next": {
-            "label": "Terceiro Trimestre",
-            "to": "/page/3tri"
-          }
+          "tipo": "paragrafo",
+          "texto": "Também pode ser um período de maior bem-estar emocional, mas algumas grávidas ainda sentem ansiedade ou mudanças de humor. Apoio da família, descanso adequado e conversas com profissionais de saúde podem ajudar."
         }
       ]
     },
+    {
+      "tipo": "acordeao",
+      "titulo": "Como o bebé está a crescer",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Os ossos começam a endurecer",
+            "A pele começa a ficar mais espessa",
+            "Formação das unhas nos dedos das mãos e dos pés",
+            "Desenvolvimento do ouvido e possibilidade de ouvir sons externos",
+            "Movimentos fetais mais perceptíveis (chamados 'chutos')"
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "O crescimento varia muito entre gravidezes. Consultas de rotina e ecografias nesta fase permitem verificar se o bebé está a desenvolver-se bem e acompanhar o peso, o coração e os órgãos principais."
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Dicas de autocuidado",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Praticar movimento regular (como caminhada ou yoga suave, se recomendado pelo médico)",
+            "Ter uma alimentação equilibrada, rica em proteínas, frutas e legumes",
+            "Beber bastante água para manter a hidratação",
+            "Dormir de lado, especialmente sobre o lado esquerdo, para melhorar a circulação",
+            "Tirar momentos para relaxar e criar contacto com o bebé (falar, acariciar a barriga)",
+            "Partilhar emoções e dúvidas com familiares, amigos ou grupos de apoio"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Coisas a observar",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Embora muitas mudanças sejam normais, alguns sinais devem levar a uma conversa com o teu médico ou enfermeira."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Cãibras fortes ou dor abdominal persistente",
+            "Febre que não baixa com medidas simples",
+            "Sangramento vaginal ou perda de líquido inusitada",
+            "Inchaço súbito ou muito pronunciado nas mãos, rosto ou pés",
+            "Dificuldade para respirar, palpitações ou visão turva"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Preparação antecipada",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Planeia exames e consultas do terceiro trimestre com antecedência",
+            "Considera frequentar aulas de preparação para o parto",
+            "Informa-te sobre os sinais de parto prematuro e como agir",
+            "Conversa com o médico sobre vacinas recomendadas (como a da tosse convulsa)"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se tiveres preocupações com o teu bem-estar ou se algo parecer fora do habitual, podes sempre contactar o SNS 24 para orientação com profissionais de saúde.",
+      "nota": "⚠️ Ligue 112 apenas em situações muito graves, como dor intensa, sangramento abundante ou se te sentires muito mal.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+    {
+      "tipo": "fontes",
+      "itens": [
+        "World Health Organization. Recommendations on antenatal care: https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf",
+        "SNS24 – Guia para grávidas: https://www.sns24.gov.pt/guia/guia-para-gravidas/",
+        "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS): https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf",
+        "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros): https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+      ]
+    },
+    {
+      "tipo": "navegacao",
+      "previous": {
+        "label": "Primeiro Trimestre",
+        "to": "/page/1tri"
+      },
+      "next": {
+        "label": "Terceiro Trimestre",
+        "to": "/page/3tri"
+      }
+    }
+  ]
+},
+
 
 
 
 
     {
- 
-      "id": "3tri",
-      "titulo": "Terceiro Trimestre de Gravidez: preparação para o momento final",
-      "resumo": "Das semanas 29 a 40, o teu bebé continua a crescer, ganhando peso, e podes sentir mais desconfortos físicos. Aqui tens dicas para esta reta final.",
-      "autor": "Equipa Cres(Ser)",
-      "data": "2025-09-16",
-      "tipo": "gravidez",
-      "imagem": "/imagens/3tri.jpg",
-      "icones": {
-        "partilha": true,
-        "favorito": false
-      },
+  "id": "3tri",
+  "titulo": "Terceiro Trimestre de Gravidez: preparação para o momento final",
+  "resumo": "Das semanas 29 a 40, o teu bebé continua a crescer, ganhando peso, e podes sentir mais desconfortos físicos. Aqui tens dicas para esta reta final.",
+  "autor": "Equipa Cres(Ser)",
+  "data": "2025-09-16",
+  "tipo": "gravidez",
+  "imagem": "/imagens/3tri.jpg",
+  "icones": {
+    "partilha": true,
+    "favorito": false
+  },
+  "conteudo": [
+    {
+      "tipo": "acordeao",
+      "titulo": "Como te podes sentir",
       "conteudo": [
         {
-          "tipo": "acordeao",
-          "titulo": "Como te podes sentir",
-          "conteudo": [
-            {
-              "tipo": "lista",
-              "itens": [
-                "Desconforto ao respirar ou sensação de peso no peito",
-                "Inchaço nos tornozelos, mãos ou face",
-                "Dificuldade para dormir bem com frequência",
-                "Azia ou refluxo",
-                "Mama sensível",
-                "Umbigo com aparência mais protuberante"
-              ]
-            },
-            {
-              "tipo": "paragrafo",
-              "texto": "Muitas destas sensações devem-se ao crescimento do bebé e à maior pressão sobre os órgãos. Pequenas adaptações como usar almofadas de apoio, evitar deitar logo após comer, e manter a hidratação podem aliviar bastante."
-            }
+          "tipo": "lista",
+          "itens": [
+            "Desconforto ao respirar ou sensação de peso no peito",
+            "Inchaço nos tornozelos, mãos ou face",
+            "Dificuldade para dormir bem com frequência",
+            "Azia ou refluxo",
+            "Mama sensível",
+            "Umbigo com aparência mais protuberante"
           ]
         },
         {
-          "tipo": "acordeao",
-          "titulo": "Como o bebé está a crescer",
-          "conteudo": [
-            {
-              "tipo": "lista",
-              "itens": [
-                "Os ossos começam a endurecer e ganhar firmeza",
-                "O bebé continua a preencher espaço, ganhando gordura para regulação térmica",
-                "Os membros ficam mais redondos; movimentos mais fortes e perceptíveis",
-                "Olhos podem sentir mudança de luz; os sentidos continuam a desenvolver-se",
-                "Pulmões, cérebro e sistema neuromuscular afinam-se para o nascimento"
-              ]
-            },
-            {
-              "tipo": "paragrafo",
-              "texto": "Apesar da variabilidade individual, o crescimento nesta fase costuma ser bastante acelerado. Consultas e ecografias ajudam a monitorizar bem."
-            }
-          ]
+          "tipo": "paragrafo",
+          "texto": "Muitas destas sensações devem-se ao crescimento do bebé e à maior pressão sobre os órgãos. Pequenas adaptações como usar almofadas de apoio, evitar deitar logo após comer, e manter a hidratação podem aliviar bastante."
         },
         {
-          "tipo": "acordeao",
-          "titulo": "Cuidados práticos para o teu conforto",
-          "conteudo": [
-            {
-              "tipo": "lista",
-              "itens": [
-                "Vestir-te com roupa confortável, leve e que não aperte na barriga",
-                "Usar almofadas para apoiar o corpo ao dormir ou deitar",
-                "Evitar estar em pé por longos períodos; alternar entre sentar e descansar",
-                "Caminhadas suaves ou movimento leve se aprovado pelo médico",
-                "Comer refeições menores com maior frequência para evitar azia/refluxo"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "acordeao",
-          "titulo": "Coisas a observar",
-          "conteudo": [
-            {
-              "tipo": "paragrafo",
-              "texto": "Na reta final, alguns sinais pedem atenção imediata ou uma avaliação profissional."
-            },
-            {
-              "tipo": "lista",
-              "itens": [
-                "Sangramento intenso ou perda de líquido vaginal",
-                "Dores fortes no abdómen ou contrações regulares que se intensificam",
-                "Movimentos do bebé diminuindo visivelmente",
-                "Edema súbito e pronunciado (inchaço nas mãos, face ou tornozelos)",
-                "Visão turva, dores de cabeça persistentes ou sinais de pressão elevada"
-              ]
-            }
-          ]
-        },
-        {
-          "tipo": "alerta",
-          "titulo": "Quando procurar ajuda",
-          "texto": "Se tiveres dúvidas ou preocupações sobre o teu bem-estar ou sobre os movimentos e sensações que sentes, podes sempre contactar o SNS 24 para orientação especializada.",
-          "nota": "⚠️ Ligue 112 apenas em situações muito graves, como sangramento abundante, dor intensa no abdómen ou sensação de que algo está muito errado.",
-          "telefone": "808242424",
-          "rotulo": "Contactar SNS 24 (808 24 24 24)"
-        },
-        {
-          "tipo": "navegacao",
-          "previous": {
-            "label": "Segundo Trimestre",
-            "to": "/page/2tri"
-          },
-          "next": {
-            "label": "Olá, mundo!",
-            "to": "/page/recem-nascido"
-          }
+          "tipo": "paragrafo",
+          "texto": "Também é comum surgirem alterações emocionais, ansiedade ou maior cansaço psicológico nesta fase. Apoio da família, conversas abertas com profissionais de saúde e momentos de relaxamento são importantes para o bem-estar."
         }
       ]
     },
+    {
+      "tipo": "acordeao",
+      "titulo": "Como o bebé está a crescer",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Os ossos começam a endurecer e ganhar firmeza",
+            "O bebé continua a preencher espaço, ganhando gordura para regulação térmica",
+            "Os membros ficam mais redondos; movimentos mais fortes e perceptíveis",
+            "Olhos podem sentir mudança de luz; os sentidos continuam a desenvolver-se",
+            "Pulmões, cérebro e sistema neuromuscular afinam-se para o nascimento"
+          ]
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Apesar da variabilidade individual, o crescimento nesta fase costuma ser bastante acelerado. Consultas e ecografias ajudam a monitorizar bem."
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Cuidados práticos para o teu conforto",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Vestir-te com roupa confortável, leve e que não aperte na barriga",
+            "Usar almofadas para apoiar o corpo ao dormir ou deitar",
+            "Evitar estar em pé por longos períodos; alternar entre sentar e descansar",
+            "Caminhadas suaves ou movimento leve se aprovado pelo médico",
+            "Comer refeições menores com maior frequência para evitar azia/refluxo"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Preparação para o parto",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Preparar a mala de maternidade com roupas para ti e para o bebé",
+            "Falar com a equipa de saúde sobre plano de parto e opções de alívio da dor",
+            "Aprender técnicas de respiração ou relaxamento",
+            "Participar em aulas de preparação para o parto, se possível"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Coisas a observar",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Na reta final, alguns sinais pedem atenção imediata ou uma avaliação profissional."
+        },
+        {
+          "tipo": "lista",
+          "itens": [
+            "Sangramento intenso ou perda de líquido vaginal",
+            "Dores fortes no abdómen ou contrações regulares que se intensificam",
+            "Movimentos do bebé diminuindo visivelmente",
+            "Edema súbito e pronunciado (inchaço nas mãos, face ou tornozelos)",
+            "Visão turva, dores de cabeça persistentes ou sinais de pressão elevada"
+          ]
+        }
+      ]
+    },
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se tiveres dúvidas ou preocupações sobre o teu bem-estar ou sobre os movimentos e sensações que sentes, podes sempre contactar o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligue 112 apenas em situações muito graves, como sangramento abundante, dor intensa no abdómen ou sensação de que algo está muito errado.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+    {
+      "tipo": "fontes",
+      "itens": [
+        "World Health Organization. Recommendations on antenatal care: https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf",
+        "SNS24 – Guia para grávidas: https://www.sns24.gov.pt/guia/guia-para-gravidas/",
+        "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS): https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf",
+        "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros): https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+      ]
+    },
+    {
+      "tipo": "navegacao",
+      "previous": {
+        "label": "Segundo Trimestre",
+        "to": "/page/2tri"
+      },
+      "next": {
+        "label": "Olá, mundo!",
+        "to": "/page/recem-nascido"
+      }
+    }
+  ]
+},
 
 
      {

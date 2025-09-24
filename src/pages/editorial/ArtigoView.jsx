@@ -119,6 +119,18 @@ export default function ArtigoView() {
                     />
                   </div>
                 );
+              case "fontes":
+              return (
+                <div key={i} className="mt-12">
+                  <h2 className="text-lg font-bold text-zinc-800 mb-4">Fontes</h2>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
+                    {sec.itens.map((fonte, j) => (
+                      <li key={j}>{fonte}</li>
+                    ))}
+                  </ul>
+                </div>
+              );
+
               case "alerta":
                 return (
                   <div

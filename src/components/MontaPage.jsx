@@ -317,32 +317,35 @@ export default function MontaPage() {
 
             case "alerta":
             return (
-                <div
+              <div
                 key={i}
-                className="mt-10 p-6 bg-amber-50 border border-amber-200 rounded-xl shadow-sm"
-                >
+                className="mt-10 p-6 bg-[#FFF4D6] border border-[#E6C97F] rounded-xl shadow-sm"
+              >
                 <div className="flex items-center mb-4">
-                    <FiAlertTriangle className="text-zinc-600 mr-2" size={24} />
-                    <h2 className="text-lg font-bold text-zinc-700">{sec.titulo}</h2>
+                  <FiAlertTriangle className="mr-2" color="#B29146" size={24} />
+                  <h2 className="text-lg font-bold text-zinc-700">{sec.titulo}</h2>
                 </div>
+
                 <p className="text-sm text-zinc-800 mb-4 leading-relaxed">{sec.texto}</p>
 
                 {sec.nota && (
-                    <p className="text-sm text-gray-700 bg-white border-l-4 border-emerald-400 p-3 rounded mb-4">
+                  <p className="text-sm text-gray-700 bg-white border-l-4 border-[#E6C97F] p-3 rounded mb-4">
                     {sec.nota}
-                    </p>
+                  </p>
                 )}
 
                 <a
-                    href={`tel:${sec.telefone}`}
-                    className="inline-flex items-center gap-2 px-5 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
-                    aria-label="Ligar SNS 24"
+                  href={`tel:${sec.telefone}`}
+                  className="inline-flex items-center gap-2 px-5 py-3 border-2 border-[#2C7A7B] text-[#2C7A7B] bg-white rounded-xl shadow hover:bg-[#2C7A7B] hover:text-white transition"
+                  aria-label="Ligar SNS 24"
                 >
-                    <FiPhoneCall size={18} />
-                    {sec.rotulo}
+                  <FiPhoneCall size={18} />
+                  {sec.rotulo}
                 </a>
-                </div>
-            );
+
+              </div>
+            );  
+
 
             case "navegacao":
             return (
@@ -375,6 +378,17 @@ export default function MontaPage() {
               </div>
             );
 
+            case "fontes":
+              return (
+                <div key={i} className="mt-12">
+                  <h2 className="text-lg font-bold text-zinc-800 mb-4">Fontes</h2>
+                  <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
+                    {sec.itens.map((fonte, j) => (
+                      <li key={j}>{fonte}</li>
+                    ))}
+                  </ul>
+                </div>
+              );
 
             case "citacao":
               return (
