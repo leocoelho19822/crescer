@@ -124,10 +124,22 @@
     {
       "tipo": "fontes",
       "itens": [
-        "World Health Organization. Recommendations on antenatal care: https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf",
-        "SNS24 – Guia para grávidas: https://www.sns24.gov.pt/guia/guia-para-gravidas/",
-        "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS): https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf",
-        "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros): https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+        {
+          "texto": "World Health Organization. Recommendations on antenatal care",
+          "url": "https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf"
+        },
+        {
+          "texto": "SNS24 – Guia para grávidas",
+          "url": "https://www.sns24.gov.pt/guia/guia-para-gravidas/"
+        },
+        {
+          "texto": "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS)",
+          "url": "https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf"
+        },
+        {
+          "texto": "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros)",
+          "url": "https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+        }
       ]
     },
     {
@@ -263,10 +275,22 @@
     {
       "tipo": "fontes",
       "itens": [
-        "World Health Organization. Recommendations on antenatal care: https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf",
-        "SNS24 – Guia para grávidas: https://www.sns24.gov.pt/guia/guia-para-gravidas/",
-        "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS): https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf",
-        "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros): https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+        {
+          "texto": "World Health Organization. Recommendations on antenatal care",
+          "url": "https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf"
+        },
+        {
+          "texto": "SNS24 – Guia para grávidas",
+          "url": "https://www.sns24.gov.pt/guia/guia-para-gravidas/"
+        },
+        {
+          "texto": "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS)",
+          "url": "https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf"
+        },
+        {
+          "texto": "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros)",
+          "url": "https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+        }
       ]
     },
     {
@@ -407,10 +431,22 @@
     {
       "tipo": "fontes",
       "itens": [
-        "World Health Organization. Recommendations on antenatal care: https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf",
-        "SNS24 – Guia para grávidas: https://www.sns24.gov.pt/guia/guia-para-gravidas/",
-        "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS): https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf",
-        "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros): https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+        {
+          "texto": "World Health Organization. Recommendations on antenatal care",
+          "url": "https://apps.who.int/iris/bitstream/handle/10665/259947/WHO-RHR-18.02-eng.pdf"
+        },
+        {
+          "texto": "SNS24 – Guia para grávidas",
+          "url": "https://www.sns24.gov.pt/guia/guia-para-gravidas/"
+        },
+        {
+          "texto": "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS)",
+          "url": "https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf"
+        },
+        {
+          "texto": "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros)",
+          "url": "https://www.ordemenfermeiros.pt/media/33843/gobpgravidezadaptacaogravidez_okn.pdf"
+        }
       ]
     },
     {

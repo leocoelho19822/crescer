@@ -384,11 +384,21 @@ export default function MontaPage() {
                   <h2 className="text-lg font-bold text-zinc-800 mb-4">Fontes</h2>
                   <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
                     {sec.itens.map((fonte, j) => (
-                      <li key={j}>{fonte}</li>
+                      <li key={j}>
+                        <a
+                          href={fonte.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
+                        >
+                          {fonte.texto}
+                        </a>
+                      </li>
                     ))}
                   </ul>
                 </div>
               );
+
 
             case "citacao":
               return (
