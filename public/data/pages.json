@@ -95,11 +95,11 @@
     },
     {
       "tipo": "acordeao",
-      "titulo": "Sinais a observar",
+      "titulo": "Sintomas a observar",
       "conteudo": [
         {
           "tipo": "paragrafo",
-          "texto": "Embora muitas experiências sejam normais, alguns sinais devem ser comunicados ao profissional de saúde."
+          "texto": "Embora muitas experiências sejam normais, alguns sintomas devem ser comunicados ao profissional de saúde."
         },
         {
           "tipo": "lista",
@@ -230,11 +230,11 @@
     },
     {
       "tipo": "acordeao",
-      "titulo": "Sinais a observar",
+      "titulo": "Sintomas a observar",
       "conteudo": [
         {
           "tipo": "paragrafo",
-          "texto": "Embora muitas mudanças sejam normais, alguns sinais devem ser comunicados ao médico(a) ou enfermeiro(a)."
+          "texto": "Embora muitas mudanças sejam normais, alguns sintomas devem ser comunicados ao profissional de saúde."
         },
         {
           "tipo": "lista",
@@ -398,11 +398,11 @@
     },
     {
       "tipo": "acordeao",
-      "titulo": "Sinais a observar",
+      "titulo": "Sintomas a observar",
       "conteudo": [
         {
           "tipo": "paragrafo",
-          "texto": "Na reta final, alguns sinais requerem atenção imediata e avaliação profissional."
+          "texto": "Na reta final, alguns sintomas requerem atenção imediata e avaliação profissional."
         },
         {
           "tipo": "lista",
