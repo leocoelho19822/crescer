@@ -28,6 +28,8 @@ import EventoForm from "./pages/editorial/EventoForm";
 import ArtigoView from "./pages/editorial/ArtigoView";
 import UsersList from "./pages/editorial/UserList";
 import UserForm from "./pages/editorial/UserForm";
+import Atividades from "./pages/AtividadesPage";
+import InfoPage from "./pages/InfoPage";
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
                 <Route path="/artigo/:id" element={<MontaArtigo />} />
                 <Route path="/mesames" element={<MesaMes />} />
                 <Route path="/eventos" element={<Eventos />} />
+                <Route path="/atividades" element={<Atividades />} />
+                <Route path="/infouteis" element={<InfoPage />} />
                 <Route path="/pesquisa" element={<SearchResults />} />
                 <Route path="/favoritos" element={<FavoritosPage />} />
                 <Route path="*" element={<NotFound />} />

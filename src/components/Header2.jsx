@@ -492,6 +492,12 @@ export default function HeaderHero() {
                       >
                         Atividades
                       </li>
+                      <li
+                        onClick={() => { navigate("/page/infouteis"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Informações Úteis
+                      </li>
                       
                     </ul>
                   )}
@@ -562,7 +568,8 @@ export default function HeaderHero() {
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Comunidade<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <a href="/eventos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Eventos</li></a>
-                <a href="/eventos"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Atividades</li></a>
+                <a href="/atividades"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Atividades</li></a>
+                <a href="/page/infouteis"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Informações Úteis</li></a>
                 
               </ul>
             </li>

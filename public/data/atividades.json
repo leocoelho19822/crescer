@@ -1,0 +1,114 @@
+{
+  "eventos": [
+    {
+      "id": "evento1",
+      "idUser": "user001",
+      "titulo": "Sessão Pais & Bebés: Sono e Rotinas",
+      "data": "2025-09-28",
+      "hora": "10:00 – 11:30",
+      "local": "CS Águeda – Sala 2",
+      "tipo": "Sessão",
+      "descricao": "Dicas práticas para estabelecer rotinas de sono saudáveis no 1.º ano.",
+      "ativo": true
+    },
+    {
+      "id": "evento2",
+      "idUser": "user002",
+      "titulo": "Workshop Primeiros Socorros Pediátricos",
+      "data": "2025-10-12",
+      "hora": "09:30 – 12:30",
+      "local": "CS Águeda – Auditório",
+      "tipo": "Workshop",
+      "descricao": "Aprenda noções essenciais de segurança e resposta a emergências.",
+      "ativo": true
+    },
+    {
+      "id": "evento3",
+      "idUser": "user003",
+      "titulo": "Encontro de Amamentação",
+      "data": "2025-10-17",
+      "hora": "14:30 – 16:00",
+      "local": "CS Águeda – Sala Amamentação",
+      "tipo": "Encontro",
+      "descricao": "Partilha de experiências com apoio de enfermeiras especialistas.",
+      "ativo": false
+    },
+    {
+      "id": "evento4",
+      "idUser": "user004",
+      "titulo": "Aulas de Massagem ao Bebé",
+      "data": "2025-11-05",
+      "hora": "16:00 – 17:30",
+      "local": "CS Águeda – Sala Multiusos",
+      "tipo": "Curso",
+      "descricao": "Turma a abrir em breve. Inscrições disponíveis em breve.",
+      "ativo": false
+    },
+    {
+      "id": "evento5",
+      "idUser": "user005",
+      "titulo": "Palestra sobre Nutrição Infantil",
+      "data": "2025-08-15",
+      "hora": "14:00 – 15:30",
+      "local": "Biblioteca Municipal de Águeda",
+      "tipo": "Palestra",
+      "descricao": "Conselhos de nutricionistas para alimentação equilibrada.",
+      "ativo": false
+    },
+    {
+      "id": "evento6",
+      "idUser": "user006",
+      "titulo": "Sessão de Yoga para Grávidas",
+      "data": "2025-09-10",
+      "hora": "18:00 – 19:00",
+      "local": "CS Águeda – Sala 1",
+      "tipo": "Sessão",
+      "descricao": "Atividade de bem-estar focada na preparação para o parto.",
+      "ativo": true
+    },
+    {
+      "id": "evento7",
+      "idUser": "user007",
+      "titulo": "Oficina de Histórias para Crianças",
+      "data": "2025-10-25",
+      "hora": "11:00 – 12:00",
+      "local": "Museu da Cidade de Águeda",
+      "tipo": "Oficina",
+      "descricao": "Momentos de leitura e criatividade para os mais pequenos.",
+      "ativo": true
+    },
+    {
+      "id": "evento8",
+      "idUser": "user008",
+      "titulo": "Semana da Saúde Materna",
+      "data": "2025-11-15",
+      "hora": "09:00 – 17:00",
+      "local": "Hospital de Águeda",
+      "tipo": "Conferência",
+      "descricao": "Diversas sessões e workshops dedicados à saúde materna.",
+      "ativo": false
+    },
+    {
+      "id": "evento9",
+      "idUser": "user009",
+      "titulo": "Roda de Conversa: Desafios da Parentalidade",
+      "data": "2025-07-30",
+      "hora": "15:00 – 16:30",
+      "local": "CS Águeda – Sala 3",
+      "tipo": "Encontro",
+      "descricao": "Espaço de partilha para pais e mães de primeira viagem.",
+      "ativo": false
+    },
+    {
+      "id": "evento10",
+      "idUser": "user010",
+      "titulo": "Workshop de Alimentação Infantil",
+      "data": "2025-12-02",
+      "hora": "10:00 – 12:00",
+      "local": "Centro de Saúde de Águeda",
+      "tipo": "Workshop",
+      "descricao": "Sessão prática sobre introdução alimentar saudável.",
+      "ativo": true
+    }
+  ]
+}

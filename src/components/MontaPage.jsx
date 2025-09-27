@@ -76,7 +76,7 @@ export default function MontaPage() {
         {(page.autor || page.data) && (
         <div className="flex items-center justify-between mb-4">
             <p className="text-sm text-gray-500">
-            {page.autor && <span>Por {page.autor}</span>}
+            {page.autor && <span>{page.autor}</span>}
             </p>
             <p className="text-sm text-gray-500">
             {page.autor && page.data && " • "}
@@ -407,8 +407,14 @@ export default function MontaPage() {
                   className="border-l-4 border-zinc-300 pl-4 italic text-xl md:text-2xl text-zinc-700 my-10"
                 >
                   “{sec.texto}”
+                  {sec.autor && (
+                    <footer className="mt-2 text-right text-base not-italic font-semibold text-zinc-600">
+                      — {sec.autor}
+                    </footer>
+                  )}
                 </blockquote>
               );
+
 
             default:
               return null;
