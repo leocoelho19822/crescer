@@ -18,8 +18,7 @@ export default function Eventos() {
     <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
       <h1 className="text-3xl md:text-4xl font-bold mb-6">Eventos na Comunidade</h1>
       <p className="text-lg text-zinc-700 mb-10">
-        Partilhamos aqui alguns eventos locais pensados para famílias e crianças,
-        para que os pais estejam sempre informados sobre atividades culturais e comunitárias.
+        Nesta secção são divulgados eventos locais direcionados a famílias e crianças, com o objetivo de manter os cuidadores informados sobre atividades de caráter cultural e comunitário.
       </p>
 
       {proximos.length > 0 ? (

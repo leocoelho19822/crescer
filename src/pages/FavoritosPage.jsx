@@ -44,7 +44,7 @@ export default function FavoritosPage() {
         Meus Favoritos
       </h1>
       <p className="text-gray-600 mb-8">
-        Aqui encontras todos os artigos que guardaste como favoritos. Esta secção é o teu espaço pessoal para rever conteúdos importantes e voltar rapidamente àquilo que mais gostaste.
+        Nesta secção são apresentados os artigos guardados como favoritos, constituindo um espaço dedicado à revisão de conteúdos considerados relevantes e ao rápido acesso àqueles que despertaram maior interesse.
       </p>
 
       {favoritos.length === 0 ? (

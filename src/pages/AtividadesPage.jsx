@@ -25,9 +25,7 @@ export default function Atividades() {
         Atividades do Cres(Ser)
       </h1>
       <p className="text-lg text-zinc-700 mb-8">
-        Todos são bem-vindos a participar das nossas atividades — pais, mães, familiares
-        e cuidadores. Estes momentos são pensados para criar partilha, aprender em
-        conjunto e fortalecer a comunidade.
+        Todos são bem-vindos a participar nas atividades — pais, mães, familiares, cuidadores e educadores. Estes momentos têm como finalidade promover a partilha, incentivar a aprendizagem conjunta e fortalecer a comunidade.
       </p>
 
       {/* Secção 1: Ativos */}

@@ -113,7 +113,7 @@ export default function MontaArtigo() {
       <div className="mb-6 text-sm text-gray-500 space-y-1">
         {/* Linha 1 */}
         <div className="flex justify-between">
-          <p>{autorNome && <span>Por {autorNome}</span>}</p>
+          <p>{autorNome && <span>{autorNome}</span>}</p>
           <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
         </div>
 
@@ -254,16 +254,30 @@ export default function MontaArtigo() {
               );
 
               case "fontes":
-              return (
-                <div key={i} className="mt-12">
-                  <h2 className="text-lg font-bold text-zinc-800 mb-4">Fontes</h2>
-                  <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
-                    {sec.itens.map((fonte, j) => (
-                      <li key={j}>{fonte}</li>
-                    ))}
-                  </ul>
-                </div>
-              );
+                return (
+                  <div key={i} className="mt-12">
+                    <h2 className="text-lg font-bold text-zinc-800 mb-4">Fontes</h2>
+                    <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
+                      {sec.itens.map((fonte, j) => (
+                        <li key={j}>
+                          {fonte.url ? (
+                            <a
+                              href={fonte.url}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-blue-600 hover:underline"
+                            >
+                              {fonte.texto}
+                            </a>
+                          ) : (
+                            fonte.texto
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                );
+
 
 
             case "alerta":

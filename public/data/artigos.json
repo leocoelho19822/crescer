@@ -1942,6 +1942,15 @@
           "titulo": "Teste de conhecimento",
           "pergunta": "Lavar as mãos apenas com água é suficiente para prevenir infeções?",
           "resposta": "Falso. Para uma higiene eficaz é necessário usar água e sabão ou, quando não disponíveis, uma solução à base de álcool."
+        },
+        {
+          "tipo": "fontes",
+          "itens": [
+          {
+            "texto": "UNICEF — Parenting",
+            "url": "https://www.unicef.org/parenting/"
+          }
+          ]
         }
       ],
       "related": [],

@@ -142,6 +142,8 @@ export default function HeaderHero() {
   setIsAuthenticated(false);
   setUser(null);
   localStorage.removeItem("user");
+  localStorage.removeItem("favoritos");
+  localStorage.removeItem("inscricoes");
   setProfileModalOpen(false);
 };
 
@@ -185,7 +187,15 @@ export default function HeaderHero() {
 
                 )}
                 <button onClick={() => setProfileModalOpen(true)}>
-                  <CgProfile size={25} className="cursor-pointer" />
+                  {user?.imagem ? (
+                    <img
+                      src={user.imagem}
+                      alt="Foto de perfil"
+                      className="w-9 h-9 rounded-full border-2 border-white object-cover cursor-pointer"
+                    />
+                  ) : (
+                    <CgProfile size={25} className="cursor-pointer" />
+                  )}
                 </button>
               </>
             ) : (
@@ -601,9 +611,19 @@ export default function HeaderHero() {
                 ) : (
                   <AiFillHeart className="text-white text-2xl cursor-pointer" />
                 )}
+                
                 <button onClick={() => setProfileModalOpen(true)}>
-                  <CgProfile size={25} className="cursor-pointer" />
+                  {user?.imagem ? (
+                    <img
+                      src={user.imagem}
+                      alt="Foto de perfil"
+                      className="w-9 h-9 rounded-full border-2 border-white object-cover cursor-pointer"
+                    />
+                  ) : (
+                    <CgProfile size={25} className="cursor-pointer" />
+                  )}
                 </button>
+
               </>
             ) : (
               <Button onClick={() => setModalType("login")} className="border border-gray-300">Entrar</Button>

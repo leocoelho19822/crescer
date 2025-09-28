@@ -3451,7 +3451,7 @@
     },
     {
       "tipo": "paragrafo",
-      "texto": "Com objetivo de implementar um projeto-piloto focado na promoção da saúde mental durante a gravidez e a primeira infância, atuando de forma integrada em diferentes contextos, como a Saúde, Educação e Ação Social. O projeto conta com a colaboração de vários parceiros locais, incluindo a Universidade de Aveiro (DECA + Psicologia), Segurança Social de Aveiro, Câmara Municipal, creches, meios de comunicação, setor empresarial, CPCJ e o Centro Hospitalar do Baixo Vouga."
+      "texto": "Com objetivo de implementar um projeto-piloto focado na promoção da saúde mental durante a gravidez e a primeira infância, atuando de forma integrada em diferentes contextos, como a Saúde, Educação e Ação Social. O projeto conta com a colaboração de vários parceiros locais, incluindo a Universidade de Aveiro (DECA + Psicologia), Segurança Social de Aveiro, creches, meios de comunicação, setor empresarial, Câmara Municipal, CPCJ e o Centro Hospitalar do Baixo Vouga."
     },
     {
       "tipo": "paragrafo",
@@ -3536,16 +3536,6 @@
             "Assistente social",
             "Colaboração com parceiros como a Universidade de Aveiro e o Centro Hospitalar do Baixo Vouga"
           ]
-        },
-        {
-          "tipo": "subtitulo",
-          "texto": "Para participar ou saber mais"
-        },
-        
-        {
-          "tipo": "contacto",
-          "telefone": "234000000",
-          "rotulo": "234 000 000 (3ªs e 5ªs, 10h às 13h)"
         },
         {
           "tipo": "citacao",
@@ -3669,7 +3659,7 @@
   {
   "id": "infouteis",
   "titulo": "Informações Úteis",
-  "resumo": "Aqui encontra informações práticas para mães, pais e cuidadores, incluindo direitos na gravidez, apoios sociais e prestações familiares.",
+  "resumo": "Esta secção disponibiliza informações práticas destinadas a mães, pais e cuidadores, abrangendo direitos durante a gravidez, apoios sociais e prestações familiares.",
   "tipo": "institucional",
   "icones": {
     "partilha": false,
@@ -3709,7 +3699,7 @@
       "itens": [
         {
           "texto": "Direitos na gravidez — Comissão para a Igualdade no Trabalho e no Emprego (CITE)",
-          "url": "https://cite.gov.pt/as-mulheres-e-o-trabalho/direitos-na-gravidez"
+          "url": "https://cite.gov.pt/direitos-exclusivos-da-trabalhadora-gravida-puerpera-e-lactante"
         },
         {
           "texto": "Licenças parentais — Segurança Social",
@@ -3824,7 +3814,7 @@
         },
         {
           "tipo": "paragrafo",
-          "texto": "Os dados pessoais recolhidos na plataforma são tratados unicamente para fins académicos e científicos. O responsável pelo tratamento é o autor do projeto, sob supervisão da Universidade de Aveiro."
+          "texto": "Os dados pessoais recolhidos na plataforma são tratados unicamente para fins académicos e científicos. O responsável pelo tratamento é a equipe Cres(Ser) do projeto, sob supervisão da Universidade de Aveiro."
         },
         {
           "tipo": "subtitulo",
