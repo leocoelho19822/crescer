@@ -199,7 +199,7 @@ export default function HeaderHero() {
                 </button>
               </>
             ) : (
-              <Button onClick={() => setModalType("login")} className="border border-gray-300">Entrar</Button>
+              <Button onClick={() => setModalType("login")} className="border border-gray-300 text-xs">Iniciar Sessão</Button>
             )}
           </div>
         </div>
@@ -626,7 +626,7 @@ export default function HeaderHero() {
 
               </>
             ) : (
-              <Button onClick={() => setModalType("login")} className="border border-gray-300">Entrar</Button>
+              <Button onClick={() => setModalType("login")} className="border border-gray-300 text-xs">Iniciar Sessão</Button>
             )}
           </div>
         </div>

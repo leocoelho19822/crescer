@@ -118,7 +118,7 @@ export default function CardEvento({ titulo, data, hora, local, tipo, descricao,
 
       {showOverlay && acao === "login" && (
         <ConfirmOverlay
-          mensagem="Precisa fazer login para se inscrever."
+          mensagem="O início de sessão é obrigatório para realizar a inscrição."
           tipo="alert"
           onCancel={() => setShowOverlay(false)}
         />
