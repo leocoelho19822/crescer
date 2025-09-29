@@ -13,7 +13,7 @@ export default function ConfirmOverlay({ mensagem, onConfirm, onCancel, tipo = "
           <div className="flex justify-center gap-4">
             <Button
               onClick={onConfirm}
-              className="hover:bg-emerald-400 cursor-pointer"
+              className=" cursor-pointer"
             >
               Confirmar
             </Button>
@@ -28,7 +28,7 @@ export default function ConfirmOverlay({ mensagem, onConfirm, onCancel, tipo = "
           <div className="flex justify-center">
             <Button
               onClick={onCancel}
-              className="hover:bg-emerald-400 cursor-pointer"
+              className="cursor-pointer"
             >
               Fechar
             </Button>
