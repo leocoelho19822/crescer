@@ -568,6 +568,19 @@ export default function HeaderHero() {
             <p className={`mt-4 text-lg md:text-xl max-w-xl text-white/90 transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
               {subtitle}
             </p>
+            
+            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-30 animate-bounce cursor-pointer">
+            <MdKeyboardArrowDown 
+              size={50} 
+              className="text-white opacity-80 hover:opacity-100 transition-opacity duration-300" 
+              onClick={() => {
+                window.scrollTo({
+                  top: window.innerHeight,
+                  behavior: "smooth"
+                });
+              }}
+            />
+          </div>
           </div>
         </header>
       )}
