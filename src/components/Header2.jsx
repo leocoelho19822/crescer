@@ -10,7 +10,7 @@ import logoverde from "../assets/Logo_Branco.svg";
 import { CgProfile } from "react-icons/cg";
 import { BsSearch } from "react-icons/bs";
 // eslint-disable-next-line
-import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
+import { AiFillHeart, AiOutlineHeart, AiFillHome } from "react-icons/ai";
 import { MdKeyboardArrowDown } from "react-icons/md";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import Button from "./Button";
@@ -164,7 +164,7 @@ export default function HeaderHero() {
           <button
             onClick={() => setMenuOpen(true)}
             aria-label="Abrir menu"
-            className="p-2"
+            className="p-2 cursor-pointer"
           >
             <HiOutlineMenu size={24} />
           </button>
@@ -261,6 +261,16 @@ export default function HeaderHero() {
             {/* Lista de links / submenus */}
             <nav className="mt-8 text-base">
               <ul className="space-y-4 font-medium text-white">
+                <li>
+                  <a 
+                    href="/" 
+                    className="flex items-center gap-2 hover:text-emerald-200 cursor-pointer"
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    Início
+                  </a>
+                </li>
+
                 {/* Projeto */}
                 <li>
                   <button
@@ -461,6 +471,11 @@ export default function HeaderHero() {
           </a>
 
           <ul className="flex space-x-6 items-center text-sm font-medium ">
+            <li>
+              <a href="/" className="flex items-center gap-1 hover:text-emerald-200 uppercase">
+                <AiFillHome size={20} />
+              </a>
+            </li>
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">Projeto<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
