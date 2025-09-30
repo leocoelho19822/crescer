@@ -170,7 +170,7 @@ export default function HeaderHero() {
           </button>
 
           <a href="/">
-            <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-10"}`} />
+            <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
           </a>
 
           <div className="flex gap-4 items-center">
@@ -357,12 +357,77 @@ export default function HeaderHero() {
                   {isColoOpen && (
                     <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
                       <li
-                        onClick={() => { navigate("/mesames"); setMenuOpen(false); }}
+                        onClick={() => { navigate("/page/recem-nascido"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        Mês a mês
+                        Recém-Nascido
                       </li>
-                      
+                      <li
+                        onClick={() => { navigate("/page/1mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 1 mês
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/2mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 2 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/3mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 3 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/4mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 4 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/5mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 5 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/6mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 6 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/7mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 7 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/8mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 8 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/9mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 9 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/10mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 10 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/11mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Tenho 11 meses
+                      </li>
                     </ul>
                   )}
                 </li>
@@ -382,7 +447,12 @@ export default function HeaderHero() {
                   </button>
                   {isVidaOpen && (
                     <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
-                      
+                      <li
+                        onClick={() => { navigate("/mesames"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Mês a Mês
+                      </li>
                       <li
                         onClick={() => { navigate("/page/1ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
@@ -481,8 +551,18 @@ export default function HeaderHero() {
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">No Colo<MdKeyboardArrowDown size={20} /></button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <a href="/mesames"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Mês a mês</li></a>
-                
+                <a href="/page/recem-nascido"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Recém-Nascido</li></a>
+                <a href="/page/1mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 1 mês</li></a>
+                <a href="/page/2mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 2 meses</li></a>
+                <a href="/page/3mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 3 meses</li></a>
+                <a href="/page/4mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 4 meses</li></a>
+                <a href="/page/5mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 5 meses</li></a>
+                <a href="/page/6mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 6 meses</li></a>
+                <a href="/page/7mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 7 meses</li></a>
+                <a href="/page/8mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 8 meses</li></a>
+                <a href="/page/9mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 9 meses</li></a>
+                <a href="/page/10mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 10 meses</li></a>
+                <a href="/page/11mes"><li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">Tenho 11 meses</li></a>
               </ul>
             </li>
             <li className="relative group">
