@@ -11,7 +11,7 @@ export default function MesaMes() {
       </h1>
       <MesamesSection />
 
-      <hr className="mt-24" />
+      <hr className="mt-16" />
       <RecursosPensadosParaSi tipo="no colo" />
       
     </div>
