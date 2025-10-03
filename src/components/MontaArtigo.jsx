@@ -170,7 +170,7 @@ export default function MontaArtigo() {
                 ) : (
                   <FiHeart size={20} className="text-gray-500 hover:text-red-600" />
                 )}
-                {favorito ? "Remover dos favoritos" : "Favoritar"}
+                Favoritos
               </button>
             )}
           </div>

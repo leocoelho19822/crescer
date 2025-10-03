@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { FiCalendar, FiMapPin, FiClock, FiChevronRight, FiTag } from "react-icons/fi";
 import ConfirmOverlay from "./ConfirmOverlay";
+import Button from "./Button";
 
 export default function CardEvento({ titulo, data, hora, local, tipo, descricao, status }) {
   const [isInscrito, setIsInscrito] = useState(false);
@@ -98,13 +99,13 @@ export default function CardEvento({ titulo, data, hora, local, tipo, descricao,
             </button>
           </div>
         ) : (
-          <button
+          <Button
             type="button"
             onClick={() => abrirConfirmacao("inscricao")}
-            className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-zinc-200 hover:bg-zinc-50 text-sm cursor-pointer"
+            className="mt-4 inline-flex items-center gap-2 px-4 py-2 rounded-lg border border-zinc-200 text-sm cursor-pointer"
           >
             Inscrever-se <FiChevronRight />
-          </button>
+          </Button>
         )
       )}
 
