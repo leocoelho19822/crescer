@@ -1,9 +1,26 @@
 // eslint-disable-next-line
 import React from "react";
 import PropTypes from "prop-types";
-import { FiCalendar, FiClock, FiMapPin } from "react-icons/fi";
+import { FiCalendar, FiClock, FiMapPin, FiPlusCircle } from "react-icons/fi";
 
 export default function CardEvento({ titulo, descricao, data, hora, local, imagem }) {
+  // Função para formatar a data/hora no padrão Google Calendar
+  const formatGoogleDate = (dateStr, timeStr) => {
+    const start = new Date(`${dateStr}T${timeStr || "00:00"}`);
+    const end = new Date(start.getTime() + 60 * 60 * 1000); // +1h por padrão
+
+    const toGoogleFormat = (d) =>
+      d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z";
+
+    return `${toGoogleFormat(start)}/${toGoogleFormat(end)}`;
+  };
+
+  const googleCalendarUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+    titulo
+  )}&dates=${formatGoogleDate(data, hora)}&details=${encodeURIComponent(
+    descricao || ""
+  )}&location=${encodeURIComponent(local || "")}`;
+
   return (
     <div className="rounded-xl border border-zinc-200 shadow-sm bg-white overflow-hidden hover:shadow-md transition">
       {imagem && (
@@ -29,6 +46,18 @@ export default function CardEvento({ titulo, descricao, data, hora, local, image
             <FiMapPin /> {local}
           </p>
         </div>
+
+        {/* Botão para adicionar ao Google Calendar */}
+        <div className="mt-4">
+          <a
+            href={googleCalendarUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-emerald-600 hover:text-emerald-800 text-sm font-medium"
+          >
+            <FiPlusCircle /> Adicionar ao Google Calendar
+          </a>
+        </div>
       </div>
     </div>
   );
@@ -37,8 +66,8 @@ export default function CardEvento({ titulo, descricao, data, hora, local, image
 CardEvento.propTypes = {
   titulo: PropTypes.string.isRequired,
   descricao: PropTypes.string,
-  data: PropTypes.string.isRequired,
-  hora: PropTypes.string,
+  data: PropTypes.string.isRequired, // formato "YYYY-MM-DD"
+  hora: PropTypes.string, // formato "HH:mm"
   local: PropTypes.string,
   imagem: PropTypes.string
 };

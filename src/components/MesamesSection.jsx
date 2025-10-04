@@ -136,17 +136,17 @@ export default function MesamesSection() {
 
         {/* Botões de scroll */}
         <button
-  onClick={scrollLeft}
-  className="flex items-center justify-center absolute left-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
->
-  <FaArrowLeftLong />
-</button>
-<button
-  onClick={scrollRight}
-  className="flex items-center justify-center absolute right-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
->
-  <FaArrowRightLong />
-</button>
+          onClick={scrollLeft}
+          className="flex items-center justify-center absolute left-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
+        >
+          <FaArrowLeftLong />
+        </button>
+        <button
+          onClick={scrollRight}
+          className="flex items-center justify-center absolute right-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
+        >
+          <FaArrowRightLong />
+        </button>
 
 
         {/* Scroll horizontal */}
@@ -159,7 +159,7 @@ export default function MesamesSection() {
               <Link to={card.link} key={index}>
               <div
                 key={index}
-                className="bg-[#FFE2A9] rounded-xl shadow-lg p-4 flex flex-col items-center text-center w-72 flex-shrink-0"
+                className="bg-[#FFE2A9] rounded-xl shadow-lg p-4 flex flex-col items-center text-center w-72 h-100 flex-shrink-0"
               >
                 <img
                   src={card.imagem}
