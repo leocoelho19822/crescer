@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 const cards = [
   {
     titulo: "1º Trimestre",
+    alt: "Primeiro trimestre",
     imagem: trimestre1,
     link: "/page/1tri",
     texto:
@@ -16,6 +17,7 @@ const cards = [
   },
   {
     titulo: "2º Trimestre",
+    alt: "Segundo trimestre",
     imagem: trimestre2,
     link: "/page/2tri",
     texto:
@@ -23,6 +25,7 @@ const cards = [
   },
   {
     titulo: "3º Trimestre",
+    alt: "Terceiro trimestre",
     imagem: trimestre3,
     link: "/page/3tri",
     texto:
@@ -46,7 +49,7 @@ export default function TrimestresSection() {
         {cards.map((card, index) => (
           <Link to={card.link} key={index}>
             <div className="bg-[#DAE9E3] rounded-xl shadow-xl p-6 flex flex-col items-center text-center">
-              <img src={card.imagem} alt={card.titulo} className="w-full h-auto rounded-md mb-4" />
+              <img src={card.imagem} alt={card.alt} className="w-full h-auto rounded-md mb-4" />
               <div className="bg-[#618F7D] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
                 {card.titulo}
               </div>
