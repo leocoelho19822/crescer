@@ -242,6 +242,7 @@ export default function HeaderHero() {
               <form onSubmit={handleSearch} className="relative">
                 <input
                   type="text"
+                  aria-label="pesquisar artigo"
                   placeholder="Pesquisar..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
@@ -249,6 +250,7 @@ export default function HeaderHero() {
                 />
                 <button
                   type="submit"
+                  aria-label="button pesquisar"
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-white cursor-pointer"
                 >
                   <BsSearch size={18} />
@@ -525,12 +527,14 @@ export default function HeaderHero() {
               <input
                 type="text"
                 placeholder="Pesquisar..."
+                aria-label="pesquisar artigo"
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
                 className="w-full border border-gray-300 rounded-lg px-4 py-2 pr-10 text-sm text-white"
               />
               <button
                 type="submit"
+                aria-label="button pesquisar"
                 className="absolute right-3 top-1/2 -translate-y-1/2 text-white cursor-pointer"
               >
                 <BsSearch size={18} />

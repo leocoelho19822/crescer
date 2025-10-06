@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 const cards = [
   {
     titulo: "Tenho 1 ano",
+    alt: "tenho um ano",
     imagem: ano1,
     link: "/page/1ano",
     texto:
@@ -17,6 +18,7 @@ const cards = [
   },
   {
     titulo: "Tenho 18 meses",
+    alt: "tenho dezoito meses",
     imagem: ano1_2,
     link: "/page/18mes",
     texto:
@@ -24,6 +26,7 @@ const cards = [
   },
   {
     titulo: "Tenho 2 anos",
+    alt: "tenho dois anos",
     imagem: ano2,
     link: "/page/2ano",
     texto:
@@ -49,7 +52,7 @@ O Cres(Ser) acompanha-te ano a ano, oferecendo apoio prático, atividades e cont
               {cards.map((card, index) => (
                 <Link to={card.link} key={index}>
                   <div className="bg-[#D4E4FF] rounded-xl shadow-xl p-6 flex flex-col items-center text-center">
-                    <img src={card.imagem} alt={card.titulo} className="w-full h-auto rounded-md mb-4" />
+                    <img src={card.imagem} alt={card.alt} className="w-full h-auto rounded-md mb-4" />
                     <div className="bg-[#467AD5] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
                       {card.titulo}
                     </div>

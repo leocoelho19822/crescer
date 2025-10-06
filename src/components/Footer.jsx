@@ -92,9 +92,10 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="Digite o seu email"
+                  aria-label='Digite seu email'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
-                  className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-transparent"
+                  className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white"
                   required
                 />
                 <Button type="submit" className='border border-1'>Subscrever</Button>

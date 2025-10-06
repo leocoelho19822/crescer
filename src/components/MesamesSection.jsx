@@ -23,6 +23,7 @@ import { Link, useLocation } from "react-router-dom";
 const meses = [
   {
     titulo: 'Recém-Nascido',
+    alt: "Recém nascido",
     link: '/page/recem-nascido',
     descricao:
       'Apoio aos primeiros dias de vida, com orientações sobre vínculo afetivo, amamentação e cuidados básicos para promover um início saudável.',
@@ -30,6 +31,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 1 mês',
+    alt: "tenho um mês",
     link: '/page/1mes',
     descricao:
       'Foco no fortalecimento do vínculo, estímulo sensorial suave e acompanhamento das primeiras interações e rotinas do bebé.',
@@ -37,6 +39,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 2 meses',
+    alt: "tenho dois meses",
     link: '/page/2mes',
     descricao:
       'Incentiva os primeiros sorrisos e resposta social, com atividades que estimulam a visão, audição e vínculo emocional.',
@@ -44,6 +47,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 3 meses',
+    alt: "tenho três meses",
     link: '/page/3mes',
     descricao:
       'Estimula o controlo da cabeça, exploração visual e auditiva, reforçando interações afetivas e brincadeiras simples.',
@@ -51,6 +55,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 4 meses',
+    alt: "tenho quatro meses",
     link: '/page/4mes',
     descricao:
       'Apoio ao desenvolvimento motor, exploração das mãos e objetos, com estímulos para fortalecer a comunicação e o vínculo afetivo.',
@@ -58,6 +63,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 5 meses',
+    alt: "tenho cinco meses",
     link: '/page/5mes',
     descricao:
       'Incentiva o rolar, descoberta do próprio corpo e interação ativa, promovendo curiosidade e desenvolvimento motor.',
@@ -65,6 +71,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 6 meses',
+    alt: "tenho seis meses",
     link: '/page/6mes',
     descricao:
       'Introdução alimentar, reforço do sentar com apoio e estímulos para promover coordenação e interação social.',
@@ -72,6 +79,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 7 meses',
+    alt: "tenho sete meses",
     link: '/page/7mes',
     descricao:
       'Incentivo ao gatinhar, exploração de objetos com as mãos e estímulos para fortalecer a comunicação e a curiosidade.',
@@ -79,6 +87,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 8 meses',
+    alt: "tenho oito meses",
     link: '/page/8mes',
     descricao:
       'Apoio ao aperfeiçoamento do gatinhar, coordenação motora fina e brincadeiras que estimulam a compreensão e interação social.',
@@ -86,6 +95,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 9 meses',
+    alt: "tenho nove meses",
     link: '/page/9mes',
     descricao:
       'Incentiva a posição de pé com apoio, exploração ativa do ambiente e jogos que reforçam a comunicação e a curiosidade.',
@@ -93,6 +103,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 10 meses',
+    alt: "tenho dez meses",
     link: '/page/10mes',
     descricao:
       'Apoio aos primeiros passos com apoio, exploração de objetos, e atividades que estimulam a linguagem e a autonomia.',
@@ -100,6 +111,7 @@ const meses = [
   },
   {
     titulo: 'Tenho 11 meses',
+    alt: "tenho onze meses",
     link: '/page/11mes',
     descricao:
       'Estímulo aos passos independentes, brincadeiras de imitação e atividades que reforçam a compreensão e a comunicação.',
@@ -137,12 +149,14 @@ export default function MesamesSection() {
         {/* Botões de scroll */}
         <button
           onClick={scrollLeft}
+          aria-label='scroll left'
           className="flex items-center justify-center absolute left-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
         >
           <FaArrowLeftLong />
         </button>
         <button
           onClick={scrollRight}
+          aria-label='scroll right'
           className="flex items-center justify-center absolute right-2 top-[55%] bottom-2 z-10 bg-white/80 hover:bg-white text-gray-700 rounded-full w-10 h-10 shadow-md"
         >
           <FaArrowRightLong />
@@ -163,7 +177,7 @@ export default function MesamesSection() {
               >
                 <img
                   src={card.imagem}
-                  alt={card.titulo}
+                  alt={card.alt}
                   className="w-full h-64 object-cover rounded-md mb-4"
                 />
                 <div className="bg-[#FFC757] text-gray-800 font-semibold text-xl px-4 py-1 rounded-lg w-52 h-8 flex items-center justify-center -mt-8 mb-3 text-sm">
