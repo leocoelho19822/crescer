@@ -12,6 +12,9 @@ import {
 } from "react-icons/fi";
 import HeaderEdit from "./HeaderEdit";
 
+import JsonView from "react18-json-view";
+
+
 // eslint-disable-next-line
 export default function ArtigoForm() {
   const { id } = useParams();
@@ -51,7 +54,7 @@ export default function ArtigoForm() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Salvar artigo:", artigo);
-    navigate("/admin/artigos");
+    navigate("/editorial/artigos");
   };
 
   return (
@@ -174,6 +177,16 @@ export default function ArtigoForm() {
               <option value="arquivado">Arquivado</option>
             </select>
           </div>
+
+          <JsonView
+  src={artigo.conteudo || []}
+  editable
+  onEdit={(edit) => setArtigo((prev) => ({ ...prev, conteudo: edit.src }))}
+  onAdd={(edit) => setArtigo((prev) => ({ ...prev, conteudo: edit.src }))}
+  onDelete={(edit) => setArtigo((prev) => ({ ...prev, conteudo: edit.src }))}
+  theme="light"
+  collapseStringsAfterLength={50}
+/>
 
           {/* Botão */}
           <div className="flex justify-end">
