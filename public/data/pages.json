@@ -604,7 +604,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -787,7 +787,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -988,7 +988,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -2603,7 +2603,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Se houver dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação de profissionais de saúde.",
+      "texto": "Se houver dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -2801,7 +2801,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação de profissionais de saúde.",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
