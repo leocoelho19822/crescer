@@ -43,6 +43,7 @@ function App() {
           element={
             <>
               <HeaderHero />
+              <main>
               <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="/reset-password/:token" element={<ResetPassword />} />
@@ -58,6 +59,7 @@ function App() {
                 <Route path="/favoritos" element={<FavoritosPage />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
+              </main>
               <WaveDivider />
               <Footer />
             </>

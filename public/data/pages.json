@@ -15,7 +15,7 @@
   "conteudo": [
     {
       "tipo": "acordeao",
-      "titulo": "Como a mãe pode sentir",
+      "titulo": "Como a mãe se pode sentir",
       "conteudo": [
         {
           "tipo": "paragrafo",
@@ -116,7 +116,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas sobre sintomas ou mudanças que não parecem normais, deve ser contactado o SNS 24 para orientação com profissionais de saúde.",
+      "texto": "Em caso de dúvidas sobre sintomas ou mudanças que não parecem normais, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como sangramento abundante, dor intensa ou mal-estar súbito.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -169,7 +169,7 @@
   "conteudo": [
     {
       "tipo": "acordeao",
-      "titulo": "Como a mãe pode sentir",
+      "titulo": "Como a mãe se pode sentir",
       "conteudo": [
         {
           "tipo": "lista",
@@ -266,7 +266,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas sobre o bem-estar ou perante sintomas inesperados, deve ser contactado o SNS 24 para orientação com profissionais de saúde.",
+      "texto": "Em caso de dúvidas sobre o bem-estar ou perante sintomas inesperados, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como dor intensa, sangramento abundante ou mal-estar súbito.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -322,14 +322,14 @@
   "conteudo": [
     {
       "tipo": "acordeao",
-      "titulo": "Como a mãe pode sentir",
+      "titulo": "Como a mãe se pode sentir",
       "conteudo": [
         {
           "tipo": "lista",
           "itens": [
             "Desconforto ao respirar ou sensação de peso no peito",
             "Inchaço nos tornozelos, mãos ou face",
-            "Dificuldade em dormir com frequência",
+            "Dificuldade em dormir",
             "Azia ou refluxo",
             "Mamas mais sensíveis",
             "Umbigo com aparência mais protuberante"
@@ -352,11 +352,11 @@
         {
           "tipo": "lista",
           "itens": [
-            "Os ossos endurecem e ganham firmeza",
+            "A estrutura óssea ganha densidade",
             "O bebé continua a ganhar gordura para regular a temperatura após o nascimento",
             "Os membros tornam-se mais arredondados; movimentos mais fortes e percetíveis",
             "Os olhos reagem a mudanças de luz; os sentidos continuam a desenvolver-se",
-            "Pulmões, cérebro e sistema neuromuscular afinam-se para o nascimento"
+            "Pulmões, cérebro e sistema neuromuscular preparam-se para o nascimento"
           ]
         },
         {
@@ -367,7 +367,7 @@
     },
     {
       "tipo": "acordeao",
-      "titulo": "Cuidados práticos para o conforto",
+      "titulo": "Cuidados práticos para um maior conforto",
       "conteudo": [
         {
           "tipo": "lista",
@@ -388,7 +388,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Preparar a mala de maternidade com roupas para a mãe e para o bebé",
+            "Preparar a mala de maternidade com antecedência",
             "Conversar com a equipa de saúde sobre o plano de parto e opções de alívio da dor",
             "Praticar técnicas de respiração e relaxamento",
             "Participar em aulas de preparação para o parto, se disponíveis"
@@ -411,7 +411,7 @@
             "Dores fortes no abdómen ou contrações regulares que se intensificam",
             "Diminuição notória dos movimentos do bebé",
             "Inchaço súbito e pronunciado nas mãos, face ou tornozelos",
-            "Visão turva, dores de cabeça persistentes ou sinais de pressão arterial elevada"
+            "Visão turva, dores de cabeça persistentes ou sinais de tensão arterial elevada"
           ]
         }
       ]
@@ -419,7 +419,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas sobre o bem-estar materno ou sobre os movimentos do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas sobre o bem-estar materno ou sobre os movimentos do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como sangramento abundante, dor abdominal intensa ou mal-estar súbito.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -604,7 +604,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -787,7 +787,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -988,7 +988,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -1049,9 +1049,9 @@
           "itens": [
             "O umbigo deve ser mantido limpo e seco; procurar ajuda se ficar vermelho, com cheiro ou secreção",
             "O banho não precisa de ser diário; usar água morna e sabonete suave",
-            "A pele pode descamar, o que é normal; se estiver seca, aplicar creme hidratante próprio para bebés",
+            "A pele pode descamar, o que é normal; se estiver seca, aplicar creme hidratante próprio para bebés, conforme o que for indicado pelo médico/enfermeiro",
             "Trocar sempre a fralda quando suja, limpando bem a pele",
-            "Vestir em camadas leves, sem exagerar no agasalho"
+            "Vestir em camadas leves, sem exagerar nos agasalhos"
           ]
         }
       ]
@@ -1111,7 +1111,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Seguir sempre a orientação de um(a) profissional de saúde",
+            "Seguir sempre a orientação de um(a) profissional",
             "Preparar o leite de forma correta e higienizar os biberões",
             "Não guardar nem reaproveitar sobras de leite",
             "Dar o leite com o bebé em posição semi-sentada"
@@ -1129,7 +1129,7 @@
             "O recém-nascido dorme 14 a 17 horas por dia, em períodos curtos",
             "Acorda várias vezes para mamar, o que é normal",
             "Deve dormir sempre de barriga para cima, em colchão firme e sem objetos no berço",
-            "É mais seguro dormir no quarto dos cuidadores, mas nunca na mesma cama"
+            "É mais seguro dormir no quarto dos cuidadores, mas sem partilhar a mesma cama, uma vez que é uma prática desaconselhada pela Associação Americana de Pediatria (AAP) devido ao aumento do risco de morte súbita infantil e sufocamento"
           ]
         }
       ]
@@ -1141,7 +1141,8 @@
         {
           "tipo": "lista",
           "itens": [
-            "É comum os cuidadores sentirem-se cansados ou mais sensíveis (baby blues)",
+            "É comum os cuidadores sentirem-se cansados ou mais sensíveis",
+            "É comum, após o nascimento do bebé, a mãe passar por uma fase de tristeza e melancolia, chamada de Baby Blues, que tende a desaparecer em poucas semanas.",
             "Partilhar tarefas ajuda a garantir descanso adequado",
             "Falar abertamente sobre sentimentos e pedir ajuda sempre que necessário",
             "Participar em grupos de apoio pode trazer confiança e segurança"
@@ -1183,7 +1184,7 @@
             "Febre persistente ou superior a 38°C",
             "Dificuldade em respirar ou respiração muito rápida",
             "Recusa alimentar ou dificuldade em mamar",
-            "Letargia excessiva ou dificuldade em acordar",
+            "Apatia excessiva ou dificuldade em acordar",
             "Movimentos convulsivos",
             "Icterícia intensa (pele ou olhos muito amarelados)",
             "Vómitos persistentes ou sangue nas fezes"
@@ -1200,7 +1201,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -1295,7 +1296,7 @@
             "Falar com voz calma e olhar nos olhos do bebé",
             "Cantar canções de embalar ou músicas suaves",
             "Dar colo e promover contacto pele com pele",
-            "Mostrar brinquedos de alto contraste (preto e branco)",
+            "Mostrar brinquedos que tenham cores de alto contraste (preto e branco)",
             "Responder ao choro com carinho para transmitir segurança"
           ]
         }
@@ -1325,7 +1326,7 @@
             "O bebé dorme entre 14 e 17 horas por dia, em períodos curtos",
             "Acorda várias vezes para se alimentar, o que é normal",
             "Deve dormir sempre de barriga para cima, em colchão firme e sem objetos no berço",
-            "É mais seguro dormir no quarto dos cuidadores, mas nunca na mesma cama"
+            "É mais seguro dormir no quarto dos cuidadores, mas sem partilhar a mesma cama, uma vez que é uma prática desaconselhada pela Associação Americana de Pediatria (AAP) devido ao aumento do risco de morte súbita infantil e sufocamento"
           ]
         }
       ]
@@ -1393,7 +1394,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -1454,14 +1455,14 @@
       "conteudo": [
         {
           "tipo": "subtitulo",
-          "texto": "Consulta e vacinas"
+          "texto": "Consultas e vacinas"
         },
         {
           "tipo": "lista",
           "itens": [
             "Consulta dos 2 meses: avaliação do crescimento e desenvolvimento",
             "Vacinas do Plano Nacional de Vacinação",
-            "Reforço da vitamina D e outras suplementações se indicado"
+            "Reforço da vitamina D e outros suplementos, se indicado"
           ]
         },
         {
@@ -1474,7 +1475,7 @@
             "Banhos curtos e hidratação da pele se necessário",
             "Ambiente livre de fumo",
             "Uso correto da cadeira auto",
-            "Nunca deixar o bebé sozinho em locais altos"
+            "Nunca deixar o bebé sozinho em cima de camas, sofás, muda-fraldas… ou outros locais de onde possa cair."
           ]
         }
       ]
@@ -1489,7 +1490,7 @@
             "As rotinas começam a tornar-se um pouco mais previsíveis",
             "O pico de choro tende a diminuir depois das 8 semanas",
             "Consolar com colo, embalo, voz calma e contacto pele com pele",
-            "Cuidadores devem manter pausas e rede de apoio"
+            "Cuidadores devem procurar descansar, mesmo durante o dia, aproveitando os tempos de sono do bebé; se possível, devem recorrer às suas redes de apoio para poderem fazer pausa"
           ]
         }
       ]
@@ -1517,10 +1518,10 @@
         {
           "tipo": "lista",
           "itens": [
-            "Falar e cantar enquanto olha para o bebé",
-            "Colocar de barriga para baixo (tummy time) por curtos períodos, sempre com supervisão",
+            "Falar e cantar de forma expressiva, usando diferentes expressões e tonalidades de voz",
+            "Quando acordado, colocar o bebé no chão de barriga para baixo (tummy time), em cima de uma manta ou tapete de brincar, por curtos períodos de tempo, sempre com supervisão",
             "Mostrar brinquedos simples, de cores vivas e sons suaves",
-            "Responder aos arrulhos, imitando ou sorrindo",
+            "Responder aos arrulhos, sorrindo e imitando o bebé, de forma a estabelecer uma espécie de diálogo, dando tempo ao bebé para responder às vocalizações do adulto",
             "Brincar frente a frente, sorrindo e mudando expressões faciais"
           ]
         }
@@ -1535,7 +1536,6 @@
           "itens": [
             "Alimentação exclusivamente com leite materno ou fórmula",
             "Em média realiza 7–9 mamadas por dia",
-            "Alguns bebés já começam a dormir blocos noturnos mais longos",
             "É importante respeitar sinais de fome e saciedade"
           ]
         }
@@ -1549,9 +1549,9 @@
           "tipo": "lista",
           "itens": [
             "O bebé dorme cerca de 14–16 horas por dia",
-            "Pode começar a ter blocos de sono noturno mais longos",
+            "Pode começar a ter períodos de sono noturno mais longos",
             "Dormir sempre de costas, em colchão firme, sem brinquedos ou almofadas",
-            "Quarto partilhado com os cuidadores, mas sem partilhar a cama"
+            "Quarto partilhado com os cuidadores, mas sem partilhar a cama, uma vez que é uma prática desaconselhada pela Associação Americana de Pediatria (AAP) devido ao aumento do risco de morte súbita infantil e sufocamento"
           ]
         }
       ]
@@ -1565,7 +1565,7 @@
           "itens": [
             "Respostas ao choro com atenção e carinho transmitem segurança",
             "Já sorri e emite sons em resposta às interações",
-            "Beneficia de conversas, canções e brincadeiras de 'cara a cara'",
+            "Beneficia de conversas, canções e brincadeiras de 'cara a cara' e 'olhos nos olhos'",
             "Histórias, canções e fotografias ajudam a criar memórias afetivas"
           ]
         }
@@ -1582,7 +1582,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Usar sempre cadeira auto homologada, virada para trás, em todas as viagens",
             "Garantir que o berço está livre de almofadas, peluches e cobertores soltos",
             "Supervisionar sempre os momentos de tummy time",
@@ -1620,7 +1620,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -1816,7 +1816,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -2012,7 +2012,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -2208,7 +2208,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -2403,7 +2403,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -2998,7 +2998,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -3194,7 +3194,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
@@ -3389,7 +3389,7 @@
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o SNS 24 para orientação especializada.",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
       "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
