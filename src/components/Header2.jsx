@@ -268,6 +268,7 @@ export default function HeaderHero() {
                     href="/" 
                     className="flex items-center gap-2 hover:text-emerald-200 cursor-pointer"
                     onClick={() => setMenuOpen(false)}
+                    aria-label="Voltar para início"
                   >
                     Início
                   </a>
@@ -474,7 +475,7 @@ export default function HeaderHero() {
 
           <ul className="flex space-x-6 items-center text-sm font-medium ">
             <li>
-              <a href="/" className="flex items-center gap-1 hover:text-emerald-200 uppercase">
+              <a href="/" className="flex items-center gap-1 hover:text-emerald-200 uppercase" aria-label="Voltar para início">
                 <AiFillHome size={20} />
               </a>
             </li>
