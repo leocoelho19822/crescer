@@ -1272,7 +1272,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Segurar sempre o bebé ao transportá-lo; não confiar apenas em acessórios",
             "Garantir que o berço tem colchão firme e sem almofadas ou brinquedos soltos",
             "Usar sempre cadeira auto homologada, virada para trás, desde a primeira viagem",
@@ -1482,7 +1482,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Usar sempre cadeira auto homologada, virada para trás, em todas as viagens",
             "Garantir que o berço tem colchão firme e sem objetos soltos",
             "Manter objetos pequenos e perigosos fora do alcance",
@@ -1810,7 +1810,7 @@
             "Consulta de vigilância: verificação do peso, comprimento, perímetro cefálico e marcos do desenvolvimento",
             "Reforço das vacinas do Plano Nacional de Vacinação",
             "Rotina de higiene: banhos curtos, pele hidratada, ambiente livre de fumo",
-            "Uso obrigatório de cadeira auto adequada e nunca deixar o bebé sozinho em superfícies altas"
+            "Uso obrigatório de cadeira auto adequada e nunca deixar o bebé sozinho dentro do carro ou em superfícies altas"
           ]
         }
       ]
@@ -1825,7 +1825,7 @@
             "Sorriso social cada vez mais frequente",
             "Levanta melhor a cabeça e sustenta o pescoço por mais tempo",
             "Explora as mãos e observa-as com curiosidade",
-            "Segue objetos com os olhos em arcos maiores",
+            "Segue objetos com os olhos em ângulos maiores",
             "Produz sons como arrulhos e pequenas vocalizações em interação"
           ]
         }
@@ -1855,7 +1855,7 @@
           "tipo": "lista",
           "itens": [
             "Média de 6 a 8 mamadas por dia, com leite materno ou fórmula",
-            "Alguns bebés já dormem blocos noturnos mais longos",
+            "Alguns bebés já dormem por períodos noturnos mais longos",
             "Seguir sinais de fome e saciedade",
             "Colocar o bebé em posição vertical após a toma e promover o arroto"
           ]
@@ -1872,7 +1872,7 @@
             "O bebé dorme cerca de 14 a 15 horas por dia",
             "O sono começa a ficar mais regular durante a noite",
             "Dormir sempre de barriga para cima, em colchão firme, sem objetos no berço",
-            "Partilhar o quarto com os cuidadores, mas nunca a mesma cama"
+            "Partilhar o quarto com os cuidadores, mas sem partilhar a cama, uma vez que é uma prática desaconselhada pela Associação Americana de Pediatria (AAP) devido ao aumento do risco de morte súbita infantil e sufocamento"
           ]
         }
       ]
@@ -1903,10 +1903,10 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Usar sempre cadeira auto homologada, virada para trás, em todas as viagens",
             "Garantir que o berço está livre de objetos soltos (almofadas, brinquedos, cobertores)",
-            "Supervisionar todos os momentos de tummy time",
+            "Supervisionar todos os momentos em que o bebé esteja no chão, de barriga para baixo (tummy time)",
             "Evitar exposição a fumo do tabaco e ambientes com odores fortes"
           ]
         }
@@ -2019,7 +2019,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Sustenta a cabeça com firmeza e apoia-se nos braços em tummy time",
+            "Sustenta a cabeça com firmeza e apoia-se nos braços quando está de barriga para baixo",
             "Pode começar a rolar, sobretudo da barriga para as costas",
             "Agarra objetos e leva-os à boca (coordenação mão-olho)",
             "Segue objetos em todas as direções e reage a cores e padrões",
@@ -2035,8 +2035,8 @@
         {
           "tipo": "lista",
           "itens": [
-            "Oferecer tummy time várias vezes ao dia, sempre sob supervisão",
-            "Brincar de cara a cara com expressões faciais e sorrisos",
+            "Colocar o bebé no chão de barriga para baixo (tummy time) várias vezes ao dia, em cima de manta ou tapete de brincar, sempre sob supervisão",
+            "Brincar de frente para o bebé, cara a cara, com expressões faciais e sorrisos",
             "Mostrar brinquedos coloridos, com sons suaves e fáceis de agarrar",
             "Colocar um espelho seguro para que observe o reflexo",
             "Responder aos sons do bebé como se fosse uma conversa"
@@ -2051,9 +2051,9 @@
         {
           "tipo": "lista",
           "itens": [
-            "O leite materno ou fórmula continuam a ser a única alimentação até aos 6 meses",
+            "O leite materno ou de fórmula continuam a ser a única alimentação até aos 6 meses",
             "Atenção à pega correta na amamentação e ao esvaziar da mama",
-            "Com fórmula, respeitar sempre a diluição e descartar sobras"
+            "Com leite de fórmula, respeitar sempre a diluição e descartar sobras"
           ]
         }
       ]
@@ -2099,11 +2099,12 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Usar sempre cadeira auto homologada, virada para trás, em todas as viagens",
             "Manter o berço livre de almofadas, brinquedos e cobertores soltos",
-            "Supervisionar constantemente durante tummy time",
-            "Manter objetos pequenos fora do alcance para evitar risco de engasgamento"
+            "Supervisionar constantemente sempre que o bebé esteja no chão, de barriga para baixo (tummy time)",
+            "Manter objetos pequenos fora do alcance para evitar risco de engasgamento",
+            "Nunca deixar o bebé sozinho dentro do automóvel"
           ]
         }
       ]
@@ -2295,7 +2296,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Usar sempre cadeira auto homologada, virada para trás, em todas as viagens",
             "Garantir que brinquedos são seguros, grandes o suficiente e sem peças pequenas destacáveis",
             "Evitar dar objetos que possam causar engasgamento",
@@ -2490,7 +2491,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em camas, sofás ou trocadores",
+            "Nunca deixar o bebé sozinho em camas, sofás ou muda-fraldas",
             "Usar sempre cadeira auto homologada, virada para trás",
             "Evitar brinquedos com peças pequenas destacáveis",
             "Oferecer alimentos adaptados para evitar engasgamento",
@@ -2690,7 +2691,7 @@
         {
           "tipo": "lista",
           "itens": [
-            "Nunca deixar o bebé sozinho em sofás, camas ou trocadores",
+            "Nunca deixar o bebé sozinho em sofás, camas ou muda-fraldas",
             "Evitar o uso de andadores — não ajudam a andar mais cedo e são perigosos",
             "Manter objetos pequenos e alimentos de risco fora do alcance",
             "Usar sempre cadeira auto homologada, virada para trás",
