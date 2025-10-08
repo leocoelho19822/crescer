@@ -156,7 +156,7 @@ export default function HeaderHero() {
       {/* NAVBAR FIXA */}
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-          isHomePage ? (scrolled ? "bg-[#78B19A]/90" : "bg-transparent") : "bg-[#78B19A]/90"
+          isHomePage ? (scrolled ? "bg-[#3C6D59]/90" : "bg-transparent") : "bg-[#3C6D59]/90"
         } text-white`}
       >
         {/* Barra superior (mobile) */}
