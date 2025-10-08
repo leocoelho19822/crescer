@@ -95,6 +95,7 @@ export default function Footer() {
                   aria-label='Digite seu email'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  autoComplete='email'
                   className="border border-gray-300 rounded-lg px-4 py-2 pr-10 text-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white"
                   required
                 />

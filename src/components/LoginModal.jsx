@@ -61,7 +61,7 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
         >
           &times;
         </button>
-        
+
         <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-14" />
         <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6">Entrar</h2>
 
@@ -72,6 +72,8 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            autoComplete='email'
+            aria-label="Email login"
             className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Email"
             required
@@ -82,6 +84,8 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
               type={passwordVisible ? "text" : "password"}
               value={password}
               onChange={(e) => setPassword(e.target.value)}
+              aria-label="palavra passe login"
+              autoComplete="current-password"
               className="w-full border-b-2 border-black text-sm py-2 px-1 pr-10 focus:outline-none rounded-xl"
               placeholder="Password"
               required

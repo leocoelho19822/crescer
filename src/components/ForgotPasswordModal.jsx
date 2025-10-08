@@ -60,6 +60,8 @@ function ForgotPasswordModal({ setIsOpen }) {
           <input 
             type="email"
             value={email}
+            autoComplete='email'
+            aria-label="email esqueci senha"
             onChange={(e) => setEmail(e.target.value)}
             className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Digite seu e-mail"
