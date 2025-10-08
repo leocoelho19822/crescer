@@ -30,7 +30,7 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
           {/* Coluna 1: Projeto */}
           <div>
-            <h4 className="font-semibold mb-4">Projeto</h4>
+            <p className="font-semibold mb-4">Projeto</p>
             <ul className="space-y-2 ">
               <li><a href="/page/sobre">:: Sobre</a></li>
               <li><a href="/page/equipa">:: Equipa</a></li>
@@ -41,7 +41,7 @@ export default function Footer() {
 
           {/* Coluna 2: Desenvolvimento */}
           <div>
-            <h4 className="font-semibold mb-4">Desenvolvimento</h4>
+            <p className="font-semibold mb-4">Desenvolvimento</p>
             <ul className="space-y-2 ">
               <li><a href="/page/1tri">:: 1º Trimestre</a></li>
               <li><a href="/page/2tri">:: 2º Trimestre</a></li>
@@ -55,7 +55,7 @@ export default function Footer() {
 
           {/* Coluna 3: Comunidade */}
           <div>
-            <h4 className="font-semibold mb-4">Comunidade</h4>
+            <p className="font-semibold mb-4">Comunidade</p>
             <ul className="space-y-2 ">
               <li><a href="/eventos">:: Eventos</a></li>
               <li><a href="/atividades">:: Atividades</a></li>
@@ -65,7 +65,7 @@ export default function Footer() {
 
           {/* Coluna 4: Legal */}
           <div>
-            <h4 className="font-semibold mb-4">Legal</h4>
+            <p className="font-semibold mb-4">Legal</p>
             <ul className="space-y-2 ">
               <li><a href="/page/politica">:: Política de Privacidade</a></li>
               <li><a href="/page/termos">:: Termos e Condições</a></li>
@@ -78,9 +78,9 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
             {/* Texto à esquerda */}
             <div className="md:max-w-xl">
-              <h4 className="text-white font-semibold mb-1">
+              <p className="text-white font-semibold mb-1">
                 Subscreva a nossa newsletter
-              </h4>
+              </p>
               <p className="text-white">
                 Receba novidades, artigos e recursos diretamente no seu email semanalmente.
               </p>
