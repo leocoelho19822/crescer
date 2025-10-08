@@ -53,7 +53,7 @@ O Cres(Ser) acompanha-te ano a ano, oferecendo apoio prático, atividades e cont
                 <Link to={card.link} key={index}>
                   <div className="bg-[#D4E4FF] rounded-xl shadow-xl p-6 flex flex-col items-center text-center">
                     <img src={card.imagem} alt={card.alt} className="w-full h-auto rounded-md mb-4" />
-                    <div className="bg-[#467AD5] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
+                    <div className="bg-[#1A4696] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
                       {card.titulo}
                     </div>
                     <p className="text-gray-700 leading-relaxed text-sm">{card.texto}</p>
