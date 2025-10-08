@@ -122,12 +122,29 @@ export default function Footer() {
           </div>
 
           {/* Redes sociais */}
-          <div className="flex items-center gap-4 text-xl">
-            <a href="#" aria-label="Facebook"><FaFacebook className="hover:text-gray-300" /></a>
-            <a href="#" aria-label="Instagram"><FaInstagram className="hover:text-gray-300" /></a>
-            <a href="#" aria-label="GitHub"><FaGithub className="hover:text-gray-300" /></a>
-            <a href="#" aria-label="YouTube"><FaYoutube className="hover:text-gray-300" /></a>
-          </div>
+          <ul className="flex items-center gap-4 text-xl" aria-label="Redes sociais">
+            <li>
+              <a href="#" aria-label="Facebook" className="hover:text-gray-300">
+                <FaFacebook />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="Instagram" className="hover:text-gray-300">
+                <FaInstagram />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="GitHub" className="hover:text-gray-300">
+                <FaGithub />
+              </a>
+            </li>
+            <li>
+              <a href="#" aria-label="YouTube" className="hover:text-gray-300">
+                <FaYoutube />
+              </a>
+            </li>
+          </ul>
+
         </div>
       </div>
     </footer>
