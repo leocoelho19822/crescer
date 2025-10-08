@@ -1,0 +1,28 @@
+# robots.txt para a plataforma Cres(Ser)
+# Controla o acesso dos motores de busca às páginas do site.
+
+User-agent: *
+
+# Permitir indexação das páginas públicas
+Allow: /
+
+# Bloquear páginas privadas e áreas administrativas
+Disallow: /login
+Disallow: /registo
+Disallow: /editorial
+Disallow: /dashboard
+Disallow: /api/
+Disallow: /favoritos
+
+# Bloquear ficheiros técnicos e diretórios de desenvolvimento
+Disallow: /config/
+Disallow: /controllers/
+Disallow: /node_modules/
+Disallow: /scripts/
+Disallow: /uploads/
+
+# Sitemap para ajudar motores de busca a encontrar todas as páginas relevantes
+Sitemap: https://www.cresser.pt/sitemap.xml
+
+# Informação adicional (opcional)
+# Contacto para questões de indexação: webmaster@cresser.pt
