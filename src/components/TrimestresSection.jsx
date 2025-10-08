@@ -35,7 +35,7 @@ const cards = [
 
 export default function TrimestresSection() {
   return (
-    <section className=" py-16 ">
+    <section className=" pt-16  ">
       <div className="max-w-7xl mx-auto px-4  text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-zinc-800 mb-4">
           Cres(Ser) contigo... na barriga
@@ -48,7 +48,7 @@ export default function TrimestresSection() {
       <div className="max-w-screen-xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {cards.map((card, index) => (
           <Link to={card.link} key={index}>
-            <div className="bg-[#DAE9E3] rounded-xl shadow-xl p-6 flex flex-col items-center text-center">
+            <div className="bg-[#DAE9E3] rounded-xl shadow-xl p-6 flex flex-col items-center text-center h-125">
               <img src={card.imagem} alt={card.alt} className="w-full h-auto rounded-md mb-4" />
               <div className="bg-[#618F7D] text-white font-semibold text-xl px-6 py-2 -mt-10 w-70 rounded-full mb-4">
                 {card.titulo}

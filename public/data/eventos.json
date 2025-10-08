@@ -4,7 +4,7 @@
       "id": 1,
       "titulo": "Concerto Infantil: Música para Todos",
       "descricao": "Espetáculo interativo pensado para crianças e famílias.",
-      "data": "2025-10-05",
+      "data": "2025-12-25",
       "hora": "16:00",
       "local": "Centro de Artes de Águeda",
       "imagem": "/imagens/eventos/concerto.png"
@@ -13,7 +13,7 @@
       "id": 2,
       "titulo": "Feira da Saúde e Bem-Estar",
       "descricao": "Atividades, rastreios gratuitos e palestras sobre saúde familiar.",
-      "data": "2025-10-12",
+      "data": "2025-12-12",
       "hora": "10:00",
       "local": "Parque Municipal de Aveiro",
       "imagem": "/imagens/eventos/feira-saude.png"
@@ -22,7 +22,7 @@
       "id": 3,
       "titulo": "Caminhada Solidária em Família",
       "descricao": "Passeio saudável para todas as idades, com partida do Parque Central.",
-      "data": "2025-10-19",
+      "data": "2025-12-19",
       "hora": "09:30",
       "local": "Parque Municipal de Alta Villa",
       "imagem": "/imagens/eventos/caminhada.png"

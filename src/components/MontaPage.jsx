@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { FiPhoneCall, FiAlertTriangle, FiShare2, FiMail, FiMapPin } from "react-icons/fi";
+import { FiPhoneCall, FiShare2, FiMail, FiMapPin } from "react-icons/fi";
 import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
 
@@ -264,8 +264,8 @@ export default function MontaPage() {
             case "email":
             return (
               <div key={i} className="flex items-center gap-3 my-3">
-                <FiMail className="text-green-600 w-5 h-5" />
-                <a href={`mailto:${sec.endereco}`} className="text-green-600 hover:underline">
+                <FiMail className="text-blue-600 w-5 h-5" />
+                <a href={`mailto:${sec.endereco}`} className="text-blue-600 hover:underline">
                   {sec.rotulo}
                 </a>
               </div>
@@ -319,10 +319,10 @@ export default function MontaPage() {
             return (
               <div
                 key={i}
-                className="mt-10 p-6 bg-[#FFF4D6] border border-[#E6C97F] rounded-xl shadow-sm"
+                className="mt-10 p-6 bg-[#FFF4D6] border border-zinc-800 rounded-xl shadow-sm"
               >
                 <div className="flex items-center mb-4">
-                  <FiAlertTriangle className="mr-2" color="#B29146" size={24} />
+                  
                   <h2 className="text-lg font-bold text-zinc-700">{sec.titulo}</h2>
                 </div>
 
@@ -336,7 +336,7 @@ export default function MontaPage() {
 
                 <a
                   href={`tel:${sec.telefone}`}
-                  className="inline-flex items-center gap-2 px-5 py-3 border-2 border-[#2C7A7B] text-[#2C7A7B] bg-white rounded-xl shadow hover:bg-[#2C7A7B] hover:text-white transition"
+                  className="inline-flex items-center gap-2 px-5 py-3  bg-[#2C7A7B] text-white rounded-xl shadow hover:bg-[#2C7A7B] hover:border-2 transition"
                   aria-label="Ligar SNS 24"
                 >
                   <FiPhoneCall size={18} />

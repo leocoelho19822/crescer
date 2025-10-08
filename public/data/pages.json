@@ -95,6 +95,20 @@
     },
     {
       "tipo": "acordeao",
+      "titulo": "Direitos na gravidez",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, as trabalhadoras têm direito a um conjunto de medidas de proteção, incluindo dispensa para consultas pré-natais, licença em caso de risco clínico e licença parental após o nascimento."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Existe também proteção especial contra despedimento e o direito a condições de trabalho seguras e adaptadas às necessidades da grávida."
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
       "titulo": "Sintomas a observar",
       "conteudo": [
         {
@@ -135,6 +149,10 @@
         {
           "texto": "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS)",
           "url": "https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf"
+        },
+        {
+          "texto": "Prestações familiares — Segurança Social",
+          "url": "https://www.seg-social.pt/prestacoes-familiares"
         },
         {
           "texto": "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros)",
@@ -228,6 +246,37 @@
         }
       ]
     },
+
+    {
+      "tipo": "acordeao",
+      "titulo": "Preparação antecipada",
+      "conteudo": [
+        {
+          "tipo": "lista",
+          "itens": [
+            "Planear exames e consultas do terceiro trimestre com antecedência",
+            "Considerar a participação em aulas de preparação para o parto",
+            "Informar-se sobre sinais de parto prematuro e como agir",
+            "Conversar com o médico(a) sobre vacinas recomendadas (como a da tosse convulsa)"
+          ]
+        }
+      ]
+    },
+    
+    {
+      "tipo": "acordeao",
+      "titulo": "Direitos na gravidez",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, as trabalhadoras têm direito a um conjunto de medidas de proteção, incluindo dispensa para consultas pré-natais, licença em caso de risco clínico e licença parental após o nascimento."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Existe também proteção especial contra despedimento e o direito a condições de trabalho seguras e adaptadas às necessidades da grávida."
+        }
+      ]
+    },
     {
       "tipo": "acordeao",
       "titulo": "Sintomas a observar",
@@ -248,21 +297,7 @@
         }
       ]
     },
-    {
-      "tipo": "acordeao",
-      "titulo": "Preparação antecipada",
-      "conteudo": [
-        {
-          "tipo": "lista",
-          "itens": [
-            "Planear exames e consultas do terceiro trimestre com antecedência",
-            "Considerar a participação em aulas de preparação para o parto",
-            "Informar-se sobre sinais de parto prematuro e como agir",
-            "Conversar com o médico(a) sobre vacinas recomendadas (como a da tosse convulsa)"
-          ]
-        }
-      ]
-    },
+    
     {
       "tipo": "alerta",
       "titulo": "Quando procurar ajuda",
@@ -285,6 +320,10 @@
         {
           "texto": "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS)",
           "url": "https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf"
+        },
+        {
+          "texto": "Prestações familiares — Segurança Social",
+          "url": "https://www.seg-social.pt/prestacoes-familiares"
         },
         {
           "texto": "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros)",
@@ -398,6 +437,20 @@
     },
     {
       "tipo": "acordeao",
+      "titulo": "Direitos na gravidez",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "Durante a gravidez, as trabalhadoras têm direito a um conjunto de medidas de proteção, incluindo dispensa para consultas pré-natais, licença em caso de risco clínico e licença parental após o nascimento."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Existe também proteção especial contra despedimento e o direito a condições de trabalho seguras e adaptadas às necessidades da grávida."
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
       "titulo": "Sintomas a observar",
       "conteudo": [
         {
@@ -438,6 +491,10 @@
         {
           "texto": "Manual Alimentação e Nutrição na Gravidez (DGS / PNPAS)",
           "url": "https://alimentacaosaudavel.dgs.pt/wp-content/uploads/2022/07/ManualGravidez_Final-3Marc%CC%A7o2021.pdf"
+        },
+        {
+          "texto": "Prestações familiares — Segurança Social",
+          "url": "https://www.seg-social.pt/prestacoes-familiares"
         },
         {
           "texto": "Guia Orientador de Boas Práticas: Gravidez e Adaptação (Ordem dos Enfermeiros)",
@@ -574,6 +631,20 @@
     }
   ]
 },
+{
+      "tipo": "acordeao",
+      "titulo": "Prestações familiares",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As famílias em Portugal podem aceder a diversos apoios financeiros destinados a garantir melhores condições de bem-estar, como o abono de família, o subsídio parental, o subsídio por assistência a filho e o subsídio por riscos específicos na gravidez."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Estes apoios são processados pela Segurança Social e podem ser requeridos online através da Segurança Social Direta."
+        }
+      ]
+    },
     {
       "tipo": "acordeao",
       "titulo": "Sinais a observar",
@@ -623,6 +694,10 @@
         {
           "texto": "World Health Organization – Nurturing Care for Early Childhood Development",
           "url": "https://www.who.int/publications/i/item/9789241514064"
+        },
+        {
+          "texto": "Prestações familiares — Segurança Social",
+          "url": "https://www.seg-social.pt/prestacoes-familiares"
         },
         {
           "texto": "APSI – Associação para a Promoção da Segurança Infantil",
@@ -757,6 +832,20 @@
         }
       ]
     },
+    {
+      "tipo": "acordeao",
+      "titulo": "Prestações familiares",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As famílias em Portugal podem aceder a diversos apoios financeiros destinados a garantir melhores condições de bem-estar, como o abono de família, o subsídio parental, o subsídio por assistência a filho e o subsídio por riscos específicos na gravidez."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Estes apoios são processados pela Segurança Social e podem ser requeridos online através da Segurança Social Direta."
+        }
+      ]
+    },
 
     {
       "tipo": "acordeao",
@@ -806,6 +895,10 @@
         {
           "texto": "World Health Organization – Nurturing Care for Early Childhood Development",
           "url": "https://www.who.int/publications/i/item/9789241514064"
+        },
+        {
+          "texto": "Prestações familiares — Segurança Social",
+          "url": "https://www.seg-social.pt/prestacoes-familiares"
         },
         {
           "texto": "APSI – Associação para a Promoção da Segurança Infantil",
@@ -961,6 +1054,20 @@
     },
     {
       "tipo": "acordeao",
+      "titulo": "Prestações familiares",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As famílias em Portugal podem aceder a diversos apoios financeiros destinados a garantir melhores condições de bem-estar, como o abono de família, o subsídio parental, o subsídio por assistência a filho e o subsídio por riscos específicos na gravidez."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Estes apoios são processados pela Segurança Social e podem ser requeridos online através da Segurança Social Direta."
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
       "titulo": "Sinais a observar",
       "conteudo": [
         {
@@ -1007,6 +1114,10 @@
         {
           "texto": "UNICEF – Early Childhood Development",
           "url": "https://www.unicef.org/early-childhood-development"
+        },
+        {
+          "texto": "Prestações familiares — Segurança Social",
+          "url": "https://www.seg-social.pt/prestacoes-familiares"
         },
         {
           "texto": "APSI – Associação para a Promoção da Segurança Infantil",
@@ -1167,6 +1278,20 @@
             "Usar sempre cadeira auto homologada, virada para trás, desde a primeira viagem",
             "Evitar exposição a fumo do tabaco"
           ]
+        }
+      ]
+    },
+    {
+      "tipo": "acordeao",
+      "titulo": "Prestações familiares",
+      "conteudo": [
+        {
+          "tipo": "paragrafo",
+          "texto": "As famílias em Portugal podem aceder a diversos apoios financeiros destinados a garantir melhores condições de bem-estar, como o abono de família, o subsídio parental, o subsídio por assistência a filho e o subsídio por riscos específicos na gravidez."
+        },
+        {
+          "tipo": "paragrafo",
+          "texto": "Estes apoios são processados pela Segurança Social e podem ser requeridos online através da Segurança Social Direta."
         }
       ]
     },

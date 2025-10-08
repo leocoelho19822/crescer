@@ -54,7 +54,15 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
         className="bg-white rounded-2xl p-8 w-[360px] shadow-md relative"
         onClick={(e) => e.stopPropagation()}
       >
-        <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-10" />
+
+        <button 
+          className="absolute top-2 right-2 text-gray-600 hover:text-black cursor-pointer"
+          onClick={() => setIsOpen(false)}
+        >
+          &times;
+        </button>
+        
+        <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-14" />
         <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6">Entrar</h2>
 
         {error && <p className="text-center text-red-500 mb-4">{error}</p>}

@@ -48,12 +48,12 @@ export default function CardEvento({ titulo, descricao, data, hora, local, image
         </div>
 
         {/* Botão para adicionar ao Google Calendar */}
-        <div className="mt-4">
+        <div className="mt-4 ">
           <a
             href={googleCalendarUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-emerald-600 hover:text-emerald-800 text-sm font-medium"
+            className="flex items-center gap-2 text-blue-600 hover:text-blue-800 text-sm font-medium "
           >
             <FiPlusCircle /> Adicionar ao Google Calendar
           </a>

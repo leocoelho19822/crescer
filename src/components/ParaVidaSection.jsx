@@ -36,7 +36,7 @@ const cards = [
 
 export default function ParaVida() {
   return (
-    <section className=" py-16 ">
+    <section className=" pt-16 ">
       <div className="max-w-7xl px-4 mx-auto text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-zinc-800 mb-4">
           Cres(Ser) contigo... na vida

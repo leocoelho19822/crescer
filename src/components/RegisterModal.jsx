@@ -77,8 +77,16 @@ function RegisterModal({ setIsOpen, setModalType }) {
         className="bg-white rounded-2xl p-8 w-[360px] shadow-md relative"
         onClick={(e) => e.stopPropagation()}
       >
-        <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-10" />
-        <h2 className="text-center text-xl font-semibold text-gray-800 mb-6 ">
+        
+        <button 
+          className="absolute top-2 right-2 text-gray-600 hover:text-black cursor-pointer"
+          onClick={() => setIsOpen(false)}
+        >
+          &times;
+        </button>
+
+        <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-14" />
+        <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6 ">
           Registe-se
         </h2>
 

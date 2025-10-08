@@ -132,8 +132,8 @@ export default function MesamesSection() {
   };
 
   return (
-    <section className="relative ">
-      <div className="max-w-7xl mx-auto px-4 py-8 relative">
+    <section className="pt-16 ">
+      <div className="max-w-7xl mx-auto px-4 relative">
         {location.pathname === "/" && (
           <>
             <h2 className="text-3xl font-bold mb-8 text-zinc-800">
