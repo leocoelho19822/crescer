@@ -169,27 +169,29 @@ export default function MesamesSection() {
           className="overflow-x-auto hide-scroll-bar pb-4 scroll-smooth"
         >
           <div className="flex space-x-6 px-2 md:px-8 min-w-max">
-            {meses.map((card, index) => (
-              <Link to={card.link} key={index}>
-              <div
-                key={index}
-                className="bg-[#FFE2A9] rounded-xl shadow-lg p-4 flex flex-col items-center text-center w-72 h-100 flex-shrink-0"
-              >
-                <img
-                  src={card.imagem}
-                  alt={card.alt}
-                  className="w-full h-64 object-cover rounded-md mb-4"
-                />
-                <div className="bg-[#FFC757] text-gray-800 font-semibold text-xl px-4 py-1 rounded-lg w-52 h-8 flex items-center justify-center -mt-8 mb-3 text-sm">
-                  {card.titulo}
-                </div>
-                <p className="text-gray-700 leading-snug text-sm px-2">
-                  {card.descricao}
-                </p>
-              </div>
-              </Link>
-            ))}
+            <ul className="flex space-x-6">
+              {meses.map((card, index) => (
+                <li key={index} className="flex-shrink-0">
+                  <Link to={card.link}>
+                    <div className="bg-[#FFE2A9] rounded-xl shadow-lg p-4 flex flex-col items-center text-center w-72 h-100">
+                      <img
+                        src={card.imagem}
+                        alt={card.alt}
+                        className="w-full h-64 object-cover rounded-md mb-4"
+                      />
+                      <div className="bg-[#FFC757] text-gray-800 font-semibold text-xl px-4 py-1 rounded-lg w-52 h-8 flex items-center justify-center -mt-8 mb-3 text-sm">
+                        {card.titulo}
+                      </div>
+                      <p className="text-gray-800 leading-snug text-sm px-2">
+                        {card.descricao}
+                      </p>
+                    </div>
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
+
         </div>
       </div>
     </section>
