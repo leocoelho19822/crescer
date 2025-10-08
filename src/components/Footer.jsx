@@ -81,7 +81,7 @@ export default function Footer() {
               <h4 className="text-white font-semibold mb-1">
                 Subscreva a nossa newsletter
               </h4>
-              <p className="text-white/80">
+              <p className="text-white">
                 Receba novidades, artigos e recursos diretamente no seu email semanalmente.
               </p>
             </div>
