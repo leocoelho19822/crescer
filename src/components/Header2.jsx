@@ -458,7 +458,7 @@ export default function HeaderHero() {
 
                 
 
-                <hr className="my-6 border-white/10" />
+                
 
                 
               </ul>
