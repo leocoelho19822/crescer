@@ -1,47 +1,62 @@
 // eslint-disable-next-line
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useDispatch } from "react-redux";
 import { ClipLoader } from "react-spinners";
+import { FiEye, FiEyeOff } from "react-icons/fi";
 import logo from "../assets/verde1.svg";
 import Button from "./Button";
-import { FiEye, FiEyeOff } from "react-icons/fi";
+import { useLoginMutation, useGetProfileQuery } from "../store/api";
+import { setAuthState } from "../store/authSlice";
 
 // eslint-disable-next-line
-export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuthenticated }) {
+export default function LoginModal({ setIsOpen, setModalType }) {
+  const dispatch = useDispatch();
 
+  // Estados locais
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
   const [passwordVisible, setPasswordVisible] = useState(false);
+
+  // RTK Query mutation
+  const [login, { isLoading, isSuccess, isError, error: loginError }] = useLoginMutation();
+
+  // Atualiza o perfil após login bem-sucedido
+  const { data: profileData, refetch } = useGetProfileQuery(undefined, {
+    skip: !isSuccess,
+  });
+
+  // Efeito: quando o login for bem-sucedido, buscar perfil
+  useEffect(() => {
+    if (isSuccess) {
+      refetch();
+    }
+  }, [isSuccess, refetch]);
+
+  // Efeito: quando o perfil for carregado, atualizar o estado global
+  useEffect(() => {
+    if (profileData) {
+      dispatch(setAuthState({ user: profileData, isAuthenticated: true }));
+      setIsOpen(false);
+    }
+  }, [profileData, dispatch, setIsOpen]);
+
+  // Efeito: mostrar erro do servidor
+  useEffect(() => {
+    if (isError && loginError?.data?.message) {
+      setError(loginError.data.message);
+    }
+  }, [isError, loginError]);
 
   const handleLogin = async (e) => {
     e.preventDefault();
     setError(null);
-    setIsLoading(true);
 
     try {
-      const res = await fetch("/data/users.json");
-      const data = await res.json();
-      const users = data.users || [];
-
-      const user = users.find(
-        (u) => u.email === email && u.password_hash === password
-      );
-
-
-      if (user) {
-        localStorage.setItem("user", JSON.stringify(user));
-        setUser(user);
-        setIsAuthenticated(true);
-        setIsOpen(false);
-      } else {
-        setError("E-mail ou senha inválidos.");
-      }
+      await login({ email, password }).unwrap();
     } catch (err) {
-      console.error(err);
-      setError("Erro ao aceder ao ficheiro de utilizadores.");
-    } finally {
-      setIsLoading(false);
+      console.error("Erro no login:", err);
+      setError(err?.data?.message || "Falha no login. Tente novamente.");
     }
   };
 
@@ -54,8 +69,7 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
         className="bg-white rounded-2xl p-8 w-[360px] shadow-md relative"
         onClick={(e) => e.stopPropagation()}
       >
-
-        <button 
+        <button
           className="absolute top-2 right-2 text-gray-600 hover:text-black cursor-pointer"
           onClick={() => setIsOpen(false)}
         >
@@ -63,7 +77,9 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
         </button>
 
         <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-14" />
-        <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6">Entrar</h2>
+        <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6">
+          Entrar
+        </h2>
 
         {error && <p className="text-center text-red-500 mb-4">{error}</p>}
 
@@ -72,7 +88,7 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            autoComplete='email'
+            autoComplete="email"
             aria-label="Email login"
             className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
             placeholder="Email"
@@ -104,7 +120,7 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
               className="underline cursor-pointer"
               onClick={() => setModalType("forgot-password")}
             >
-              Esqueceu sua senha?
+              Esqueceu a sua senha?
             </button>
           </div>
 
@@ -119,7 +135,7 @@ export default function LoginModal({ setIsOpen, setModalType, setUser, setIsAuth
             className="underline cursor-pointer"
             onClick={() => setModalType("register")}
           >
-            Faça aqui seu registo!
+            Faça aqui o seu registo!
           </button>
         </div>
       </div>

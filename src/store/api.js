@@ -4,7 +4,7 @@ export const api = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
     //baseUrl: "http://localhost:5008/api", 
-    baseUrl: "https://apicrescer.craveirocoelho.pt/api", 
+    baseUrl: "https://api.projetocrescer.pt/api", 
     credentials: "include", 
   }),
 

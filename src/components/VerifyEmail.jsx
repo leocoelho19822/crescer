@@ -28,7 +28,7 @@ function VerifyEmail() {
       <div className="bg-white p-6 rounded-lg shadow-lg w-96 text-center">
         <h2 className="text-2xl font-bold mb-4">Verificação de E-mail</h2>
 
-        {isLoading && <p className="text-blue-500">Verificando...</p>}
+        {isLoading && <p className="text-blue-500">A verificar...</p>}
         {isSuccess && <p className="text-green-500 bg-green-100 p-2 rounded">{message}</p>}
         {isError && <p className="text-red-500 bg-red-100 p-2 rounded">{error?.data?.message || "Erro ao verificar o e-mail."}</p>}
       </div>

@@ -1,70 +1,80 @@
 // eslint-disable-next-line
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ClipLoader } from "react-spinners";
-import logo from "../assets/verde1.svg";
 import { FiEye, FiEyeOff } from "react-icons/fi";
+import { useRegisterMutation } from "../store/api";
+import logo from "../assets/verde1.svg";
 import Button from "./Button";
 
 // eslint-disable-next-line
-function RegisterModal({ setIsOpen, setModalType }) {
+export default function RegisterModal({ setIsOpen, setModalType }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [role] = useState("geral"); // valor padrão (pode mudar depois, se quiseres incluir perfis profissionais)
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
-  const [isLoading, setIsLoading] = useState(false);
   const [passwordVisible, setPasswordVisible] = useState(false);
   const [passwordValid, setPasswordValid] = useState(false);
 
   const validatePassword = (password) => {
-    const passwordRegex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
-    return passwordRegex.test(password);
+    const regex = /^(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+    return regex.test(password);
   };
+
+  const [register, { isLoading, isSuccess, isError, error: registerError }] =
+    useRegisterMutation();
+
+  useEffect(() => {
+    if (isSuccess) {
+      setSuccess("Conta criada com sucesso! Verifique o seu e-mail para ativar a conta.");
+      setError(null);
+      setName("");
+      setEmail("");
+      setPassword("");
+    }
+    if (isError && registerError?.data?.message) {
+      setError(registerError.data.message);
+    }
+  }, [isSuccess, isError, registerError]);
 
   const handleRegister = async (e) => {
     e.preventDefault();
     setError(null);
     setSuccess(null);
 
-    const isPasswordOk = validatePassword(password);
-    setPasswordValid(isPasswordOk);
-
-    if (!isPasswordOk) {
+    if (!validatePassword(password)) {
+      setPasswordValid(false);
       setError("A senha deve ter 8+ caracteres, incluindo uma maiúscula, um número e um símbolo.");
       return;
     }
 
-    setIsLoading(true);
+    setPasswordValid(true);
+
+    // Estrutura compatível com o novo modelo Sequelize
+    const newUser = {
+      name,
+      email,
+      password,
+      role, // "geral", "profissional", "editor" etc.
+      title: null,
+      specialty: null,
+      imagem: null,
+      favorites: [],
+      active: true,
+      email_verified: false,
+      preferences: {
+        idioma: "pt-PT",
+        notificacoes: true,
+        tema: "claro",
+      },
+    };
 
     try {
-      // buscar lista de utilizadores já registados (localStorage)
-      const storedUsers = JSON.parse(localStorage.getItem("users")) || [];
-
-      // verificar se email já existe
-      if (storedUsers.some((u) => u.email === email)) {
-        setError("Este e-mail já está em uso. Tente outro ou faça login.");
-        return;
-      }
-
-      // criar novo utilizador
-      const newUser = {
-        id: Date.now(),
-        nome: name,
-        email,
-        password,
-      };
-
-      // guardar utilizador na lista
-      localStorage.setItem("users", JSON.stringify([...storedUsers, newUser]));
-
-      setSuccess("Conta criada com sucesso! Agora pode iniciar sessão.");
-      setName("");
-      setEmail("");
-      setPassword("");
-    } catch {
-      setError("Erro ao criar conta. Tente novamente.");
-    } finally {
-      setIsLoading(false);
+      await register(newUser).unwrap();
+    } catch (err) {
+      console.error("Erro no registo:", err);
+      setError(err?.data?.message || "Erro ao criar conta. Tente novamente.");
     }
   };
 
@@ -77,8 +87,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
         className="bg-white rounded-2xl p-8 w-[360px] shadow-md relative"
         onClick={(e) => e.stopPropagation()}
       >
-        
-        <button 
+        <button
           className="absolute top-2 right-2 text-gray-600 hover:text-black cursor-pointer"
           onClick={() => setIsOpen(false)}
         >
@@ -87,7 +96,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
 
         <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-14" />
         <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6 ">
-          Registe-se
+          Criar Conta
         </h2>
 
         {error && <p className="text-center text-red-500 mb-4">{error}</p>}
@@ -99,7 +108,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
             value={name}
             onChange={(e) => setName(e.target.value)}
             className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
-            placeholder="Digite seu nome"
+            placeholder="Digite o seu nome"
             required
           />
 
@@ -108,7 +117,7 @@ function RegisterModal({ setIsOpen, setModalType }) {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="w-full border-b-2 border-black text-sm py-2 px-1 mb-6 focus:outline-none rounded-xl"
-            placeholder="Digite seu e-mail"
+            placeholder="Digite o seu e-mail"
             required
           />
 
@@ -117,9 +126,9 @@ function RegisterModal({ setIsOpen, setModalType }) {
               type={passwordVisible ? "text" : "password"}
               value={password}
               onChange={(e) => {
-                const newPassword = e.target.value;
-                setPassword(newPassword);
-                setPasswordValid(validatePassword(newPassword));
+                const val = e.target.value;
+                setPassword(val);
+                setPasswordValid(validatePassword(val));
               }}
               className="w-full border-b-2 border-black text-sm py-2 px-1 mb-1 focus:outline-none rounded-xl"
               placeholder="Password"
@@ -134,7 +143,9 @@ function RegisterModal({ setIsOpen, setModalType }) {
           </div>
 
           {password.length > 0 && (
-            <p className={`${passwordValid ? "text-green-600" : "text-red-600"} text-sm mb-4`}>
+            <p
+              className={`${passwordValid ? "text-verde-100" : "text-red-600"} text-sm mb-4`}
+            >
               {passwordValid
                 ? "Senha válida ✅"
                 : "A senha deve ter 8+ caracteres, incluindo uma maiúscula, um número e um símbolo."}
@@ -142,24 +153,22 @@ function RegisterModal({ setIsOpen, setModalType }) {
           )}
 
           <Button type="submit" className="w-full" disabled={isLoading}>
-            {isLoading ? <ClipLoader size={20} color="#000" /> : "Continuar"}
+            {isLoading ? <ClipLoader size={20} color="#000" /> : "Registar"}
           </Button>
         </form>
 
         <hr className="my-6 border-gray-300" />
 
         <div className="text-center text-sm text-gray-600">
-          Já é membro?{" "}
+          Já tem conta?{" "}
           <button
             className="underline cursor-pointer"
             onClick={() => setModalType("login")}
           >
-            Entrar!
+            Inicie sessão
           </button>
         </div>
       </div>
     </div>
   );
 }
-
-export default RegisterModal;
