@@ -265,7 +265,7 @@ export default function MontaArtigo() {
                               href={fonte.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="text-blue-600 hover:underline"
+                              className="text-azul-60 hover:underline"
                             >
                               {fonte.texto}
                             </a>
@@ -303,7 +303,7 @@ export default function MontaArtigo() {
                   {sec.telefone && (
                     <a
                       href={`tel:${sec.telefone}`}
-                      className="inline-flex items-center gap-2 px-5 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
+                      className="inline-flex items-center gap-2 px-5 py-3 text-white rounded-lg shadow "
                       aria-label="Ligar SNS 24"
                     >
                       <FiPhoneCall size={18} />

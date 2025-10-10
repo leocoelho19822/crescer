@@ -74,7 +74,7 @@ export default function FavoritosPage() {
                   <div className="flex justify-between items-center mt-4 text-sm">
                     <Link
                       to={`/artigo/${artigo.slug}`} // rota usa slug
-                      className="text-blue-600 hover:underline font-medium"
+                      className="text-azul-60 hover:underline font-medium"
                     >
                       Ler mais →
                     </Link>

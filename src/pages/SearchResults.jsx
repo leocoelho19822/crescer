@@ -35,7 +35,7 @@ export default function SearchResults() {
     <main className="max-w-4xl mx-auto px-4 py-10 mt-24">
       <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
         Resultados da pesquisa por:{" "}
-        <span className="text-emerald-600">{query}</span>
+        <span className="text-verde-100">{query}</span>
       </h1>
 
       {resultados.length === 0 ? (
@@ -62,7 +62,7 @@ export default function SearchResults() {
                         <div className="flex justify-end mt-4">
                           <Link
                             to={`/artigo/${artigo.slug}`}
-                            className="text-sm text-blue-600 hover:underline font-medium"
+                            className="text-sm text-azul-60 hover:underline font-medium"
                           >
                             Ler mais →
                           </Link>

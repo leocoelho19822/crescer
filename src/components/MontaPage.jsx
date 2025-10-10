@@ -319,7 +319,7 @@ export default function MontaPage() {
             return (
               <div
                 key={i}
-                className="mt-10 p-6 bg-[#FFF4D6] border border-zinc-800 rounded-xl shadow-sm"
+                className="mt-10 p-6 bg-orange-50 border border-zinc-800 rounded-xl shadow-sm"
               >
                 <div className="flex items-center mb-4">
                   
@@ -329,14 +329,14 @@ export default function MontaPage() {
                 <p className="text-sm text-zinc-800 mb-4 leading-relaxed">{sec.texto}</p>
 
                 {sec.nota && (
-                  <p className="text-sm text-gray-700 bg-white border-l-4 border-[#E6C97F] p-3 rounded mb-4">
+                  <p className="text-sm text-gray-700 bg-white border-l-4 border-orange-40 p-3 rounded mb-4">
                     {sec.nota}
                   </p>
                 )}
 
                 <a
                   href={`tel:${sec.telefone}`}
-                  className="inline-flex items-center gap-2 px-5 py-3  bg-[#2C7A7B] text-white rounded-xl shadow hover:bg-[#2C7A7B] hover:border-2 transition"
+                  className="inline-flex items-center gap-2 px-5 py-3  bg-verde-100 text-white rounded-xl shadow hover:bg-verde-80 hover:border-2 transition"
                   aria-label="Ligar SNS 24"
                 >
                   <FiPhoneCall size={18} />
@@ -389,7 +389,7 @@ export default function MontaPage() {
                           href={fonte.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-blue-600 hover:underline"
+                          className="text-azul-60 hover:underline"
                         >
                           {fonte.texto}
                         </a>

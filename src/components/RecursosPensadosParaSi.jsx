@@ -67,7 +67,7 @@ export default function RecursosPensadosParaSi({ tipo }) {
               <div className="flex justify-end mt-4">
                 <Link
                   to={`/artigo/${artigo.slug}`}
-                  className="text-sm text-blue-600 hover:underline font-medium"
+                  className="text-sm text-azul-60 hover:underline font-medium"
                 >
                   Ler mais →
                 </Link>

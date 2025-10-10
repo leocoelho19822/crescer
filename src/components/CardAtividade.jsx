@@ -61,12 +61,12 @@ export default function CardEvento({ titulo, data, hora, local, tipo, descricao,
       }`}
     >
       <div className="flex items-start justify-between gap-3">
-        <div className="flex items-center gap-2 text-[#78B19A]">
+        <div className="flex items-center gap-2 text-verde-100">
           <FiCalendar className="shrink-0" />
           <span className="text-sm font-medium">{data}</span>
         </div>
         {tipo && (
-          <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-[#78B19A]/10 text-[#78B19A]">
+          <span className="inline-flex items-center gap-1 text-xs px-2 py-1 rounded-full bg-verde-10 text-verde-100">
             <FiTag className="text-xs" />
             {tipo}
           </span>
@@ -89,7 +89,7 @@ export default function CardEvento({ titulo, data, hora, local, tipo, descricao,
       {status === "ativo" && (
         isInscrito ? (
           <div className="mt-4 text-sm">
-            <p className="font-medium text-green-600 mb-2">✅ Já inscrito</p>
+            <p className="font-medium text-verde-100 mb-2">✅ Já inscrito</p>
             <button
               type="button"
               onClick={() => abrirConfirmacao("anular")}
