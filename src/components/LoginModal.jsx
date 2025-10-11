@@ -138,7 +138,7 @@ export default function LoginModal({ setIsOpen, setModalType }) {
         <GoogleLogin
           onSuccess={async (credentialResponse) => {
             try {
-              const res = await fetch("https://api.projetocrescer.pt/api/auth/google", {
+              const res = await fetch("https://api.projetocrescer.pt/api/users/google", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 credentials: "include",
