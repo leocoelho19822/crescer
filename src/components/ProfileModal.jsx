@@ -5,6 +5,7 @@ import { FiUpload, FiLogOut } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
 import { clearAuthState } from "../store/authSlice";
 import { useLogoutMutation } from "../store/api";
+import { googleLogout } from "@react-oauth/google"; // ✅ logout do Google
 
 // eslint-disable-next-line
 export default function ProfileModal({ setIsOpen }) {
@@ -14,9 +15,23 @@ export default function ProfileModal({ setIsOpen }) {
 
   const handleLogout = async () => {
     try {
+      // 🔹 1. Faz logout no backend (remove cookie)
       await logoutUser().unwrap();
+
+      // 🔹 2. Se a sessão for do Google, encerra também
+      googleLogout();
+
+      // 🔹 3. Limpa Redux + localStorage
       dispatch(clearAuthState());
+      localStorage.removeItem("user");
+      localStorage.removeItem("favoritos");
+      localStorage.removeItem("inscricoes");
+
+      // 🔹 4. Fecha modal
       setIsOpen(false);
+
+      // (opcional) Força recarregar a página
+      // window.location.reload();
     } catch (error) {
       console.error("Erro ao encerrar sessão:", error);
     }
