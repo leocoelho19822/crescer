@@ -1,19 +1,28 @@
 // eslint-disable-next-line
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { useSelector, useDispatch } from "react-redux";
 import { FiUpload, FiLogOut } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
+import { clearAuthState } from "../store/authSlice";
+import { useLogoutMutation } from "../store/api";
+
 // eslint-disable-next-line
-function ProfileModal({ setIsOpen, handleLogout }) {
-  const [userData, setUserData] = useState(null);
+export default function ProfileModal({ setIsOpen }) {
+  const dispatch = useDispatch();
+  const user = useSelector((state) => state.auth.user);
+  const [logoutUser] = useLogoutMutation();
 
-  useEffect(() => {
-    const storedUser = localStorage.getItem("user");
-    if (storedUser) {
-      setUserData(JSON.parse(storedUser));
+  const handleLogout = async () => {
+    try {
+      await logoutUser().unwrap();
+      dispatch(clearAuthState());
+      setIsOpen(false);
+    } catch (error) {
+      console.error("Erro ao encerrar sessão:", error);
     }
-  }, []);
+  };
 
-  if (!userData) {
+  if (!user) {
     return (
       <div
         className="fixed inset-0 bg-black/50 flex justify-center items-center z-[100]"
@@ -57,9 +66,9 @@ function ProfileModal({ setIsOpen, handleLogout }) {
         {/* Avatar */}
         <div className="flex justify-center items-center pt-10">
           <div className="relative">
-            {userData?.imagem ? (
+            {user?.imagem ? (
               <img
-                src={userData.imagem}
+                src={user.imagem}
                 alt="Foto de perfil"
                 className="w-44 h-44 rounded-full border-4 border-white object-cover shadow-md"
               />
@@ -68,7 +77,7 @@ function ProfileModal({ setIsOpen, handleLogout }) {
                 <CgProfile className="text-gray-500" size={48} />
               </div>
             )}
-            {/* Botão de upload */}
+            {/* Botão upload (futuro) */}
             <button className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow cursor-pointer hover:bg-gray-100">
               <FiUpload className="text-emerald-600" size={18} />
             </button>
@@ -77,19 +86,13 @@ function ProfileModal({ setIsOpen, handleLogout }) {
 
         {/* Conteúdo */}
         <div className="pt-6 pb-6 px-6 text-center">
-          <h2 className="text-xl font-bold">{userData.name || "—"}</h2>
-          <p className="text-gray-600">{userData.email}</p>
+          <h2 className="text-xl font-bold">{user.name || "—"}</h2>
+          <p className="text-gray-600">{user.email}</p>
 
           {/* Botão encerrar sessão */}
           <button
             className="w-full flex items-center justify-center gap-2 bg-red-500 text-white p-2 rounded-3xl cursor-pointer hover:bg-red-600 mt-6"
-            onClick={() => {
-              localStorage.removeItem("user");
-              localStorage.removeItem("favoritos");
-              localStorage.removeItem("inscricoes");
-              handleLogout?.();
-              setIsOpen(false);
-            }}
+            onClick={handleLogout}
           >
             <FiLogOut size={18} />
             Encerrar sessão
@@ -99,5 +102,3 @@ function ProfileModal({ setIsOpen, handleLogout }) {
     </div>
   );
 }
-
-export default ProfileModal;

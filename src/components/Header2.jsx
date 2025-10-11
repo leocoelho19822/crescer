@@ -18,9 +18,9 @@ import LoginModal from "./LoginModal";
 import RegisterModal from "./RegisterModal";
 import ForgotPasswordModal from "./ForgotPasswordModal";
 import ProfileModal from "./ProfileModal";
-//import { useDispatch, useSelector } from "react-redux";
-//import { useGetProfileQuery, useLogoutMutation } from "../store/api";
-//import { setAuthState, clearAuthState } from "../store/authSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { useGetProfileQuery, useLogoutMutation } from "../store/api";
+import { setAuthState, clearAuthState } from "../store/authSlice";
 //import { IoIosArrowBack } from "react-icons/io";
 
 const slides = [
@@ -47,11 +47,14 @@ export default function HeaderHero() {
   const [menuOpen, setMenuOpen] = useState(false); // usado como "mobileOpen"
   const [currentSlide, setCurrentSlide] = useState(0);
   const [fade, setFade] = useState(true);
-  //const dispatch = useDispatch();
-  //const { data: userData, refetch } = useGetProfileQuery();
-  //const [logoutUser] = useLogoutMutation();
-  //const user = useSelector((state) => state.auth.user);
-  //const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+  const dispatch = useDispatch();
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+  const { data: userData, refetch } = useGetProfileQuery(undefined, {
+    skip: !isAuthenticated,
+  });
+  const [logoutUser] = useLogoutMutation();
+  const user = useSelector((state) => state.auth.user);
+  
   const [modalType, setModalType] = useState(null);
   const [profileModalOpen, setProfileModalOpen] = useState(false);
   const [isProjectOpen, setIsProjectOpen] = useState(false);
@@ -59,10 +62,8 @@ export default function HeaderHero() {
   const [isColoOpen, setIsColoOpen] = useState(false);
   const [isVidaOpen, setIsVidaOpen] = useState(false);
   const [isComunidadeOpen, setIsComunidadeOpen] = useState(false);
-
   
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [user, setUser] = useState(null);
+
 
 
   const navigate = useNavigate();
@@ -81,6 +82,7 @@ export default function HeaderHero() {
     }
   };
 
+  /*
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
@@ -88,7 +90,7 @@ export default function HeaderHero() {
       setIsAuthenticated(true);
     }
   }, []);
-
+*/
 
   useEffect(() => {
     const handleScroll = () => {
@@ -109,12 +111,12 @@ export default function HeaderHero() {
     return () => clearInterval(interval);
   }, []);
 
-  /*useEffect(() => {
+  useEffect(() => {
     if (userData) {
       dispatch(setAuthState({ user: userData, isAuthenticated: true }));
     }
   }, [userData, dispatch]);
-  */
+  
 
   // Fecha com ESC
   useEffect(() => {
@@ -125,7 +127,7 @@ export default function HeaderHero() {
     return () => window.removeEventListener("keydown", onKey);
   }, []);
 
-  /*
+  
   const handleLogout = async () => {
     try {
       await logoutUser().unwrap();
@@ -136,8 +138,8 @@ export default function HeaderHero() {
       console.error("Erro ao fazer logout", error);
     }
   };
-  */
-
+  
+/*
   const handleLogout = () => {
   setIsAuthenticated(false);
   setUser(null);
@@ -146,7 +148,7 @@ export default function HeaderHero() {
   localStorage.removeItem("inscricoes");
   setProfileModalOpen(false);
 };
-
+*/
 
 
   const { image, title, subtitle } = slides[currentSlide];
@@ -635,12 +637,8 @@ export default function HeaderHero() {
 
       {profileModalOpen && <ProfileModal setIsOpen={setProfileModalOpen} handleLogout={handleLogout} />}
       {modalType === "login" && (
-        <LoginModal
-          setIsOpen={() => setModalType(null)}
-          setModalType={setModalType}
-          setUser={setUser}
-          setIsAuthenticated={setIsAuthenticated}
-        />
+        <LoginModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />
+
       )}
       {modalType === "register" && <RegisterModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
       {modalType === "forgot-password" && <ForgotPasswordModal setIsOpen={() => setModalType(null)} setModalType={setModalType} />}
