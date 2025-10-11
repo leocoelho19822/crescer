@@ -3,10 +3,13 @@ import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { ClipLoader } from "react-spinners";
 import { FiEye, FiEyeOff } from "react-icons/fi";
+
 import logo from "../assets/verde1.svg";
 import Button from "./Button";
 import { useLoginMutation, useGetProfileQuery } from "../store/api";
 import { setAuthState } from "../store/authSlice";
+import { GoogleLogin } from "@react-oauth/google";
+
 
 // eslint-disable-next-line
 export default function LoginModal({ setIsOpen, setModalType }) {
@@ -59,6 +62,8 @@ export default function LoginModal({ setIsOpen, setModalType }) {
       setError(err?.data?.message || "Falha no login. Tente novamente.");
     }
   };
+
+  
 
   return (
     <div
@@ -128,6 +133,31 @@ export default function LoginModal({ setIsOpen, setModalType }) {
             {isLoading ? <ClipLoader size={20} color="#000" /> : "Iniciar Sessão"}
           </Button>
         </form>
+
+        <div className="mt-4">
+        <GoogleLogin
+          onSuccess={async (credentialResponse) => {
+            try {
+              const res = await fetch("https://api.projetocrescer.pt/api/auth/google", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                credentials: "include",
+                body: JSON.stringify({ token: credentialResponse.credential }),
+              });
+
+              if (res.ok) {
+                window.location.reload();
+              } else {
+                console.error("Erro no login com Google:", await res.json());
+              }
+            } catch (err) {
+              console.error("Falha no login Google:", err);
+            }
+          }}
+          onError={() => console.error("Erro ao autenticar com o Google")}
+        />
+      </div>
+
 
         <div className="text-center text-sm text-gray-500 mt-6">
           Sem registo?{" "}
