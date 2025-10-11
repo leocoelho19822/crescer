@@ -49,9 +49,9 @@ export default function HeaderHero() {
   const [fade, setFade] = useState(true);
   const dispatch = useDispatch();
   const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
-  const { data: userData, refetch } = useGetProfileQuery(undefined, {
-    skip: !isAuthenticated,
-  });
+  const { data: userData, refetch } = useGetProfileQuery();
+  
+
   const [logoutUser] = useLogoutMutation();
   const user = useSelector((state) => state.auth.user);
   
@@ -81,6 +81,8 @@ export default function HeaderHero() {
       setSearchTerm("");
     }
   };
+
+  
 
   /*
   useEffect(() => {
