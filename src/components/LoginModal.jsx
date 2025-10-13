@@ -145,17 +145,24 @@ export default function LoginModal({ setIsOpen, setModalType }) {
                 body: JSON.stringify({ token: credentialResponse.credential }),
               });
 
-              if (res.ok) {
-                window.location.reload();
+              const data = await res.json();
+
+              if (res.ok && data.user) {
+                // ✅ Atualiza o Redux e fecha modal
+                dispatch(setAuthState({ user: data.user, isAuthenticated: true }));
+                setIsOpen(false);
               } else {
-                console.error("Erro no login com Google:", await res.json());
+                console.error("Erro no login com Google:", data);
+                setError(data.message || "Falha ao autenticar com o Google.");
               }
             } catch (err) {
               console.error("Falha no login Google:", err);
+              setError("Erro ao autenticar com o Google.");
             }
           }}
-          onError={() => console.error("Erro ao autenticar com o Google")}
+          onError={() => setError("Erro ao autenticar com o Google.")}
         />
+
       </div>
 
 

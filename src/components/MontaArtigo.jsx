@@ -1,11 +1,12 @@
-// eslint-disable-next-line
+/* eslint-disable */
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { FiPhoneCall, FiAlertTriangle, FiShare2, FiHeart } from "react-icons/fi";
 import { AiFillHeart } from "react-icons/ai";
-
+import { useSelector, useDispatch } from "react-redux";
 import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
+import { setAuthState } from "../store/authSlice";
 
 export default function MontaArtigo() {
   const { id } = useParams();
@@ -17,28 +18,34 @@ export default function MontaArtigo() {
   const [autorNome, setAutorNome] = useState("");
   const [revisorNome, setRevisorNome] = useState("");
 
-  // carregar artigo
+  const dispatch = useDispatch();
+  const user = useSelector((state) => state.auth.user);
+  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+
+  // 🔹 Carregar artigo
   useEffect(() => {
     setLoading(true);
     setError(false);
 
-    fetch("/data/artigos.json") 
+    fetch("/data/artigos.json")
       .then((res) => {
         if (!res.ok) throw new Error("Artigo não encontrado");
         return res.json();
       })
       .then((data) => {
-      const foundArtigo = data.artigos.find(
-        (a) => a.slug === id && a.status === "publicado"
-      );
-      if (!foundArtigo) {
-        setError(true);
-      } else {
-        setArtigo(foundArtigo);
+        const foundArtigo = data.artigos.find(
+          (a) => a.slug === id && a.status === "publicado"
+        );
+        if (!foundArtigo) {
+          setError(true);
+        } else {
+          setArtigo(foundArtigo);
 
-          const favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
-          if (favoritos.includes(foundArtigo.slug)) {
+          // Se o user estiver autenticado, verificar se o artigo está nos favoritos
+          if (user?.favorites?.includes(foundArtigo.slug)) {
             setFavorito(true);
+          } else {
+            setFavorito(false);
           }
         }
         setLoading(false);
@@ -47,10 +54,9 @@ export default function MontaArtigo() {
         setError(true);
         setLoading(false);
       });
-  }, [id]);
+  }, [id, user]);
 
-
-  // carregar autor/revisor depois do artigo
+  // 🔹 Carregar autor e revisor
   useEffect(() => {
     if (!artigo) return;
 
@@ -64,19 +70,49 @@ export default function MontaArtigo() {
       });
   }, [artigo]);
 
-  const toggleFavorito = () => {
-    let favoritos = JSON.parse(localStorage.getItem("favoritos") || "[]");
-
-    if (favorito) {
-      favoritos = favoritos.filter((fid) => fid !== id);
-    } else {
-      favoritos.push(id);
+  // 🔹 Adicionar/remover favorito
+  const toggleFavorito = async () => {
+    if (!isAuthenticated) {
+      alert("Inicie sessão para guardar nos favoritos.");
+      return;
     }
 
-    localStorage.setItem("favoritos", JSON.stringify(favoritos));
-    setFavorito(!favorito);
+    try {
+      const res = await fetch("https://api.projetocrescer.pt/api/users/favorites", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify({ artigoSlug: id }),
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        // Atualiza o ícone
+        setFavorito(!favorito);
+
+        // Atualiza o Redux
+        dispatch(
+          setAuthState({
+            user: { ...user, favorites: data.favorites },
+            isAuthenticated: true,
+          })
+        );
+
+        // Feedback visual
+        const mensagem = data.message.includes("adicionado")
+          ? "💚 Artigo adicionado aos favoritos!"
+          : "💔 Artigo removido dos favoritos!";
+        console.log(mensagem);
+      } else {
+        console.error("Erro:", data.message);
+      }
+    } catch (error) {
+      console.error("Erro ao atualizar favorito:", error);
+    }
   };
 
+  // 🔹 Estado de carregamento
   if (loading) return <p className="text-center mt-24">A carregar...</p>;
 
   if (error || !artigo) {
@@ -97,27 +133,25 @@ export default function MontaArtigo() {
     );
   }
 
+  // 🔹 Renderização principal
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
-      {/* 1. Título */}
+      {/* Título */}
       <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
         {artigo.titulo}
       </h1>
 
-      {/* 2. Resumo */}
+      {/* Resumo */}
       {artigo.resumo && (
         <p className="text-lg italic text-zinc-600 mb-10">{artigo.resumo}</p>
       )}
 
-      {/* 3. Autor + Categoria + Data */}
+      {/* Autor / Revisor */}
       <div className="mb-6 text-sm text-gray-500 space-y-1">
-        {/* Linha 1 */}
         <div className="flex justify-between">
           <p>{autorNome && <span>{autorNome}</span>}</p>
           <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
         </div>
-
-        {/* Linha 2 */}
         <div className="flex justify-between">
           <p>Categoria: {artigo.categoria}</p>
           <p>
@@ -127,9 +161,7 @@ export default function MontaArtigo() {
         </div>
       </div>
 
-
-
-      {/* 4. Imagem + Ações */}
+      {/* Imagem + Ações */}
       {artigo.imagem && (
         <>
           <img
@@ -139,6 +171,7 @@ export default function MontaArtigo() {
           />
 
           <div className="flex items-center justify-end space-x-6 mb-10">
+            {/* Partilhar */}
             {artigo.icones?.partilha && (
               <button
                 onClick={() => {
@@ -160,6 +193,7 @@ export default function MontaArtigo() {
               </button>
             )}
 
+            {/* Favoritar */}
             {artigo.icones?.favorito && (
               <button
                 onClick={toggleFavorito}
@@ -177,7 +211,7 @@ export default function MontaArtigo() {
         </>
       )}
 
-      {/* 5. Conteúdo */}
+      {/* Conteúdo do artigo */}
       <div className="prose prose-zinc lg:prose-lg max-w-none mb-20">
         {artigo.conteudo.map((sec, i) => {
           switch (sec.tipo) {
@@ -212,115 +246,6 @@ export default function MontaArtigo() {
                     ))}
                   </ul>
                 </div>
-              );
-
-            case "video":
-              return (
-                <div key={i} className="my-8 aspect-video">
-                  <iframe
-                    src={`https://www.youtube.com/embed/${sec.id}`}
-                    title="Vídeo"
-                    allowFullScreen
-                    className="w-full h-full rounded-lg shadow"
-                  />
-                </div>
-              );
-
-            case "testeConhecimento":
-              // eslint-disable-next-line
-              const isShown = quizAnswers[i] || false;
-              return (
-                <div key={i} className="my-20 border rounded-lg p-4 bg-emerald-50">
-                  <h2 className="text-lg font-bold text-zinc-800 mb-3">
-                    {sec.titulo || "Teste de conhecimento"}
-                  </h2>
-                  <p className="text-zinc-800 font-medium mb-3">
-                    {sec.pergunta}
-                  </p>
-                  {!isShown ? (
-                    <Button
-                      onClick={() =>
-                        setQuizAnswers((prev) => ({ ...prev, [i]: true }))
-                      }
-                    >
-                      Mostrar resposta
-                    </Button>
-                  ) : (
-                    <p className="mt-3 text-green-700 font-semibold">
-                      {sec.resposta}
-                    </p>
-                  )}
-                </div>
-              );
-
-              case "fontes":
-                return (
-                  <div key={i} className="mt-12">
-                    <h2 className="text-lg font-bold text-zinc-800 mb-4">Fontes</h2>
-                    <ul className="list-disc pl-6 space-y-2 text-gray-700 text-sm">
-                      {sec.itens.map((fonte, j) => (
-                        <li key={j}>
-                          {fonte.url ? (
-                            <a
-                              href={fonte.url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="text-azul-60 hover:underline"
-                            >
-                              {fonte.texto}
-                            </a>
-                          ) : (
-                            fonte.texto
-                          )}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                );
-
-
-
-            case "alerta":
-              return (
-                <div
-                  key={i}
-                  className="mt-10 p-6 bg-emerald-50 border border-emerald-50 rounded-xl shadow-sm"
-                >
-                  <div className="flex items-center mb-4">
-                    <FiAlertTriangle className="text-zinc-600 mr-2" size={24} />
-                    <h2 className="text-lg font-bold text-zinc-700">
-                      {sec.titulo}
-                    </h2>
-                  </div>
-                  <p className="text-sm text-zinc-800 mb-4 leading-relaxed">
-                    {sec.texto}
-                  </p>
-                  {sec.nota && (
-                    <p className="text-sm text-gray-700 bg-white border-l-4 border-emerald-400 p-3 rounded mb-4">
-                      {sec.nota}
-                    </p>
-                  )}
-                  {sec.telefone && (
-                    <a
-                      href={`tel:${sec.telefone}`}
-                      className="inline-flex items-center gap-2 px-5 py-3 text-white rounded-lg shadow "
-                      aria-label="Ligar SNS 24"
-                    >
-                      <FiPhoneCall size={18} />
-                      {sec.rotulo}
-                    </a>
-                  )}
-                </div>
-              );
-
-            case "citacao":
-              return (
-                <blockquote
-                  key={i}
-                  className="border-l-4 border-zinc-300 pl-4 italic text-xl md:text-2xl text-zinc-700 my-10"
-                >
-                  “{sec.texto}”
-                </blockquote>
               );
 
             default:
