@@ -62,7 +62,6 @@ export default function HeaderHero() {
   const [isColoOpen, setIsColoOpen] = useState(false);
   const [isVidaOpen, setIsVidaOpen] = useState(false);
   const [isComunidadeOpen, setIsComunidadeOpen] = useState(false);
-  
 
 
 
@@ -180,16 +179,12 @@ export default function HeaderHero() {
           <div className="flex gap-4 items-center">
             {isAuthenticated ? (
               <>
-                {user?.favorites?.length > 0 ? (
-                  <Link to="/favoritos">
+                <Link to="/favoritos" onClick={() => setMenuOpen(false)} aria-label="Ver favoritos">
+                  
                     <AiFillHeart className="text-white text-2xl cursor-pointer" />
-                  </Link>
-                ) : (
                   
-                    <AiFillHeart className="text-white text-2xl " />
-                  
+                </Link>
 
-                )}
                 <button onClick={() => setProfileModalOpen(true)}>
                   {user?.imagem ? (
                     <img
@@ -574,13 +569,12 @@ export default function HeaderHero() {
 
             {isAuthenticated ? (
               <>
-                {user?.favorites?.length > 0 ? (
-                  <Link to="/favoritos">
+                <Link to="/favoritos" aria-label="Ver favoritos">
+                  
                     <AiFillHeart className="text-white text-2xl cursor-pointer" />
-                  </Link>
-                ) : (
-                  <AiFillHeart className="text-white text-2xl cursor-pointer" />
-                )}
+                  
+                </Link>
+
                 
                 <button onClick={() => setProfileModalOpen(true)}>
                   {user?.imagem ? (
