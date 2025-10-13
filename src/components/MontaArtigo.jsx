@@ -28,38 +28,63 @@ export default function MontaArtigo() {
 
 
   // 🔹 Carregar artigo
-  useEffect(() => {
-    setLoading(true);
-    setError(false);
+  // 🔹 Carregar artigo
+useEffect(() => {
+  setLoading(true);
+  setError(false);
 
-    fetch("/data/artigos.json")
-      .then((res) => {
-        if (!res.ok) throw new Error("Artigo não encontrado");
-        return res.json();
-      })
-      .then((data) => {
-        const foundArtigo = data.artigos.find(
-          (a) => a.slug === id && a.status === "publicado"
-        );
-        if (!foundArtigo) {
-          setError(true);
-        } else {
-          setArtigo(foundArtigo);
+  fetch("/data/artigos.json")
+    .then((res) => {
+      if (!res.ok) throw new Error("Artigo não encontrado");
+      return res.json();
+    })
+    .then(async (data) => {
+      const foundArtigo = data.artigos.find(
+        (a) => a.slug === id && a.status === "publicado"
+      );
 
-          // Se o user estiver autenticado, verificar se o artigo está nos favoritos
-          if (user?.favorites?.includes(foundArtigo.slug)) {
-            setFavorito(true);
-          } else {
-            setFavorito(false);
-          }
-        }
-        setLoading(false);
-      })
-      .catch(() => {
+      if (!foundArtigo) {
         setError(true);
         setLoading(false);
-      });
-  }, [id, user]);
+        return;
+      }
+
+      setArtigo(foundArtigo);
+
+      // 🔹 Se estiver autenticado, verificar no backend se está nos favoritos
+      if (user && user.id) {
+        try {
+          const favRes = await fetch(
+            "https://api.projetocrescer.pt/api/users/favorites",
+            {
+              method: "GET",
+              credentials: "include",
+            }
+          );
+
+          const favData = await favRes.json();
+
+          if (favRes.ok && Array.isArray(favData)) {
+            const exists = favData.some(
+              (fav) => fav.articleId === foundArtigo.slug
+            );
+            setFavorito(exists);
+          }
+        } catch (error) {
+          console.error("Erro ao verificar favoritos:", error);
+        }
+      } else {
+        setFavorito(false);
+      }
+
+      setLoading(false);
+    })
+    .catch(() => {
+      setError(true);
+      setLoading(false);
+    });
+}, [id, user]);
+
 
   
 
@@ -74,24 +99,24 @@ export default function MontaArtigo() {
     const res = await fetch("https://api.projetocrescer.pt/api/users/favorites", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      credentials: "include", 
-      body: JSON.stringify({ articleId: id }), 
+      credentials: "include",
+      body: JSON.stringify({ articleId: id }), // Backend usa articleId
     });
 
     const data = await res.json();
 
     if (res.ok) {
-      setFavorito(!favorito);
+      // Se a mensagem incluir "Adicionado", ativa o coração
+      const isAdded = data.message?.toLowerCase().includes("adicionado");
+      setFavorito(isAdded);
 
-      // Atualiza o Redux e RTK (apenas visualmente, o backend já grava)
+      // Atualiza Redux
       dispatch(
         setAuthState({
           user: { ...user, favorites: data.favorites || [] },
           isAuthenticated: true,
         })
       );
-
-      console.log(data.message);
     } else {
       console.error("Erro ao favoritar:", data.message);
     }
@@ -99,6 +124,7 @@ export default function MontaArtigo() {
     console.error("Erro de rede ao favoritar:", error);
   }
 };
+
 
 
   // 🔹 Estado de carregamento
