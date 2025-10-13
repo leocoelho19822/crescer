@@ -1,11 +1,11 @@
 // eslint-disable-next-line
-import React from "react";
+import React, { useRef, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { FiUpload, FiLogOut } from "react-icons/fi";
 import { CgProfile } from "react-icons/cg";
-import { clearAuthState } from "../store/authSlice";
+import { clearAuthState, setAuthState } from "../store/authSlice";
 import { useLogoutMutation } from "../store/api";
-import { googleLogout } from "@react-oauth/google"; // ✅ logout do Google
+import { googleLogout } from "@react-oauth/google";
 
 // eslint-disable-next-line
 export default function ProfileModal({ setIsOpen }) {
@@ -13,27 +13,50 @@ export default function ProfileModal({ setIsOpen }) {
   const user = useSelector((state) => state.auth.user);
   const [logoutUser] = useLogoutMutation();
 
+  const [uploading, setUploading] = useState(false);
+  const fileInputRef = useRef(null);
+
   const handleLogout = async () => {
     try {
-      // 🔹 1. Faz logout no backend (remove cookie)
       await logoutUser().unwrap();
-
-      // 🔹 2. Se a sessão for do Google, encerra também
       googleLogout();
-
-      // 🔹 3. Limpa Redux + localStorage
       dispatch(clearAuthState());
       localStorage.removeItem("user");
       localStorage.removeItem("favoritos");
       localStorage.removeItem("inscricoes");
-
-      // 🔹 4. Fecha modal
       setIsOpen(false);
-
-      // (opcional) Força recarregar a página
-      // window.location.reload();
     } catch (error) {
       console.error("Erro ao encerrar sessão:", error);
+    }
+  };
+
+  const handleFileChange = async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+
+    setUploading(true);
+    const formData = new FormData();
+    formData.append("imagem", file);
+
+    try {
+      const res = await fetch("https://api.projetocrescer.pt/api/users/upload-photo", {
+        method: "PUT",
+        body: formData,
+        credentials: "include",
+      });
+
+      const data = await res.json();
+
+      if (res.ok) {
+        dispatch(setAuthState({ user: { ...user, imagem: data.imagem }, isAuthenticated: true }));
+      } else {
+        console.error("Erro no upload:", data.message);
+        alert(data.message || "Falha ao atualizar imagem.");
+      }
+    } catch (error) {
+      console.error("Erro ao enviar imagem:", error);
+    } finally {
+      setUploading(false);
     }
   };
 
@@ -92,10 +115,27 @@ export default function ProfileModal({ setIsOpen }) {
                 <CgProfile className="text-gray-500" size={48} />
               </div>
             )}
-            {/* Botão upload (futuro) */}
-            <button className="absolute bottom-2 right-2 bg-white p-2 rounded-full shadow cursor-pointer hover:bg-gray-100">
+
+            {/* Botão upload */}
+            <button
+              className={`absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-100 ${
+                uploading ? "opacity-60 cursor-not-allowed" : ""
+              }`}
+              onClick={() => fileInputRef.current.click()}
+              disabled={uploading}
+              title="Alterar foto de perfil"
+            >
               <FiUpload className="text-emerald-600" size={18} />
             </button>
+
+            {/* Input invisível */}
+            <input
+              ref={fileInputRef}
+              type="file"
+              accept="image/png, image/jpeg, image/webp"
+              className="hidden"
+              onChange={handleFileChange}
+            />
           </div>
         </div>
 
@@ -104,7 +144,6 @@ export default function ProfileModal({ setIsOpen }) {
           <h2 className="text-xl font-bold">{user.name || "—"}</h2>
           <p className="text-gray-600">{user.email}</p>
 
-          {/* Botão encerrar sessão */}
           <button
             className="w-full flex items-center justify-center gap-2 bg-red-500 text-white p-2 rounded-3xl cursor-pointer hover:bg-red-600 mt-6"
             onClick={handleLogout}
