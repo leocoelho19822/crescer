@@ -1,42 +1,100 @@
-// eslint-disable-next-line
+/* eslint-disable */
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../components/Button";
+import { useGetProfileQuery } from "../store/api";
 
 export default function FavoritosPage() {
   const [favoritos, setFavoritos] = useState([]);
   const [visiveis, setVisiveis] = useState(6);
+  const { data: user, isLoading, error } = useGetProfileQuery();
 
+  // 🔹 Carregar favoritos do backend
   useEffect(() => {
-    carregarFavoritos();
-  }, []);
+    if (!user || !user.id) return;
 
-  const carregarFavoritos = () => {
-    const stored = localStorage.getItem("favoritos");
-    const slugs = stored ? JSON.parse(stored) : [];
-
-    fetch("/data/artigos.json") // usa novo ficheiro
-      .then((res) => res.json())
-      .then((data) => {
-        const allArtigos = data.artigos;
-        const favs = allArtigos.filter((artigo) =>
-          slugs.includes(artigo.slug)
+    const carregarFavoritos = async () => {
+      try {
+        const res = await fetch(
+          "https://api.projetocrescer.pt/api/users/favorites",
+          {
+            method: "GET",
+            credentials: "include", // envia cookie JWT
+          }
         );
-        setFavoritos(favs);
-      });
-  };
 
-  const removerFavorito = (slug) => {
-    const stored = localStorage.getItem("favoritos");
-    let slugs = stored ? JSON.parse(stored) : [];
-    slugs = slugs.filter((favSlug) => favSlug !== slug);
-    localStorage.setItem("favoritos", JSON.stringify(slugs));
-    setFavoritos((prev) => prev.filter((artigo) => artigo.slug !== slug));
+        const data = await res.json();
+
+        if (res.ok && Array.isArray(data)) {
+          const favoritosIds = data.map((fav) => fav.articleId);
+
+          const artigosRes = await fetch("/data/artigos.json");
+          const artigosData = await artigosRes.json();
+
+          const allArtigos = artigosData.artigos;
+          const favs = allArtigos.filter((artigo) =>
+            favoritosIds.includes(artigo.slug)
+          );
+
+          setFavoritos(favs);
+        } else {
+          console.error("Erro ao obter favoritos:", data.message);
+        }
+      } catch (error) {
+        console.error("Erro de rede ao obter favoritos:", error);
+      }
+    };
+
+    carregarFavoritos();
+  }, [user]);
+
+  // 🔹 Remover favorito (toggle)
+  const removerFavorito = async (slug) => {
+    try {
+      const res = await fetch(
+        "https://api.projetocrescer.pt/api/users/favorites",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          credentials: "include",
+          body: JSON.stringify({ articleId: slug }),
+        }
+      );
+
+      const data = await res.json();
+
+      if (res.ok) {
+        setFavoritos((prev) => prev.filter((artigo) => artigo.slug !== slug));
+        console.log(data.message);
+      } else {
+        console.error("Erro ao remover favorito:", data.message);
+      }
+    } catch (error) {
+      console.error("Erro de rede ao remover favorito:", error);
+    }
   };
 
   const handleVerMais = () => {
     setVisiveis((prev) => prev + 6);
   };
+
+  if (isLoading) {
+    return (
+      <main className="max-w-4xl mx-auto px-4 py-10 mt-24 text-center">
+        <p className="text-gray-600">A carregar os seus favoritos...</p>
+      </main>
+    );
+  }
+
+  if (error || !user) {
+    return (
+      <main className="max-w-4xl mx-auto px-4 py-10 mt-24 text-center">
+        <p className="text-gray-600">
+          É necessário iniciar sessão para visualizar os seus favoritos.
+        </p>
+      </main>
+    );
+  }
 
   return (
     <main className="max-w-4xl mx-auto px-4 py-10 mt-24">
@@ -44,7 +102,9 @@ export default function FavoritosPage() {
         Meus Favoritos
       </h1>
       <p className="text-gray-600 mb-8">
-        Nesta secção são apresentados os artigos guardados como favoritos, constituindo um espaço dedicado à revisão de conteúdos considerados relevantes e ao rápido acesso àqueles que despertaram maior interesse.
+        Nesta secção são apresentados os artigos guardados como favoritos,
+        constituindo um espaço dedicado à revisão de conteúdos considerados
+        relevantes e ao rápido acesso àqueles que despertaram maior interesse.
       </p>
 
       {favoritos.length === 0 ? (
@@ -73,7 +133,7 @@ export default function FavoritosPage() {
                   </p>
                   <div className="flex justify-between items-center mt-4 text-sm">
                     <Link
-                      to={`/artigo/${artigo.slug}`} // rota usa slug
+                      to={`/artigo/${artigo.slug}`}
                       className="text-azul-60 hover:underline font-medium"
                     >
                       Ler mais →
