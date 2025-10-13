@@ -118,7 +118,7 @@ export default function ProfileModal({ setIsOpen }) {
 
             {/* Botão upload */}
             <button
-              className={`absolute bottom-2 right-2 bg-white p-2 rounded-full shadow hover:bg-gray-100 ${
+              className={`absolute bottom-2 right-2 bg-white p-2 rounded-full cursor-pointer shadow hover:bg-gray-100 ${
                 uploading ? "opacity-60 cursor-not-allowed" : ""
               }`}
               onClick={() => fileInputRef.current.click()}
