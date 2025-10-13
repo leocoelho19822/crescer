@@ -7,6 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
 import { setAuthState } from "../store/authSlice";
+import ConfirmOverlay from "./ConfirmOverlay";
 
 export default function MontaArtigo() {
   const { id } = useParams();
@@ -17,6 +18,8 @@ export default function MontaArtigo() {
   const [favorito, setFavorito] = useState(false);
   const [autorNome, setAutorNome] = useState("");
   const [revisorNome, setRevisorNome] = useState("");
+  const [showLoginOverlay, setShowLoginOverlay] = useState(false);
+
 
   const dispatch = useDispatch();
   const user = useSelector((state) => state.auth.user);
@@ -73,9 +76,10 @@ export default function MontaArtigo() {
   // 🔹 Adicionar/remover favorito
   const toggleFavorito = async () => {
     if (!isAuthenticated) {
-      alert("Inicie sessão para guardar nos favoritos.");
-      return;
-    }
+    setShowLoginOverlay(true);
+    return;
+  }
+
 
     try {
       const res = await fetch("https://api.projetocrescer.pt/api/users/favorites", {
@@ -252,6 +256,14 @@ export default function MontaArtigo() {
               return null;
           }
         })}
+        {showLoginOverlay && (
+          <ConfirmOverlay
+            mensagem="Precisa iniciar sessão para adicionar artigos aos favoritos."
+            tipo="alert"
+            onCancel={() => setShowLoginOverlay(false)}
+          />
+        )}
+
       </div>
 
       <hr />
