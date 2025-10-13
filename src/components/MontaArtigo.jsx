@@ -8,6 +8,7 @@ import Button from "../components/Button";
 import RecursosPensadosParaSi from "./RecursosPensadosParaSi";
 import { setAuthState } from "../store/authSlice";
 import ConfirmOverlay from "./ConfirmOverlay";
+import { useGetProfileQuery } from "../store/api";
 
 export default function MontaArtigo() {
   const { id } = useParams();
@@ -22,8 +23,9 @@ export default function MontaArtigo() {
 
 
   const dispatch = useDispatch();
-  const user = useSelector((state) => state.auth.user);
-  const isAuthenticated = useSelector((state) => state.auth.isAuthenticated);
+  const { data: user, isLoading: userLoading, error: userError } = useGetProfileQuery();
+  const isAuthenticated = Boolean(user);
+
 
   // 🔹 Carregar artigo
   useEffect(() => {
@@ -59,62 +61,45 @@ export default function MontaArtigo() {
       });
   }, [id, user]);
 
-  // 🔹 Carregar autor e revisor
-  useEffect(() => {
-    if (!artigo) return;
-
-    fetch("/data/users.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const autor = data.users.find((u) => u.id === artigo.autorId);
-        const revisor = data.users.find((u) => u.id === artigo.revisorId);
-        setAutorNome(autor ? autor.name : "");
-        setRevisorNome(revisor ? revisor.title + " " + revisor.name : "");
-      });
-  }, [artigo]);
+  
 
   // 🔹 Adicionar/remover favorito
   const toggleFavorito = async () => {
-    if (!isAuthenticated) {
+  if (!isAuthenticated) {
     setShowLoginOverlay(true);
     return;
   }
 
+  try {
+    const res = await fetch("https://api.projetocrescer.pt/api/users/favorites", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      credentials: "include", 
+      body: JSON.stringify({ articleId: id }), 
+    });
 
-    try {
-      const res = await fetch("https://api.projetocrescer.pt/api/users/favorites", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        credentials: "include",
-        body: JSON.stringify({ artigoSlug: id }),
-      });
+    const data = await res.json();
 
-      const data = await res.json();
+    if (res.ok) {
+      setFavorito(!favorito);
 
-      if (res.ok) {
-        // Atualiza o ícone
-        setFavorito(!favorito);
+      // Atualiza o Redux e RTK (apenas visualmente, o backend já grava)
+      dispatch(
+        setAuthState({
+          user: { ...user, favorites: data.favorites || [] },
+          isAuthenticated: true,
+        })
+      );
 
-        // Atualiza o Redux
-        dispatch(
-          setAuthState({
-            user: { ...user, favorites: data.favorites },
-            isAuthenticated: true,
-          })
-        );
-
-        // Feedback visual
-        const mensagem = data.message.includes("adicionado")
-          ? "💚 Artigo adicionado aos favoritos!"
-          : "💔 Artigo removido dos favoritos!";
-        console.log(mensagem);
-      } else {
-        console.error("Erro:", data.message);
-      }
-    } catch (error) {
-      console.error("Erro ao atualizar favorito:", error);
+      console.log(data.message);
+    } else {
+      console.error("Erro ao favoritar:", data.message);
     }
-  };
+  } catch (error) {
+    console.error("Erro de rede ao favoritar:", error);
+  }
+};
+
 
   // 🔹 Estado de carregamento
   if (loading) return <p className="text-center mt-24">A carregar...</p>;
