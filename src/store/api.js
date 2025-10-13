@@ -39,6 +39,15 @@ export const api = createApi({
       }),
     }),
 
+    subscribeNewsletter: builder.mutation({
+      query: (body) => ({
+        url: "/newsletter",
+        method: "POST",
+        body,
+      }),
+    }),
+
+
     resetPassword: builder.mutation({
       query: ({ token, password }) => ({
         url: `/users/reset-password`,
@@ -81,4 +90,5 @@ export const {
   useResetPasswordMutation,
   useVerifyEmailMutation,
   useGetArticleByIdQuery,
+  useSubscribeNewsletterMutation,
 } = api;
