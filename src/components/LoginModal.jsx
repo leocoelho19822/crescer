@@ -139,37 +139,40 @@ export default function LoginModal({ setIsOpen, setModalType }) {
         </form>
 
         <div className="mt-4 w-full flex justify-center">
-          <div className="w-full max-w-[320px]">
-            <GoogleLogin
-              onSuccess={async (credentialResponse) => {
-                try {
-                  const res = await fetch("https://api.projetocrescer.pt/api/users/google", {
-                    method: "POST",
-                    headers: { "Content-Type": "application/json" },
-                    credentials: "include",
-                    body: JSON.stringify({ token: credentialResponse.credential }),
-                  });
+          <GoogleLogin
+            onSuccess={async (credentialResponse) => {
+              try {
+                const res = await fetch("https://api.projetocrescer.pt/api/users/google", {
+                  method: "POST",
+                  headers: { "Content-Type": "application/json" },
+                  credentials: "include",
+                  body: JSON.stringify({ token: credentialResponse.credential }),
+                });
 
-                  const data = await res.json();
+                const data = await res.json();
 
-                  if (res.ok && data.user) {
-                    dispatch(setAuthState({ user: data.user, isAuthenticated: true }));
-                    setIsOpen(false);
-                    navigate(0);
-                  } else {
-                    console.error("Erro no login com Google:", data);
-                    setError(data.message || "Falha ao autenticar com o Google.");
-                  }
-                } catch (err) {
-                  console.error("Falha no login Google:", err);
-                  setError("Erro ao autenticar com o Google.");
+                if (res.ok && data.user) {
+                  dispatch(setAuthState({ user: data.user, isAuthenticated: true }));
+                  setIsOpen(false);
+                  navigate(0);
+                } else {
+                  console.error("Erro no login com Google:", data);
+                  setError(data.message || "Falha ao autenticar com o Google.");
                 }
-              }}
-              onError={() => setError("Erro ao autenticar com o Google.")}
-              useOneTap={false}
-            />
-          </div>
+              } catch (err) {
+                console.error("Falha no login Google:", err);
+                setError("Erro ao autenticar com o Google.");
+              }
+            }}
+            onError={() => setError("Erro ao autenticar com o Google.")}
+            theme="outline"        // ou "filled_black" para fundo mais escuro
+            shape="rectangular"    // garante o formato retangular
+            size="large"           // aumenta a altura do botão
+            width="300"            // largura igual ao botão principal
+            text="continue_with"   // muda o texto para "Continuar com Google"
+          />
         </div>
+
 
 
 
