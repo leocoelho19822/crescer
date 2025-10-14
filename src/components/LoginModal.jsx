@@ -9,11 +9,14 @@ import Button from "./Button";
 import { useLoginMutation, useGetProfileQuery } from "../store/api";
 import { setAuthState } from "../store/authSlice";
 import { GoogleLogin } from "@react-oauth/google";
+import { useNavigate } from "react-router-dom";
 
 
 // eslint-disable-next-line
 export default function LoginModal({ setIsOpen, setModalType }) {
   const dispatch = useDispatch();
+
+  const navigate = useNavigate();
 
   // Estados locais
   const [email, setEmail] = useState("");
@@ -38,17 +41,12 @@ export default function LoginModal({ setIsOpen, setModalType }) {
 
   // Efeito: quando o perfil for carregado, atualizar o estado global
   useEffect(() => {
-  if (profileData) {
-    dispatch(setAuthState({ user: profileData, isAuthenticated: true }));
-    setIsOpen(false);
-
-    // 🔄 Pequeno atraso antes do refresh para garantir que Redux atualizou
-    setTimeout(() => {
-      window.location.reload();
-    }, 400);
-  }
-}, [profileData, dispatch, setIsOpen]);
-
+    if (profileData) {
+      dispatch(setAuthState({ user: profileData, isAuthenticated: true }));
+      setIsOpen(false);
+      navigate(0);
+    }
+  }, [profileData, dispatch, setIsOpen]);
 
   // Efeito: mostrar erro do servidor
   useEffect(() => {
