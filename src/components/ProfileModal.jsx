@@ -6,12 +6,14 @@ import { CgProfile } from "react-icons/cg";
 import { clearAuthState, setAuthState } from "../store/authSlice";
 import { useLogoutMutation } from "../store/api";
 import { googleLogout } from "@react-oauth/google";
+import { useNavigate } from "react-router-dom";
 
 // eslint-disable-next-line
 export default function ProfileModal({ setIsOpen }) {
   const dispatch = useDispatch();
   const user = useSelector((state) => state.auth.user);
   const [logoutUser] = useLogoutMutation();
+  const navigate = useNavigate();
 
   const [uploading, setUploading] = useState(false);
   const fileInputRef = useRef(null);
@@ -25,6 +27,7 @@ export default function ProfileModal({ setIsOpen }) {
       localStorage.removeItem("favoritos");
       localStorage.removeItem("inscricoes");
       setIsOpen(false);
+      navigate(0);
     } catch (error) {
       console.error("Erro ao encerrar sessão:", error);
     }
