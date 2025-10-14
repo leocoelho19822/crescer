@@ -63,31 +63,7 @@ export default function MontaPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
 
-      {page.icones?.partilha && (
-      <div className="flex items-center justify-end mb-2 ">
-            
-            
-                          <button
-                            onClick={() => {
-                              if (navigator.share) {
-                                navigator.share({
-                                  title: page.titulo,
-                                  text: page.resumo || "",
-                                  url: window.location.href,
-                                });
-                              } else {
-                                navigator.clipboard.writeText(window.location.href);
-                                alert("Link copiado para a área de transferência!");
-                              }
-                            }}
-                            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
-                          >
-                            <FiShare2 size={20} />
-                            Partilhar
-                          </button>
-                        
-        </div>
-        )}
+      
 
 
       {/* 1. Título */}
@@ -424,6 +400,33 @@ export default function MontaPage() {
               return null;
           }
         })}
+
+        {page.icones?.partilha && (
+      <div className="flex items-center justify-end mt-16 ">
+            
+            
+                          <button
+                            onClick={() => {
+                              if (navigator.share) {
+                                navigator.share({
+                                  title: page.titulo,
+                                  text: page.resumo || "",
+                                  url: window.location.href,
+                                });
+                              } else {
+                                navigator.clipboard.writeText(window.location.href);
+                                alert("Link copiado para a área de transferência!");
+                              }
+                            }}
+                            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
+                          >
+                            <FiShare2 size={20} />
+                            Partilhar
+                          </button>
+                        
+        </div>
+        )}
+
       </div>
       {page.icones?.partilha && (
        <hr className="mt-24" />

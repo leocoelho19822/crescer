@@ -149,50 +149,15 @@ useEffect(() => {
   // 🔹 Renderização principal
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
-      <div className="flex items-center justify-end space-x-6 mb-2">
-            {/* Partilhar */}
-            {artigo.icones?.partilha && (
-              <button
-                onClick={() => {
-                  if (navigator.share) {
-                    navigator.share({
-                      title: artigo.titulo,
-                      text: artigo.resumo || "",
-                      url: window.location.href,
-                    });
-                  } else {
-                    navigator.clipboard.writeText(window.location.href);
-                    alert("Link copiado para a área de transferência!");
-                  }
-                }}
-                className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
-              >
-                <FiShare2 size={20} />
-                Partilhar
-              </button>
-            )}
-
-            {/* Favoritar */}
-            {artigo.icones?.favorito && (
-              <button
-                onClick={toggleFavorito}
-                className="flex items-center text-gray-500 gap-2 text-sm transition cursor-pointer"
-              >
-                {favorito ? (
-                  <AiFillHeart size={22} className="text-red-600" />
-                ) : (
-                  <FiHeart size={20} className="text-gray-500 hover:text-red-600" />
-                )}
-                Favoritos
-              </button>
-            )}
-          </div>
+      
 
 
       {/* Título */}
       <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
         {artigo.titulo}
       </h1>
+
+      
 
       {/* Resumo */}
       {artigo.resumo && (
@@ -270,6 +235,47 @@ useEffect(() => {
               return null;
           }
         })}
+
+        <div className="flex items-center justify-end space-x-6 mb-2 mt-16">
+            {/* Partilhar */}
+            {artigo.icones?.partilha && (
+              <button
+                onClick={() => {
+                  if (navigator.share) {
+                    navigator.share({
+                      title: artigo.titulo,
+                      text: artigo.resumo || "",
+                      url: window.location.href,
+                    });
+                  } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert("Link copiado para a área de transferência!");
+                  }
+                }}
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
+              >
+                <FiShare2 size={20} />
+                Partilhar
+              </button>
+            )}
+
+            {/* Favoritar */}
+            {artigo.icones?.favorito && (
+              <button
+                onClick={toggleFavorito}
+                className="flex items-center text-gray-500 gap-2 text-sm transition cursor-pointer"
+              >
+                {favorito ? (
+                  <AiFillHeart size={22} className="text-red-600" />
+                ) : (
+                  <FiHeart size={20} className="text-gray-500 hover:text-red-600" />
+                )}
+                Favoritos
+              </button>
+            )}
+          </div>
+
+
         {showLoginOverlay && (
           <ConfirmOverlay
             mensagem="Precisa iniciar sessão para adicionar artigos aos favoritos."
