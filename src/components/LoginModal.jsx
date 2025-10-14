@@ -152,9 +152,10 @@ export default function LoginModal({ setIsOpen, setModalType }) {
               const data = await res.json();
 
               if (res.ok && data.user) {
-                // ✅ Atualiza o Redux e fecha modal
+                
                 dispatch(setAuthState({ user: data.user, isAuthenticated: true }));
                 setIsOpen(false);
+                navigate(0);
               } else {
                 console.error("Erro no login com Google:", data);
                 setError(data.message || "Falha ao autenticar com o Google.");
