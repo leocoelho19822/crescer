@@ -38,11 +38,17 @@ export default function LoginModal({ setIsOpen, setModalType }) {
 
   // Efeito: quando o perfil for carregado, atualizar o estado global
   useEffect(() => {
-    if (profileData) {
-      dispatch(setAuthState({ user: profileData, isAuthenticated: true }));
-      setIsOpen(false);
-    }
-  }, [profileData, dispatch, setIsOpen]);
+  if (profileData) {
+    dispatch(setAuthState({ user: profileData, isAuthenticated: true }));
+    setIsOpen(false);
+
+    // 🔄 Pequeno atraso antes do refresh para garantir que Redux atualizou
+    setTimeout(() => {
+      window.location.reload();
+    }, 400);
+  }
+}, [profileData, dispatch, setIsOpen]);
+
 
   // Efeito: mostrar erro do servidor
   useEffect(() => {
