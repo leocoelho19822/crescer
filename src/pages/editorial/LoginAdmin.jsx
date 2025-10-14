@@ -1,4 +1,4 @@
-// eslint-disable-next-line
+/* eslint-disable */
 import React, { useState } from "react";
 import { FiEye, FiEyeOff } from "react-icons/fi";
 import logo from "../../assets/verde1.svg";
@@ -19,34 +19,46 @@ export default function LoginAdmin() {
     }
 
     try {
-      const res = await fetch("/data/users.json");
+      const res = await fetch("https://api.projetocrescer.pt/api/users/login", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        credentials: "include",
+        body: JSON.stringify({ email, password }),
+      });
+
       const data = await res.json();
 
-      const user = data.users.find(
-        (u) => u.email === email && u.password_hash === password
-      );
-
-      if (!user) {
-        setErro("Credenciais inválidas.");
+      if (!res.ok) {
+        setErro(data.message || "Credenciais inválidas.");
         return;
       }
 
+      const user = data.user;
+
+      // 🚫 Verifica se o perfil tem permissão
       if (!["admin", "profissional", "editorial"].includes(user.role)) {
         setErro("Acesso restrito. O seu perfil não tem permissões.");
         return;
       }
 
-      // guarda info no localStorage
+      // 💾 Guarda o utilizador e token localmente
       localStorage.setItem(
         "user",
-        JSON.stringify({ id: user.id, name: user.name, email: user.email, role: user.role })
+        JSON.stringify({
+          id: user.id,
+          name: user.name,
+          email: user.email,
+          role: user.role,
+          token: data.token, // token JWT recebido da API
+        })
       );
 
       setErro("");
-      // redireciona para o dashboard
+
+      // ✅ Redireciona para o dashboard editorial
       window.location.href = "/editorial/dashboard";
     } catch (err) {
-      console.error("Erro ao carregar utilizadores:", err);
+      console.error("Erro ao autenticar:", err);
       setErro("Erro no servidor. Tente novamente.");
     }
   };
