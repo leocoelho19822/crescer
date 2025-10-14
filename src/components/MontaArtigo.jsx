@@ -27,8 +27,6 @@ export default function MontaArtigo() {
   const isAuthenticated = Boolean(user);
 
 
-  // 🔹 Carregar artigo
-  // 🔹 Carregar artigo
 useEffect(() => {
   setLoading(true);
   setError(false);
@@ -100,7 +98,7 @@ useEffect(() => {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       credentials: "include",
-      body: JSON.stringify({ articleId: id }), // Backend usa articleId
+      body: JSON.stringify({ articleId: id }), 
     });
 
     const data = await res.json();
@@ -151,41 +149,7 @@ useEffect(() => {
   // 🔹 Renderização principal
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 mt-24 text-zinc-800">
-      {/* Título */}
-      <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
-        {artigo.titulo}
-      </h1>
-
-      {/* Resumo */}
-      {artigo.resumo && (
-        <p className="text-lg italic text-zinc-600 mb-10">{artigo.resumo}</p>
-      )}
-
-      {/* Autor / Revisor */}
-      <div className="mb-6 text-sm text-gray-500 space-y-1">
-        <div className="flex justify-between">
-          <p>{autorNome && <span>{autorNome}</span>}</p>
-          <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
-        </div>
-        <div className="flex justify-between">
-          <p>Categoria: {artigo.categoria}</p>
-          <p>
-            Data da revisão:{" "}
-            {new Date(artigo.updated_at).toLocaleDateString("pt-PT")}
-          </p>
-        </div>
-      </div>
-
-      {/* Imagem + Ações */}
-      {artigo.imagem && (
-        <>
-          <img
-            src={artigo.imagem}
-            alt={artigo.titulo}
-            className="w-full max-w-4xl mx-auto rounded-lg shadow mb-4 object-cover"
-          />
-
-          <div className="flex items-center justify-end space-x-6 mb-10">
+      <div className="flex items-center justify-end space-x-6 mb-2">
             {/* Partilhar */}
             {artigo.icones?.partilha && (
               <button
@@ -223,6 +187,45 @@ useEffect(() => {
               </button>
             )}
           </div>
+
+
+      {/* Título */}
+      <h1 className="text-3xl md:text-4xl font-bold text-zinc-800 mb-6">
+        {artigo.titulo}
+      </h1>
+
+      {/* Resumo */}
+      {artigo.resumo && (
+        <p className="text-lg italic text-zinc-600 mb-10">{artigo.resumo}</p>
+      )}
+
+      {/* Autor / Revisor */}
+      <div className="mb-6 text-sm text-gray-500 space-y-1">
+        <div className="flex justify-between">
+          <p>{autorNome && <span>{autorNome}</span>}</p>
+          <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
+        </div>
+        <div className="flex justify-between">
+          <p>Categoria: {artigo.categoria}</p>
+          <p>
+            Data da revisão:{" "}
+            {new Date(artigo.updated_at).toLocaleDateString("pt-PT")}
+          </p>
+        </div>
+      </div>
+
+      
+
+      {/* Imagem + Ações */}
+      {artigo.imagem && (
+        <>
+          <img
+            src={artigo.imagem}
+            alt={artigo.titulo}
+            className="w-full max-w-4xl mx-auto rounded-lg shadow mb-8 object-cover"
+          />
+
+          
         </>
       )}
 
