@@ -30,6 +30,7 @@ import UsersList from "./pages/editorial/UserList";
 import UserForm from "./pages/editorial/UserForm";
 import Atividades from "./pages/AtividadesPage";
 import InfoPage from "./pages/InfoPage";
+import AdminAttempt from "./pages/editorial/AdminAttempt";
 
 function App() {
   return (
@@ -79,6 +80,7 @@ function App() {
         <Route path="/editorial/users" element={<UsersList />} />
         <Route path="/editorial/users/novo" element={<UserForm />} />
         <Route path="/editorial/users/editar/:id" element={<UserForm />} />
+        <Route path="/admin" element={<AdminAttempt />} />
       </Routes>
     </Router>
   );
