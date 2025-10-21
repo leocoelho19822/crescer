@@ -127,14 +127,7 @@
         }
       ]
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas sobre sintomas ou mudanças que não parecem normais, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como sangramento abundante, dor intensa ou mal-estar súbito.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -160,6 +153,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas sobre sintomas ou mudanças que não parecem normais, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como sangramento abundante, dor intensa ou mal-estar súbito.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "next": {
@@ -298,14 +301,7 @@
       ]
     },
     
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas sobre o bem-estar ou perante sintomas inesperados, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como dor intensa, sangramento abundante ou mal-estar súbito.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -331,6 +327,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas sobre o bem-estar ou perante sintomas inesperados, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como dor intensa, sangramento abundante ou mal-estar súbito.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -469,14 +475,7 @@
         }
       ]
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas sobre o bem-estar materno ou sobre os movimentos do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como sangramento abundante, dor abdominal intensa ou mal-estar súbito.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -502,6 +501,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas sobre o bem-estar materno ou sobre os movimentos do bebé, deve ser contactado o médico(a) assistente, o/a obstetra de referência ou, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como sangramento abundante, dor abdominal intensa ou mal-estar súbito.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -672,14 +681,7 @@
       "pergunta": "Verdadeiro ou falso? Apenas 15 minutos de brincadeira podem estimular milhões de conexões no cérebro de um bebé.",
       "resposta": "Verdadeiro! Cada abraço, canção ou jogo simples apoia o desenvolvimento do bebé de múltiplas formas."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -704,6 +706,15 @@
           "url": "https://www.apsi.org.pt/pt/seguranca-infantil"
         }
       ]
+    },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como convulsões, dificuldade respiratória acentuada ou perda de consciência.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
     },
 
     {
@@ -873,14 +884,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 18 meses é esperado que todas as crianças já falem frases completas.",
       "resposta": "Falso! Algumas crianças podem dizer frases de duas palavras, mas a maioria ainda utiliza palavras soltas nesta idade."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -906,6 +910,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -1092,14 +1106,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 2 anos, a maioria das crianças já deve conseguir juntar duas palavras, como 'mais água' ou 'vem cá'.",
       "resposta": "Verdadeiro! Nesta idade, a maior parte das crianças já consegue formar frases simples de duas ou mais palavras."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -1125,6 +1132,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre o desenvolvimento ou comportamento da criança, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -1323,14 +1340,7 @@
       "pergunta": "Verdadeiro ou falso? O contacto pele com pele logo após o nascimento ajuda a regular a temperatura do bebé e cria laços afetivos.",
       "resposta": "Verdadeiro! Este contacto acalma o bebé, ajuda a controlar a temperatura, batimentos e respiração, e fortalece a ligação com os cuidadores."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -1352,6 +1362,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+    
     {
       "tipo": "navegacao",
       "previous": {

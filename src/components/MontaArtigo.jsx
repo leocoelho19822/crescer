@@ -161,11 +161,11 @@ useEffect(() => {
 
       {/* Resumo */}
       {artigo.resumo && (
-        <p className="text-lg italic text-zinc-600 mb-10">{artigo.resumo}</p>
+        <p className="text-lg italic text-zinc-600 mb-6">{artigo.resumo}</p>
       )}
 
       {/* Autor / Revisor */}
-      <div className="mb-6 text-sm text-gray-500 space-y-1">
+      <div className="mb-4 text-sm text-gray-500 space-y-1">
         <div className="flex justify-between">
           <p>{autorNome && <span>{autorNome}</span>}</p>
           <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
@@ -179,7 +179,45 @@ useEffect(() => {
         </div>
       </div>
 
-      
+      <div className="flex items-center justify-end space-x-6 mb-2 ">
+            
+
+            {/* Favoritar */}
+            {artigo.icones?.favorito && (
+              <button
+                onClick={toggleFavorito}
+                className="flex items-center text-gray-500 gap-2 text-sm transition cursor-pointer"
+              >
+                {favorito ? (
+                  <AiFillHeart size={25} className="text-red-600" />
+                ) : (
+                  <FiHeart size={25} className="text-gray-500 hover:text-red-600" />
+                )}
+                
+              </button>
+            )}
+            {/* Partilhar */}
+            {artigo.icones?.partilha && (
+              <button
+                onClick={() => {
+                  if (navigator.share) {
+                    navigator.share({
+                      title: artigo.titulo,
+                      text: artigo.resumo || "",
+                      url: window.location.href,
+                    });
+                  } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert("Link copiado para a área de transferência!");
+                  }
+                }}
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
+              >
+                <FiShare2 size={25} />
+                
+              </button>
+            )}
+          </div>
 
       {/* Imagem + Ações */}
       {artigo.imagem && (
@@ -236,44 +274,7 @@ useEffect(() => {
           }
         })}
 
-        <div className="flex items-center justify-end space-x-6 mb-2 mt-16">
-            {/* Partilhar */}
-            {artigo.icones?.partilha && (
-              <button
-                onClick={() => {
-                  if (navigator.share) {
-                    navigator.share({
-                      title: artigo.titulo,
-                      text: artigo.resumo || "",
-                      url: window.location.href,
-                    });
-                  } else {
-                    navigator.clipboard.writeText(window.location.href);
-                    alert("Link copiado para a área de transferência!");
-                  }
-                }}
-                className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
-              >
-                <FiShare2 size={20} />
-                Partilhar
-              </button>
-            )}
-
-            {/* Favoritar */}
-            {artigo.icones?.favorito && (
-              <button
-                onClick={toggleFavorito}
-                className="flex items-center text-gray-500 gap-2 text-sm transition cursor-pointer"
-              >
-                {favorito ? (
-                  <AiFillHeart size={22} className="text-red-600" />
-                ) : (
-                  <FiHeart size={20} className="text-gray-500 hover:text-red-600" />
-                )}
-                Favoritos
-              </button>
-            )}
-          </div>
+        
 
 
         {showLoginOverlay && (

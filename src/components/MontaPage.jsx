@@ -78,22 +78,36 @@ export default function MontaPage() {
 
       {/* 3. Autor + Data + Partilhar */}
         {(page.autor || page.data) && (
-        <div className="flex items-center justify-between mb-4">
-            <p className="text-sm text-gray-500">
-            {page.autor && <span>{page.autor}</span>}
-            </p>
-            <p className="text-sm text-gray-500">
-            {page.autor && page.data && " • "}
-            </p>
-            <p className="text-sm text-gray-500">
-            {page.data && (
-                <span>Em {new Date(page.data).toLocaleDateString("pt-PT")}</span>
-            )}
-            </p>
+          <div className="flex flex-wrap items-center justify-between mb-2">
+            <div className="flex items-center gap-2 text-sm text-gray-500">
+              {page.autor && <span>{page.autor}</span>}
+              {page.autor && page.data && <span>•</span>}
+              {page.data && <span>Em {new Date(page.data).toLocaleDateString("pt-PT")}</span>}
+            </div>
 
-            
-        </div>
+            {page.icones?.partilha && (
+              <button
+                onClick={() => {
+                  if (navigator.share) {
+                    navigator.share({
+                      title: page.titulo,
+                      text: page.resumo || "",
+                      url: window.location.href,
+                    });
+                  } else {
+                    navigator.clipboard.writeText(window.location.href);
+                    alert("Link copiado para a área de transferência!");
+                  }
+                }}
+                className="flex items-center gap-1 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
+              >
+                <FiShare2 size={25} />
+                
+              </button>
+            )}
+          </div>
         )}
+
 
 
       {/* 4. Imagem */}
@@ -376,6 +390,12 @@ export default function MontaPage() {
                       </li>
                     ))}
                   </ul>
+                  
+                    {page.icones?.partilha && (
+                    <hr className="mt-14" />
+                    )}
+                    <RecursosPensadosParaSi tipo={page.tipo} />
+                    
                 </div>
               );
 
@@ -401,38 +421,10 @@ export default function MontaPage() {
           }
         })}
 
-        {page.icones?.partilha && (
-      <div className="flex items-center justify-end mt-16 ">
-            
-            
-                          <button
-                            onClick={() => {
-                              if (navigator.share) {
-                                navigator.share({
-                                  title: page.titulo,
-                                  text: page.resumo || "",
-                                  url: window.location.href,
-                                });
-                              } else {
-                                navigator.clipboard.writeText(window.location.href);
-                                alert("Link copiado para a área de transferência!");
-                              }
-                            }}
-                            className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-800 transition cursor-pointer"
-                          >
-                            <FiShare2 size={20} />
-                            Partilhar
-                          </button>
-                        
-        </div>
-        )}
+        
 
       </div>
-      {page.icones?.partilha && (
-       <hr className="mt-24" />
-      )}
       
-       <RecursosPensadosParaSi tipo={page.tipo} />
 
 
     </div>

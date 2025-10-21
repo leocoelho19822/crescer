@@ -11,7 +11,7 @@ import { CgProfile } from "react-icons/cg";
 import { BsSearch } from "react-icons/bs";
 // eslint-disable-next-line
 import { AiFillHeart, AiOutlineHeart, AiFillHome } from "react-icons/ai";
-import { MdKeyboardArrowDown } from "react-icons/md";
+import { MdKeyboardArrowDown, MdKeyboardArrowRight  } from "react-icons/md";
 import { HiOutlineMenu, HiOutlineX } from "react-icons/hi";
 import Button from "./Button";
 import LoginModal from "./LoginModal";
@@ -505,12 +505,55 @@ export default function HeaderHero() {
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">
                 No Colo<MdKeyboardArrowDown size={20} />
               </button>
-              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/mesames">Mês a mês</a>
+
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[180px] z-50">
+
+                {/* 0 a 3 meses */}
+                <li className="relative group/sub">
+                  <div className="flex justify-between items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    <span>0 a 3 meses</span>
+                    <MdKeyboardArrowRight size={18} />
+                  </div>
+                  <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/recem-nascido">Recém-nascido</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/1mes">Tenho 1 mês</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/2mes">Tenho 2 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/3mes">Tenho 3 meses</a></li>
+                  </ul>
                 </li>
+
+                {/* 4 a 7 meses */}
+                <li className="relative group/sub">
+                  <div className="flex justify-between items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    <span>4 a 7 meses</span>
+                    <MdKeyboardArrowRight size={18} />
+                  </div>
+                  <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/4mes">Tenho 4 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/5mes">Tenho 5 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/6mes">Tenho 6 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/7mes">Tenho 7 meses</a></li>
+                  </ul>
+                </li>
+
+                {/* 8 a 11 meses */}
+                <li className="relative group/sub">
+                  <div className="flex justify-between items-center px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                    <span>8 a 11 meses</span>
+                    <MdKeyboardArrowRight size={18} />
+                  </div>
+                  <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/8mes">Tenho 8 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/9mes">Tenho 9 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/10mes">Tenho 10 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/11mes">Tenho 11 meses</a></li>
+                  </ul>
+                </li>
+
               </ul>
             </li>
+
+
 
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">
