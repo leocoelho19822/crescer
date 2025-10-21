@@ -1371,7 +1371,7 @@
       "telefone": "808242424",
       "rotulo": "Contactar SNS 24 (808 24 24 24)"
     },
-    
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -1536,14 +1536,7 @@
       "pergunta": "Verdadeiro ou falso? O choro é a principal forma de comunicação do bebé nesta fase.",
       "resposta": "Verdadeiro! O choro é a forma mais comum de o bebé mostrar fome, desconforto ou necessidade de colo."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -1565,6 +1558,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -1762,14 +1765,7 @@
       "pergunta": "Verdadeiro ou falso? Com 2 meses, muitos bebés já conseguem sorrir em resposta a quem lhes fala ou sorri.",
       "resposta": "Verdadeiro! Este é o chamado 'sorriso social' e marca o início de uma maior interação."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -1790,6 +1786,15 @@
           "url": "https://www.apsi.org.pt/pt/seguranca-infantil"
         }
       ]
+    },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
     },
     {
       "tipo": "navegacao",
@@ -1958,14 +1963,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 3 meses o bebé já deve conseguir sentar-se sozinho sem apoio.",
       "resposta": "Falso! Aos 3 meses ainda não se senta sozinho. O que acontece é que já sustenta melhor a cabeça e começa a ganhar força para, mais tarde, se sentar."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -1987,6 +1985,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -2155,14 +2163,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 4 meses, muitos bebés já conseguem sustentar a cabeça com firmeza.",
       "resposta": "Verdadeiro! Com 4 meses, o bebé costuma ter bom controlo da cabeça, sobretudo quando está sentado com apoio ou em tummy time."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -2184,6 +2185,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -2351,14 +2362,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 5 meses, o bebé já deve comer papas e sopas diariamente.",
       "resposta": "Falso! A introdução alimentar só deve começar por volta dos 6 meses, salvo indicação médica. Até lá, o leite continua a ser o alimento principal."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -2379,6 +2383,15 @@
           "url": "https://www.apsi.org.pt/pt/seguranca-infantil"
         }
       ]
+    },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
     },
     {
       "tipo": "navegacao",
@@ -2546,14 +2559,7 @@
       "pergunta": "Verdadeiro ou falso? O leite continua a ser o principal alimento do bebé, mesmo depois de começar a provar outros alimentos.",
       "resposta": "Verdade! Até ao primeiro ano, o leite materno ou fórmula continuam a ser a base da alimentação, mesmo após a introdução dos sólidos."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -2575,6 +2581,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Em caso de dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -2746,14 +2762,7 @@
       "pergunta": "Verdadeiro ou falso? Os andadores ajudam o bebé a aprender a andar mais depressa.",
       "resposta": "Falso! Os andadores não ajudam a andar mais cedo e podem ser perigosos. O ideal é deixar o bebé explorar no chão, com segurança e supervisão."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Se houver dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -2775,6 +2784,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se houver dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -2944,14 +2963,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 8 meses, o bebé já consegue compreender pequenas frases como 'vem cá' ou 'dá a mão'.",
       "resposta": "Falso! O bebé reconhece o nome e tons de voz, mas a compreensão de frases só acontece mais tarde. Nesta fase, reage sobretudo à entoação e a palavras familiares."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -2972,6 +2984,15 @@
           "url": "https://www.apsi.org.pt/pt/seguranca-infantil"
         }
       ]
+    },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
     },
     {
       "tipo": "navegacao",
@@ -3141,14 +3162,7 @@
       "pergunta": "Verdadeiro ou falso? O bebé de 9 meses já pode comer mel em pequenas quantidades.",
       "resposta": "Falso! O mel não deve ser oferecido antes dos 12 meses devido ao risco de botulismo infantil."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -3170,6 +3184,16 @@
         }
       ]
     },
+
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -3337,14 +3361,7 @@
       "pergunta": "Verdadeiro ou falso? Aos 10 meses, muitos bebés já conseguem pôr-se de pé segurando-se a móveis.",
       "resposta": "Verdade! Nesta idade, é comum que o bebé se apoie em móveis para ficar de pé e até dê passos laterais com apoio."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -3366,6 +3383,15 @@
         }
       ]
     },
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
+    },
+
     {
       "tipo": "navegacao",
       "previous": {
@@ -3532,14 +3558,7 @@
       "pergunta": "Verdadeiro ou falso? É comum que aos 11 meses alguns bebés já consigam dar 1 ou 2 passos sozinhos.",
       "resposta": "Verdade! Alguns bebés podem dar os primeiros passos perto do 1.º ano, mas andar sozinho só é esperado normalmente entre os 12 e os 18 meses."
     },
-    {
-      "tipo": "alerta",
-      "titulo": "Quando procurar ajuda",
-      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
-      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
-      "telefone": "808242424",
-      "rotulo": "Contactar SNS 24 (808 24 24 24)"
-    },
+    
     {
       "tipo": "fontes",
       "itens": [
@@ -3560,6 +3579,14 @@
           "url": "https://www.apsi.org.pt/pt/seguranca-infantil"
         }
       ]
+    },
+    {
+      "tipo": "alerta",
+      "titulo": "Quando procurar ajuda",
+      "texto": "Se existirem dúvidas ou preocupações sobre a saúde do bebé, deve ser contactada a equipa de saúde familiar ou o pediatra e, se necessário, o SNS 24 para orientação especializada.",
+      "nota": "⚠️ Ligar 112 apenas em situações graves, como perda de consciência, dificuldade respiratória acentuada, convulsões prolongadas ou acidentes graves.",
+      "telefone": "808242424",
+      "rotulo": "Contactar SNS 24 (808 24 24 24)"
     },
     {
       "tipo": "navegacao",
