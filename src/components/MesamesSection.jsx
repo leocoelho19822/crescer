@@ -30,88 +30,88 @@ const meses = [
     imagem: foto0,
   },
   {
-    titulo: 'Tenho 1 mês',
-    alt: "tenho um mês",
+    titulo: 'Com 1 mês',
+    alt: "Com um mês",
     link: '/page/1mes',
     descricao:
       'Foco no fortalecimento do vínculo, estímulo sensorial suave e acompanhamento das primeiras interações e rotinas do bebé.',
     imagem: foto1,
   },
   {
-    titulo: 'Tenho 2 meses',
-    alt: "tenho dois meses",
+    titulo: 'Com 2 meses',
+    alt: "Com dois meses",
     link: '/page/2mes',
     descricao:
       'Incentiva os primeiros sorrisos e resposta social, com atividades que estimulam a visão, audição e vínculo emocional.',
     imagem: foto2,
   },
   {
-    titulo: 'Tenho 3 meses',
-    alt: "tenho três meses",
+    titulo: 'Com 3 meses',
+    alt: "Com três meses",
     link: '/page/3mes',
     descricao:
       'Estimula o controlo da cabeça, exploração visual e auditiva, reforçando interações afetivas e brincadeiras simples.',
     imagem: foto3,
   },
   {
-    titulo: 'Tenho 4 meses',
-    alt: "tenho quatro meses",
+    titulo: 'Com 4 meses',
+    alt: "Com quatro meses",
     link: '/page/4mes',
     descricao:
       'Apoio ao desenvolvimento motor, exploração das mãos e objetos, com estímulos para fortalecer a comunicação e o vínculo afetivo.',
     imagem: foto4,
   },
   {
-    titulo: 'Tenho 5 meses',
-    alt: "tenho cinco meses",
+    titulo: 'Com 5 meses',
+    alt: "Com cinco meses",
     link: '/page/5mes',
     descricao:
       'Incentiva o rolar, descoberta do próprio corpo e interação ativa, promovendo curiosidade e desenvolvimento motor.',
     imagem: foto5,
   },
   {
-    titulo: 'Tenho 6 meses',
-    alt: "tenho seis meses",
+    titulo: 'Com 6 meses',
+    alt: "Com seis meses",
     link: '/page/6mes',
     descricao:
       'Introdução alimentar, reforço do sentar com apoio e estímulos para promover coordenação e interação social.',
     imagem: foto6,
   },
   {
-    titulo: 'Tenho 7 meses',
-    alt: "tenho sete meses",
+    titulo: 'Com 7 meses',
+    alt: "Com sete meses",
     link: '/page/7mes',
     descricao:
       'Incentivo ao gatinhar, exploração de objetos com as mãos e estímulos para fortalecer a comunicação e a curiosidade.',
     imagem: foto7,
   },
   {
-    titulo: 'Tenho 8 meses',
-    alt: "tenho oito meses",
+    titulo: 'Com 8 meses',
+    alt: "Com oito meses",
     link: '/page/8mes',
     descricao:
       'Apoio ao aperfeiçoamento do gatinhar, coordenação motora fina e brincadeiras que estimulam a compreensão e interação social.',
     imagem:  foto8,
   },
   {
-    titulo: 'Tenho 9 meses',
-    alt: "tenho nove meses",
+    titulo: 'Com 9 meses',
+    alt: "Com nove meses",
     link: '/page/9mes',
     descricao:
       'Incentiva a posição de pé com apoio, exploração ativa do ambiente e jogos que reforçam a comunicação e a curiosidade.',
     imagem: foto9,
   },
   {
-    titulo: 'Tenho 10 meses',
-    alt: "tenho dez meses",
+    titulo: 'Com 10 meses',
+    alt: "Com dez meses",
     link: '/page/10mes',
     descricao:
       'Apoio aos primeiros passos com apoio, exploração de objetos, e atividades que estimulam a linguagem e a autonomia.',
     imagem: foto10,
   },
   {
-    titulo: 'Tenho 11 meses',
-    alt: "tenho onze meses",
+    titulo: 'Com 11 meses',
+    alt: "Com onze meses",
     link: '/page/11mes',
     descricao:
       'Estímulo aos passos independentes, brincadeiras de imitação e atividades que reforçam a compreensão e a comunicação.',

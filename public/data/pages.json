@@ -720,11 +720,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 11 meses",
+        "label": "Com 11 meses",
         "to": "/page/11mes"
       },
       "next": {
-        "label": "Tenho 18 meses",
+        "label": "Com 18 meses",
         "to": "/page/18mes"
       }
     }
@@ -923,11 +923,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 1 ano",
+        "label": "Com 1 ano",
         "to": "/page/1ano"
       },
       "next": {
-        "label": "Tenho 2 anos",
+        "label": "Com 2 anos",
         "to": "/page/2ano"
       }
     }
@@ -1145,7 +1145,7 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 18 meses",
+        "label": "Com 18 meses",
         "to": "/page/18mes"
       }
     }
@@ -1379,7 +1379,7 @@
         "to": "/page/3tri"
       },
       "next": {
-        "label": "Tenho 1 mês",
+        "label": "Com 1 mês",
         "to": "/page/1mes"
       }
     }
@@ -1575,7 +1575,7 @@
         "to": "/page/recem-nascido"
       },
       "next": {
-        "label": "Tenho 2 meses",
+        "label": "Com 2 meses",
         "to": "/page/2mes"
       }
     }
@@ -1799,11 +1799,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 1 mês",
+        "label": "Com 1 mês",
         "to": "/page/1mes"
       },
       "next": {
-        "label": "Tenho 3 meses",
+        "label": "Com 3 meses",
         "to": "/page/3mes"
       }
     }
@@ -1998,11 +1998,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 2 meses",
+        "label": "Com 2 meses",
         "to": "/page/2mes"
       },
       "next": {
-        "label": "Tenho 4 meses",
+        "label": "Com 4 meses",
         "to": "/page/4mes"
       }
     }
@@ -2198,11 +2198,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 3 meses",
+        "label": "Com 3 meses",
         "to": "/page/3mes"
       },
       "next": {
-        "label": "Tenho 5 meses",
+        "label": "Com 5 meses",
         "to": "/page/5mes"
       }
     }
@@ -2396,11 +2396,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 4 meses",
+        "label": "Com 4 meses",
         "to": "/page/4mes"
       },
       "next": {
-        "label": "Tenho 6 meses",
+        "label": "Com 6 meses",
         "to": "/page/6mes"
       }
     }
@@ -2594,11 +2594,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 5 meses",
+        "label": "Com 5 meses",
         "to": "/page/5mes"
       },
       "next": {
-        "label": "Tenho 7 meses",
+        "label": "Com 7 meses",
         "to": "/page/7mes"
       }
     }
@@ -2797,11 +2797,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 6 meses",
+        "label": "Com 6 meses",
         "to": "/page/6mes"
       },
       "next": {
-        "label": "Tenho 8 meses",
+        "label": "Com 8 meses",
         "to": "/page/8mes"
       }
     }
@@ -2997,11 +2997,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 7 meses",
+        "label": "Com 7 meses",
         "to": "/page/7mes"
       },
       "next": {
-        "label": "Tenho 9 meses",
+        "label": "Com 9 meses",
         "to": "/page/9mes"
       }
     }
@@ -3197,11 +3197,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 8 meses",
+        "label": "Com 8 meses",
         "to": "/page/8mes"
       },
       "next": {
-        "label": "Tenho 10 meses",
+        "label": "Com 10 meses",
         "to": "/page/10mes"
       }
     }
@@ -3395,11 +3395,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 9 meses",
+        "label": "Com 9 meses",
         "to": "/page/9mes"
       },
       "next": {
-        "label": "Tenho 11 meses",
+        "label": "Com 11 meses",
         "to": "/page/11mes"
       }
     }
@@ -3591,11 +3591,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Tenho 10 meses",
+        "label": "Com 10 meses",
         "to": "/page/10mes"
       },
       "next": {
-        "label": "Tenho 1 ano",
+        "label": "Com 1 ano",
         "to": "/page/1ano"
       }
     }

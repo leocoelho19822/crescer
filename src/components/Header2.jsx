@@ -399,19 +399,19 @@ export default function HeaderHero() {
                         onClick={() => { navigate("/page/1ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        Tenho 1 ano
+                        Com 1 ano
                       </li>
                       <li
                         onClick={() => { navigate("/page/18mes"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        Tenho 18 meses
+                        Com 18 meses
                       </li>
                       <li
                         onClick={() => { navigate("/page/2ano"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        Tenho 2 anos
+                        Com 2 anos
                       </li>
                     </ul>
                   )}
@@ -516,9 +516,9 @@ export default function HeaderHero() {
                   </div>
                   <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
                     <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/recem-nascido">Recém-nascido</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/1mes">Tenho 1 mês</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/2mes">Tenho 2 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/3mes">Tenho 3 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/1mes">Com 1 mês</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/2mes">Com 2 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/3mes">Com 3 meses</a></li>
                   </ul>
                 </li>
 
@@ -529,10 +529,10 @@ export default function HeaderHero() {
                     <MdKeyboardArrowRight size={18} />
                   </div>
                   <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/4mes">Tenho 4 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/5mes">Tenho 5 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/6mes">Tenho 6 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/7mes">Tenho 7 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/4mes">Com 4 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/5mes">Com 5 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/6mes">Com 6 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/7mes">Com 7 meses</a></li>
                   </ul>
                 </li>
 
@@ -543,10 +543,10 @@ export default function HeaderHero() {
                     <MdKeyboardArrowRight size={18} />
                   </div>
                   <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/8mes">Tenho 8 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/9mes">Tenho 9 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/10mes">Tenho 10 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/11mes">Tenho 11 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/8mes">Com 8 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/9mes">Com 9 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/10mes">Com 10 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/11mes">Com 11 meses</a></li>
                   </ul>
                 </li>
 
@@ -561,13 +561,13 @@ export default function HeaderHero() {
               </button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/1ano">Tenho 1 ano</a>
+                  <a href="/page/1ano">Com 1 ano</a>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/18mes">Tenho 18 meses</a>
+                  <a href="/page/18mes">Com 18 meses</a>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/2ano">Tenho 2 anos</a>
+                  <a href="/page/2ano">Com 2 anos</a>
                 </li>
               </ul>
             </li>
