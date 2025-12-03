@@ -11,42 +11,60 @@ export default function FavoritosPage() {
 
   // 🔹 Carregar favoritos do backend
   useEffect(() => {
-    if (!user || !user.id) return;
+  if (!user || !user.id) return;
 
-    const carregarFavoritos = async () => {
-      try {
-        const res = await fetch(
-          "https://api.projetocrescer.pt/api/users/favorites",
-          {
-            method: "GET",
-            credentials: "include", // envia cookie JWT
-          }
-        );
-
-        const data = await res.json();
-
-        if (res.ok && Array.isArray(data)) {
-          const favoritosIds = data.map((fav) => fav.articleId);
-
-          const artigosRes = await fetch("/data/artigos.json");
-          const artigosData = await artigosRes.json();
-
-          const allArtigos = artigosData.artigos;
-          const favs = allArtigos.filter((artigo) =>
-            favoritosIds.includes(artigo.slug)
-          );
-
-          setFavoritos(favs);
-        } else {
-          console.error("Erro ao obter favoritos:", data.message);
+  const carregarFavoritos = async () => {
+    try {
+      const res = await fetch(
+        "https://api.projetocrescer.pt/api/users/favorites",
+        {
+          method: "GET",
+          credentials: "include",
         }
-      } catch (error) {
-        console.error("Erro de rede ao obter favoritos:", error);
-      }
-    };
+      );
 
-    carregarFavoritos();
-  }, [user]);
+      const data = await res.json();
+
+      if (!res.ok || !Array.isArray(data)) {
+        console.error("Erro ao obter favoritos:", data.message);
+        return;
+      }
+
+      const favoritosIds = data.map(f => f.articleId);
+
+      // 🔹 Carregar artigos
+      const artigosRes = await fetch("/data/artigos.json");
+      const artigosJson = await artigosRes.json();
+      const artigos = artigosJson.artigos;
+
+      // 🔹 Carregar páginas
+      const pagesRes = await fetch("/data/pages.json");
+      const pagesJson = await pagesRes.json();
+      const pages = pagesJson.pages;
+
+      // 🔍 Combinar: procurar no artigos e nas páginas
+      const favs = favoritosIds
+        .map(id => {
+          const artigo = artigos.find(a => a.slug === id);
+          if (artigo) return { ...artigo, tipo: "artigo" };
+
+          const page = pages.find(p => p.id === id);
+          if (page) return { ...page, tipo: "page" };
+
+          return null;
+        })
+        .filter(Boolean);
+
+      setFavoritos(favs);
+
+    } catch (error) {
+      console.error("Erro de rede ao obter favoritos:", error);
+    }
+  };
+
+  carregarFavoritos();
+}, [user]);
+
 
   // 🔹 Remover favorito (toggle)
   const removerFavorito = async (slug) => {
