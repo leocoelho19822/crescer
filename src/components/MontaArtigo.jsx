@@ -84,8 +84,6 @@ useEffect(() => {
 }, [id, user]);
 
 
-  
-
   // 🔹 Adicionar/remover favorito
   const toggleFavorito = async () => {
   if (!isAuthenticated) {
