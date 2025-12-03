@@ -8,28 +8,28 @@ import { Link } from "react-router-dom";
 
 const cards = [
   {
-    titulo: "1º Trimestre",
+    titulo: "1.º trimestre",
     alt: "Primeiro trimestre",
     imagem: trimestre1,
     link: "/page/1tri",
     texto:
-      "Foco nos cuidados maternos, adaptação emocional, nutrição adequada e desenvolvimento inicial do bebé.",
+      "Mudanças iniciais do corpo, adaptação emocional e cuidados essenciais para um início saudável da gravidez.",
   },
   {
-    titulo: "2º Trimestre",
+    titulo: "2.º trimestre",
     alt: "Segundo trimestre",
     imagem: trimestre2,
     link: "/page/2tri",
     texto:
-      "Apoio ao bem-estar materno, vínculo com o bebê, preparação para o parto e acompanhamento do crescimento fetal.",
+      "Fase de maior bem-estar, fortalecimento do vínculo e acompanhamento do crescimento fetal.",
   },
   {
-    titulo: "3º Trimestre",
+    titulo: "3.º trimestre",
     alt: "Terceiro trimestre",
     imagem: trimestre3,
     link: "/page/3tri",
     texto:
-      "Preparação para o parto, cuidados com o corpo, fortalecimento do vínculo e planeamento para a chegada do bebé.",
+      "Preparação para o parto, cuidados com o corpo e organização para a chegada do bebé.",
   },
 ];
 
@@ -38,10 +38,10 @@ export default function TrimestresSection() {
     <section className="pt-16">
       <div className="max-w-7xl mx-auto px-4 text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-zinc-800 mb-4">
-          Cres(Ser) contigo... na barriga
+          Cres(SER) contigo... na barriga
         </h2>
         <p className="text-gray-700 leading-relaxed mb-8">
-          Cada trimestre da gravidez traz desafios, descobertas e momentos únicos para a mãe, o bebê e a família. Desde os primeiros cuidados e adaptações até à preparação para o parto, o Cres(Ser) acompanha-te com informações, dicas e apoio para que vivas esta jornada com confiança e segurança.
+          A gravidez transforma o corpo, as emoções e a vida da família. O Cres(SER) está ao lado de grávidas, pais e cuidadores, oferecendo orientação clara e validada para tornar esta etapa mais tranquila e confiante.
         </p>
       </div>
 

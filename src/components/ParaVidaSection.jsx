@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const cards = [
   {
-    titulo: "Com 1 ano",
+    titulo: "1 ano",
     alt: "Com um ano",
     imagem: ano1,
     link: "/page/1ano",
@@ -17,7 +17,7 @@ const cards = [
       "Incentivo à marcha independente, exploração segura do ambiente e atividades que fortalecem a linguagem, autonomia e socialização.",
   },
   {
-    titulo: "Com 18 meses",
+    titulo: "18 meses",
     alt: "Com dezoito meses",
     imagem: ano1_2,
     link: "/page/18mes",
@@ -25,7 +25,7 @@ const cards = [
       "Apoio ao desenvolvimento da linguagem, autonomia nas rotinas e brincadeiras que estimulam criatividade e interação social.",
   },
   {
-    titulo: "Com 2 anos",
+    titulo: "2 anos",
     alt: "Com dois anos",
     imagem: ano2,
     link: "/page/2ano",
@@ -39,11 +39,11 @@ export default function ParaVida() {
     <section className=" pt-16 ">
       <div className="max-w-7xl px-4 mx-auto text-left mb-12">
         <h2 className="text-3xl sm:text-3xl font-bold text-zinc-800 mb-4">
-          Cres(Ser) contigo... na vida
+          Cres(SER) contigo... na vida
         </h2>
         <p className="text-gray-700 leading-relaxed mb-8 ">
           À medida que a criança cresce, surgem novas aprendizagens, desafios e descobertas que marcam o seu desenvolvimento. 
-O Cres(Ser) acompanha-te ano a ano, oferecendo apoio prático, atividades e conteúdos científicos para estimular a linguagem, a autonomia, a curiosidade e a interação social, ajudando-te a construir bases sólidas para o futuro.
+O Cres(SER) acompanha mães, pais e cuidadores ano a ano, oferecendo apoio prático, atividades e conteúdos baseados em evidência para estimular a linguagem, a autonomia, a curiosidade e a interação social, ajudando a construir bases sólidas para o futuro.
         </p>
       </div>
 

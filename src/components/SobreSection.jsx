@@ -14,15 +14,15 @@ export default function SobreSection() {
       <div className="max-w-7xl px-4 mx-auto py-10 grid md:grid-cols-2 gap-6 items-center">
         <div>
           <h2 className="text-lg md:text-2xl font-bold mb-3 text-gray-800">
-            Conhece o Projeto Cres(Ser)
+            Conhece o Projeto Cres(SER)
           </h2>
           <p className="text-gray-700 leading-relaxed mb-2">
-            O Cres(SER) é um projeto desenvolvido pelo Centro de Saúde de Águeda,
+            Cres(SER) é um projeto desenvolvido pelo Centro de Saúde de Águeda,
             em articulação com parceiros locais como câmara municipal, creches,
-            escolas, empresas e universidades.
+            escolas, empresas e universidade de Aveiro.
           </p>
           <p className="text-gray-700 leading-relaxed mb-2">
-            O objetivo é promover a saúde mental desde a gravidez até aos 3 anos,
+            O objetivo é promover a saúde mental da criança desde a gravidez até aos 3 anos,
             atuando nos contextos de saúde, educação e ação social.
           </p>
           <p className="text-gray-700 leading-relaxed mb-2">
@@ -55,24 +55,21 @@ export default function SobreSection() {
         </div>
         <div>
           <h2 className="text-lg md:text-2xl font-bold mb-3 text-gray-800">
-            Baseado em Conhecimento, <br /> Sustentado pela Ciência
+            Baseado em conhecimento, <br /> sustentado pela ciência
           </h2>
           <p className="text-gray-700 leading-relaxed mb-2">
-            No Cres(SER), trabalhamos com base nas evidências mais recentes da
-            psicologia do desenvolvimento e das neurociências, que mostram a
-            importância das primeiras experiências da criança.
+            No Cres(SER), trabalhamos com base nas evidências mais recentes das neurociências e da psicologia do desenvolvimento, valorizando as primeiras experiências da criança.
           </p>
           <p className="text-gray-700 leading-relaxed mb-2">
-            Cada conteúdo e cada ação são cuidadosamente preparados por profissionais
-            especializados para garantir apoio qualificado, atualizado e relevante.
+            Os conteúdos são preparados por profissionais especializados, garantindo informação qualificada e relevante para famílias e educadores.
           </p>
           <p className="text-gray-700 leading-relaxed font-semibold mb-2">
-            O projeto atua em três grupos-chave:
+            Atuamos com três grupos-chave:
           </p>
           <ul className="list-disc list-inside text-gray-700 leading-relaxed mb-6">
-            <li>Profissionais de saúde, para reforçar competências no apoio às famílias;</li>
-            <li>Profissionais de educação, para promover práticas de qualidade nas creches;</li>
-            <li>Pais e cuidadores, oferecendo suporte emocional e preparação para a parentalidade.</li>
+            <li>Profissionais de saúde, reforçando competências no apoio às famílias;</li>
+            <li>Profissionais de educação, promovendo práticas de qualidade nas creches;</li>
+            <li>Pais e cuidadores, oferecendo orientação e apoio à parentalidade.</li>
           </ul>
           
         </div>

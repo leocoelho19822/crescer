@@ -27,13 +27,13 @@ const slides = [
   
   {
     image: parentalidadeBg2,
-    title: "Juntos desde o início",
-    subtitle: "Informação de confiança desde a gravidez até aos 3 anos"
+    title: "Apoio confiável para a parentalidade",
+    subtitle: "Informação validada por profissionais desde a gravidez até aos 3 anos"
   },
   {
     image: brincar,
     title: "Famílias que brincam juntas, crescem juntas",
-    subtitle: "Porque o brincar é mais do que diversão — é conexão, aprendizagem e amor"
+    subtitle: "Atividades simples e baseadas em evidência para fortalecer o desenvolvimento e o vínculo"
   },
   {
     image: parentalidadeBg1,
@@ -159,7 +159,7 @@ export default function HeaderHero() {
       {/* NAVBAR FIXA */}
       <nav
         className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${
-          isHomePage ? (scrolled ? "bg-[#3C6D59]/90" : "bg-transparent") : "bg-[#3C6D59]/90"
+          isHomePage ? (scrolled ? "bg-verde-100/90" : "bg-transparent") : "bg-verde-100/90"
         } text-white`}
       >
         {/* Barra superior (mobile) */}
@@ -273,6 +273,147 @@ export default function HeaderHero() {
                   </a>
                 </li>
 
+                
+
+                {/* Na Barriga */}
+                <li>
+                  <button
+                    onClick={() => setIsBarrigaOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isBarrigaOpen}
+                  >
+                    <span>Na barriga</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isBarrigaOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isBarrigaOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/page/1tri"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        1.º trimestre
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/2tri"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        2.º trimestre
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/3tri"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        3.º trimestre
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* No Colo */}
+                <li>
+                  <button
+                    onClick={() => setIsColoOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isColoOpen}
+                  >
+                    <span>No colo</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isColoOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isColoOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/mesames"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Mês a mês
+                      </li>
+                      
+                    </ul>
+                  )}
+                </li>
+
+                {/* Na Vida */}
+                <li>
+                  <button
+                    onClick={() => setIsVidaOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isVidaOpen}
+                  >
+                    <span>Na vida</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isVidaOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isVidaOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      
+                      <li
+                        onClick={() => { navigate("/page/1ano"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        1 ano
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/18mes"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        18 meses
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/2ano"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        2 anos
+                      </li>
+                    </ul>
+                  )}
+                </li>
+
+                {/* Comunidade */}
+                <li>
+                  <button
+                    onClick={() => setIsComunidadeOpen((v) => !v)}
+                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
+                    aria-expanded={isComunidadeOpen}
+                  >
+                    <span>Comunidade</span>
+                    <MdKeyboardArrowDown
+                      size={22}
+                      className={`transition-transform ${isComunidadeOpen ? "rotate-180" : ""}`}
+                    />
+                  </button>
+                  {isComunidadeOpen && (
+                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
+                      <li
+                        onClick={() => { navigate("/eventos"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Eventos
+                      </li>
+                      <li
+                        onClick={() => { navigate("/atividades"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Atividades
+                      </li>
+                      <li
+                        onClick={() => { navigate("/page/infouteis"); setMenuOpen(false); }}
+                        className="block hover:text-emerald-200 cursor-pointer"
+                      >
+                        Informações Úteis
+                      </li>
+                      
+                    </ul>
+                  )}
+                </li>
+
                 {/* Projeto */}
                 <li>
                   <button
@@ -316,145 +457,6 @@ export default function HeaderHero() {
                   )}
                 </li>
 
-                {/* Na Barriga */}
-                <li>
-                  <button
-                    onClick={() => setIsBarrigaOpen((v) => !v)}
-                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
-                    aria-expanded={isBarrigaOpen}
-                  >
-                    <span>Na Barriga</span>
-                    <MdKeyboardArrowDown
-                      size={22}
-                      className={`transition-transform ${isBarrigaOpen ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {isBarrigaOpen && (
-                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
-                      <li
-                        onClick={() => { navigate("/page/1tri"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        1º Trimestre
-                      </li>
-                      <li
-                        onClick={() => { navigate("/page/2tri"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        2º Trimestre
-                      </li>
-                      <li
-                        onClick={() => { navigate("/page/3tri"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        3º Trimestre
-                      </li>
-                    </ul>
-                  )}
-                </li>
-
-                {/* No Colo */}
-                <li>
-                  <button
-                    onClick={() => setIsColoOpen((v) => !v)}
-                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
-                    aria-expanded={isColoOpen}
-                  >
-                    <span>No Colo</span>
-                    <MdKeyboardArrowDown
-                      size={22}
-                      className={`transition-transform ${isColoOpen ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {isColoOpen && (
-                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
-                      <li
-                        onClick={() => { navigate("/mesames"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Mês a mês
-                      </li>
-                      
-                    </ul>
-                  )}
-                </li>
-
-                {/* Na Vida */}
-                <li>
-                  <button
-                    onClick={() => setIsVidaOpen((v) => !v)}
-                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
-                    aria-expanded={isVidaOpen}
-                  >
-                    <span>Na Vida</span>
-                    <MdKeyboardArrowDown
-                      size={22}
-                      className={`transition-transform ${isVidaOpen ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {isVidaOpen && (
-                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
-                      
-                      <li
-                        onClick={() => { navigate("/page/1ano"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Com 1 ano
-                      </li>
-                      <li
-                        onClick={() => { navigate("/page/18mes"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Com 18 meses
-                      </li>
-                      <li
-                        onClick={() => { navigate("/page/2ano"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Com 2 anos
-                      </li>
-                    </ul>
-                  )}
-                </li>
-
-                {/* Na Vida */}
-                <li>
-                  <button
-                    onClick={() => setIsComunidadeOpen((v) => !v)}
-                    className="w-full text-left hover:text-emerald-200 flex items-center justify-between"
-                    aria-expanded={isComunidadeOpen}
-                  >
-                    <span>Comunidade</span>
-                    <MdKeyboardArrowDown
-                      size={22}
-                      className={`transition-transform ${isComunidadeOpen ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {isComunidadeOpen && (
-                    <ul className="ml-2 mt-2 space-y-2 text-white/90 text-sm normal-case">
-                      <li
-                        onClick={() => { navigate("/eventos"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Eventos
-                      </li>
-                      <li
-                        onClick={() => { navigate("/atividades"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Atividades
-                      </li>
-                      <li
-                        onClick={() => { navigate("/page/infouteis"); setMenuOpen(false); }}
-                        className="block hover:text-emerald-200 cursor-pointer"
-                      >
-                        Informações Úteis
-                      </li>
-                      
-                    </ul>
-                  )}
-                </li>
-
                 
 
                 
@@ -478,26 +480,16 @@ export default function HeaderHero() {
                 <AiFillHome size={20} />
               </a>
             </li>
-            <li className="relative group">
-              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">
-                Projeto<MdKeyboardArrowDown size={20} />
-              </button>
-              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/sobre">Sobre</a></li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/equipa">Equipa</a></li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/parceiros">Parceiros</a></li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/contato">Contatos</a></li>
-              </ul>
-            </li>
+            
 
             <li className="relative group">
               <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">
                 Na Barriga<MdKeyboardArrowDown size={20} />
               </button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/1tri">1º Trimestre</a></li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/2tri">2º Trimestre</a></li>
-                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/3tri">3º Trimestre</a></li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/1tri">1.º trimestre</a></li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/2tri">2.º trimestre</a></li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/3tri">3.º trimestre</a></li>
               </ul>
             </li>
 
@@ -516,9 +508,9 @@ export default function HeaderHero() {
                   </div>
                   <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
                     <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/recem-nascido">Recém-nascido</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/1mes">Com 1 mês</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/2mes">Com 2 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/3mes">Com 3 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/1mes">1 mês</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/2mes">2 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/3mes">3 meses</a></li>
                   </ul>
                 </li>
 
@@ -529,10 +521,10 @@ export default function HeaderHero() {
                     <MdKeyboardArrowRight size={18} />
                   </div>
                   <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/4mes">Com 4 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/5mes">Com 5 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/6mes">Com 6 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/7mes">Com 7 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/4mes">4 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/5mes">5 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/6mes">6 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/7mes">7 meses</a></li>
                   </ul>
                 </li>
 
@@ -543,10 +535,10 @@ export default function HeaderHero() {
                     <MdKeyboardArrowRight size={18} />
                   </div>
                   <ul className="absolute left-full top-0 mt-0 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover/sub:opacity-100 invisible group-hover/sub:visible transition-all duration-200 min-w-[180px] z-50">
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/8mes">Com 8 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/9mes">Com 9 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/10mes">Com 10 meses</a></li>
-                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/11mes">Com 11 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/8mes">8 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/9mes">9 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/10mes">10 meses</a></li>
+                    <li className="px-4 py-2 hover:bg-gray-100"><a href="/page/11mes">11 meses</a></li>
                   </ul>
                 </li>
 
@@ -561,13 +553,13 @@ export default function HeaderHero() {
               </button>
               <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/1ano">Com 1 ano</a>
+                  <a href="/page/1ano">1 ano</a>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/18mes">Com 18 meses</a>
+                  <a href="/page/18mes">18 meses</a>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/2ano">Com 2 anos</a>
+                  <a href="/page/2ano">2 anos</a>
                 </li>
               </ul>
             </li>
@@ -586,6 +578,18 @@ export default function HeaderHero() {
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
                   <a href="/page/infouteis">Informações Úteis</a>
                 </li>
+              </ul>
+            </li>
+
+            <li className="relative group">
+              <button className="flex items-center gap-1 hover:text-emerald-200 uppercase">
+                Projeto<MdKeyboardArrowDown size={20} />
+              </button>
+              <ul className="absolute left-0 top-full mt-2 bg-white text-black text-sm rounded-md shadow-lg opacity-0 group-hover:opacity-100 invisible group-hover:visible transition-all duration-200 min-w-[160px] z-50">
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/sobre">Sobre</a></li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/equipa">Equipa</a></li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/parceiros">Parceiros</a></li>
+                <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer"><a href="/page/contato">Contatos</a></li>
               </ul>
             </li>
 
@@ -641,36 +645,51 @@ export default function HeaderHero() {
 
       {/* HEADER */}
       {isHomePage && (
-        <header id="page-top" className="relative h-screen w-full bg-black text-white overflow-hidden">
+        <header id="page-top" className="relative h-[90vh] w-full bg-black text-white overflow-hidden">
           <img
             src={image}
             alt="Slide"
             className={`absolute inset-0 w-full h-full object-cover z-0 transition-opacity duration-1000 ${fade ? "opacity-100" : "opacity-0"}`}
           />
+
           <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30 z-10" />
+
           <div className="relative z-20 h-full flex flex-col justify-center items-center px-4 text-center transition-opacity duration-700 ease-in-out">
             <h1 className={`text-4xl md:text-6xl font-bold text-[#8FD3B8] uppercase max-w-4xl leading-tight transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
               {title}
             </h1>
-            <p className={`mt-4 text-lg md:text-xl max-w-xl text-white/90 transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
+
+            <p className={`mt-4 text-lg md:text-xl max-w-2xl text-white/90 transition-opacity duration-700 ${fade ? "opacity-100" : "opacity-0"}`}>
               {subtitle}
             </p>
-            
-            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-30 animate-bounce cursor-pointer">
-            <MdKeyboardArrowDown 
-              size={50} 
-              className="text-white opacity-80 hover:opacity-100 transition-opacity duration-300" 
-              onClick={() => {
-                window.scrollTo({
-                  top: window.innerHeight,
-                  behavior: "smooth"
-                });
-              }}
-            />
-          </div>
+
+            {/* --- INDICADORES DO CARROSSEL (3 bolinhas numeradas) --- */}
+            <div className="absolute bottom-6 flex gap-3 z-30">
+              {slides.map((_, index) => (
+                <button
+                  key={index}
+                  onClick={() => {
+                    setFade(false);
+                    setTimeout(() => {
+                      setCurrentSlide(index);
+                      setFade(true);
+                    }, 300);
+                  }}
+                  className={`w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold transition-all
+                    ${currentSlide === index 
+                      ? "bg-white text-black scale-110" 
+                      : "bg-white/40 text-white backdrop-blur-sm"
+                    }`}
+                >
+                  {index + 1}
+                </button>
+              ))}
+            </div>
+
           </div>
         </header>
       )}
+
 
       
 

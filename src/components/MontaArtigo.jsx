@@ -173,7 +173,7 @@ useEffect(() => {
         <div className="flex justify-between">
           <p>Categoria: {artigo.categoria}</p>
           <p>
-            Data da revisão:{" "}
+            Revisão:{" "}
             {new Date(artigo.updated_at).toLocaleDateString("pt-PT")}
           </p>
         </div>
@@ -189,9 +189,9 @@ useEffect(() => {
                 className="flex items-center text-gray-500 gap-2 text-sm transition cursor-pointer"
               >
                 {favorito ? (
-                  <AiFillHeart size={25} className="text-red-600" />
+                  <AiFillHeart size={25} className="text-verde-100" />
                 ) : (
-                  <FiHeart size={25} className="text-gray-500 hover:text-red-600" />
+                  <FiHeart size={25} className="text-gray-500 hover:text-verde-100" />
                 )}
                 
               </button>

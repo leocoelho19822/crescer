@@ -22,7 +22,7 @@ import { Link, useLocation } from "react-router-dom";
 
 const meses = [
   {
-    titulo: 'Recém-Nascido',
+    titulo: 'Recém-nascido',
     alt: "Recém nascido",
     link: '/page/recem-nascido',
     descricao:
@@ -30,7 +30,7 @@ const meses = [
     imagem: foto0,
   },
   {
-    titulo: 'Com 1 mês',
+    titulo: '1 mês',
     alt: "Com um mês",
     link: '/page/1mes',
     descricao:
@@ -38,7 +38,7 @@ const meses = [
     imagem: foto1,
   },
   {
-    titulo: 'Com 2 meses',
+    titulo: '2 meses',
     alt: "Com dois meses",
     link: '/page/2mes',
     descricao:
@@ -46,7 +46,7 @@ const meses = [
     imagem: foto2,
   },
   {
-    titulo: 'Com 3 meses',
+    titulo: '3 meses',
     alt: "Com três meses",
     link: '/page/3mes',
     descricao:
@@ -54,7 +54,7 @@ const meses = [
     imagem: foto3,
   },
   {
-    titulo: 'Com 4 meses',
+    titulo: '4 meses',
     alt: "Com quatro meses",
     link: '/page/4mes',
     descricao:
@@ -62,7 +62,7 @@ const meses = [
     imagem: foto4,
   },
   {
-    titulo: 'Com 5 meses',
+    titulo: '5 meses',
     alt: "Com cinco meses",
     link: '/page/5mes',
     descricao:
@@ -70,7 +70,7 @@ const meses = [
     imagem: foto5,
   },
   {
-    titulo: 'Com 6 meses',
+    titulo: '6 meses',
     alt: "Com seis meses",
     link: '/page/6mes',
     descricao:
@@ -78,7 +78,7 @@ const meses = [
     imagem: foto6,
   },
   {
-    titulo: 'Com 7 meses',
+    titulo: '7 meses',
     alt: "Com sete meses",
     link: '/page/7mes',
     descricao:
@@ -86,7 +86,7 @@ const meses = [
     imagem: foto7,
   },
   {
-    titulo: 'Com 8 meses',
+    titulo: '8 meses',
     alt: "Com oito meses",
     link: '/page/8mes',
     descricao:
@@ -94,7 +94,7 @@ const meses = [
     imagem:  foto8,
   },
   {
-    titulo: 'Com 9 meses',
+    titulo: '9 meses',
     alt: "Com nove meses",
     link: '/page/9mes',
     descricao:
@@ -102,7 +102,7 @@ const meses = [
     imagem: foto9,
   },
   {
-    titulo: 'Com 10 meses',
+    titulo: '10 meses',
     alt: "Com dez meses",
     link: '/page/10mes',
     descricao:
@@ -110,7 +110,7 @@ const meses = [
     imagem: foto10,
   },
   {
-    titulo: 'Com 11 meses',
+    titulo: '11 meses',
     alt: "Com onze meses",
     link: '/page/11mes',
     descricao:
@@ -137,11 +137,11 @@ export default function MesamesSection() {
         {location.pathname === "/" && (
           <>
             <h2 className="text-3xl font-bold mb-8 text-zinc-800">
-              Cres(Ser) contigo... no colo
+              Cres(SER) contigo... no colo
             </h2>
             <p className="text-gray-700 leading-relaxed mb-8">
               Os primeiros meses de vida são repletos de descobertas, emoções e aprendizagens tanto para os pais como para o bebé. <br />
-              O Cres(Ser) acompanha-te mês a mês, oferecendo apoio, dicas práticas e informações baseadas em evidências para fortalecer o vínculo, estimular o desenvolvimento e tornar este início ainda mais especial.
+              O Cres(SER) acompanha mães, pais e cuidadores mês a mês, oferecendo apoio, dicas práticas e informações baseadas em evidência para fortalecer o vínculo, estimular o desenvolvimento e tornar este início ainda mais especial.
             </p>
           </>
         )}
