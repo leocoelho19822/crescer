@@ -68,7 +68,7 @@ export default function LoginAdmin() {
       <div className="bg-white p-8 rounded-2xl shadow-lg w-full max-w-sm">
         {/* Logo */}
         <div className="flex justify-center mb-4">
-          <img src={logo} alt="Cres(Ser)" className="h-10" />
+          <img src={logo} alt="Cres(SER)" className="h-10" />
         </div>
 
         {/* Título */}

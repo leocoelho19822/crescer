@@ -173,7 +173,7 @@ export default function HeaderHero() {
           </button>
 
           <a href="/">
-            <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-10"}`} />
+            <img src={logoverde} alt="Cres(SER)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-10"}`} />
           </a>
 
           <div className="flex gap-4 items-center">
@@ -225,7 +225,7 @@ export default function HeaderHero() {
             {/* Topo do painel */}
             <div className="flex items-center justify-between">
               <a href="/" className="flex items-center gap-3">
-                <img src={logoverde} alt="Cres(Ser)" className="h-10 w-auto" />
+                <img src={logoverde} alt="Cres(SER)" className="h-10 w-auto" />
               </a>
               <button
                 aria-label="Fechar menu"
@@ -471,7 +471,7 @@ export default function HeaderHero() {
         {/* Barra (desktop) */}
         <div className="max-w-7xl mx-auto px-4 py-4 hidden lg:flex justify-between items-center">
           <a href="/">
-            <img src={logoverde} alt="Cres(Ser)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
+            <img src={logoverde} alt="Cres(SER)" className={`transition-all duration-300 ${scrolled ? "h-10" : "h-14"}`} />
           </a>
 
           <ul className="flex space-x-6 items-center text-sm font-medium ">

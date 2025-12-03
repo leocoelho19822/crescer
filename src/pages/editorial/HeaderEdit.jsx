@@ -24,7 +24,7 @@ export default function HeaderEdit({ user }) {
           <div className="w-full sm:w-auto flex justify-center sm:justify-start">
             <img
               src={logo}
-              alt="Logo Cres(Ser)"
+              alt="Logo Cres(SER)"
               className="h-10 object-contain"
             />
           </div>

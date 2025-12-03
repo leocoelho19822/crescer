@@ -153,58 +153,68 @@ export default function MontaPage() {
         <p className="text-lg italic text-zinc-600 mb-6">{page.resumo}</p>
       )}
 
-      {/* Autor + Data + Ações */}
       {(page.autor || page.data || page.icones?.favorito || page.icones?.partilha) && (
-        <div className="flex items-center justify-between mb-2">
+  <div className="flex justify-between items-center text-gray-500 text-sm mb-4">
 
-          {/* Autor + Data */}
-          <div className="flex items-center gap-2 text-sm text-gray-500">
-            {page.autor && <span>{page.autor}</span>}
-            {page.autor && page.data && <span>•</span>}
-            {page.data && <span>{new Date(page.data).toLocaleDateString("pt-PT")}</span>}
-          </div>
-
-          {/* Ícones */}
-          <div className="flex items-center gap-4">
-
-            {/* Favorito */}
-            {page.icones?.favorito && (
-              <button
-                onClick={toggleFavorito}
-                className="flex items-center text-gray-500 hover:text-verde-100 transition cursor-pointer"
-              >
-                {favorito ? (
-                  <AiFillHeart size={25} className="text-verde-100" />
-                ) : (
-                  <FiHeart size={25} className="hover:text-verde-100" />
-                )}
-              </button>
-            )}
-
-            {/* Partilha */}
-            {page.icones?.partilha && (
-              <button
-                onClick={() => {
-                  if (navigator.share) {
-                    navigator.share({
-                      title: page.titulo,
-                      text: page.resumo || "",
-                      url: window.location.href,
-                    });
-                  } else {
-                    navigator.clipboard.writeText(window.location.href);
-                    alert("Link copiado para a área de transferência!");
-                  }
-                }}
-                className="text-gray-500 hover:text-gray-800 transition cursor-pointer"
-              >
-                <FiShare2 size={25} />
-              </button>
-            )}
-
-          </div>
-        </div>
+    {/* Autor + Data */}
+    <div className="flex items-center gap-2">
+      {page.autor && <span>{page.autor}</span>}
+      {page.autor && page.data && <span>•</span>}
+      {page.data && (
+        <span>{new Date(page.data).toLocaleDateString("pt-PT")}</span>
       )}
+      {page.revisao && (
+        <>
+          {page.autor || page.data ? <span>•</span> : null}
+          <span>Revisão: {new Date(page.revisao).toLocaleDateString("pt-PT")}</span>
+        </>
+      )}
+    </div>
+
+    {/* Ações */}
+    <div className="flex items-center gap-4">
+
+      {/* Favorito */}
+      {page.icones?.favorito && (
+        <button
+          onClick={toggleFavorito}
+          aria-label="Adicionar aos favoritos"
+          className="flex items-center text-gray-500 hover:text-verde-100 transition cursor-pointer"
+        >
+          {favorito ? (
+            <AiFillHeart size={23} className="text-verde-100" />
+          ) : (
+            <FiHeart size={23} />
+          )}
+        </button>
+      )}
+
+      {/* Partilhar */}
+      {page.icones?.partilha && (
+        <button
+          onClick={() => {
+            if (navigator.share) {
+              navigator.share({
+                title: page.titulo,
+                text: page.resumo || "",
+                url: window.location.href,
+              });
+            } else {
+              navigator.clipboard.writeText(window.location.href);
+              alert("Link copiado!");
+            }
+          }}
+          aria-label="Partilhar"
+          className="text-gray-500 hover:text-gray-800 transition cursor-pointer"
+        >
+          <FiShare2 size={23} />
+        </button>
+      )}
+    </div>
+  </div>
+)}
+
+
 
       {/* Imagem */}
       {page.imagem && (

@@ -94,7 +94,7 @@ export default function RegisterModal({ setIsOpen, setModalType }) {
           &times;
         </button>
 
-        <img src={logo} alt="Cres(Ser)" className="mx-auto mb-4 h-14" />
+        <img src={logo} alt="Cres(SER)" className="mx-auto mb-4 h-14" />
         <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6 ">
           Criar Conta
         </h2>

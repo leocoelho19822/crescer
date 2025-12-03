@@ -2,9 +2,9 @@
   "pages": [
    {
   "id": "1tri",
-  "titulo": "Primeiro Trimestre de Gravidez: o que esperar nas primeiras semanas",
+  "titulo": "Primeiro trimestre de gravidez: o que esperar nas primeiras semanas",
   "resumo": "Nas primeiras 13 semanas, o corpo materno e o bebé sofrem grandes mudanças internas. Este é um guia prático para esta fase inicial.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "gravidez",
   "imagem": "/imagens/1tri.jpg",
@@ -179,7 +179,7 @@
   "id": "2tri",
   "titulo": "Segundo Trimestre de Gravidez: guia para semanas 13-28",
   "resumo": "No segundo trimestre, muitos sintomas do início aliviam, a barriga começa a evidenciar-se e o bebé continua a desenvolver órgãos essenciais, músculos e sentidos.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "gravidez",
   "imagem": "/imagens/2tri.jpg",
@@ -356,7 +356,7 @@
   "id": "3tri",
   "titulo": "Terceiro Trimestre de Gravidez: preparação para o momento final",
   "resumo": "Das semanas 29 a 40, o bebé continua a crescer e a ganhar peso, enquanto a grávida pode sentir mais desconfortos físicos. Este guia reúne dicas para esta reta final.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "gravidez",
   "imagem": "/imagens/3tri.jpg",
@@ -531,7 +531,7 @@
   "titulo": "Já tenho 1 ano! Passos, palavras e curiosidade",
   "subtitulo": "12-18 meses",
   "resumo": "Entre brincadeiras, explorações e os primeiros sons de comunicação, este é um ano de grandes marcos no desenvolvimento infantil. Aqui estão algumas referências sobre o que pode acontecer e como apoiar esta fase.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "para a vida",
   "imagem": "/imagens/1ano.jpg",
@@ -738,7 +738,7 @@
   "titulo": "Tenho 18 meses! A caminhar e a descobrir",
   "subtitulo": "18 meses",
   "resumo": "Com 18 meses, a criança anda com mais confiança, começa a dizer mais palavras, explora brincadeiras de faz-de-conta e demonstra grande curiosidade pelo mundo que a rodeia.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "para a vida",
   "imagem": "/imagens/1_2anos.jpg",
@@ -941,7 +941,7 @@
   "titulo": "Tenho 2 anos! Curiosidade e energia sem fim",
   "subtitulo": "24 meses",
   "resumo": "Aos 2 anos, a criança já constrói frases simples, corre, sobe, explora e começa a brincar com mais intenção. Esta fase é marcada por descobertas, crescente independência e muita energia.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "para a vida",
   "imagem": "/imagens/2anos.jpg",
@@ -1159,7 +1159,7 @@
   "titulo": "Recém-nascido. Olá, mundo!",
   "subtitulo": "0–30 dias",
   "resumo": "Nos primeiros dias de vida, tudo é novo para o bebé e para a família. Aqui ficam cuidados simples, sinais a observar e formas de criar vínculo.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/recemnascido.jpg",
@@ -1393,7 +1393,7 @@
   "titulo": "Tenho 1 mês! A descobrir o mundo devagarinho",
   "subtitulo": "30–60 dias",
   "resumo": "Com 1 mês, o bebé começa a estar mais desperto por curtos períodos, fixa melhor os rostos e responde cada vez mais ao carinho dos cuidadores.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/1mes.jpg",
@@ -1588,7 +1588,7 @@
   "titulo": "Tenho 2 meses! Mais atento e sorridente",
   "subtitulo": "60–90 dias",
   "resumo": "Com 2 meses, o bebé começa a sorrir mais, segue rostos e objetos, levanta a cabeça por alguns segundos e responde melhor às vozes familiares.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/2meses.jpg",
@@ -1816,7 +1816,7 @@
   "titulo": "Tenho 3 meses! Força e curiosidade em ação",
   "subtitulo": "90–120 dias",
   "resumo": "Com 3 meses, o bebé apresenta mais controlo da cabeça, sorrisos e arrulhos. Descobre as mãos, segue objetos e mostra curiosidade em brincadeiras frente a frente.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/3meses.jpg",
@@ -2016,7 +2016,7 @@
   "titulo": "Tenho 4 meses! Descobertas com mais energia",
   "subtitulo": "120–150 dias",
   "resumo": "Aos 4 meses, o bebé apresenta mais força no pescoço, pode começar a rolar, agarra objetos e dá risadinhas. É uma fase cheia de descobertas e interações.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/4meses.jpg",
@@ -2215,7 +2215,7 @@
   "titulo": "Tenho 5 meses! Mãos curiosas, muitos sorrisos",
   "subtitulo": "150–180 dias",
   "resumo": "Com 5 meses, o bebé mostra mais controlo motor, dá gargalhadas, rola, agarra objetos, leva-os à boca e experimenta sons novos.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/5meses.jpg",
@@ -2412,7 +2412,7 @@
   "titulo": "Tenho 6 meses! Novos sabores, novas conquistas",
   "subtitulo": "180–210 dias",
   "resumo": "Com 6 meses, o bebé começa a provar alimentos, senta-se com apoio, balbucia sons e explora o mundo com curiosidade crescente.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/6meses.jpg",
@@ -2611,7 +2611,7 @@
   "titulo": "Tenho 7 meses! Mais movimento e descobertas",
   "subtitulo": "210–240 dias",
   "resumo": "Com 7 meses, o bebé começa a sentar-se com mais firmeza, balbucia sons repetitivos e mostra maior curiosidade pelo ambiente.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/7meses.jpg",
@@ -2814,7 +2814,7 @@
   "titulo": "Tenho 8 meses! Aventura no chão e muita conversa",
   "subtitulo": "240–270 dias",
   "resumo": "Com 8 meses, o bebé já se senta sem apoio, balbucia mais, explora o chão e mostra curiosidade crescente pelo ambiente.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/8meses.jpg",
@@ -3014,7 +3014,7 @@
   "titulo": "Tenho 9 meses! Gatinhar, subir e explorar",
   "subtitulo": "270–300 dias",
   "resumo": "Com 9 meses, o bebé já gatinha com mais consistência, tenta pôr-se de pé com apoio e começa a usar a pinça fina para explorar objetos pequenos.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/9meses.jpg",
@@ -3214,7 +3214,7 @@
   "titulo": "Tenho 10 meses! Em pé, com muitas conversas",
   "subtitulo": "300–330 dias",
   "resumo": "Nesta fase, o bebé já se põe de pé com apoio, pode dar passos laterais e comunica com mais sons e gestos. É importante apoiar o desenvolvimento motor, linguístico e garantir segurança no ambiente.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/10meses.jpg",
@@ -3412,7 +3412,7 @@
   "titulo": "Tenho 11 meses! Quase a dar os primeiros passos",
   "subtitulo": "330–360 dias",
   "resumo": "O bebé já se levanta sozinho, anda com apoio, balbucia muito e imita gestos. É importante estimular a autonomia, brincar com segurança e apoiar a alimentação variada.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/11meses.jpg",
@@ -3604,9 +3604,9 @@
 
     {
   "id": "sobre",
-  "titulo": "Sobre o Projeto Cres(Ser)",
+  "titulo": "Sobre o Projeto Cres(SER)",
   "resumo": "O projeto Cres(SER) é uma rede de apoio à parentalidade e promoção da saúde mental na gravidez e na primeira infância, desenvolvida inicialmente no concelho de Águeda com o envolvimento de diversos parceiros comunitários.",
-  "autor": "Equipa Cres(Ser)",
+  "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "imagem": "/imagens/creche_.jpg",
   "icones": {
@@ -3691,7 +3691,7 @@
     {
       "id": "equipa",
       "titulo": "Equipa Técnica",
-      "resumo": "O projeto Cres(Ser) conta com uma equipa dedicada ao apoio à parentalidade e ao desenvolvimento saudável na primeira infância.",
+      "resumo": "O projeto Cres(SER) conta com uma equipa dedicada ao apoio à parentalidade e ao desenvolvimento saudável na primeira infância.",
       
       "conteudo": [
         {
@@ -3721,7 +3721,7 @@
     {
   "id": "parceiros",
   "titulo": "Parceiros",
-  "resumo": "O projeto Cres(Ser) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil.",
+  "resumo": "O projeto Cres(SER) conta com a colaboração de diversas entidades e organizações que partilham o compromisso com o apoio à parentalidade e ao desenvolvimento infantil.",
   "tipo": "institucional",
   
   "icones": {
@@ -3798,7 +3798,7 @@
    {
     "id": "contato",
     "titulo": "Para participar ou saber mais",
-    "resumo": "Entre em contacto connosco para esclarecer dúvidas ou participar nas atividades do projeto Cres(Ser).",
+    "resumo": "Entre em contacto connosco para esclarecer dúvidas ou participar nas atividades do projeto Cres(SER).",
     "tipo": "institucional",
     "icones": {
       "partilha": false,
@@ -3895,12 +3895,12 @@
     {
       "id": "termos",
       "titulo": "Termos e Condições",
-      "resumo": "Regras de utilização e informações legais da plataforma Cres(Ser).",
+      "resumo": "Regras de utilização e informações legais da plataforma Cres(SER).",
       
       "conteudo": [
         {
           "tipo": "paragrafo",
-          "texto": "Bem-vindo à plataforma Cres(Ser). Ao aceder e utilizar este site, concorda com os presentes Termos e Condições."
+          "texto": "Bem-vindo à plataforma Cres(SER). Ao aceder e utilizar este site, concorda com os presentes Termos e Condições."
         },
         {
           "tipo": "paragrafo",
@@ -3912,7 +3912,7 @@
         },
         {
           "tipo": "paragrafo",
-          "texto": "A plataforma Cres(Ser) tem como objetivo fornecer conteúdos baseados em evidência científica para apoiar a parentalidade e o desenvolvimento saudável na primeira infância. Todo o conteúdo é disponibilizado de forma gratuita e sem qualquer caráter comercial."
+          "texto": "A plataforma Cres(SER) tem como objetivo fornecer conteúdos baseados em evidência científica para apoiar a parentalidade e o desenvolvimento saudável na primeira infância. Todo o conteúdo é disponibilizado de forma gratuita e sem qualquer caráter comercial."
         },
         {
           "tipo": "subtitulo",
@@ -3974,12 +3974,12 @@
 
       "id": "politica",
       "titulo": "Política de Privacidade",
-      "resumo": "Informações sobre recolha, utilização e proteção de dados pessoais na plataforma Cres(Ser).",
+      "resumo": "Informações sobre recolha, utilização e proteção de dados pessoais na plataforma Cres(SER).",
   
       "conteudo": [
         {
           "tipo": "paragrafo",
-          "texto": "A sua privacidade é importante para nós. Esta política descreve como recolhemos, utilizamos e protegemos os seus dados pessoais na plataforma Cres(Ser), desenvolvida no âmbito de um projeto académico do Mestrado em Comunicação e Tecnologias Web da Universidade de Aveiro."
+          "texto": "A sua privacidade é importante para nós. Esta política descreve como recolhemos, utilizamos e protegemos os seus dados pessoais na plataforma Cres(SER), desenvolvida no âmbito de um projeto académico do Mestrado em Comunicação e Tecnologias Web da Universidade de Aveiro."
         },
         {
           "tipo": "subtitulo",
@@ -3987,7 +3987,7 @@
         },
         {
           "tipo": "paragrafo",
-          "texto": "Os dados pessoais recolhidos na plataforma são tratados unicamente para fins académicos e científicos. O responsável pelo tratamento é a equipe Cres(Ser) do projeto, sob supervisão da Universidade de Aveiro."
+          "texto": "Os dados pessoais recolhidos na plataforma são tratados unicamente para fins académicos e científicos. O responsável pelo tratamento é a equipe Cres(SER) do projeto, sob supervisão da Universidade de Aveiro."
         },
         {
           "tipo": "subtitulo",
