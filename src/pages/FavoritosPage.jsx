@@ -151,11 +151,16 @@ export default function FavoritosPage() {
                   </p>
                   <div className="flex justify-between items-center mt-4 text-sm">
                     <Link
-                      to={`/artigo/${artigo.slug}`}
+                      to={
+                        artigo.tipo === "artigo"
+                          ? `/artigo/${artigo.slug}`
+                          : `/page/${artigo.id}`
+                      }
                       className="text-azul-60 hover:underline font-medium"
                     >
                       Ler mais →
                     </Link>
+
                     <button
                       onClick={() => removerFavorito(artigo.slug)}
                       className="text-red-500 hover:underline"
