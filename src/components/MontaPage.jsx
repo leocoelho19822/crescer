@@ -317,7 +317,7 @@ export default function MontaPage() {
                 </div>
               );
 
-            case "testeConhecimento":
+            case "testeConhecimento":{
               const isShown = quizAnswers[i] || false;
 
               return (
@@ -343,6 +343,7 @@ export default function MontaPage() {
                   )}
                 </div>
               );
+            }
 
             case "email":
               return (

@@ -35,3 +35,16 @@ export default function Services({ services = defaultServices }) {
     </section>
   );
 }
+
+
+import PropTypes from "prop-types";
+
+Services.propTypes = {
+  services: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      icon: PropTypes.string.isRequired,
+    })
+  ),
+};
