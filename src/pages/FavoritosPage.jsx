@@ -67,7 +67,7 @@ export default function FavoritosPage() {
 
 
   // 🔹 Remover favorito (toggle)
-  const removerFavorito = async (slug) => {
+  const removerFavorito = async (identifier) => {
     try {
       const res = await fetch(
         "https://api.projetocrescer.pt/api/users/favorites",
@@ -75,15 +75,18 @@ export default function FavoritosPage() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           credentials: "include",
-          body: JSON.stringify({ articleId: slug }),
+          body: JSON.stringify({ articleId: identifier }),
         }
       );
 
       const data = await res.json();
 
       if (res.ok) {
-        setFavoritos((prev) => prev.filter((artigo) => artigo.slug !== slug));
-        console.log(data.message);
+        setFavoritos((prev) =>
+          prev.filter((artigo) =>
+            artigo.slug !== identifier && artigo.id !== identifier
+          )
+        );
       } else {
         console.error("Erro ao remover favorito:", data.message);
       }
@@ -91,6 +94,7 @@ export default function FavoritosPage() {
       console.error("Erro de rede ao remover favorito:", error);
     }
   };
+
 
   const handleVerMais = () => {
     setVisiveis((prev) => prev + 6);
@@ -162,8 +166,8 @@ export default function FavoritosPage() {
                     </Link>
 
                     <button
-                      onClick={() => removerFavorito(artigo.slug)}
-                      className="text-red-500 hover:underline"
+                      onClick={() => removerFavorito(artigo.tipo === "artigo" ? artigo.slug : artigo.id)}
+                      className="text-red-500 hover:underline cursor-pointer"
                     >
                       Remover
                     </button>

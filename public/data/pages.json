@@ -2,7 +2,7 @@
   "pages": [
    {
   "id": "1tri",
-  "titulo": "Primeiro trimestre de gravidez: o que esperar nas primeiras semanas",
+  "titulo": "Primeiro trimestre de gravidez: O que esperar nas primeiras semanas",
   "resumo": "Nas primeiras 13 semanas, o corpo materno e o bebé sofrem grandes mudanças internas. Este é um guia prático para esta fase inicial.",
   "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
@@ -177,7 +177,7 @@
 
   {
   "id": "2tri",
-  "titulo": "Segundo Trimestre de Gravidez: guia para semanas 13-28",
+  "titulo": "Segundo trimestre de gravidez: Guia para semanas 13-28",
   "resumo": "No segundo trimestre, muitos sintomas do início aliviam, a barriga começa a evidenciar-se e o bebé continua a desenvolver órgãos essenciais, músculos e sentidos.",
   "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
@@ -354,7 +354,7 @@
 
     {
   "id": "3tri",
-  "titulo": "Terceiro Trimestre de Gravidez: preparação para o momento final",
+  "titulo": "Terceiro trimestre de gravidez: Preparação para o momento final",
   "resumo": "Das semanas 29 a 40, o bebé continua a crescer e a ganhar peso, enquanto a grávida pode sentir mais desconfortos físicos. Este guia reúne dicas para esta reta final.",
   "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
@@ -720,11 +720,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 11 meses",
+        "label": "11 meses",
         "to": "/page/11mes"
       },
       "next": {
-        "label": "Com 18 meses",
+        "label": "18 meses",
         "to": "/page/18mes"
       }
     }
@@ -744,7 +744,7 @@
   "imagem": "/imagens/1_2anos.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -923,11 +923,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 1 ano",
+        "label": "1 ano",
         "to": "/page/1ano"
       },
       "next": {
-        "label": "Com 2 anos",
+        "label": "2 anos",
         "to": "/page/2ano"
       }
     }
@@ -947,7 +947,7 @@
   "imagem": "/imagens/2anos.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -1145,7 +1145,7 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 18 meses",
+        "label": "18 meses",
         "to": "/page/18mes"
       }
     }
@@ -1165,7 +1165,7 @@
   "imagem": "/imagens/recemnascido.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -1379,7 +1379,7 @@
         "to": "/page/3tri"
       },
       "next": {
-        "label": "Com 1 mês",
+        "label": "1 mês",
         "to": "/page/1mes"
       }
     }
@@ -1399,7 +1399,7 @@
   "imagem": "/imagens/1mes.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -1575,7 +1575,7 @@
         "to": "/page/recem-nascido"
       },
       "next": {
-        "label": "Com 2 meses",
+        "label": "2 meses",
         "to": "/page/2mes"
       }
     }
@@ -1587,14 +1587,14 @@
   "id": "2mes",
   "titulo": "Tenho 2 meses! Mais atento e sorridente",
   "subtitulo": "60–90 dias",
-  "resumo": "Com 2 meses, o bebé começa a sorrir mais, segue rostos e objetos, levanta a cabeça por alguns segundos e responde melhor às vozes familiares.",
+  "resumo": "2 meses, o bebé começa a sorrir mais, segue rostos e objetos, levanta a cabeça por alguns segundos e responde melhor às vozes familiares.",
   "autor": "Equipa Cres(SER)",
   "data": "2025-09-16",
   "tipo": "no colo",
   "imagem": "/imagens/2meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -1799,11 +1799,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 1 mês",
+        "label": "1 mês",
         "to": "/page/1mes"
       },
       "next": {
-        "label": "Com 3 meses",
+        "label": "3 meses",
         "to": "/page/3mes"
       }
     }
@@ -1822,7 +1822,7 @@
   "imagem": "/imagens/3meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -1998,11 +1998,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 2 meses",
+        "label": "2 meses",
         "to": "/page/2mes"
       },
       "next": {
-        "label": "Com 4 meses",
+        "label": "4 meses",
         "to": "/page/4mes"
       }
     }
@@ -2022,7 +2022,7 @@
   "imagem": "/imagens/4meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -2198,11 +2198,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 3 meses",
+        "label": "3 meses",
         "to": "/page/3mes"
       },
       "next": {
-        "label": "Com 5 meses",
+        "label": "5 meses",
         "to": "/page/5mes"
       }
     }
@@ -2221,7 +2221,7 @@
   "imagem": "/imagens/5meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -2396,11 +2396,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 4 meses",
+        "label": "4 meses",
         "to": "/page/4mes"
       },
       "next": {
-        "label": "Com 6 meses",
+        "label": "6 meses",
         "to": "/page/6mes"
       }
     }
@@ -2418,7 +2418,7 @@
   "imagem": "/imagens/6meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -2594,11 +2594,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 5 meses",
+        "label": "5 meses",
         "to": "/page/5mes"
       },
       "next": {
-        "label": "Com 7 meses",
+        "label": "7 meses",
         "to": "/page/7mes"
       }
     }
@@ -2617,7 +2617,7 @@
   "imagem": "/imagens/7meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -2797,11 +2797,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 6 meses",
+        "label": "6 meses",
         "to": "/page/6mes"
       },
       "next": {
-        "label": "Com 8 meses",
+        "label": "8 meses",
         "to": "/page/8mes"
       }
     }
@@ -2820,7 +2820,7 @@
   "imagem": "/imagens/8meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -2997,11 +2997,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 7 meses",
+        "label": "7 meses",
         "to": "/page/7mes"
       },
       "next": {
-        "label": "Com 9 meses",
+        "label": "9 meses",
         "to": "/page/9mes"
       }
     }
@@ -3020,7 +3020,7 @@
   "imagem": "/imagens/9meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -3197,11 +3197,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 8 meses",
+        "label": "8 meses",
         "to": "/page/8mes"
       },
       "next": {
-        "label": "Com 10 meses",
+        "label": "10 meses",
         "to": "/page/10mes"
       }
     }
@@ -3220,7 +3220,7 @@
   "imagem": "/imagens/10meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -3395,11 +3395,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 9 meses",
+        "label": "9 meses",
         "to": "/page/9mes"
       },
       "next": {
-        "label": "Com 11 meses",
+        "label": "11 meses",
         "to": "/page/11mes"
       }
     }
@@ -3418,7 +3418,7 @@
   "imagem": "/imagens/11meses.jpg",
   "icones": {
     "partilha": true,
-    "favorito": false
+    "favorito": true
   },
   "conteudo": [
     {
@@ -3591,11 +3591,11 @@
     {
       "tipo": "navegacao",
       "previous": {
-        "label": "Com 10 meses",
+        "label": "10 meses",
         "to": "/page/10mes"
       },
       "next": {
-        "label": "Com 1 ano",
+        "label": "1 ano",
         "to": "/page/1ano"
       }
     }
@@ -3690,7 +3690,7 @@
     
     {
       "id": "equipa",
-      "titulo": "Equipa Técnica",
+      "titulo": "Equipa técnica",
       "resumo": "O projeto Cres(SER) conta com uma equipa dedicada ao apoio à parentalidade e ao desenvolvimento saudável na primeira infância.",
       
       "conteudo": [

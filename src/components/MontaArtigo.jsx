@@ -84,6 +84,8 @@ useEffect(() => {
 }, [id, user]);
 
 
+  
+
   // 🔹 Adicionar/remover favorito
   const toggleFavorito = async () => {
   if (!isAuthenticated) {
@@ -169,7 +171,7 @@ useEffect(() => {
           <p>{revisorNome && <span>Revisto por {revisorNome}</span>}</p>
         </div>
         <div className="flex justify-between">
-          <p>Categoria: {artigo.categoria}</p>
+          <p>{artigo.autor}</p>
           <p>
             Revisão:{" "}
             {new Date(artigo.updated_at).toLocaleDateString("pt-PT")}
@@ -189,7 +191,7 @@ useEffect(() => {
                 {favorito ? (
                   <AiFillHeart size={25} className="text-verde-100" />
                 ) : (
-                  <FiHeart size={25} className="text-gray-500 hover:text-verde-100" />
+                  <FiHeart size={25} className="text-gray-500 hover:text-" />
                 )}
                 
               </button>
