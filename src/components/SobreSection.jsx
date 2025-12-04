@@ -1,7 +1,7 @@
 // eslint-disable-next-line
 import React from "react";
 import image1 from "../assets/familia.jpg";
-import image2 from "../assets/cerebro.jpg";
+import image2 from "../assets/cerebro_novo.jpg";
 import Button from "./Button";
 import { useNavigate } from "react-router-dom";
 
