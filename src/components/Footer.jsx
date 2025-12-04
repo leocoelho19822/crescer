@@ -67,7 +67,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li><a href="/eventos">:: Eventos</a></li>
               <li><a href="/atividades">:: Atividades</a></li>
-              <li><a href="/page/infouteis">:: Informações úteis</a></li>
+              <li><a href="/page/infouteis">:: Outras informações</a></li>
             </ul>
           </div>
 
