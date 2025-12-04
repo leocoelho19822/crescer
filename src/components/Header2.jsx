@@ -407,7 +407,7 @@ export default function HeaderHero() {
                         onClick={() => { navigate("/page/infouteis"); setMenuOpen(false); }}
                         className="block hover:text-emerald-200 cursor-pointer"
                       >
-                        Informações Úteis
+                        Outras Informações
                       </li>
                       
                     </ul>
@@ -576,7 +576,7 @@ export default function HeaderHero() {
                   <a href="/atividades">Atividades</a>
                 </li>
                 <li className="px-4 py-2 hover:bg-gray-100 cursor-pointer">
-                  <a href="/page/infouteis">Informações Úteis</a>
+                  <a href="/page/infouteis">Outras informações</a>
                 </li>
               </ul>
             </li>
